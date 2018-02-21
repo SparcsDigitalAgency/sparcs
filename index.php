@@ -47,7 +47,7 @@
     <section id="client-logo">
      <div><span>past Clients</span>
         <h3>Sparcs has been honored to partner up with these clients.</h3>
-    <a href="portfolio.html" title="See Our Portfolio">
+    <a href="<?php echo $path; ?>portfolio" title="See Our Portfolio">
     <img src="images/client-logo.png" alt="Leadpile, A4Add, Brook and Dale, SafeGuard, Shalom media, Shalom Media Club, Sophia Books, SVD World, Wordnet Productions, Sunny Diamonds, Tara, Genx Automation, One More Game, Handyman Kochi, " border="0">
     </a>
     </div>
