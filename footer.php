@@ -1,24 +1,24 @@
 	<section id="footer">
 
-
-    <div id="footer-wrapper">
-    <ul id="right" class="footer-colmn">
+<div class="container">
+    <div id="footer-wrapper" class="row">
+    <ul id="right" class="col-md-4 footer-colmn">
     <li><i class="icon-location"></i><br><strong>Kochi</strong></li>
     <li><address>
     1st floor, Thachil Tower<br>Pottakuzhi Jn, Kaloor, Kochi 682017.</address></li>
     </ul>
 
-    <ul id="right" class="footer-colmn">
+    <ul id="right" class="col-md-4 footer-colmn">
     <li><i class="icon-location"></i><br><strong>Bangalore</strong></li>
     <li><address>#725, 21st Main Road,<br> 2nd Phase JP Nagar, Banglore 560078.</address>
     </ul>
 
-    <ul id="right" class="footer-colmn">
+    <ul id="right" class="col-md-4 footer-colmn">
     <li><i class="icon-location"></i><br><strong>New South Wales</strong></li>
-    <li><address>D204/88 Bay street, Botany<br> New South Wales 2019, Australia.</address>
+    <li><address>D204/88 Bay street, Botany<br> New South Wales 2019, Australia.</address></li>
     </ul>
 
-    
+    </div>
     <div style="clear:both;"></div>
     </div>
     </section><!--footer-->
@@ -32,7 +32,7 @@
     <a <?php echo(preg_match("/about.php/", $_SERVER['SCRIPT_FILENAME']) ? 'class="active"':''); ?> href="<?php echo $path ?>about" title="About">About</a>
     <a <?php echo(preg_match("/services.php/",$_SERVER['SCRIPT_FILENAME']) ? 'class="active"':''); ?> href="<?php echo $path ?>services" title="Services">Services</a>
     <a <?php echo(preg_match("/contact.php/",$_SERVER['SCRIPT_FILENAME']) ? 'class="active"':''); ?> href="<?php echo $path ?>contact" title="Contact">Contact</a>
-    <a <?php echo(preg_match("/digital-marketing-course.php/",$_SERVER['SCRIPT_FILENAME']) ? 'class="active"':''); ?> href="<?php echo $path ?>digital-marketing-course" title="Contact">Digital Marketing Course</a>
+    <a <?php echo(preg_match("/digital-marketing-course.php/",$_SERVER['SCRIPT_FILENAME']) ? 'class="active"':''); ?> href="<?php echo $path ?>digital-marketing-course" title="Digital Marketing Course">Digital Marketing Course</a>
     </p>    
     Copyright &copy; 2014 Sparcs. All rights reserved.    
     <p class="social">

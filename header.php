@@ -28,8 +28,13 @@
 <link rel="stylesheet" href="script/fontello.css">    
 <!--[if IE 7]><link rel="stylesheet" href="script/fontello-ie7.css"><![endif]-->    
 <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-<?php if ($digital_marketing): ?> 
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<!-- <?php if ($digital_marketing): ?> 
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -44,9 +49,12 @@
 <script src="script/jquery.nicescroll.min.js"></script>
 <script src="script/modernizr.custom.js"></script>
 <script src="script/jquery.cbpFWSlider.min.js"></script> 
-<?php endif; ?>
+<?php endif; ?> -->
 
-
+<script src="script/jquery.tools.min.js"></script>
+<script src="script/jquery.nicescroll.min.js"></script>
+<script src="script/modernizr.custom.js"></script>
+<script src="script/jquery.cbpFWSlider.min.js"></script>
 
 
 

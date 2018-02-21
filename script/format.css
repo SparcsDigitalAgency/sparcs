@@ -12,7 +12,7 @@ h1, h2, h3, h4, ul, li{margin:0;padding:0;list-style-type:none;}
 .main-nav ul{float:right;}
 .main-nav li{margin:0 0 0 5px;display:inline-block;*display:inline;}
 .main-nav a{font-size:14px;color:#fff;padding:7px 16px;text-decoration:none;line-height:100%; text-transform: uppercase;}
-.main-nav a:hover{color:#fff;border-bottom:1px dotted;}
+.main-nav a:hover{color:#fff;border-bottom:1px dotted;text-decoration: none;}
 .main-nav .active{border-bottom:1px dotted #fff;}
 .main-nav .current{display:none;}
 #top.large{height:110px;background:none;border-bottom:1px dotted #fff;}
@@ -24,7 +24,7 @@ h1, h2, h3, h4, ul, li{margin:0;padding:0;list-style-type:none;}
 #top.small h1 a{background:url(../images/logo.png) no-repeat;background-size:30%;display:block;height:50px;text-indent:-9999px;margin-top:-10px;}
 #top.small li{margin-top:32px;}
 #top.small .main-nav a{color:#fff;}
-#top.small .main-nav a:hover{color:#fff;border-bottom:1px dotted;}
+#top.small .main-nav a:hover{color:#fff;border-bottom:1px dotted;text-decoration: none;}
 #top.small .main-nav .active{border-bottom:1px dotted #fff;}
 #header{width:100%;background:url(../images/header.jpg)#2e2e2e; background-size: cover;}
 .index-header div{padding:15% 0 !important;}
@@ -69,7 +69,7 @@ h1, h2, h3, h4, ul, li{margin:0;padding:0;list-style-type:none;}
 #footer-wrapper .footer-colmn i{color:#ca4242; font-size: 30px;}
 .footer{width:100%;background:url(../images/footer-black.png);text-align:center;color:#666;font-size:14px;padding:70px 0;}
 .footer a{text-decoration:none;color:#666;font-size:14px;line-height:28px;margin:0 0.5%;border-bottom:1px dotted #888;}
-.footer a:hover{color:#fff;border-bottom:1px dotted #ca4242;}
+.footer a:hover{color:#fff;border-bottom:1px dotted #ca4242;text-decoration: none;}
 .footer .social a{border:none !important;}
 .path{stroke-dasharray:3;stroke-dashoffset:3;animation:dash 40s linear alternate infinite;}
 @keyframes dash{from{stroke-dashoffset:300;}
@@ -79,11 +79,11 @@ to{stroke-dashoffset:0;}
 .page-top-link{color:#ca4242;;font-size:60px;}
 .page-top-link:hover{color:#eee;}
 #about{width:100%;}
-#about ul{width:85%;max-width:1200px;margin:0 auto;}
+#about ul{width:100%;max-width:1200px;margin:0;}
 #about ul li{float:left;width:55%;font-size:20px;line-height:30px;padding:5% 5% 5% 0;}
 #about ul li span{font-size:36px;line-height:50px;}
 #about ul li article{margin-bottom:2%;}
-#about ul li.last{width:40% !important;font-size:36px;line-height:40px;margin-top:2%;padding:0;color:#ca4242;}
+#about ul li.last{width:44% !important;font-size:36px;line-height:50px;margin-top:7%;padding:0;color:#ca4242;}
 #about ul li.last p{background:url(../images/checkmark.svg) no-repeat left top;padding-left:50px;}
 #infographics{width:100%;}
 #infographics ul{width:85%;max-width:1200px;margin:0 auto;}
@@ -135,7 +135,7 @@ textarea:focus, input[type=text]:focus{outline:none;background-color:#fff;border
 .success{background:#CFFFF5;padding:10px;margin-bottom:10px;border:1px solid #B9ECCE;border-radius:5px;font-weight:normal;}
 .error{background:#FFDFDF;padding:10px;margin-bottom:10px;border:1px solid #FFCACA;border-radius:5px;font-weight:normal;}
 #portfolio{width:100%;background:#fff;}
-.cbp-ig-grid{width:85%;max-width:1200px;margin:0 auto;padding:5% 0;}
+.cbp-ig-grid{width:100%;max-width:1200px;margin:0 auto;padding:5% 0;}
 .cbp-ig-grid:before,
 .cbp-ig-grid:after{content:" ";display:table;}
 .cbp-ig-grid:after{clear:both;}
@@ -154,10 +154,10 @@ textarea:focus, input[type=text]:focus{outline:none;background-color:#fff;border
 .usasecureloans{background:url(../images/usasecureloans.png) no-repeat;}
 .loansonclick{background:url(../images/loansonclick.png) no-repeat;}
 .pravasakirali{background:url(../images/pravasakirali.png) no-repeat;}
-.cbp-ig-grid li{width:33%;float:left;height:380px;text-align:center;border-top:1px solid #ddd;}
+.cbp-ig-grid li{width:33%;float:left;height:380px;text-align:center;border-top:1px solid #ddd;padding: 0;}
 .cbp-ig-grid li:nth-child(-n+3){border-top:none;}
 .cbp-ig-grid li:nth-child(3n-1), .cbp-ig-grid li:nth-child(3n-2){box-shadow:1px 0 0 #ddd;}
-.cbp-ig-grid li > a{display:block;height:340px;color:#434242;text-decoration:none;padding-top:40px;transition:all 0.6s ease 0s;}
+.cbp-ig-grid li > a{display:block;height:380px;color:#434242;text-decoration:none;padding-top:40px;transition:all 0.6s ease 0s;}
 .cbp-ig-grid .cbp-ig-icon{display:block;background-position:top;height:150px;}
 .cbp-ig-grid .cbp-ig-title{font-size:2em;font-weight:300;position:relative;padding:25px 0;}
 .cbp-ig-grid .cbp-ig-title:before{content:'';position:absolute;background:#434242;width:160px;height:6px;top:0px;left:50%;margin:80px 0 0 -80px;}

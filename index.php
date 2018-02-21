@@ -18,34 +18,36 @@
     </header><!--header-->                           
                         
     <section id="infographics">
-    <ul>
-    <li>
+        <div class="container">
+    <ul class="row">
+    <li class="col-md-3">
     
     <img src="images/home-icon-1.png" width="100px">
     <h2>Brainstorm</h2> The first step would be to sit down and get to know you. We'll discuss goals and project objectives and any other relevant information.</li>
     
-    <li>
+    <li class="col-md-3">
    
      <img src="images/home-icon-2.png" width="100px">
     <h2>Plan</h2> With the information gathered from our brainstorm session, wireframes would be developed defining layout, interactions and content structure.</li>
     
-    <li>
+    <li class="col-md-3">
     
     <img src="images/home-icon-3.png" width="100px">
     <h2>Design</h2> Once the wireframes are finalized, detailed mock-ups of key pages will be designed to show the look and feel of your product.
     </li>
     
-    <li class="last">
+    <li class="last col-md-3">
    
     <img src="images/home-icon-4.png" width="100px">
     <h2>Develop</h2> With the final creative concepts completed, the designs are then coded and transformed into a fully functional product.
     </li>
     </ul>
+    </div>
     <div class="clear"></div>
     </section> <!--infographics-->  
 
     <section id="client-logo">
-     <div><span>past Clients</span>
+     <div class="container"><span>past Clients</span>
         <h3>Sparcs has been honored to partner up with these clients.</h3>
     <a href="<?php echo $path; ?>portfolio" title="See Our Portfolio">
     <img src="images/client-logo.png" alt="Leadpile, A4Add, Brook and Dale, SafeGuard, Shalom media, Shalom Media Club, Sophia Books, SVD World, Wordnet Productions, Sunny Diamonds, Tara, Genx Automation, One More Game, Handyman Kochi, " border="0">

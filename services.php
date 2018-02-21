@@ -33,59 +33,61 @@ include_once("header.php");
 </section> -->
 
 <section id="services">
-<ul>
-<li>
-<img src="images/service-icon-1.png" width="150px">
-<h2>Strategy & Consulting</h2>We build brands with razor-sharp strategy. We analyze every aspect of your industry and apply our digital expertise to provide a roadmap for success.
-<ul>
-    <li>Business Analysis & Consulting</li>
-<li>Information Architecture & User Experience</li>
-<li>Brand Strategy</li>
-<li>Campaign Strategy</li>
-<li>Content Strategy & Copywriting</li>
-</ul>
-</li>
+	<div class="container">
+<ul class="row">
+	<li >
+	<img src="images/service-icon-1.png" width="150px">
+	<h2>Strategy & Consulting</h2>We build brands with razor-sharp strategy. We analyze every aspect of your industry and apply our digital expertise to provide a roadmap for success.
+		<ul>
+		<li>Business Analysis & Consulting</li>
+		<li>Information Architecture & User Experience</li>
+		<li>Brand Strategy</li>
+		<li>Campaign Strategy</li>
+		<li>Content Strategy & Copywriting</li>
+		</ul>
+	</li>
 
-<li><img src="images/service-icon-2.png" width="150px"><h2>Creative Design</h2>We bring ideas to life with perfectly executed creative. Our websites, videos, campaigns and copywriting build a brand story that will resonate.
-<ul>
-    <li>Logo & Branding</li>
-<li>Web & Mob App Design</li>
-<li>User Interface Design</li>
-<li>Print Design</li>
-<li>Digital Photography</li>
-<li>Motion Graphics</li>
-</ul>
-</li>
+	<li><img src="images/service-icon-2.png" width="150px"><h2>Creative Design</h2>We bring ideas to life with perfectly executed creative. Our websites, videos, campaigns and copywriting build a brand story that will resonate.
+			<ul>
+			<li>Logo & Branding</li>
+			<li>Web & Mob App Design</li>
+			<li>User Interface Design</li>
+			<li>Print Design</li>
+			<li>Digital Photography</li>
+			<li>Motion Graphics</li>
+			</ul>
+	</li>
 
 
-<li><img src="images/service-icon-3.png" width="150px"><h2>Web & Mobile Development</h2>Using the best-in-class technology, we build websites and apps that perform.
-With a full team of developers working on cutting-edge solutions, we customize
-interactive development for every client
-need.
-<ul>
-<li>Web Application Development</li>
-<li>Mobile Application Development</li>
-<li>Ecommerce Development</li>
-<li>Content Management System</li>
-<li>Live Video Streaming</li>
-<li>Web Hosting</li>
-</ul>
-</li>
+	<li><img src="images/service-icon-3.png" width="150px"><h2>Web & Mobile Development</h2>Using the best-in-class technology, we build websites and apps that perform.
+	With a full team of developers working on cutting-edge solutions, we customize
+	interactive development for every client
+	need.
+		<ul>
+		<li>Web Application Development</li>
+		<li>Mobile Application Development</li>
+		<li>Ecommerce Development</li>
+		<li>Content Management System</li>
+		<li>Live Video Streaming</li>
+		<li>Web Hosting</li>
+		</ul>
+	</li>
 
-<li><img src="images/service-icon-4.png" width="150px"><h2>Digital Marketing</h2>Our dynamic marketing team gets
-results. We apply a series of customized tactics to bring qualified traffic to your site and build relevant content that converts.
-<ul>
-    <li>Search Engine Optimization</li>
-<li>Pay-Per-Click Marketing</li>
-<li>Email Marketing</li>
-<li>Social Media Marketing</li>
-<li>Conversion Rate Optimization</li>
-<li>Display Advertising</li>
-<li>Online Public Relations</li>
-</ul>
-</li>
+	<li><img src="images/service-icon-4.png" width="150px"><h2>Digital Marketing</h2>Our dynamic marketing team gets
+	results. We apply a series of customized tactics to bring qualified traffic to your site and build relevant content that converts.
+		<ul>
+		<li>Search Engine Optimization</li>
+		<li>Pay-Per-Click Marketing</li>
+		<li>Email Marketing</li>
+		<li>Social Media Marketing</li>
+		<li>Conversion Rate Optimization</li>
+		<li>Display Advertising</li>
+		<li>Online Public Relations</li>
+		</ul>
+	</li>
 
 </ul>
+</div>
 <div class="clear"></div>
 </section>
 

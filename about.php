@@ -11,14 +11,15 @@ include_once("header.php");
 <div>Who we are <br><Article>Learn more about our team &amp; culture</Article></div>
 </header>
 <section id="about">
-<ul>
+    <div class="container">
+<ul class="row">
 
 <li>
 <article>
 <p>
 We are a full-service and integrated UX Web Development, Live Streaming/ Webcast, Branding and Digital Marketing agency.
 </p><p>
-<SPAN>WE BUILD BRANDS WITH 360 DIGREE SOLUTIONS. A FULL SERVICE INTERACTIVE DIGITAL AGENCY APPROACH TO GROW YOUR BRAND ONLINE AND AMPLIFY ITS REACH.
+<SPAN>WE BUILD BRANDS WITH 360 DEGREE SOLUTIONS. A FULL SERVICE INTERACTIVE DIGITAL AGENCY APPROACH TO GROW YOUR BRAND ONLINE AND AMPLIFY ITS REACH.
 </SPAN></p><p>
 SPARCS is a digital agency which delivers high quality, reliable and affordable services to our customers globally. We specialize in Creative Campaigns, Website Design & Development, Mobile App/OTT Development, Branding and Digital Marketing.
 </p><p>
@@ -38,6 +39,7 @@ Our team comprises of highly motivated and innovative User Experience Designers,
 <p>SEO and Social Media Marketing</p>
 </li>
 </ul>
+</div>
 <div class="clear"></div>
 </section>
 
@@ -91,6 +93,8 @@ Our team comprises of highly motivated and innovative User Experience Designers,
 </div>
 </section> -->
 <section id="skill">
+    <div class="container-fluid">
+    </div>
 </section>
  <!-- skill -->
 <?php include_once('footer.php')?>
