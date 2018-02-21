@@ -62,7 +62,7 @@ if($_POST)
 	'X-Mailer: PHP/' . phpversion();
 	
 	$sentMail = @mail($to_Email, $subject, $user_Message .' ------ '.$user_Name .' | Phone: '.$user_Phone, $headers);
-	
+
 	if(!$sentMail)
 	{
 		$output = json_encode(array('type'=>'error', 'text' => 'Could not send mail! Please check your PHP mail configuration.'));

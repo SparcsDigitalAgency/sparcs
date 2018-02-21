@@ -11,35 +11,7 @@ include_once('header.php');
 <div>GET IN TOUCH<br><article>Give us a call or simply use the form below.</article></div>
 </header>
 
-    
-
-
-
-         <!--    <div class="mapContainer">
-            <div class="container">
-            
-            <div class="contactInfo">
-            <h2>Let's Talk </h2>
- <div id="result"></div>
-<fieldset id="contact_form" style="border:none;">
-<input type="text" placeholder="Full Name" class="nom" name="name">
-<input type="text" placeholder="Email Address" class="mail" name="email">
-<input type="text" placeholder="Phone" class="phone" name="phone">
-<textarea placeholder="Ok, let's talk" cols="40" rows="20" class="msg" name="message"></textarea>
-<button class="but" class="submit_btn" id="submit_btn" >Send us an enquiry.</button><div style="display:none; float:right; margin:5px;" id="dvloader"><img src="images/ajax-loader.gif" /></div>
-
-<div class="clear"></div>
-</fieldset>
-
-
-
-            </div><!--contactInfo-->
-            
-          <!--   </div> --><!--container-->
-            
-            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15716.541778345601!2d76.2892194!3d10.0056691!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x71cf3029656b6737!2sSparcs+Digital+Agency!5e0!3m2!1sen!2sin!4v1517820609926" width="100%" height="560" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div> -->
-            <!--mapContainer-->
+ 
 <section id="contact">
 <div class="container">
 

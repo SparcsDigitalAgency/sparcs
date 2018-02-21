@@ -47,9 +47,6 @@
 <?php endif; ?>
 
 
-
-
-
 <script>
 //main page scroll bar
 	jQuery(document).ready(
@@ -157,11 +154,16 @@ $(document).ready(function() {
 					
 					//reset values in all input fields
 					$('#contact_form input').val(''); 
-					$('#contact_form textarea').val(''); 
+					$('#contact_form textarea').val('');
+                     
+                    window.location.replace("./thank-you");
 				}
 				
 				$("#result").hide().html(output).slideDown();
+
             }, 'json');
+
+            
 			
         }
     });
