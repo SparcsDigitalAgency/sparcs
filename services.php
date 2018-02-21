@@ -35,7 +35,7 @@ include_once("header.php");
 <section id="services">
 	<div class="container">
 <ul class="row">
-	<li >
+	<li>
 	<img src="images/service-icon-1.png" width="150px">
 	<h2>Strategy & Consulting</h2>We build brands with razor-sharp strategy. We analyze every aspect of your industry and apply our digital expertise to provide a roadmap for success.
 		<ul>
@@ -47,7 +47,8 @@ include_once("header.php");
 		</ul>
 	</li>
 
-	<li><img src="images/service-icon-2.png" width="150px"><h2>Creative Design</h2>We bring ideas to life with perfectly executed creative. Our websites, videos, campaigns and copywriting build a brand story that will resonate.
+	<li>
+		<img src="images/service-icon-2.png" width="150px"><h2>Creative Design</h2>We bring ideas to life with perfectly executed creative. Our websites, videos, campaigns and copywriting build a brand story that will resonate.
 			<ul>
 			<li>Logo & Branding</li>
 			<li>Web & Mob App Design</li>
