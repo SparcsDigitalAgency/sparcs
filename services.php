@@ -35,7 +35,7 @@ include_once("header.php");
 <section id="services">
 	<div class="container">
 <ul class="row">
-	<li>
+	<li class="col-md-6">
 	<img src="images/service-icon-1.png" width="150px">
 	<h2>Strategy & Consulting</h2>We build brands with razor-sharp strategy. We analyze every aspect of your industry and apply our digital expertise to provide a roadmap for success.
 		<ul>
@@ -47,7 +47,7 @@ include_once("header.php");
 		</ul>
 	</li>
 
-	<li>
+	<li class="col-md-6">
 		<img src="images/service-icon-2.png" width="150px"><h2>Creative Design</h2>We bring ideas to life with perfectly executed creative. Our websites, videos, campaigns and copywriting build a brand story that will resonate.
 			<ul>
 			<li>Logo & Branding</li>
@@ -60,7 +60,8 @@ include_once("header.php");
 	</li>
 
 
-	<li><img src="images/service-icon-3.png" width="150px"><h2>Web & Mobile Development</h2>Using the best-in-class technology, we build websites and apps that perform.
+	<li class="col-md-6">
+		<img src="images/service-icon-3.png" width="150px"><h2>Web & Mobile Development</h2>Using the best-in-class technology, we build websites and apps that perform.
 	With a full team of developers working on cutting-edge solutions, we customize
 	interactive development for every client
 	need.
@@ -74,7 +75,8 @@ include_once("header.php");
 		</ul>
 	</li>
 
-	<li><img src="images/service-icon-4.png" width="150px"><h2>Digital Marketing</h2>Our dynamic marketing team gets
+	<li class="col-md-6">
+		<img src="images/service-icon-4.png" width="150px"><h2>Digital Marketing</h2>Our dynamic marketing team gets
 	results. We apply a series of customized tactics to bring qualified traffic to your site and build relevant content that converts.
 		<ul>
 		<li>Search Engine Optimization</li>

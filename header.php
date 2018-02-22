@@ -9,11 +9,11 @@
 <title><?php echo $meta_tags['title']; ?></title>
 <meta name="keywords" content="<?php echo $meta_tags['keywords']; ?>">
 <meta name="description" content="<?php echo $meta_tags['description']; ?>">
-<meta property="og:title" content="Sparcs, an interactive digital agency."/>
+<meta property="og:title" content="Sparcs Digital, an interactive digital agency."/>
 <meta property="og:type" content="company"/>
-<meta property="og:url" content="http://www.Sparcs.com"/>
-<meta property="og:image" content="http://www.Sparcs.com/images/logo.png"/>
-<meta property="og:site_name" content="Sparcs"/>
+<meta property="og:url" content="http://www.sparcsdigital.com"/>
+<meta property="og:image" content="http://www.sparcsdigital.com/images/logo.png"/>
+<meta property="og:site_name" content="sparcsdigital"/>
 <meta property="fb:admins" content="1301551246"/>
 <?php if ($meta_tags['no-index'] ): ?> 
 	<meta name="robots" content="noindex">
@@ -22,14 +22,17 @@
 <?php endif; ?>
 <link rel="icon" type="image/ico" href="images/favicon.ico"/>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,800' rel='stylesheet' type='text/css'>
-<link href="script/format.css" rel="stylesheet" type="text/css">
+
 <!-- <link href="script/format-old.css" rel="stylesheet" type="text/css"> -->
 <link href="script/responsive.css" rel="stylesheet" type="text/css">    
-<link rel="stylesheet" href="script/fontello.css">    
+<link rel="stylesheet" href="script/fontello.css">
+<link rel="stylesheet" href="script/font-awesome.css">     
 <!--[if IE 7]><link rel="stylesheet" href="script/fontello-ie7.css"><![endif]-->    
 <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="script/format.css" rel="stylesheet" type="text/css">
+<link href="script/format1.css" rel="stylesheet" type="text/css">
 <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -49,14 +52,8 @@
 <script src="script/jquery.nicescroll.min.js"></script>
 <script src="script/modernizr.custom.js"></script>
 <script src="script/jquery.cbpFWSlider.min.js"></script> 
-<?php endif; ?> -->
-
-<script src="script/jquery.tools.min.js"></script>
-<script src="script/jquery.nicescroll.min.js"></script>
-<script src="script/modernizr.custom.js"></script>
-<script src="script/jquery.cbpFWSlider.min.js"></script>
-
-
+<?php endif; ?>
+-->
 
 <script>
 //main page scroll bar
@@ -192,6 +189,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-24740586-7"></script>
+  <link href="navbar-top-fixed.css" rel="stylesheet">
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -211,13 +209,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   ga('send', 'pageview');
 </script> -->
       <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P2FTJFB"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P2FTJFB"
+    height="0" width="0" style="display:none;visibility:hidden">
+</iframe>
+</noscript>
 <!-- End Google Tag Manager (noscript) -->
         
-    <section id="top" class="large">
+    <!-- <section id="top" class="large">
     <div>
-    <h1><a <?php echo (preg_match("/index.php/", $_SERVER['SCRIPT_FILENAME']) ? 'class="active"' : '') ?> href="<?php echo $path; ?>"title="Sparcs, an interactive digital agency.">Sparcs</a></h1>
+    <h1>
+        <a <?php echo (preg_match("/index.php/", $_SERVER['SCRIPT_FILENAME']) ? 'class="active"' : '') ?> href="<?php echo $path; ?>"title="Sparcs, an interactive digital agency.">Sparcs</a>
+    </h1>
 
      <?php if ($digital_marketing): ?> 
         <h2>Call : +91 88 48 78 47 32</h2>
@@ -240,8 +243,52 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <?php endif; ?>
 
     </div>
-    </section><!--top-->
-              
+    </section> -->
+    <!--top-->
+
+
+      <nav class="navbar navbar-expand-md  navbar-dark fixed-top large "  id="top"  >
+        <div class="container">
+        <h1>
+          <a class="navbar-brand" <?php echo (preg_match("/index.php/", $_SERVER['SCRIPT_FILENAME']) ? 'class="active"' : '') ?> href="<?php echo $path; ?>"title="Sparcs, an interactive digital agency.">
+            <img src="images/logo.png"/>
+        </a>
+        </h1> 
+      <!-- <a class="navbar-brand" href="#">Fixed navbar</a> -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto justify-content-end">
+
+          <!-- <li class="nav-item  current">
+            <a href="" title="MENU">MENU<span class="sr-only">(current)</span></a>
+          </li> -->
+          <li class="nav-item ">
+             <a class="nav-link" <?php  echo (preg_match("/portfolio.php/",$_SERVER['SCRIPT_FILENAME']) ? 'class="active"': '');?> href="<?php echo $path; ?>portfolio" title="Portfolio">
+                Portfolio
+             </a>
+          </li>
+          <li class="nav-item">
+            <a  class="nav-link" <?php echo (preg_match("/about.php/", $_SERVER['SCRIPT_FILENAME']) ? 'class="active"' : ''); ?> href="<?php echo $path; ?>about" title="About">
+            About
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  <?php echo(preg_match("/services.php/", $_SERVER['SCRIPT_FILENAME']) ? 'class="active"' : ''); ?> href="<?php echo $path; ?>services" title="Services">
+                Services
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  <?php echo(preg_match("/contact.php/", $_SERVER['SCRIPT_FILENAME']) ? 'class="active"' : ''); ?> href="<?php echo $path; ?>contact" title="Contact">
+                Contact
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+  </div>
+    </nav>        
     
 
     

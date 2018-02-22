@@ -1,0 +1,15 @@
+body{margin:0;padding:0;font-family:'Open Sans', sans-serif;font-weight:300;}
+.navbar-dark .navbar-nav .nav-link {
+     color: rgba(255,255,255,1); 
+}
+nav a.nav-link{
+	font-size: 14px;
+    color: #fff;
+    padding: 7px 16px;
+    text-decoration: none;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+ul.navbar-nav.mr-auto.justify-content-end {
+    width: 100%;
+}
