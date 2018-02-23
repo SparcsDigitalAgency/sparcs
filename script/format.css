@@ -6,8 +6,9 @@ h1, h2, h3, h4, ul, li{margin:0;padding:0;list-style-type:none;}
 #top, a, img, li, .but, textarea:hover, input[type=text]:hover, textarea:focus, input[type=text]:focus, .main-nav ul, .cbp-fwslider nav span, .cbp-fwslider nav span:hover{transition:all 1s;-moz-transition:all 1s;-webkit-transition:all 1s;-o-transition:all 1s;}
 #top{top:0;position:fixed;background:rgba(255,255,255,1);z-index:11;}
 
-#top div h1{float:left;width:34%;padding:30px 0 0 0;}
-#top div h2{float:right;padding:40px 0 0 0; color: #fff;}
+#top div h1{padding:30px 0 0 0;}
+#top div h2{padding:40px 0 0 0; color: #fff;}
+
 .main-nav{float:right;width:66%;}
 .main-nav ul{float:right;}
 .main-nav li{margin:0 0 0 5px;display:inline-block;*display:inline;}

@@ -37,23 +37,7 @@
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-<!-- <?php if ($digital_marketing): ?> 
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-<?php endif; ?>
-
-<?php if (!$digital_marketing): ?> 
-<script src="script/jquery.tools.min.js"></script>
-<script src="script/jquery.nicescroll.min.js"></script>
-<script src="script/modernizr.custom.js"></script>
-<script src="script/jquery.cbpFWSlider.min.js"></script> 
-<?php endif; ?>
--->
 
 <script>
 //main page scroll bar
@@ -216,42 +200,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </noscript>
 <!-- End Google Tag Manager (noscript) -->
         
-    <!-- <section id="top" class="large">
-    <div>
-    <h1>
-        <a <?php echo (preg_match("/index.php/", $_SERVER['SCRIPT_FILENAME']) ? 'class="active"' : '') ?> href="<?php echo $path; ?>"title="Sparcs, an interactive digital agency.">Sparcs</a>
-    </h1>
 
-     <?php if ($digital_marketing): ?> 
-        <h2>Call : +91 88 48 78 47 32</h2>
-    <?php endif; ?>
-
-    <?php if (!$digital_marketing): ?> 
-    <nav class="main-nav">
-    <ul>
-    <li class="current"><a href="" title="MENU">MENU</a></li>
-    <li>
-        <a <?php echo (preg_match("/portfolio.php/",$_SERVER['SCRIPT_FILENAME']) ? 'class="active"': '');?> href="<?php echo $path; ?>portfolio" title="Portfolio">Portfolio</a>
-    </li>
-    <li>
-        <a  <?php echo (preg_match("/about.php/", $_SERVER['SCRIPT_FILENAME']) ? 'class="active"' : ''); ?> href="<?php echo $path; ?>about" title="About">About</a>
-    </li>
-    <li><a <?php echo(preg_match("/services.php/", $_SERVER['SCRIPT_FILENAME']) ? 'class="active"' : ''); ?> href="<?php echo $path; ?>services" title="Services">Services</a></li>
-    <li><a <?php echo(preg_match("/contact.php/", $_SERVER['SCRIPT_FILENAME']) ? 'class="active"' : ''); ?> href="<?php echo $path; ?>contact" title="Contact">Contact</a></li>
-    </ul>
-    </nav>
-    <?php endif; ?>
-
-    </div>
-    </section> -->
-    <!--top-->
-
-
-      <nav class="navbar navbar-expand-md  navbar-dark fixed-top large "  id="top"  >
+      <nav class="navbar navbar-expand-md  navbar-dark fixed-top large"  id="top"  >
         <div class="container">
         <h1 class="col-md-4">
           <a class="navbar-brand" <?php echo (preg_match("/index.php/", $_SERVER['SCRIPT_FILENAME']) ? 'class="active"' : '') ?> href="<?php echo $path; ?>"title="Sparcs, an interactive digital agency.">
-            <img src="images/logo.png"/>
+            <img src="./images/logo.png">
         </a>
         </h1> 
       <!-- <a class="navbar-brand" href="#">Fixed navbar</a> -->
@@ -259,7 +213,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse col-md-8" id="navbarCollapse">
+
         <ul class="navbar-nav mr-auto justify-content-end">
+
 
           <!-- <li class="nav-item  current">
             <a href="" title="MENU">MENU<span class="sr-only">(current)</span></a>
