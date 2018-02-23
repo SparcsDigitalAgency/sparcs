@@ -204,13 +204,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <nav class="navbar navbar-expand-md  navbar-dark fixed-top large"  id="top"  >
         <div class="container">
         <h1 class="col-md-4">
-          <a class="navbar-brand" <?php echo (preg_match("/index.php/", $_SERVER['SCRIPT_FILENAME']) ? 'class="active"' : '') ?> href="<?php echo $path; ?>"title="Sparcs, an interactive digital agency.">
-            <img src="./images/logo.png">
+          <a class="navbar-brand" <?php echo (preg_match("/index.php/", $_SERVER['SCRIPT_FILENAME']) ? 'class="active"' : '') ?> href="<?php echo $path; ?>"title="Sparcs, an interactive digital agency">
+           Sparcs Digital Agency
         </a>
         </h1> 
       <!-- <a class="navbar-brand" href="#">Fixed navbar</a> -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon "></span>
       </button>
       <div class="collapse navbar-collapse col-md-8" id="navbarCollapse">
 
@@ -230,11 +230,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             About
             </a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link"  <?php echo(preg_match("/services.php/", $_SERVER['SCRIPT_FILENAME']) ? 'class="active"' : ''); ?> href="<?php echo $path; ?>services" title="Services">
                 Services
             </a>
+          </li> -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" <?php echo(preg_match("/services.php/", $_SERVER['SCRIPT_FILENAME']) ? 'class="active"' : ''); ?> href="<?php echo $path; ?>services" title="Services" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Strategy & Cosulting</a>
+              <a class="dropdown-item" href="#">Creative Design</a>
+              <a class="dropdown-item" href="#">Web & Mobile Development</a>
+              <a class="dropdown-item" href="#">Digital Marketing</a>
+            </div>
           </li>
+
           <li class="nav-item">
             <a class="nav-link"  <?php echo(preg_match("/contact.php/", $_SERVER['SCRIPT_FILENAME']) ? 'class="active"' : ''); ?> href="<?php echo $path; ?>contact" title="Contact">
                 Contact
