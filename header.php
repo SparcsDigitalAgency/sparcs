@@ -249,7 +249,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
       <nav class="navbar navbar-expand-md  navbar-dark fixed-top large "  id="top"  >
         <div class="container">
-        <h1>
+        <h1 class="col-md-4">
           <a class="navbar-brand" <?php echo (preg_match("/index.php/", $_SERVER['SCRIPT_FILENAME']) ? 'class="active"' : '') ?> href="<?php echo $path; ?>"title="Sparcs, an interactive digital agency.">
             <img src="images/logo.png"/>
         </a>
@@ -258,7 +258,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
+      <div class="collapse navbar-collapse col-md-8" id="navbarCollapse">
         <ul class="navbar-nav mr-auto justify-content-end">
 
           <!-- <li class="nav-item  current">
