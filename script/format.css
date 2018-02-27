@@ -50,8 +50,8 @@ h1, h2, h3, h4, ul, li{margin:0;padding:0;list-style-type:none;}
 .button-hover:hover{line-height:7.5em;}
 .button-hover:before{content:attr(data-text);color:#222;position:absolute;top:-2.75em;}
 
-#footer-wrapper{width:85%; max-width:1200px; margin:0 auto;padding:4% 0 0 0;}
-
+/*#footer-wrapper{width:85%; max-width:1200px; margin:0 auto;padding:4% 0 0 0;}*/
+#footer-wrapper{padding:4% 0 0 0;}
 #footer-wrapper #left{float:left;font-size:22px;}
 #footer-wrapper #left h1{font-size:46px;font-weight:300;}
 #footer-wrapper #left h2{font-size:36px;font-weight:300;}
@@ -66,7 +66,10 @@ h1, h2, h3, h4, ul, li{margin:0;padding:0;list-style-type:none;}
 
 #footer-wrapper strong{font-weight: bold;}
 
-#footer-wrapper .footer-colmn{float:left;width:31%; padding:0 1%; text-align: center;}
+#footer-wrapper .footer-colmn{
+	float:left;
+	/*width:31%; */
+	padding:0 1%; text-align: center;}
 #footer-wrapper .footer-colmn i{color:#ca4242; font-size: 30px;}
 .footer{width:100%;background:url(../images/footer-black.png);text-align:center;color:#666;font-size:14px;padding:70px 0;}
 .footer a{text-decoration:none;color:#666;font-size:14px;line-height:28px;margin:0 0.5%;border-bottom:1px dotted #888;}
@@ -79,13 +82,25 @@ to{stroke-dashoffset:0;}
 #back-top{text-align:center;margin:0 auto;background-color:#f6f6f6;}
 .page-top-link{color:#ca4242;;font-size:60px;}
 .page-top-link:hover{color:#eee;}
-#about{width:100%;}
-#about ul{width:100%;max-width:1200px;margin:0;}
-#about ul li{float:left;width:55%;font-size:20px;line-height:30px;padding:5% 5% 5% 0;}
+#about{
+	/*width:100%;*/
+	padding: 5%;
+}
+#about ul{
+	/*width:100%;max-width:1200px;*/
+	margin:0;}
+#about ul li{
+	/*float:left;width:55%;*/
+	font-size:20px;line-height:30px;
+	/*padding:5% 5% 5% 0;*/
+}
 #about ul li span{font-size:36px;line-height:50px;}
 #about ul li article{margin-bottom:2%;}
-#about ul li.last{width:44% !important;font-size:36px;line-height:50px;margin-top:7%;padding:0;color:#ca4242;}
-#about ul li.last p{background:url(../images/checkmark.svg) no-repeat left top;padding-left:50px;}
+#about ul li.last{
+	/*width:44% !important;*/
+	font-size:36px;line-height:50px;margin-top:7%;padding:0;color:#ca4242;}
+#about ul li.last p{background:url(../images/checkmark.svg) no-repeat left top;padding-left:50px;
+text-align: left;}
 #infographics{width:100%;}
 #infographics ul{width:85%;max-width:1200px;margin:0 auto;}
 #infographics ul li{float:left;width:23%;font-size:16px;padding:6% 2% 5% 0;line-height:26px;}
@@ -103,21 +118,24 @@ img.skillZoom, img.skillBase{position:absolute;min-width:100%;max-height:100%;ma
 .skilllast{margin-right:0 !important;}
 .skilllast div{padding:40px 0 20px 0 !important;}
 #services{width:100%;background-color:#fff;}
-#services ul{width:85%;max-width:1200px;margin:0 auto;}
-#services ul li{float:left;width:40%;font-size:16px;padding:5% ;color:#222;line-height:24px;}
+#services ul{/*width:85%;max-width:1200px;*/margin:0 auto;}
+#services ul li{/*float:left;width:40%;*/font-size:16px;padding:5% ;color:#222;line-height:24px;}
 #services ul li.last{padding:5% !important;width:40% !important;}
 #services ul li h2{margin:5% 0;font-size:30px;color:#000;font-weight:300;}
 #services ul li ul{float:none;width:100%;margin:5% 0;}
-#services ul li ul li{float:none;width:89%;margin:8% 0;padding:0 0 0 11%;line-height:30px;font-size:26px;color:#ca4242;background:url(../images/checkmarksmall.svg) no-repeat left top;}
+#services ul li ul li{float:none;/*width:89%;*/margin:8% 0;padding:0 0 0 11%;line-height:30px;font-size:26px;color:#ca4242;background:url(../images/checkmarksmall.svg) no-repeat left top;}
 .mapContainer{width:100%;height:400px;}
 #map_canvas{width:100%;height:100%;}
 
 #contact{width: 100%; }
 
 .container{width:100%;max-width:1200px;margin:0 auto; }
-.container .contactInfoaddress{width:40%; padding:5%; float: left;}
+.container .contactInfoaddress
+{
+	/*width:40%;*/
+	 padding:5%; float: left;}
 .container .contactInfoaddress ul{margin: 30px 0;}
-.container .contactInfo{background:#eee;padding:5%;width:40%; float: left;min-height: 465px;}
+.container .contactInfo{background:#eee;padding:5%;/*width:40%;*/ float: left;min-height: 465px; margin: 0 0 5.6% 0;}
 #contact h2{font-size:30px;font-weight:300;}
 
 .contactInfo input[type=text]{border:1px solid #ccc;display:block;font:100 15px/20px 'Open Sans';padding:13px 15px 13px 45px;width:100%;margin:0 0 11px;color:#000;background-color:#fff;background-image:url(../images/iform.png);background-repeat:no-repeat;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}

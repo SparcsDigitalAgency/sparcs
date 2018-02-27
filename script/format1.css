@@ -50,3 +50,24 @@ ul.navbar-nav.mr-auto.justify-content-end {
     font-size: .8rem;
 }
 }
+.carousel-indicators {
+     position: absolute; 
+
+}
+.carousel {
+    position: relative;
+}
+.carousel-indicators li {
+    border-radius: 100px;
+    width: 17px;
+    height: 17px;
+    margin: 0 8px;
+    background-color: #fff;
+    border: 2px solid #d3d3d3;
+    transition: background 0.5s ease 0s, border-color 0.5s ease 0s;
+}
+
+
+.carousel-indicators .active {
+    background-color: #ca4242;
+}

@@ -41,11 +41,11 @@
 
 <script>
 //main page scroll bar
-	jQuery(document).ready(
-  function() {  
-    jQuery("html").niceScroll({cursorcolor:"#222"});
-  }
-);
+// 	jQuery(document).ready(
+//   function() {  
+//     jQuery("html").niceScroll({cursorcolor:"#222"});
+//   }
+// );
 
 //resizing top bar
 $(document).on("scroll",function(){
@@ -59,6 +59,12 @@ $(document).on("scroll",function(){
 
 //to Top scroll
 $(document).ready(function(){
+
+   $('.carousel').carousel({
+  interval: 2000
+});
+
+
 	// hide #back-top first
 	$("#back-top").hide();	
 	// fade in #back-top
@@ -80,14 +86,14 @@ $(document).ready(function(){
 	});
 });
 //portfolio slider  
-$( function() {
-	$( '#cbp-fwslider' ).cbpFWSlider();
-} );
+// $( function() {
+// 	$( '#cbp-fwslider' ).cbpFWSlider();
+// } );
 
 //portfolio slider  
-$( function() {
-	$( '#cbp-fwslider-1' ).cbpFWSlider();
-} );
+// $( function() {
+// 	$( '#cbp-fwslider-1' ).cbpFWSlider();
+// } );
 
 </script>
 <?php if ($contact || $digital_marketing): ?> 
@@ -173,7 +179,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-24740586-7"></script>
-  <link href="navbar-top-fixed.css" rel="stylesheet">
+  <!-- <link href="navbar-top-fixed.css" rel="stylesheet"> -->
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -238,10 +244,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" <?php echo(preg_match("/services.php/", $_SERVER['SCRIPT_FILENAME']) ? 'class="active"' : ''); ?> href="<?php echo $path; ?>services" title="Services" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">Strategy & Cosulting</a>
-              <a class="dropdown-item" href="#">Creative Design</a>
-              <a class="dropdown-item" href="#">Web & Mobile Development</a>
-              <a class="dropdown-item" href="#">Digital Marketing</a>
+              <a class="dropdown-item" href="<?php echo $path; ?>services">Strategy & Cosulting</a>
+              <a class="dropdown-item" href="<?php echo $path; ?>services">Creative Design</a>
+              <a class="dropdown-item" href="<?php echo $path; ?>services">Web & Mobile Development</a>
+              <a class="dropdown-item" href="<?php echo $path; ?>services">Digital Marketing</a>
             </div>
           </li>
 

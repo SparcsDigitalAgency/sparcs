@@ -42,8 +42,8 @@ include_once('header.php');
             <!--mapContainer-->
 <section id="contact">
 <div class="container">
-
-<div class="contactInfoaddress">
+<div class="row">
+<div class="col-md-6 contactInfoaddress">
     <h2>We'd love to answer any questions you may have. Send us an email or come for a visit. </h2>
     <ul >
     <li><address><strong>Sparcs Digital Agency</strong><br>1st floor, Thachil Tower, Pottakuzhi Jn, Kaloor, Kochi - 682017</address></li>
@@ -54,7 +54,7 @@ include_once('header.php');
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15716.541778345601!2d76.2892194!3d10.0056691!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x71cf3029656b6737!2sSparcs+Digital+Agency!5e0!3m2!1sen!2sin!4v1517820609926" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 
-<div class="contactInfo">
+<div class="col-md-6 contactInfo">
 <h2>Let's Talk </h2>
 <div id="result"></div>
 <fieldset id="contact_form" style="border:none;">
@@ -67,7 +67,7 @@ include_once('header.php');
 <div class="clear"></div>
 </fieldset>
 </div><!--contactInfo-->
-
+</div>
 </div><!--container-->   
 </section>
 

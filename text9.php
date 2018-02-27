@@ -20,9 +20,63 @@ $meta_tags = array('title' =>'Portfilio | Text9' ,
 
 
 
-<section class="portfolio-slider">
+<!-- <section class="portfolio-slider"> -->
+<section>
+<div class="container">
+   
+ <h1>Website Pages</h1>
+  
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
-<h1>Website Pages</h1> 
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+             <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+        </ol>
+       
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="images/text9/text91.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/text9/text92.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/text9/text93.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/text9/text94.jpg" alt="Fourth slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/text9/text95.jpg" alt="Fifth slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/text9/text96.jpg" alt="Sixth slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/text9/text97.jpg" alt="Seventh slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+</div>
+ </div>  
+
+
+
+
+<!-- <h1>Website Pages</h1> 
 
          <div id="cbp-fwslider" class="cbp-fwslider">
 				<ul>
@@ -35,7 +89,7 @@ $meta_tags = array('title' =>'Portfilio | Text9' ,
                          <li><img src="images/text9/text97.jpg" alt="Text9"></li>   
                                                   
 				</ul>
-			</div>
+			</div> -->
             		
 </section><!--portfolio-slider-->
 

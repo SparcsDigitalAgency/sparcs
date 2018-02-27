@@ -14,7 +14,7 @@ include_once("header.php");
     <div class="container">
 <ul class="row">
 
-<li>
+<li class="col-md-6">
 <article>
 <p>
 We are a full-service and integrated UX Web Development, Live Streaming/ Webcast, Branding and Digital Marketing agency.
@@ -29,7 +29,7 @@ Our team comprises of highly motivated and innovative User Experience Designers,
 </article>
 </li>
 
-<li class="last">
+<li class="col-md-6 last">
 <p>15+ years Professional Experience</p>
 <p>UX/UI Design and Development</p>
 <p>Wordpress Development</p>
