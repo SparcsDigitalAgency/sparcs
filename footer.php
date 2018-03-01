@@ -26,6 +26,7 @@
     <p id="back-top"><a class="page-top-link" href="#Top" title="To Top"><i class="icon-up-open-big"></i></a></p>
     
     <footer class="footer">
+        <div class="container">
     <p>
     <a href="<?php echo $path ?>index" title="Home">Home</a>
     <a <?php echo(preg_match("/portfolio.php/", $_SERVER['SCRIPT_FILENAME']) ? 'class="active"':''); ?> href="<?php echo $path ?>portfolio" title="Portfolio">Portfolio</a>
@@ -40,7 +41,9 @@
 <a href="https://twitter.com/sparcsdigital" title="Follow us on Twitter" target="_blank"><i class="icon-twitter"></i></a>
 <a href="https://www.linkedin.com/company/sparcs-digital-agency" target="_blank" title="View our LinkedIn Profile"><i class="icon-linkedin"></i></a>
     </p>   
-    <p class="partner">Our Partner <br><a href="https://wiredrive.com" target="_blank" title="One collaboration tool to manage all your media assets | Wiredrive"><img src="https://wiredrive.com/assets/img/wd_logo-w-@2x.png" width="100px;" style="opacity: 0.5;" alt="Wiredrive"></a></p> </footer><!--footer-->
+    <p class="partner">Our Partner <br><a href="https://wiredrive.com" target="_blank" title="One collaboration tool to manage all your media assets | Wiredrive"><img src="https://wiredrive.com/assets/img/wd_logo-w-@2x.png" width="100px;" style="opacity: 0.5;" alt="Wiredrive"></a></p>
+</div>
+     </footer><!--footer-->
 
 </body>
 </html>

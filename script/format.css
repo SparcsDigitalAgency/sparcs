@@ -104,7 +104,7 @@ text-align: left;}
 #infographics{width:100%;}
 #infographics ul{width:85%;max-width:1200px;margin:0 auto;}
 #infographics ul li{float:left;width:23%;font-size:16px;padding:6% 2% 5% 0;line-height:26px;}
-#infographics ul li.last{padding:6% 0 6% 0 !important;width:25% !important;}
+#infographics ul li.last{padding:6% 0 6% 0 !important;/*width:25% !important;*/}
 #infographics ul li h2{margin:5% 0;font-size:30px;font-weight:300;}
 #skill{width:100%;border-top:1px solid #d2d2d2; height: 600px; background: url(../images/logos.jpg); background-size: cover;}
 #skill div{width:85%;margin:0 auto;padding:30px 0 20px 0;}
@@ -129,7 +129,9 @@ img.skillZoom, img.skillBase{position:absolute;min-width:100%;max-height:100%;ma
 
 #contact{width: 100%; }
 
-.container{width:100%;max-width:1200px;margin:0 auto; }
+.container{
+	width:100%;max-width:1200px;
+	margin:0 auto; }
 .container .contactInfoaddress
 {
 	/*width:40%;*/
@@ -173,7 +175,9 @@ textarea:focus, input[type=text]:focus{outline:none;background-color:#fff;border
 .usasecureloans{background:url(../images/usasecureloans.png) no-repeat;}
 .loansonclick{background:url(../images/loansonclick.png) no-repeat;}
 .pravasakirali{background:url(../images/pravasakirali.png) no-repeat;}
-.cbp-ig-grid li{width:33%;float:left;height:380px;text-align:center;border-top:1px solid #ddd;padding: 0;}
+.cbp-ig-grid li{
+	/*width:33%;*/
+	float:left;height:380px;text-align:center;border-top:1px solid #ddd;padding: 0;}
 .cbp-ig-grid li:nth-child(-n+3){border-top:none;}
 .cbp-ig-grid li:nth-child(3n-1), .cbp-ig-grid li:nth-child(3n-2){box-shadow:1px 0 0 #ddd;}
 .cbp-ig-grid li > a{display:block;height:380px;color:#434242;text-decoration:none;padding-top:40px;transition:all 0.6s ease 0s;}

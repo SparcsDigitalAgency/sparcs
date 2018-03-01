@@ -20,8 +20,8 @@ include_once('header.php');
 
 <div class="container">
 
-
 				<ul class="cbp-ig-grid row">
+					
 					<li class="col-md-4">
 						<a href="<?php echo $path ?>text9">
 							<span class="cbp-ig-icon text9"></span>
@@ -78,56 +78,58 @@ include_once('header.php');
 							<span class="cbp-ig-category">Security Solutions</span>
 						</a>
 					</li>
-                    <li class="col-md-4">
+                    <li  class="col-md-4">
 						<a href="<?php echo $path ?>st_johns">
 							<span class="cbp-ig-icon st-johns"></span>
 							<h3 class="cbp-ig-title">St Johns HSS</h3>
 							<span class="cbp-ig-category">School</span>
 						</a>
 					</li>
-					<li class="col-md-4">
+					<li  class="col-md-4">
 						<a href="<?php echo $path ?>sophia_books">
 							<span class="cbp-ig-icon sophia"></span>
 							<h3 class="cbp-ig-title">Sophia Books</h3>
 							<span class="cbp-ig-category">Bookstore</span>
 						</a>
 					</li>
-					<li class="col-md-4">
+					<li  class="col-md-4">
 						<a href="<?php echo $path ?>brook_dale">
 							<span class="cbp-ig-icon brook"></span>
 							<h3 class="cbp-ig-title">Brook &amp; Dale</h3>
 							<span class="cbp-ig-category">Travel &amp; Tourism</span>
 						</a>
 					</li>
-					<li class="col-md-4">
+					<li  class="col-md-4">
 						<a href="<?php echo $path ?>svd_world">
 							<span class="cbp-ig-icon svd"></span>
 							<h3 class="cbp-ig-title">SVD World</h3>
 							<span class="cbp-ig-category">Divine Word Missionaries</span>
 						</a>
 					</li>
-                    <li class="col-md-4">
+                    <li  class="col-md-4">
 						<a href="<?php echo $path ?>usasecureloans">
 							<span class="cbp-ig-icon usasecureloans"></span>
 							<h3 class="cbp-ig-title">USA Secure Loans</h3>
 							<span class="cbp-ig-category">Financial Services</span>
 						</a>
 					</li>
-                    <li class="col-md-4">
+                    <li  class="col-md-4">
 						<a href="<?php echo $path ?>loansonclick">
 							<span class="cbp-ig-icon loansonclick"></span>
 							<h3 class="cbp-ig-title">LoansOnClick</h3>
 							<span class="cbp-ig-category">Financial Services</span>
 						</a>
 					</li>
-                    <li class="col-md-4">
+                    <li  class="col-md-4">
 						<a href="<?php echo $path ?>pravasakirali">
 							<span class="cbp-ig-icon pravasakirali"></span>
 							<h3 class="cbp-ig-title">Pravasakairali</h3>
 							<span class="cbp-ig-category">News Portal</span>
 						</a>
 					</li>
+					
 				</ul>
+			
 
 
 
