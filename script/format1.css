@@ -71,3 +71,43 @@ ul.navbar-nav.mr-auto.justify-content-end {
 .carousel-indicators .active {
     background-color: #ca4242;
 }
+section.services-div {
+    padding: 6%;
+    text-align: center;
+}
+section.services-div  img {
+    margin: 2%;
+}
+section.services-div p {
+    font-size: 1.5rem;
+}
+/*.services-div ul li  {
+    float: none;
+    width: 89%;
+    margin: 8% 0;
+    padding: 0 0 0 11%;
+    line-height: 30px;
+    font-size: 1.5rem;
+    color: #ca4242;
+    background: url(../images/checkmarksmall.svg) no-repeat left top;
+}*/
+.services-div ul{
+    text-align: left;
+    padding: 1% 0;
+}
+.services-div ul li {
+    float: none;
+    width: 50%;
+    margin: 0 30%;
+    padding: 0 0 0 10%;
+    /* line-height: 30px; */
+    font-size: 1.5rem;
+    color: #ca4242;
+    background: url(../images/checkmarksmall.svg) no-repeat;
+    /* text-align: center; */
+}
+#drpwn{background-color: rgba(0,0,0,0.8);}
+/*#drpwn.large{background-color: rgba(0,0,0,0.2);}
+#drpwn.small{
+background:none;
+}*/

@@ -51,9 +51,12 @@
 $(document).on("scroll",function(){
 		if($(document).scrollTop()>40){ 
 		$("#top").removeClass("large").addClass("small");
+    // $("#drpwn").removeClass("large").addClass("small");
 			}
 	else{
 		$("#top").removeClass("small").addClass("large");
+    // $("#drpwn").removeClass("small").addClass("large");
+
 		   }
   });
 
@@ -235,19 +238,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <a  class="nav-link" <?php echo (preg_match("/about.php/", $_SERVER['SCRIPT_FILENAME']) ? 'class="active"' : ''); ?> href="<?php echo $path; ?>about" title="About">
             About
             </a>
-          </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link"  <?php echo(preg_match("/services.php/", $_SERVER['SCRIPT_FILENAME']) ? 'class="active"' : ''); ?> href="<?php echo $path; ?>services" title="Services">
-                Services
-            </a>
-          </li> -->
+          </li>        
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" <?php echo(preg_match("/services.php/", $_SERVER['SCRIPT_FILENAME']) ? 'class="active"' : ''); ?> href="<?php echo $path; ?>services" title="Services" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="<?php echo $path; ?>services">Strategy & Cosulting</a>
-              <a class="dropdown-item" href="<?php echo $path; ?>services">Creative Design</a>
-              <a class="dropdown-item" href="<?php echo $path; ?>services">Web & Mobile Development</a>
-              <a class="dropdown-item" href="<?php echo $path; ?>services">Digital Marketing</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01" id="drpwn">
+              <a class="dropdown-item" href="<?php echo $path; ?>strategy">Strategy & Cosulting</a>
+              <a class="dropdown-item" href="<?php echo $path; ?>creative_design">Creative Design</a>
+              <a class="dropdown-item" href="<?php echo $path; ?>webDevelopment">Web & Mobile Development</a>
+              <a class="dropdown-item" href="<?php echo $path; ?>digital">Digital Marketing</a>
             </div>
           </li>
 
@@ -261,6 +259,43 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </div>
   </div>
     </nav>        
-    
+    <?php if ($strategy): ?> 
+      <style type="text/css">
+         #header {
+                    background:  #2e2e2e url(./images/it-strategy.png) no-repeat;
+                    background-size: cover;                 
+                  }
+      </style>
+      
+    <?php endif; ?>
+     <?php if ($creative_design): ?> 
+      <style type="text/css">
+         #header {
+                    background:  #2e2e2e url(./images/creative-design.jpg) no-repeat;
+                    background-size: cover;    
+                  }
+      </style>    
+    <?php endif; ?>
+
+     <?php if ($webDevelopment): ?> 
+      <style type="text/css">
+         #header {
+    background:  #2e2e2e url(./images/webdevelopment.jpg) no-repeat;
+    background-size: cover;
+  
+  }
+      </style>
+      
+    <?php endif; ?>
+    <?php if ($digital): ?> 
+      <style type="text/css">
+         #header {
+    background:  #2e2e2e url(./images/digiMarktng.jpg) no-repeat;
+    background-size: cover;
+  
+  }
+      </style>
+      
+    <?php endif; ?>
 
     
