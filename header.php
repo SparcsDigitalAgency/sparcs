@@ -44,7 +44,7 @@
 // 	jQuery(document).ready(
 //   function() {  
 //     jQuery("html").niceScroll({cursorcolor:"#222"});
-//   }
+//   } 
 // );
 
 //resizing top bar

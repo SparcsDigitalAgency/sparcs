@@ -15,7 +15,7 @@ include_once('header.php');
 <div class="clear"></div>
 <section id="creative_Desgn" class="services-div">
 	<div class="container">
-		<img src="images/service-icon-2.png" width="150px">
+		<!-- <img src="images/service-icon-2.png" width="150px"> -->
 	<br>
 	<p>At <a href="<?php echo $path ?>index">Sparcs Digital Agency</a>, we design a brand according to our client needs. We bring ideas to life with perfectly executed creative. Our websites, videos,campaigns and copywriting build a brand story that will resonate. Our skilled team brings digital concepts to life with beautifully executed creative design.<br>
 	Our creative design services includes:</p>

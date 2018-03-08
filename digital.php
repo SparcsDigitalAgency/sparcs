@@ -15,7 +15,7 @@ include_once('header.php');
 <div class="clear"></div>
 <section id="digital" class="services-div">
 	<div class="container">
-			<img src="images/service-icon-4.png" width="150px">
+			<!-- <img src="images/service-icon-4.png" width="150px"> -->
 	<br>
 	<p>Digital marketing is a medium which is used to attract, convert and generate more users to the  products and services. At <a href="<?php echo $path ?>index">Sparcs Digital Agency</a>, apply a series of customized tactics to bring qualified traffic for our clients. We provide our clients with a strong creative digital marketing identity by an innovative strategy and a better conversion.<br>
 		Our team consists of expert digital marketing professionals to understand client requirement and help them to formulate the best available digital marketing strategies<br>

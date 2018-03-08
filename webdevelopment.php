@@ -15,7 +15,7 @@ include_once('header.php');
 <div class="clear"></div>
 <section id="web_dvlp" class="services-div">
 	<div class="container">
-		<img src="images/service-icon-2.png" width="150px">
+		<!-- <img src="images/service-icon-2.png" width="150px"> -->
 	<br>
 	<p>Internet offers a global community. A website can help you to generate more customers worldwide. With a website, your business will be visible to more customers. <a href="<?php echo $path ?>index">Sparcs Digital Agency</a> helps you build your websites. Using the best-in-class technology, we build websites and apps that perform.<br>
 	Our expert development team works on the cutting edge of technology, we customize

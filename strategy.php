@@ -15,7 +15,7 @@ include_once('header.php');
 <div class="clear"></div>
 <section id="strtegy" class="services-div">
 <div class="container">
-	<img src="images/service-icon-1.png" width="150px">
+	<!-- <img src="images/service-icon-1.png" width="150px"> -->
 	<br>
 	<p><a href="<?php echo $path ?>index">Sparcs Digital Agency</a> helps brands to succeed in the digital age. We help identify a brands’ narrative and evolve the messaging to target audiences to create advocacy and endorsement. <br>
 We build brands with razor-sharp strategy. We analyze every aspect of your industry and apply our digital expertise to provide a roadmap to success</p>
