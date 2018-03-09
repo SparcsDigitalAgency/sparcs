@@ -262,7 +262,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <?php if ($strategy): ?> 
       <style type="text/css">
          #header {
-                    background:  #2e2e2e url(./images/it-strategy.png) no-repeat;
+                    background:  #2e2e2e url(./images/strategy_consulting123.jpg) no-repeat;
+                    /*background:  #2e2e2e url(./images/it-strategy123.jpg) no-repeat;*/
                     background-size: cover;                 
                   }
       </style>
@@ -271,7 +272,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
      <?php if ($creative_design): ?> 
       <style type="text/css">
          #header {
-                    background:  #2e2e2e url(./images/creative-design.jpg) no-repeat;
+                    background:  #2e2e2e url(./images/creative-design321.jpg) no-repeat;
                     background-size: cover;    
                   }
       </style>    
@@ -280,7 +281,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
      <?php if ($webDevelopment): ?> 
       <style type="text/css">
          #header {
-    background:  #2e2e2e url(./images/webdevelopment.jpg) no-repeat;
+    background:  #2e2e2e url(./images/webdevelopment123.jpg) no-repeat;
     background-size: cover;
   
   }
@@ -290,7 +291,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <?php if ($digital): ?> 
       <style type="text/css">
          #header {
-    background:  #2e2e2e url(./images/digiMarktng.jpg) no-repeat;
+    background:  #2e2e2e url(./images/digiMarktng123.jpg) no-repeat;
     background-size: cover;
   
   }

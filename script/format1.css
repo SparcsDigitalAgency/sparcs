@@ -73,13 +73,14 @@ ul.navbar-nav.mr-auto.justify-content-end {
 }
 section.services-div {
     padding: 6%;
-    text-align: center;
+   
 }
 section.services-div  img {
     margin: 2%;
 }
 section.services-div p {
     font-size: 1.5rem;
+     text-align: left;
 }
 /*.services-div ul li  {
     float: none;
