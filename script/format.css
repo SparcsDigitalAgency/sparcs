@@ -28,7 +28,7 @@ h1, h2, h3, h4, ul, li{margin:0;padding:0;list-style-type:none;}
 #top.small .main-nav a:hover{color:#fff;border-bottom:1px dotted;text-decoration: none;}
 #top.small .main-nav .active{border-bottom:1px dotted #fff;}
 #header{width:100%;background:url(../images/header.jpg)#2e2e2e; background-size: cover;}
-#header div{margin:0 auto;font-size:60px;text-transform:uppercase;line-height:66px;color:#fff;padding:150px 20px 100px 20px;text-shadow:5px 5px 0 rgba(0, 0, 0, 0.2); text-align:center;}
+#header div{margin:0 auto;font-size:3rem;text-transform:uppercase;line-height:66px;color:#fff;padding:150px 20px 100px 20px;text-shadow:5px 5px 0 rgba(0, 0, 0, 0.2); text-align:center;}
 #header div article{font-size:40px;text-transform:none;font-weight:300;}
 .button, [class*="button-"]{position:relative;top:20px;display:inline-block;overflow:hidden;padding:0 50px;height:2.2em;font-size:34px;text-decoration:none;color:#fff;border:4px solid #fff;transition:0.35s ease all;font-weight:800;text-decoration:none;text-shadow:none;}
 .button:hover, [class*="button-"]:hover{background:#fff;color:#222;}
@@ -100,9 +100,9 @@ to{stroke-dashoffset:0;}
 	font-size:36px;line-height:50px;margin-top:7%;padding:0;color:#ca4242;}
 #about ul li.last p{background:url(../images/checkmark.svg) no-repeat left top;padding-left:50px;
 text-align: left;}
-#infographics{width:100%;}
-#infographics ul{width:85%;max-width:1200px;margin:0 auto;}
-#infographics ul li{float:left;width:23%;font-size:16px;padding:6% 2% 5% 0;line-height:26px;}
+#infographics{/*width:100%;*/}
+#infographics ul{/*width:85%*/;/*max-width:1200px*/;margin:0 auto;}
+#infographics ul li{float:left;/*width:23%;*/font-size:16px;padding:6% 2% 5% 0;line-height:26px;}
 #infographics ul li.last{padding:6% 0 6% 0 !important;/*width:25% !important;*/}
 #infographics ul li h2{margin:5% 0;font-size:30px;font-weight:300;}
 #skill{width:100%;border-top:1px solid #d2d2d2; height: 600px; background: url(../images/logos.jpg); background-size: cover;}

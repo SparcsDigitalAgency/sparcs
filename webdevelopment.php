@@ -9,7 +9,7 @@ include_once('header.php');
 ?>
 <section id="header">
 	<!-- <div class="container-fluid"> -->
-<div>Website and Mobile Development<br><!-- <article>Check out our latest projects what we’ve been working on lately.</article> --></div>
+<div class="container">Website and Mobile Development<br><!-- <article>Check out our latest projects what we’ve been working on lately.</article> --></div>
 <!-- </div> -->
 </section>
 <div class="clear"></div>
@@ -18,7 +18,7 @@ include_once('header.php');
 		<div class="row">
 		<!-- <img src="images/service-icon-2.png" width="150px"> -->
 	<!-- <br> -->
-	<div class="col-sm-6">
+	<div class="col-sm-12 col-md-12 col-lg-6">
 	<p>Internet offers a global community. A website can help you to generate more customers worldwide. With a website, your business will be visible to more customers. <a href="<?php echo $path ?>index">Sparcs Digital Agency</a> helps you build your websites. Using the best-in-class technology, we build websites and apps that perform.<br>
 	Our expert development team works on the cutting edge of technology, we customize
 interactive development for every client need.<br>
@@ -27,7 +27,7 @@ We offers mobility solutions, developing customized mobile apps catering to requ
 We have a team of experienced web developers who can enhance your results from clicks to sales while keeping functionality and security as top priorities. Your site and apps will look terrific and function smoothly to give customers the smoothest transactions that they crave with security they demand.   
 </p>
 </div>
-<div class="col-sm-6">
+<div class="col-sm-12 col-md-12 col-lg-6">
 <ul>
 		<li>Web Application Development</li>
 		<li>Mobile Application Development</li>

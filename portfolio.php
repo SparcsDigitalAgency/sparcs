@@ -8,7 +8,7 @@ $meta_tags = array(
 include_once('header.php');
 ?>
 <section id="header">
-<div>We Made These<br><article>Check out our latest projects what we’ve been working on lately.</article></div>
+<div class="container">We Made These<br><article>Check out our latest projects what we’ve been working on lately.</article></div>
 </section>
    
 

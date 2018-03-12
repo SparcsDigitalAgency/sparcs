@@ -98,8 +98,8 @@ section.services-div p {
 }
 .services-div ul li {
     float: none;
-    width: 50%;
-    margin: 0 30%;
+    /*width: 50%;*/
+    margin: 0 15%;
     padding: 0 0 0 10%;
     /* line-height: 30px; */
     font-size: 1.5rem;

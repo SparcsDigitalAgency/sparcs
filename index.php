@@ -12,7 +12,7 @@
 	include_once("header.php");		
 ?>
 <header id="header" class="index-header">
-    <div>We are a fun mix of designers and strategists with a great passion for all things creative.
+    <div class="container">We are a fun mix of designers and strategists with a great passion for all things creative.
     <article>Have a project in mind? <a title="Get in touch" href="<?php echo $path ?>contact" data-text="Get in touch" class="button-hover">Get in touch</a></article>
 </div>
     </header><!--header-->                           
@@ -20,23 +20,23 @@
     <section id="infographics">
         <div class="container">
     <ul class="row">
-    <li class="col-md-3">
+    <li class="col-lg-3 col-md-6 col-sm-6">
     
     <img src="images/home-icon-1.png" width="100px">
     <h2>Brainstorm</h2> The first step would be to sit down and get to know you. We'll discuss goals and project objectives and any other relevant information.</li>
     
-    <li class="col-md-3">
+    <li class="col-lg-3 col-md-6 col-sm-6">
    
      <img src="images/home-icon-2.png" width="100px">
     <h2>Plan</h2> With the information gathered from our brainstorm session, wireframes would be developed defining layout, interactions and content structure.</li>
     
-    <li class="col-md-3">
+    <li class="col-lg-3 col-md-6 col-sm-6">
     
     <img src="images/home-icon-3.png" width="100px">
     <h2>Design</h2> Once the wireframes are finalized, detailed mock-ups of key pages will be designed to show the look and feel of your product.
     </li>
     
-    <li class="last col-md-3">
+    <li class="col-lg-3 col-md-6 col-sm-6">
    
     <img src="images/home-icon-4.png" width="100px">
     <h2>Develop</h2> With the final creative concepts completed, the designs are then coded and transformed into a fully functional product.

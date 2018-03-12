@@ -9,7 +9,7 @@ include_once('header.php');
 ?>
 <section id="header">
 	<!-- <div class="container-fluid"> -->
-<div>  Creative Design<br><article><!-- Check out our latest projects what we’ve been working on lately. --></article></div>
+<div class="container">  Creative Design<br><article><!-- Check out our latest projects what we’ve been working on lately. --></article></div>
 <!-- </div> -->
 </section>
 <div class="clear"></div>
@@ -18,14 +18,14 @@ include_once('header.php');
 		<div class="row">
 		<!-- <img src="images/service-icon-2.png" width="150px"> -->
 	<!-- <br> -->
-	<div class="col-sm-6">
+	<div class="col-sm-12 col-md-12 col-lg-6">
 	<p>At <a href="<?php echo $path ?>index">Sparcs Digital Agency</a>, we design a brand according to our client needs. We bring ideas to life with perfectly executed creative. Our websites, videos,campaigns and copywriting build a brand story that will resonate. Our skilled team brings digital concepts to life with beautifully executed creative design.<br>
 	Being a full service creative designing company in Kochi, we build your brand with excellence and quality. We design websites with visually attractive and immersive design concepts. <br>
 	Our team works for all types of creative designs we helps brand to expand its reach.
 Our designing team is always willing to take new challenges and does never fail to deliver the best results within the deadline. We deliver what we commit and believe in long-term association with our clients, delivering them better-quality custom logo design to the right blend of creativity and functionality. 
 </p>
 </div>
-<div class="col-sm-6">
+<div class="col-sm-12 col-md-12 col-lg-6">
 <ul>
 	<p>Our creative design services includes:</p>
 		<li>Logo & Branding</li>
