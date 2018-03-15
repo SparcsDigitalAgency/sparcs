@@ -112,3 +112,76 @@ section.services-div p {
 #drpwn.small{
 background:none;
 }*/
+.sec-padding {
+    padding: 150px 0 150px 0;
+}
+.section-light {
+    background-color: #f5f5f5;
+}
+.sec-title-container {
+    width: 100%;
+    float: left;
+    padding-bottom: 120px;
+}
+.text-center {
+    text-align: center;
+}
+.ce-feature-box-16 {
+    width: 100%;
+    padding: 0;
+    float: left;
+}
+
+.margin-bottom {
+    margin-bottom: 0px;
+}
+.text-center {
+    text-align: center;
+}
+.ce-feature-box-16 .text-box.shadow {
+    box-shadow: 0 20px 20px rgba(0,0,0,0.14);
+    -webkit-box-shadow: 0 20px 20px rgba(0,0,0,0.14);
+}
+
+.ce-feature-box-16 .text-box {
+    width: 100%;
+    float: left;
+    padding: 50px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 0 rgba(0,0,0,0.1);
+    box-shadow: 0 0 0 rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out 0s;
+}
+.text-box {
+    width: 100%;
+    float: left;
+}
+.title {
+    transition: all 0.3s ease-out 0s;
+}
+
+.font-weight-5 {
+    font-weight: 500;
+}
+.ce-feature-box-16:hover .text-box {
+    -webkit-box-shadow: 1px 4px 20px -2px rgba(0,0,0,0.2);
+    box-shadow: 1px 4px 20px -2px rgba(0,0,0,0.2);
+    transform: translateY(-8px);
+}
+.ce-feature-box-16:hover .text-box .title {
+    color: #f51e46;
+}
+a.ReadmreBtn{
+    border-color: #101010;
+    border: 2px solid;
+        color: #242424;
+            border-radius: 20px;
+            padding: 10px 30px;
+            box-shadow: none;
+                text-transform: uppercase;
+}
+
+.ce-feature-box-16:hover .text-box .btn.btn-border.dark {
+    color: #f51e46;
+    border-color: #f51e46;
+}

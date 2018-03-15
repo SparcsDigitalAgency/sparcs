@@ -46,6 +46,67 @@
     <div class="clear"></div>
     </section> <!--infographics-->  
 
+
+    <section class="sec-padding section-light">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-sm-12">
+            <div class="sec-title-container text-center"> 
+             <h2 class="font-weight-6 less-mar-1 montserrat line-height-5">Who we are and what we do <br>
+               <span class="font-weight-3"> for successful business</span></h2>
+                <h6 class="ce-sub-text raleway opacity-7">Praesent mattis commodo augue Aliquam ornare hendrerit augue Cras tellus In pulvinar lectus a est Curabitur eget orci Cras laoreet ligula. Etiam sit amet dolor Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam tellus diam volutpat.</h6>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <!--end title-->
+          
+          <div class="col-md-4">
+            <div class="ce-feature-box-16 text-center margin-bottom">
+              <div class="text-box shadow">
+                <div class="top-line"></div>
+                <h5 class="title font-weight-5">How company Started</h5>
+                <p>Praesent mattis commodo augue Aliquam ornare hendrerit augue Cras tellus In pulvinar lectus a est .</p>
+                <br>
+                <br>
+                <a class="btn btn-border border-2x btn-xround btn-medium dark uppercase ReadmreBtn" href="#">Read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </a> </div>
+            </div>
+          </div>
+          <!--end item-->
+          
+          <div class="col-md-4">
+            <div class="ce-feature-box-16 text-center margin-bottom">
+              <div class="text-box shadow">
+                <div class="top-line"></div>
+                <h5 class="title font-weight-5">Our Successful Journey</h5>
+                <p>Praesent mattis commodo augue Aliquam ornare hendrerit augue Cras tellus In pulvinar lectus a est .</p>
+                <br>
+                <br>
+                <a class="btn btn-border border-2x btn-xround btn-medium dark uppercase ReadmreBtn" href="#">Read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </a> </div>
+            </div>
+          </div>
+          <!--end item-->
+          
+          <div class="col-md-4">
+            <div class="ce-feature-box-16 text-center margin-bottom">
+              <div class="text-box shadow">
+                <div class="top-line"></div>
+                <h5 class="title font-weight-5">Our unique Challenges</h5>
+                <p>Praesent mattis commodo augue Aliquam ornare hendrerit augue Cras tellus In pulvinar lectus a est .</p>
+                <br>
+                <br>
+                <a class="btn btn-border border-2x btn-xround btn-medium dark uppercase ReadmreBtn" href="#">Read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </a> </div>
+            </div>
+          </div>
+          <!--end item--> 
+
+        </div>
+      </div>
+    </section>
+
+
+
+
     <section id="client-logo">
      <div class="container"><span>past Clients</span>
         <h3>Sparcs has been honored to partner up with these clients.</h3>

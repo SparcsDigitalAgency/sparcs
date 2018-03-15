@@ -8,7 +8,7 @@ include_once('header.php');
 ?>
 <header id="header">
 <!-- <div>GET IN TOUCH<br><article>Give us a call +91 98 95 98 63 97 or <br>simply use the form below.</article></div> -->
-<div class="container">GET IN TOUCH<br><article>Give us a call or simply use the form below.</article></div>
+<div class="container" >GET IN TOUCH<br><article>Give us a call or simply use the form below.</article></div>
 </header>
 
     
