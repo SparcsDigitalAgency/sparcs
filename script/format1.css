@@ -183,6 +183,7 @@ a.ReadmreBtn{
 }
 
 .ce-feature-box-16:hover .text-box .btn.btn-border.dark {
-    color: #f51e46;
-    border-color: #f51e46;
+   color: #ca4242;
+    /*color: #f51e46;*/
+    border-color: #ca4242;
 }

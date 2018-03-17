@@ -70,7 +70,10 @@
                 <p>We build brands with razor-sharp strategy. We analyze every aspect of your industry and apply our digital expertise to provide a roadmap for success.</p>
                 <br>
                 <br>
-                <a href="<?php echo $path; ?>strategy" class="btn btn-border border-2x btn-xround btn-medium dark uppercase ReadmreBtn">Read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </a> </div>
+                <a href="<?php echo $path; ?>strategy" class="btn btn-border border-2x btn-xround btn-medium dark uppercase ReadmreBtn">Read more 
+                    <!-- <i class="fa fa-long-arrow-right" aria-hidden="true"></i>  -->
+                     
+                </a> </div>
             </div>
           </div>
           <!--end item-->
@@ -84,7 +87,9 @@
                 <p>We bring ideas to life with perfectly executed creative. Our websites, videos, campaigns and copywriting build a brand story that will resonate.</p>
                 <br>
                 <br>
-                <a href="<?php echo $path; ?>creative_design" class="btn btn-border border-2x btn-xround btn-medium dark uppercase ReadmreBtn">Read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </a> </div>
+                <a href="<?php echo $path; ?>creative_design" class="btn btn-border border-2x btn-xround btn-medium dark uppercase ReadmreBtn">Read more 
+                    <!-- <i class="fa fa-long-arrow-right" aria-hidden="true"></i>  -->
+                </a> </div>
             </div>
           </div>
           <!--end item-->
@@ -98,7 +103,10 @@
                 <p>With a full team of developers working on cutting-edge solutions, we customize interactive development for every client need.</p>
                 <br>
                 <br>
-                <a href="<?php echo $path; ?>webDevelopment" class="btn btn-border border-2x btn-xround btn-medium dark uppercase ReadmreBtn">Read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </a> </div>
+                <a href="<?php echo $path; ?>webDevelopment" class="btn btn-border border-2x btn-xround btn-medium dark uppercase ReadmreBtn">Read more 
+                    <!-- <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i> -->
+                </a>
+                </div>
             </div>
 
           </div>
@@ -111,7 +119,10 @@
                 <p>Our dynamic marketing team gets results. We apply a series of customized tactics to bring qualified traffic to your site and build relevant content that converts.</p>
                 <br>
                 <br>
-                <a href="<?php echo $path; ?>digital" class="btn btn-border border-2x btn-xround btn-medium dark uppercase ReadmreBtn">Read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </a> </div>
+                <a href="<?php echo $path; ?>digital" class="btn btn-border border-2x btn-xround btn-medium dark uppercase ReadmreBtn">Read more 
+                    <!-- <i class="fa fa-long-arrow-right" aria-hidden="true"></i>  -->
+                </a> 
+            </div>
             </div>
             
           </div>
