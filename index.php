@@ -53,8 +53,10 @@
           
           <div class="col-sm-12">
             <div class="sec-title-container text-center"> 
-             <h2 class="font-weight-6 less-mar-1 montserrat line-height-5">Who we are and what we do <br>
-               <span class="font-weight-3"> for successful business</span></h2>
+             <h2 class="font-weight-6 less-mar-1 montserrat line-height-5">Who we are and what we do 
+                <!-- <br>
+               <span class="font-weight-3"> for successful business</span> -->
+           </h2>
                 <h6 class="ce-sub-text raleway opacity-7"><!-- Praesent mattis commodo augue Aliquam ornare hendrerit augue Cras tellus In pulvinar lectus a est Curabitur eget orci Cras laoreet ligula. Etiam sit amet dolor Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam tellus diam volutpat. --></h6>
             </div>
           </div>
@@ -65,12 +67,13 @@
             <div class="ce-feature-box-16 text-center margin-bottom">
               <div class="text-box shadow">
                 <div class="top-line"></div>
+                <img src="images/service-icon-1.png" width="100px"><br><br>
                 <h5 class="title font-weight-5">Startegy & Consulting</h5>
                 <br>
                 <p>We build brands with razor-sharp strategy. We analyze every aspect of your industry and apply our digital expertise to provide a roadmap for success.</p>
                 <br>
                 <br>
-                <a href="<?php echo $path; ?>strategy" class="btn btn-border border-2x btn-xround btn-medium dark uppercase ReadmreBtn">Read more 
+                <a href="<?php echo $path; ?>strategy_consulting" class="btn but">READ MORE 
                     <!-- <i class="fa fa-long-arrow-right" aria-hidden="true"></i>  -->
                      
                 </a> </div>
@@ -82,12 +85,13 @@
             <div class="ce-feature-box-16 text-center margin-bottom">
               <div class="text-box shadow">
                 <div class="top-line"></div>
+                <img src="images/service-icon-2.png" width="100px"><br><br>
                 <h5 class="title font-weight-5">Creative Design</h5>
                 <br>
                 <p>We bring ideas to life with perfectly executed creative. Our websites, videos, campaigns and copywriting build a brand story that will resonate.</p>
                 <br>
                 <br>
-                <a href="<?php echo $path; ?>creative_design" class="btn btn-border border-2x btn-xround btn-medium dark uppercase ReadmreBtn">Read more 
+                <a href="<?php echo $path; ?>creative_design" class="btn but">READ MORE 
                     <!-- <i class="fa fa-long-arrow-right" aria-hidden="true"></i>  -->
                 </a> </div>
             </div>
@@ -98,12 +102,13 @@
             <div class="ce-feature-box-16 text-center margin-bottom">
               <div class="text-box shadow">
                 <div class="top-line"></div>
+                <img src="images/service-icon-3.png" width="100px"><br><br>
                 <h5 class="title font-weight-5">Web & Mobile Development</h5>
                 <br>
                 <p>With a full team of developers working on cutting-edge solutions, we customize interactive development for every client need.</p>
                 <br>
                 <br>
-                <a href="<?php echo $path; ?>webDevelopment" class="btn btn-border border-2x btn-xround btn-medium dark uppercase ReadmreBtn">Read more 
+                <a href="<?php echo $path; ?>web_mobile_development" class="btn but">READ MORE 
                     <!-- <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i> -->
                 </a>
                 </div>
@@ -114,12 +119,13 @@
             <div class="ce-feature-box-16 text-center margin-bottom">
               <div class="text-box shadow">
                 <div class="top-line"></div>
+                <img src="images/service-icon-4.png" width="100px" class="img-responsive"><br><br>
                 <h5 class="title font-weight-5">Digital Marketing</h5>
                 <br>
                 <p>Our dynamic marketing team gets results. We apply a series of customized tactics to bring qualified traffic to your site and build relevant content that converts.</p>
                 <br>
                 <br>
-                <a href="<?php echo $path; ?>digital" class="btn btn-border border-2x btn-xround btn-medium dark uppercase ReadmreBtn">Read more 
+                <a href="<?php echo $path; ?>digital_marketing" class="btn but">READ MORE
                     <!-- <i class="fa fa-long-arrow-right" aria-hidden="true"></i>  -->
                 </a> 
             </div>

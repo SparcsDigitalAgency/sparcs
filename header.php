@@ -240,12 +240,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </a>
           </li>        
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" <?php echo(preg_match("/services.php/", $_SERVER['SCRIPT_FILENAME']) ? 'class="active"' : ''); ?> href="<?php echo $path; ?>services" title="Services" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+            <a class="nav-link dropdown-toggle"  title="Services" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01" id="drpwn">
-              <a class="dropdown-item" href="<?php echo $path; ?>strategy">Strategy & Cosulting</a>
-              <a class="dropdown-item" href="<?php echo $path; ?>creative_design">Creative Design</a>
-              <a class="dropdown-item" href="<?php echo $path; ?>webDevelopment">Web & Mobile Development</a>
-              <a class="dropdown-item" href="<?php echo $path; ?>digital">Digital Marketing</a>
+              <a class="dropdown-item" href="<?php echo $path;?>strategy_consulting">Strategy & Cosulting</a>
+              <a class="dropdown-item" href="<?php echo $path;?>creative_design">Creative Design</a>
+              <a class="dropdown-item" href="<?php echo $path;?>web_mobile_development">Web & Mobile Development</a>
+              <a class="dropdown-item" href="<?php echo $path;?>digital_marketing">Digital Marketing</a>
             </div>
           </li>
 
@@ -259,7 +259,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </div>
   </div>
     </nav>        
-    <?php if ($strategy): ?> 
+    <?php if ($strategy_consulting): ?> 
       <style type="text/css">
          #header {
                     background:  #2e2e2e url(./images/strategy_consulting123.jpg) no-repeat;
@@ -278,7 +278,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </style>    
     <?php endif; ?>
 
-     <?php if ($webDevelopment): ?> 
+     <?php if ($web_mobile_development): ?> 
       <style type="text/css">
          #header {
     background:  #2e2e2e url(./images/webdevelopment123.jpg) no-repeat;
@@ -288,7 +288,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </style>
       
     <?php endif; ?>
-    <?php if ($digital): ?> 
+    <?php if ($digital_marketing): ?> 
       <style type="text/css">
          #header {
     background:  #2e2e2e url(./images/digiMarktng123.jpg) no-repeat;

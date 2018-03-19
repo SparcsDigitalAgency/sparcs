@@ -19,14 +19,17 @@ include_once('header.php');
 	<!-- <img src="images/service-icon-1.png" width="150px"> -->
 	<!-- <br> -->
 	<div class="col-sm-12 col-md-12 col-lg-6">
-		<p><a href="<?php echo $path ?>index">Sparcs Digital Agency</a> helps brands to succeed in the digital age. We help identify a brands’ narrative and evolve the messaging to target audiences to create advocacy and endorsement. <br>
-We build brands with razor-sharp strategy. We analyze every aspect of your industry and apply our digital expertise to provide a roadmap to success.<br>
-Our team of experienced strategy consultants advise organisations on high level decisions in an unbiased fashion, using deep industry knowledge to deliver best results. <br>
+		<p><a href="<?php echo $path ?>index">Sparcs Digital Agency</a> helps brands to succeed in the digital age. We help identify a brands’ narrative and evolve the messaging to target audiences to create advocacy and endorsement. </p>
+<p>We build brands with razor-sharp strategy. We analyze every aspect of your industry and apply our digital expertise to provide a roadmap to success.</p>
+<p>Our team of experienced strategy consultants advise organisations on high level decisions in an unbiased fashion, using deep industry knowledge to deliver best results. </p>
 
-We conceive, create and launch compelling brands. Our creative campaigns tell a story, generate awareness and build lifetime customer loyalty. <br>
-We build new brands and provide existing brands with refreshed strategic platforms, setting you apart in your category with a unique brand story that will stand the test of time.</p>
+<p>We conceive, create and launch compelling brands. Our creative campaigns tell a story, generate awareness and build lifetime customer loyalty. </p>
+<p>We build new brands and provide existing brands with refreshed strategic platforms, setting you apart in your category with a unique brand story that will stand the test of time.</p>
 	</div>
 	<div class="col-sm-12 col-md-12 col-lg-6">
+		<div class="strtIcn">
+		<img src="images/service-icon-1.png" width="150px;">
+	</div>
 <ul>
 		<li>Business Analysis & Consulting</li>
 		<li>Information Architecture & User Experience</li>

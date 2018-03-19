@@ -36,7 +36,7 @@ include_once("header.php");
 	<div class="container">
 <ul class="row">
 	<li class="col-md-6">
-	<img src="images/service-icon-1.png" width="150px">
+	<a href="<?php echo $path;?>strategy_consulting"><img src="images/service-icon-1.png" width="150px"></a>
 	<h2>Strategy & Consulting</h2>We build brands with razor-sharp strategy. We analyze every aspect of your industry and apply our digital expertise to provide a roadmap for success.
 		<ul>
 		<li>Business Analysis & Consulting</li>
@@ -48,7 +48,8 @@ include_once("header.php");
 	</li>
 
 	<li class="col-md-6">
-		<img src="images/service-icon-2.png" width="150px"><h2>Creative Design</h2>We bring ideas to life with perfectly executed creative. Our websites, videos, campaigns and copywriting build a brand story that will resonate.
+		<a href="<?php echo $path;?>creative_design"><img src="images/service-icon-2.png" width="150px"></a>
+		<h2>Creative Design</h2>We bring ideas to life with perfectly executed creative. Our websites, videos, campaigns and copywriting build a brand story that will resonate.
 			<ul>
 			<li>Logo & Branding</li>
 			<li>Web & Mob App Design</li>
@@ -61,7 +62,8 @@ include_once("header.php");
 
 
 	<li class="col-md-6">
-		<img src="images/service-icon-3.png" width="150px"><h2>Web & Mobile Development</h2>Using the best-in-class technology, we build websites and apps that perform.
+		<a href="<?php echo $path;?>web_mobile_development"><img src="images/service-icon-3.png" width="150px"></a>
+		<h2>Web & Mobile Development</h2>Using the best-in-class technology, we build websites and apps that perform.
 	With a full team of developers working on cutting-edge solutions, we customize
 	interactive development for every client
 	need.
@@ -76,7 +78,8 @@ include_once("header.php");
 	</li>
 
 	<li class="col-md-6">
-		<img src="images/service-icon-4.png" width="150px"><h2>Digital Marketing</h2>Our dynamic marketing team gets
+		<a href="<?php echo $path;?>digital_marketing"><img src="images/service-icon-4.png" width="150px"></a>
+		<h2>Digital Marketing</h2>Our dynamic marketing team gets
 	results. We apply a series of customized tactics to bring qualified traffic to your site and build relevant content that converts.
 		<ul>
 		<li>Search Engine Optimization</li>
