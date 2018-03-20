@@ -100,9 +100,9 @@ to{stroke-dashoffset:0;}
 	font-size:36px;line-height:50px;margin-top:7%;padding:0;color:#ca4242;}
 #about ul li.last p{background:url(../images/checkmark.svg) no-repeat left top;padding-left:50px;
 text-align: left;}
-#infographics{/*width:100%;*/}
-#infographics ul{/*width:85%*/;/*max-width:1200px*/;margin:0 auto;}
-#infographics ul li{float:left;/*width:23%;*/font-size:16px;padding:6% 2% 5% 0;line-height:26px;}
+#infographics{/*width:100%;*/ margin: 5% 0;}
+#infographics ul{/*width:85%; max-width:1200px*/;margin:0 auto;}
+#infographics ul li{float:left;font-size:16px;line-height:26px;}
 #infographics ul li.last{padding:6% 0 6% 0 !important;/*width:25% !important;*/}
 #infographics ul li h2{margin:5% 0;font-size:30px;font-weight:300;}
 #skill{width:100%;border-top:1px solid #d2d2d2; height: 600px; background: url(../images/logos.jpg); background-size: cover;}
@@ -126,7 +126,7 @@ img.skillZoom, img.skillBase{position:absolute;min-width:100%;max-height:100%;ma
 .mapContainer{width:100%;height:400px;}
 #map_canvas{width:100%;height:100%;}
 
-#contact{width: 100%; }
+#contact{ padding: 5%; }
 
 .container{
 	width:100%;max-width:1200px;
@@ -140,6 +140,7 @@ img.skillZoom, img.skillBase{position:absolute;min-width:100%;max-height:100%;ma
 #contact h2{font-size:30px;font-weight:300;}
 
 .contactInfo input[type=text]{border:1px solid #ccc;display:block;font:100 15px/20px 'Open Sans';padding:13px 15px 13px 45px;width:100%;margin:0 0 11px;color:#000;background-color:#fff;background-image:url(../images/iform.png);background-repeat:no-repeat;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+.contactInfo h2{ margin: 5% 0 0 0; }
 .contactInfo .nom{background-position:13px -427px;}
 .contactInfo .mail{background-position:13px -381px;}
 .contactInfo .phone{background-position:13px -185px;}

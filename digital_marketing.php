@@ -27,7 +27,7 @@ include_once('header.php');
 </p>
 	</div>
 <div class="col-sm-12 col-md-12 col-lg-6">
-	<div class="digiIcn">
+	<div class="serviceIcon">
 		<img src="images/service-icon-4.png" width="130px">
 	</div>
 <ul>

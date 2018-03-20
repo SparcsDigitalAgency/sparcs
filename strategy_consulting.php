@@ -27,7 +27,7 @@ include_once('header.php');
 <p>We build new brands and provide existing brands with refreshed strategic platforms, setting you apart in your category with a unique brand story that will stand the test of time.</p>
 	</div>
 	<div class="col-sm-12 col-md-12 col-lg-6">
-		<div class="strtIcn">
+		<div class="serviceIcon">
 		<img src="images/service-icon-1.png" width="150px;">
 	</div>
 <ul>

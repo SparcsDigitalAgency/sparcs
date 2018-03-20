@@ -26,7 +26,7 @@ Our designing team is always willing to take new challenges and does never fail 
 </p>
 </div>
 <div class="col-sm-12 col-md-12 col-lg-6">
-	<div class="crtveIcn">
+	<div class="serviceIcon">
 		<img src="images/service-icon-2.png" width="130px">
 	</div>
 <ul>

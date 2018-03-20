@@ -28,7 +28,7 @@ interactive development for every client need.</p>
 </p>
 </div>
 <div class="col-sm-12 col-md-12 col-lg-6">
-	<div class="webIcn">
+	<div class="serviceIcon">
 		<img src="images/service-icon-3.png" width="150px">
 	</div>
 <ul>
