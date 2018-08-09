@@ -21,7 +21,7 @@ include_once('header.php')
 			</div>
 			<div class="col-md-4">
 					<div class="row justify-content-center register">
-					<h2><strong>Register Now</strong></h2>
+					<h2><strong>Talk with an Expert<br>Enquire Today!</strong></h2>
 					<div id="result"></div>
 					<div class="col-md-12" id="contact_form" style="border:none;">
 					<input type="hidden" name="subject" value="Digital Marketing Enquiry">
@@ -124,7 +124,7 @@ include_once('header.php')
 
 					<div class="col-md-12 ">
 						<div class="row justify-content-center apply_now">					
-					<button class="btn btn-lg btn-success" id="apply_now">Apply Now</button>
+					<button class="btn btn-lg btn-success" id="apply_now">Get Your Free Course Consultation</button>
 					</div>
 				</div>
 
