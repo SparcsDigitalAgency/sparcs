@@ -9,8 +9,11 @@
 
 	);
 
-	include_once("header.php");		
+	include_once("header.php");
+
 ?>
+<!--test git -->
+
 <header id="header" class="index-header">
     <div>We are a fun mix of designers and strategists with a great passion for all things creative.
     <article>Have a project in mind? <a title="Get in touch" href="<?php echo $path ?>contact" data-text="Get in touch" class="button-hover">Get in touch</a></article>
