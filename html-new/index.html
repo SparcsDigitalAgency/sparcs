@@ -48,7 +48,7 @@
          ============================-->
       <header class="s-header">
          <!--  header logo-->
-         <div class="header-logo">
+         <div class="header-logo" id="change-logo">
             <a class="site-logo" href="index.html">
             <img src="img/logo-red.png" alt="Homepage">
             </a>
@@ -386,5 +386,16 @@
          });
          });
       </script>
+     <script type="text/javascript">
+          $(window).scroll(function() {
+          if ($(this).scrollTop() > 300) {
+            $('#change-logo').addClass('logo-changed');
+            $('.logo-changed img').attr('src', 'img/toggle-icon.png');
+          } else {
+            $('#change-logo').removeClass('logo-changed');
+          }
+        });
+
+     </script>
    </body>
 </html>
