@@ -148,7 +148,7 @@ overflow-x: hidden;
 position: fixed;
 right: 0;
 top: 0;
--webkit-transition: all 0.5s ease;
+-webkit-transition: all 0.3s ease;
 transition: all 0.5s ease;
 -webkit-transform: translateZ(0);
 -webkit-backface-visibility: hidden;
@@ -452,23 +452,27 @@ top: 24px;
 top: 18px;
 width: 0%;
 left: 50%;
+background-color: #c44242;
 }
 .nav-icon3.opened span:nth-child(2) {
 -webkit-transform: rotate(45deg);
 -moz-transform: rotate(45deg);
 -o-transform: rotate(45deg);
 transform: rotate(45deg);
+background-color: #c44242;
 }
 .nav-icon3.opened span:nth-child(3) {
 -webkit-transform: rotate(-45deg);
 -moz-transform: rotate(-45deg);
 -o-transform: rotate(-45deg);
 transform: rotate(-45deg);
+background-color: #c44242;
 }
 .nav-icon3.opened span:nth-child(4) {
 top: 18px;
 width: 0%;
 left: 10%;
+background-color: #c44242;
 }
 .header-logo {
 display: inline-block;
@@ -1567,33 +1571,111 @@ padding: 10% 20% 0% 20%;
 }
 .form-control {
 display: block;
-width: 100%;
-padding: 0.375rem 0.75rem;
-font-size: 1rem;
-line-height: 1.5;
-color: #5d5d5d;
-    background-color: #ffffff;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border: none;
+    line-height: 1.5;
+    color: #fffcfc;
+    background-color: #ffffff00;
     background-clip: padding-box;
-    border: 1px solid #ffffff;
-border-radius: 0.25rem;
-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border-bottom: 2px solid #ffffff;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    margin-bottom: 1.3rem;
 }
 textarea {
 height: 100px;
 }
 .form-control::placeholder {
-color: #666;
+color: #ffffff65;
 opacity: 1;
 }
 .form-control:focus {
-color: #495057;
-background-color: #000;
-border-color: #c44242;
-outline: 0;
-box-shadow: 0 0 0 0.2rem #0000003b;
+color: #fff;
+    background-color: #921e1e24;
+    border-color: #c4424200;
+    outline: 0;
+    box-shadow: none;
 }
 .form-holder h4{
 	color: #fff;
+}
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color: #c44242!important;
+    background-image: none !important;
+    color: rgb(0, 0, 0) !important;
+}
+/*------------------------------------------------------------------
+[ Button ]*/
+.container-contact100-form-btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -25px;
+}
+
+.contact100-form-btn {
+	border: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  min-width: 160px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 25px;
+	cursor: pointer;
+  font-size: 16px;
+  color: #c44242;
+  line-height: 1.2;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+
+  box-shadow: 0px 1px 0px 0px rgba(255, 75, 90, 0.5);
+  -moz-box-shadow: 0px 1px 0px 0px rgba(255, 75, 90, 0.5);
+  -webkit-box-shadow: 0px 1px 0px 0px rgba(255, 75, 90, 0.5);
+  -o-box-shadow: 0px 1px 0px 0px rgba(255, 75, 90, 0.5);
+  -ms-box-shadow: 0px 1px 0px 0px rgba(255, 75, 90, 0.5);
+}
+
+.contact100-form-btn i {
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.contact100-form-btn:hover {
+  background-color: #333333;
+  color: #fff;
+  box-shadow: 0 10px 30px 0px rgba(51, 51, 51, 0.5);
+  -moz-box-shadow: 0 10px 30px 0px rgba(51, 51, 51, 0.5);
+  -webkit-box-shadow: 0 10px 30px 0px rgba(51, 51, 51, 0.5);
+  -o-box-shadow: 0 10px 30px 0px rgba(51, 51, 51, 0.5);
+  -ms-box-shadow: 0 10px 30px 0px rgba(51, 51, 51, 0.5);
+}
+
+.contact100-form-btn:hover i {
+  -webkit-transform: translateX(10px);
+  -moz-transform: translateX(10px);
+  -ms-transform: translateX(10px);
+  -o-transform: translateX(10px);
+  transform: translateX(10px);
+}
+.contact100-form-btn:focus,.contact100-form-btn:active{
+	-webkit-tap-highlight-color: transparent;
 }
 
 /*--------------------------------------------------------------
