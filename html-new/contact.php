@@ -32,8 +32,6 @@
       <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
       <link href="css/animate.css" rel="stylesheet">
       <link href="css/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-      <link href="css/slick.css" rel="stylesheet">
-      <link href="css/slick-theme.css" rel="stylesheet">
       <!-- Main Stylesheet File -->
       <link href="css/style.css" rel="stylesheet">
       <style type="text/css">
@@ -200,14 +198,12 @@
       </main>
       <!-- JavaScript Libraries -->
       <script src="js/jquery.min.js"></script>
+      <script src="js/superfish.min.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>
       <script src="js/easing.min.js"></script>
       <script src="js/wow.min.js"></script>
       <script src="js/owl.carousel.min.js"></script>
-      <!-- Template Main Javascript File -->
-      <script src="js/navbar.js"></script>
       <script src="js/contactform.js"></script>
-      <script src="js/slick.js"></script>
       <script src="js/scrollify.js"></script>
       <script src="js/main.js"></script>
       <script type="text/javascript">

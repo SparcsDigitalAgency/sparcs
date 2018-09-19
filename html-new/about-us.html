@@ -32,8 +32,6 @@
       <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
       <link href="css/animate.css" rel="stylesheet">
       <link href="css/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-      <link href="css/slick.css" rel="stylesheet">
-      <link href="css/slick-theme.css" rel="stylesheet">
       <!-- Main Stylesheet File -->
       <link href="css/style.css" rel="stylesheet">
       <style type="text/css">
@@ -279,21 +277,19 @@
       <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
       <!-- JavaScript Libraries -->
       <script src="js/jquery.min.js"></script>
+      <script src="js/superfish.min.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>
       <script src="js/easing.min.js"></script>
       <script src="js/wow.min.js"></script>
       <script src="js/owl.carousel.min.js"></script>
-      <!-- Template Main Javascript File -->
-      <script src="js/navbar.js"></script>
-      <script src="js/slick.js"></script>
       <script src="js/scrollify.js"></script>
       <script src="js/main.js"></script>
-      <script type="text/javascript">
+       <script type="text/javascript">
          $(document).ready(function(){
-           $('.nav-icon3').click(function(){
-              $(this).toggleClass('opened');
-              $('body').toggleClass('menu-is-open');
-           });
+            $('.nav-icon3').click(function(){
+               $(this).toggleClass('opened');
+               $('body').toggleClass('menu-is-open');
+            });
          });
       </script>
       <script type="text/javascript">
@@ -303,5 +299,16 @@
          });
          });
       </script>
+     <script type="text/javascript">
+          $(window).scroll(function() {
+          if ($(this).scrollTop() > 500) {
+            $('#change-logo').addClass('logo-changed');
+            $('.logo-changed img').attr('src', 'img/toggle-icon.png');
+          } else {
+            $('#change-logo').removeClass('logo-changed');
+            $('.header-logo img').attr('src', 'img/logo-red.png');
+          }
+        });
+     </script>
    </body>
 </html>

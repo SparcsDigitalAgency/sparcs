@@ -7,7 +7,7 @@ color: #666666;
 font-family: 'Poppins', sans-serif;
 }
 a {
-color: #ca4242;
+color: #c9252c;
 transition: 0.5s;
 }
 a:hover, a:active, a:focus {
@@ -373,9 +373,6 @@ top: 12px;
 .header-logo {
 left: 30px;
 }
-.header-logo img {
-width: 150px;
-}
 .header-menu-toggle {
 right: 25px;
 top: 30px;
@@ -479,7 +476,7 @@ display: inline-block;
 margin: 0;
 padding: 0;
     position: fixed;
-    left:80px;
+    left:70px;
     top: 55px;
 -webkit-transform: translateY(-50%);
 -ms-transform: translateY(-50%);
@@ -490,18 +487,14 @@ display: block;
 padding: 0;
 outline: 0;
 border: none;
--webkit-transition: all 0.3s ease;
-transition: all 0.3s ease;
+-webkit-transition: all 1s ease;
+transition: all 1s ease;
 }
 .header-logo img {
-width: 150px;
 }
 .logo-changed{
 	left: 60px;
 	transition: all 1s ease;
-}
-.logo-changed img{
-	width: 50px;
 }
 #change-logo{
 	transition: all 1s ease;
@@ -528,14 +521,8 @@ top: 20px;
     left: 55px;
     top: 6%;
 }
-.header-logo img {
-width: 125px;
-}
 .logo-changed{
 	left: 30px;
-}
-.logo-changed img{
-	width: 40px;
 }
 .toggle-logo{
 display: none;
@@ -647,11 +634,11 @@ padding: 8px 32px;
 border-radius: 50px;
 transition: 0.5s;
 color: #fff;
-background: #ca4242;
+background: #c9252c;
 }
 #intro .btn-get-started:hover {
 background: #fff;
-color: #ca4242;
+color: #c9252c;
 }
 /*--------------------------------------------------------------
 # about Section
@@ -1031,7 +1018,7 @@ list-style: none;
 margin-top: 10px;
 }
 .about-section1-list .fa {
-color: #ca4242;
+color: #c9252c;
 margin-right: 10px;
 }
 #about-section3{
@@ -1158,7 +1145,7 @@ list-style: none;
 margin-top: 10px;
 }
 .works-section1-list .fa {
-color: #ca4242;
+color: #c9252c;
 margin-right: 10px;
 }
 #works-section3{
