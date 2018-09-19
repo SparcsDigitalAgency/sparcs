@@ -388,14 +388,15 @@
       </script>
      <script type="text/javascript">
           $(window).scroll(function() {
-          if ($(this).scrollTop() > 300) {
+          if ($(this).scrollTop() < 500) {
+            $('#change-logo').removeClass('logo-changed');
+            $('.header-logo img').attr('src', 'img/logo-red.png');
+            
+          } else {
             $('#change-logo').addClass('logo-changed');
             $('.logo-changed img').attr('src', 'img/toggle-icon.png');
-          } else {
-            $('#change-logo').removeClass('logo-changed');
           }
         });
-
      </script>
    </body>
 </html>
