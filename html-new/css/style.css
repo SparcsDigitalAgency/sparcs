@@ -1409,19 +1409,35 @@ font-weight: 700;
 padding: 10% 0% 0% 0%;
 background: #f9f9f9;
 }
-.service-section2-textholder .icon {
-float: left;
+
+#services-section2 .heading-block {
+    margin-bottom: 30px;
 }
-.service-section2-textholder i {
-font-size: 20px;
-padding-right: 4px;
-color: #c9252c;
+
+#services-section2 .heading-block h2 {
+    font-size: 30px;
+    margin-bottom: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #333;
+    line-height: 1.5;
 }
-.service-section2-textholder .description {
-font-size: 16px;
-margin-left: 30px;
-line-height: 24px;
-margin-bottom: 0;
+#services-section2 .heading-block > span:not(.before-heading) {
+    display: block;
+    margin-top: 10px;
+    font-weight: 300;
+    color: #777;
+}
+#services-section2 .heading-block h2 + span {
+    font-size: 22px;
+}
+#services-section2 .heading-block:after {
+    content: '';
+    display: block;
+    margin-top: 30px;
+    width: 40px;
+    border-top: 2px solid #444;
 }
 /*--------------------------------------------------------------
 # MEDIA QUERY MOBILE
