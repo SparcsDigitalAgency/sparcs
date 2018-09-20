@@ -53,7 +53,7 @@
          ============================-->
       <header class="s-header">
          <!--  header logo-->
-         <div class="header-logo">
+         <div class="header-logo" id="change-logo">
             <a class="site-logo" href="index.html">
             <img src="img/logo-red.png" alt="Homepage">
             </a>
@@ -69,7 +69,7 @@
                </div>
                <ul class="header-nav__list">
                   <li><a href="index.html" title="home">Home</a></li>
-                  <li><a href="about-us.html" title="about">About Us</a></li>
+                  <li><a href="company.html" title="company">Company</a></li>
                   <li class="current"><a href="services.html" title="services">Services</a></li>
                   <li><a href="works.html" title="works">Works</a></li>
                   <li><a href="contact.php" title="contact">Contact</a></li>
@@ -221,6 +221,17 @@
          });
          });
       </script>
+      <script type="text/javascript">
+          $(window).scroll(function() {
+          if ($(this).scrollTop() > 500) {
+            $('#change-logo').addClass('logo-changed');
+            $('.logo-changed img').attr('src', 'img/toggle-icon.png');
+          } else {
+            $('#change-logo').removeClass('logo-changed');
+            $('.header-logo img').attr('src', 'img/logo-red.png');
+          }
+        });
+     </script>
       <script>
          // Initialize and add the map
          function initMap() {

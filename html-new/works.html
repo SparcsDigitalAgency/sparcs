@@ -46,7 +46,7 @@
          ============================-->
       <header class="s-header">
          <!--  header logo-->
-         <div class="header-logo">
+         <div class="header-logo" id="change-logo">
             <a class="site-logo" href="index.html">
             <img src="img/logo-red.png" alt="Homepage">
             </a>
@@ -62,7 +62,7 @@
                </div>
                <ul class="header-nav__list">
                   <li><a href="index.html" title="home">Home</a></li>
-                  <li><a href="about-us.html" title="about">About Us</a></li>
+                  <li><a href="company.html" title="company">Company</a></li>
                   <li><a href="services.html" title="services">Services</a></li>
                   <li  class="current"><a href="works.html" title="works">Works</a></li>
                   <li><a href="contact.php" title="contact">Contact</a></li>
@@ -109,7 +109,7 @@
                <div class="row">
                   <div class="col-lg-8">
                      <div class="works-content">
-                        <h2 class="wow fadeInUp">Our Portfolio</h2>
+                        <h2 class="wow fadeInUp">Our Works</h2>
                         <p class="wow fadeInUp">Take a moment to view some of our latest work. While most of the sites below were built by us from the ground up, we experience a wide range of involvement with our client’s websites.</p>
                      </div>
                      <div class="button-holder">
@@ -289,6 +289,17 @@
             $('.header-logo img').attr('src', 'img/logo-red.png');
           }
         });
+     </script>
+     <script type="text/javascript">
+        var targetOffset = $("#contact").offset().top;
+         var $w = $(window).scroll(function(){
+             if ( $w.scrollTop() > targetOffset ) {   
+                 $('.nav-icon3 span').css({"background":"#fff"});
+                 $('.nav-icon3.opened span').css({"background":"#c9252c"});
+             } else {
+                  $('.nav-icon3 span').css({"background":"#c9252c"});
+             }
+         });
      </script>
    </body>
 </html>
