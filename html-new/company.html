@@ -314,10 +314,10 @@
         var targetOffset = $("#contact").offset().top;
          var $w = $(window).scroll(function(){
              if ( $w.scrollTop() > targetOffset ) {   
-                 $('.nav-icon3 span').css({"background":"#fff"});
-                 $('.nav-icon3.opened span').css({"background":"#c9252c"});
+                 $('.nav-icon3').addClass('change-color');
              } else {
-                  $('.nav-icon3 span').css({"background":"#c9252c"});
+                $('.nav-icon3').removeClass('change-color');
+
              }
          });
      </script>

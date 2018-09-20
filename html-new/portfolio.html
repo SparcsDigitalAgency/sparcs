@@ -38,8 +38,11 @@
          .owl-dots{
             display: none;
          }
-         .nav-icon3 span {
-            background: #fff;
+         .nav-icon3 span{
+            background: white;
+         }
+         .change-color2 span{
+            background: #c9252c;
          }
       </style>
    </head>
@@ -259,10 +262,10 @@
          var portfolio_section2 = $("#portfolio-section2").offset().top;
          var contact = $("#contact").offset().top;
          var $w = $(window).scroll(function(){
-             if ( $w.scrollTop() > portfolio_section2 &&  $w.scrollTop() < contact ) {   
-                 $('.nav-icon3 span').css({"background":"#c9252c"});
+             if ( $w.scrollTop() > portfolio_section2 && $w.scrollTop() < contact ) {   
+                 $('.nav-icon3').addClass('change-color2');
              } else {
-                  $('.nav-icon3 span').css({"background":"#fff"});
+                 $('.nav-icon3').removeClass('change-color2');
              }
          });
      </script>
