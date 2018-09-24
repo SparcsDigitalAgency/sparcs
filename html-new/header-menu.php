@@ -1,4 +1,6 @@
-
+<?php 
+$active_page=$_SERVER['REQUEST_URI'];
+?>
 <header class="s-header">
    <!--  header logo-->
    <div class="header-logo" id="change-logo">
@@ -23,11 +25,26 @@
             </a>
          </div>
          <ul class="header-nav__list">
-            <li class="current"><a href="index.php" title="home">Home</a></li>
-            <li><a href="company.php" title="company">Company</a></li>
-            <li><a href="services.php" title="services">Services</a></li>
-            <li><a href="works.php" title="works">Works</a></li>
-            <li><a href="contact-us.php" title="contact">Contact</a></li>
+            <li <?php if (stripos($active_page, 'index.php')){?> class="current"><?php } else { ?>
+               class=""><?php } ?>
+               <a href="index.php" title="home">Home</a>
+            </li>
+            <li <?php if (stripos($active_page, 'company.php')){?> class="current"><?php } else { ?>
+               class=""><?php } ?>
+               <a href="company.php" title="company">Company</a>
+            </li>
+            <li <?php if (stripos($active_page, 'services.php')){?> class="current"><?php } else { ?>
+               class=""><?php } ?>
+               <a href="services.php" title="services">Services</a>
+            </li>
+            <li <?php if (stripos($active_page, 'works.php')){?> class="current"><?php }  else { ?>
+               class=""><?php } ?>
+               <a href="works.php" title="works">Works</a>
+            </li>
+            <li <?php if (stripos($active_page, 'contact-us.php')){?> class="current"><?php } else { ?>
+               class=""><?php } ?>
+               <a href="contact-us.php" title="contact">Contact</a>
+            </li>
          </ul>
          <p>1st floor, Thachil Tower, <br>Pottakuzhi Jn, Kaloor,<br>Kochi - 682017<br>
             info@sparcsdigital.com
