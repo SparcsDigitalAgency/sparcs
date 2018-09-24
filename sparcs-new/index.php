@@ -1,10 +1,10 @@
 <!-- header styles-->
-<?php include_once('header-styles.php')?>
+<?php include_once('partials/header-styles.php')?>
 
 <!--==========================
    header-menu
 ============================-->
-<?php include_once('header-menu.php')?>
+<?php include_once('partials/header-menu.php')?>
 <!--==========================
  end of header-menu
 ============================-->
@@ -215,13 +215,13 @@ portfolio Section
 <!--==========================
 contact Section
 ============================-->
-<?php include_once('contact.php')?>
+<?php include_once('partials/contact.php')?>
 <!--==========================
 end of CONTACT Section
 ============================-->
 
 <!-- scroll-top -->
-<?php include_once('scroll-top.php')?>
+<?php include_once('partials/scroll-top.php')?>
 
 <!-- JavaScript Libraries -->
-<?php include_once('footer-scripts.php')?>
+<?php include_once('partials/footer-scripts.php')?>

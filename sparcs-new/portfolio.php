@@ -1,6 +1,6 @@
 
 <!-- header styles-->
-<?php include_once('header-styles.php')?>
+<?php include_once('partials/header-styles.php')?>
 <style type="text/css">
    .nav-icon3 span{
       background: white;
@@ -12,7 +12,7 @@
 <!--==========================
    header-menu
 ============================-->
-<?php include_once('header-menu.php')?>
+<?php include_once('partials/header-menu.php')?>
 <!--==========================
  end of header-menu
 ============================-->
@@ -78,15 +78,15 @@
 <!--==========================
 contact-us Section
 ============================-->
-<?php include_once('contact.php')?>
+<?php include_once('partials/contact.php')?>
 <!--==========================
 end of contact-us Section
 ============================-->
 <!-- scroll-top -->
-<?php include_once('scroll-top.php')?>
+<?php include_once('partials/scroll-top.php')?>
 
 <!-- JavaScript Libraries -->
-<?php include_once('footer-scripts.php')?>
+<?php include_once('partials/footer-scripts.php')?>
 
  <!-- Jnavicon portfolio special -->     
 <script type="text/javascript">
