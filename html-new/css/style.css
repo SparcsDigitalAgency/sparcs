@@ -990,6 +990,28 @@ margin-top: 10px;
 color: #c9252c;
 margin-right: 10px;
 }
+
+#about-section2{
+padding: 5% 0% 0% 0%;
+}
+#about-section2 .about-content {
+margin-top: 50%;
+}
+#about-section2 h2 {
+color: #444;
+font-size: 42px;
+font-weight: 600;
+}
+#about-section2 .text-holder{
+	padding-top: 20%;
+}
+#about-section2 .img-holder{
+	padding-top: 5%;
+}
+#about-section2 .img-holder img{
+	width:100%;
+}
+
 #about-section3{
 padding: 10% 0% 0% 0%;
 }
@@ -1001,55 +1023,19 @@ color: #444;
 font-size: 50px;
 font-weight: 700;
 }
-#about-section3 .about-box {
-margin-bottom: 15px;
-text-align: center;
-margin-bottom: 15px;
-text-align: center;
-box-shadow: 10px 10px 15px rgba(73, 78, 92, 0.1);
-border-radius: 50px;
-padding: 20px;
-transition: 0.4s;
+#about-section3 .text-holder{
+	padding-top: 50%;
 }
-#about-section3 .about-box:hover {
-box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
-transform: translateY(-10px);
--webkit-transform: translateY(-10px);
--moz-transform: translateY(-10px);
+#about-section3 .img-holder{
+	padding-top: 20%;
 }
-#about-section3 .icon {
-margin-bottom: 10px;
-}
-#about-section3 .icon i {
-color: #c9252c;
-font-size: 40px;
-transition: 0.5s;
-}
-#about-section3 .icon i:before {
-background: #c9252c;
-background-clip: border-box;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-}
-#about-section3 .title {
-font-weight: 300;
-margin-bottom: 15px;
-font-size: 22px;
-}
-#about-section3 .title a {
-color: #444;
-font-size: 1.1rem;
-font-weight: 600;
-}
-#about-section3 .description {
-font-size: 14px;
-line-height: 24px;
-margin-bottom: 10px;
-color: #444;
+#about-section3 .img-holder img{
+	width:100%;
 }
 .marginbottom{
 margin-bottom: 20px;
 }
+
 /*--------------------------------------------------------------
 # MEDIA QUERY MOBILE
 --------------------------------------------------------------*/
@@ -1439,6 +1425,7 @@ background: #f9f9f9;
     width: 40px;
     border-top: 2px solid #444;
 }
+
 /*--------------------------------------------------------------
 # MEDIA QUERY MOBILE
 --------------------------------------------------------------*/
