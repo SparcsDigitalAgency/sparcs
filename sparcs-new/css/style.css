@@ -1035,7 +1035,66 @@ font-weight: 700;
 .marginbottom{
 margin-bottom: 20px;
 }
-
+#about-section4{
+padding: 10% 0% 0% 0%;
+background: #f9f9f9;
+}
+#about-section4 h2 {
+    color: #444;
+    font-size: 50px;
+    font-weight: 700;
+}
+#about-section5{
+padding: 10% 0% 0% 0%;
+}
+#about-section5 h2 {
+    color: #444;
+    font-size: 50px;
+    font-weight: 700;
+}
+#about-section6{
+padding: 10% 0% 0% 0%;
+background: #f9f9f9;
+}
+#about-section6 .about-content {
+margin-top: 50%;
+}
+#about-section6 h2 {
+color: #444;
+font-size: 50px;
+font-weight: 700;
+}
+#about-section6 .text-holder{
+	padding-top: 50%;
+}
+#about-section6 .img-holder{
+	padding-top: 10%;
+}
+#about-section6 .img-holder img{
+	width:100%;
+}
+#about-section7{
+padding: 7% 0% 0% 0%;
+background: #f9f9f9;
+}
+#about-section7 .about-content {
+margin-top: 50%;
+}
+#about-section7 h2 {
+color: #444;
+font-size: 50px;
+font-weight: 700;
+}
+#about-section7 .text-holder{
+	padding-top: 50%;
+	padding-left: 100px;
+}
+#about-section7 .img-holder{
+	padding-top:5%;
+}
+#about-section7 .img-holder img{
+	width:100%;
+}
 /*--------------------------------------------------------------
 # MEDIA QUERY MOBILE
 --------------------------------------------------------------*/
