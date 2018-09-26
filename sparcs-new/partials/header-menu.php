@@ -1,12 +1,13 @@
 <?php 
 $active_page=$_SERVER['REQUEST_URI'];
+$portfolio_pages=array('/Git/sparcs/sparcs-new/mr-light.php','/Git/sparcs/sparcs-new/quovadis.php','/Git/sparcs/sparcs-new/gloria.php');
 ?>
 <header class="s-header">
    <!--  header logo-->
    <div class="header-logo" id="change-logo">
       <a class="site-logo" href="index.php">
       <?php
-      if (stripos($_SERVER['REQUEST_URI'], 'portfolio.php')){
+      if (in_array($active_page, $portfolio_pages)){
            ?><img src="img/logo-white.png" alt="Homepage">
       <?php
       }

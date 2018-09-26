@@ -16,38 +16,39 @@
 <!--==========================
  end of header-menu
 ============================-->
-<!--==========================
+
+
+
+   <!--==========================
    portfolio  Section1
    ============================-->
-<section id="portfolio-section1">
+<section id="portfolio-section1" style="background-color: #222;">
    <div class="portfoliopage-container">
       <div class="row">
          <div class="col-lg-6">
-            <div class="portfolio-section1-imgholder">
-               <img src="img/mrlight-logo.png" alt="" class="img-responsive wow fadeInLeft"style="height:70px;width: auto;">
-               <img src="img/combined.png" alt="" class="img-responsive wow fadeInLeft" style="    padding: 3rem 0rem 0rem 0rem;">
+            <div class="portfolio-section1-imgholder" style="height: 100vh">
+               <img src="img/combined1.png" alt="" class="img-responsive wow fadeInLeft" >
             </div>
          </div>
-         <div class="col-lg-6">
+         <div class="col-lg-6" style="padding-left: 50px;">
             <div class="portfolio-section1-textholder">
-               <h2 class=" wow fadeInRight">Mr.Light</h2>
-               <p class="wow fadeInRight ">Redesigning MrLightGlobal -The inspiring story of a daring entrepreneurship that was looking for a website revamp to reflect its Global Aspirations. </p>
+               <img src="img/quovadis-logo-w.png" alt="" class="img-responsive wow fadeInLeft"style="height:70px;width: auto;margin-bottom: 30px">
+               <p class="wow fadeInRight "> A brand new website for a US based Travel Company that speaks to Devotional Christian Hearts ,the world over</p>
             </div>
             <div class="portfolio-section1-textholder wow fadeInRight">
                <div class="icon"><i class="fa fa-check-circle"></i></div>
-               <p class="description">Gave the site a modern ,clear cut fresh appeal meeting client preferences on middle ground.</p>
+               <p class="description">Giving  the Home page Full screen highly attractive visuals of projected destinations.</p>
             </div>
             <div class="portfolio-section1-textholder wow fadeInRight">
                <div class="icon"><i class="fa fa-check-circle"></i></div>
-               <p class="description">Corrected serious errors in product showcasing by  redesigning site all over on Wordpress framework.</p>
+               <p class="description">Creating easy to open & browse Gallery of Destinations and Travel packages  with all details.</p>
             </div>
             <div class="portfolio-section1-textholder wow fadeInRight">
                <div class="icon"><i class="fa fa-check-circle"></i></div>
-               <p class="description">Converted static pages to Content Management System(CMS) by which Client is enabled to keep adding new products from backend.</p>
+               <p class="description">Creating Perfectly validated easy to use booking forms smoothly integrated with Payment gateway.</p>
             </div>
             <div class="portfolio-section1-textholder wow fadeInRight">
-               <div class="icon"><i class="fa fa-check-circle"></i></div>
-               <p class="description">Content was written afresh and catchy copywriting added to attractive sliders drawing consumer attention to products.</p>
+               <a href="http://quovadis.travel/"" class="btn btn-readmore">Visit Website</a>
             </div>
          </div>
       </div>
@@ -56,18 +57,19 @@
 <!--==========================
    end of portfolio  Section1
    ============================-->
-<!--==========================
+
+   <!--==========================
    portfolio section2
    ============================-->
-<section id="portfolio-section2">
+<section id="portfolio-section2" style="background-color: #f2f2f2;">
    <div class="portfoliopage-container">
       <div class="row">
          <div class="">
             <div class=" wow fadeIn">
-               <h2>Swipe right</h2>
-               <p>The simplicity of swiping increases user engagement. Swipe right to save a trip and left to discard a trip.</p>
+               <h2>Window to Europe</h2>
+               <p>Brand new user-friendly website for a UK based Destination Management Company.</p>
             </div>
-            <img src="img/mrlight-1.png" alt="" class="style2-pic img-responsive wow zoomIn" data-wow-duration="2s">
+            <img src="img/quovadis-pic1.png" alt="" class="style2-pic img-responsive wow zoomIn" data-wow-duration="2s">
          </div>
       </div>
    </div>

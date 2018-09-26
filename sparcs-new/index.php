@@ -175,7 +175,7 @@ portfolio Section
                      <div class="row no-gutters">
                         <div class="col-lg-4 col-md-4">
                            <div class="portfolio-item wow fadeInUp" >
-                              <a href="portfolio.php" class="portfolio-popup">
+                              <a href="mr-light.php" class="portfolio-popup">
                                  <img src="img/portfolio/1.jpg" alt="">
                                  <div class="portfolio-overlay"></div>
                               </a>
@@ -183,16 +183,16 @@ portfolio Section
                         </div>
                         <div class="col-lg-4 col-md-4">
                            <div class="portfolio-item wow fadeInUp">
-                              <a href="portfolio.php" class="portfolio-popup">
-                                 <img src="img/portfolio/3.jpg" alt="">
+                              <a href="quovadis.php" class="portfolio-popup">
+                                 <img src="img/portfolio/2.jpg" alt="">
                                  <div class="portfolio-overlay"></div>
                               </a>
                            </div>
                         </div>
                         <div class="col-lg-4 col-md-4">
                            <div class="portfolio-item wow fadeInUp">
-                              <a href="portfolio.php" class="portfolio-popup">
-                                 <img src="img/portfolio/4.jpg" alt="">
+                              <a href="gloria.php" class="portfolio-popup">
+                                 <img src="img/portfolio/3.jpg" alt="">
                                  <div class="portfolio-overlay"></div>
                               </a>
                            </div>
