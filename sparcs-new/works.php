@@ -45,7 +45,7 @@
          </div>
          <div class="col-lg-6">
             <div class="portfolio-item wow fadeInUp">
-               <a href="portfolio.php" class="portfolio-popup">
+               <a href="quovadis.php" class="portfolio-popup">
                   <img src="img/portfolio/2.jpg" alt="">
                   <div class="portfolio-overlay"></div>
                </a>
@@ -53,7 +53,7 @@
          </div>
          <div class="col-lg-6">
             <div class="portfolio-item wow fadeInUp">
-               <a href="portfolio.php" class="portfolio-popup">
+               <a href="gloria.php" class="portfolio-popup">
                   <img src="img/portfolio/3.jpg" alt="">
                   <div class="portfolio-overlay"></div>
                </a>

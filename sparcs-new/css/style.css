@@ -25,6 +25,7 @@ font-weight: 400;
 margin: 0 0 20px 0;
 padding: 0;
 }
+
 .img-responsive{
 width: 100%;
 }
@@ -1228,6 +1229,7 @@ position: relative;
 padding: 0;
 vertical-align: middle;
 text-align: center;
+height: 50vh;
 }
 #works-section2 .portfolio-overlay {
 position: absolute;
@@ -1402,7 +1404,37 @@ text-align: center;
 text-align: center;
 margin-bottom: 50px;
 }
-
+#portfolio-section3{
+padding: 5% 0% 0% 0%;
+}
+#portfolio-section3 .carousel-item{
+	padding:50px 100px 100px 100px;
+}
+#portfolio-section3 .carousel-control-next {
+    right: -50px;
+}
+#portfolio-section3 .carousel-control-prev {
+    left: -50px;
+}
+#portfolio-section3 h2{
+color: #444;
+font-size: 50px;
+font-weight: 700;
+text-align: center;
+}
+#portfolio-section3 .carousel-control-prev-icon {
+    background-image: url('../img/left-arrow.svg');
+}
+#portfolio-section3 .carousel-control-next-icon {
+    background-image: url('../img/right-arrow.svg');
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+}
 /*--------------------------------------------------------------
 # MEDIA QUERY MOBILE
 --------------------------------------------------------------*/
