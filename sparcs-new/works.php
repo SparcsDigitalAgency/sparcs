@@ -61,15 +61,22 @@
          </div>
          <div class="col-lg-6">
             <div class="portfolio-item wow fadeInUp">
-               <a href="portfolio.php" class="portfolio-popup">
+               <a href="huts.php" class="portfolio-popup">
                   <img src="img/portfolio/4.jpg" alt="">
                   <div class="portfolio-overlay"></div>
                </a>
             </div>
          </div>
+      </div>
+   </div>
+</section>
+
+<section id="works-section2">
+   <div class="container" style="padding: 0px;">
+      <div class="row no-gutters">
          <div class="col-lg-6">
             <div class="portfolio-item wow fadeInUp">
-               <a href="portfolio.php" class="portfolio-popup">
+               <a href="lumiere.php" class="portfolio-popup">
                   <img src="img/portfolio/5.jpg" alt="">
                   <div class="portfolio-overlay"></div>
                </a>

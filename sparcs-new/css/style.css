@@ -1324,7 +1324,7 @@ margin-bottom: 10%;
 # mrligtht  page
 --------------------------------------------------------------*/
 #portfolio-section1{
-padding: 12% 0% 8% 0%;
+padding: 9% 0% 8% 0%;
 }
 .portfoliopage-container {
 width: 100%;
@@ -1405,21 +1405,27 @@ text-align: center;
 margin-bottom: 50px;
 }
 #portfolio-section3{
-padding: 5% 0% 0% 0%;
+padding: 7% 0% 0% 0%;
 }
 #portfolio-section3 .carousel-item{
-	padding:50px 100px 100px 100px;
+	text-align: -webkit-center;
 }
 #portfolio-section3 .carousel-control-next {
-    right: -50px;
+    right: 100px;
 }
 #portfolio-section3 .carousel-control-prev {
-    left: -50px;
+    left: 100px;
 }
 #portfolio-section3 h2{
 color: #444;
 font-size: 50px;
 font-weight: 700;
+text-align: center;
+}
+#portfolio-section3 p{
+color: #444;
+margin-bottom: 50px;
+font-size: 16px;
 text-align: center;
 }
 #portfolio-section3 .carousel-control-prev-icon {
@@ -1434,6 +1440,19 @@ text-align: center;
     height: 35px;
     background: transparent no-repeat center center;
     background-size: 100% 100%;
+}
+.w-100 {
+    max-height: 400px;
+    width: auto !important;
+}
+#portfolio-section4{
+padding: 5% 0% 0% 0%;
+}
+#portfolio-section4 .img-holder img{
+	height: 300px;
+	width: auto;
+	margin-bottom: 30px;
+	box-shadow:9px 9px 15px 1px #999999;
 }
 /*--------------------------------------------------------------
 # MEDIA QUERY MOBILE

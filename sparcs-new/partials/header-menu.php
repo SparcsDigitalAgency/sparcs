@@ -1,6 +1,6 @@
 <?php 
 $active_page=$_SERVER['REQUEST_URI'];
-$portfolio_pages=array('/Git/sparcs/sparcs-new/mr-light.php','/Git/sparcs/sparcs-new/quovadis.php','/Git/sparcs/sparcs-new/gloria.php');
+$portfolio_pages=array('/Git/sparcs/sparcs-new/mr-light.php','/Git/sparcs/sparcs-new/quovadis.php','/Git/sparcs/sparcs-new/gloria.php','/Git/sparcs/sparcs-new/huts.php','/Git/sparcs/sparcs-new/lumiere.php');
 ?>
 <header class="s-header">
    <!--  header logo-->

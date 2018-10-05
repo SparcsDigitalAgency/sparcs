@@ -84,6 +84,7 @@
    <div class="container">
       <div class="container">
         <h2>Window to Europe</h2>
+        <p>Brand new user-friendly website for a UK based Destination Management Company.</p>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
