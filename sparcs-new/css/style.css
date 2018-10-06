@@ -1129,7 +1129,7 @@ font-size: 36px;
 background: url(../img/portfolio-bg.png);
 background-size: cover;
 position: relative;
-height: 100vh;
+
 }
 #works-section1 p {
 font-size: 1.2rem;
@@ -1412,10 +1412,10 @@ padding: 7% 0% 0% 0%;
 	text-align: -webkit-center;
 }
 #portfolio-section3 .carousel-control-next {
-    right: 100px;
+    right: 15%;
 }
 #portfolio-section3 .carousel-control-prev {
-    left: 100px;
+    left:15%;
 }
 #portfolio-section3 h2{
 color: #444;
@@ -1443,7 +1443,7 @@ text-align: center;
     background-size: 100% 100%;
 }
 .w-100 {
-    max-height: 400px;
+    max-height: 450px;
     width: auto !important;
 }
 #portfolio-section4{
