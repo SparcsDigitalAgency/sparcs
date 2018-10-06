@@ -1129,6 +1129,7 @@ font-size: 36px;
 background: url(../img/portfolio-bg.png);
 background-size: cover;
 position: relative;
+height: 100vh;
 }
 #works-section1 p {
 font-size: 1.2rem;

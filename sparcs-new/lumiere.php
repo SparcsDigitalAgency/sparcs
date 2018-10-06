@@ -40,9 +40,6 @@
                <div class="icon"><i class="fa fa-check-circle"></i></div>
                <p class="description " style="text-align: justify;">Creating Ambience  is creating Value - Setting up Lumiere Organic Home Store Franchisee store in Trivandrum with Public awareness messages inbuilt into decor .</p>
             </div>
-            <div class="portfolio-section1-textholder wow fadeInRight">
-               <a href="http://www.lumiere.co.in"" class="btn btn-readmore">Visit Website</a>
-            </div>
          </div>
       </div>
    </div>
@@ -104,6 +101,43 @@
       </div>
    </div>
 </section>
+
+<section id="portfolio-section3" style="background-color: #fff;">
+      <div class="container-fluid">
+        <h2>Window to Europe</h2>
+        <p>Brand new user-friendly website for a UK based Destination Management Company.</p>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="img/wall-slider1.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/wall-slider2.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/wall-slider3.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/wall-slider4.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/wall-slider5.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/wall-slider6.jpg" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+</section>
 <!--==========================
 contact-us Section
 ============================-->
@@ -139,6 +173,19 @@ end of contact-us Section
     } else {
       $('.header-logo img').attr('src', 'img/logo-white.png');
       $('#change-logo').removeClass('logo-changed');
+    }
+  });
+</script>
+
+<script type="text/javascript">
+  $('.carousel').carousel({
+    interval: 2000
+    })
+  $('.carousel-inner').bind('mousewheel', function(e) {
+    if(e.originalEvent.wheelDelta /120 > 0) {
+        $(this).carousel('next');
+    } else {
+        $(this).carousel('prev');
     }
   });
 </script>

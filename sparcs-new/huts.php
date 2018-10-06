@@ -120,16 +120,16 @@
 </section>
 
 <section id="about-section3" style="height: 500px;padding-top: 0px;background-color:#323c45">
-   <div class="container-fluid" style="padding: 0px">
+   <div class="container-fluid" style="">
       <div class="row">
-         <div class="col-lg-6">
+         <div class="col-lg-6" style="padding: 0px">
             <div class="text-holder wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;padding-top: 65%;padding-left: 20%">
                <p class="text-muted" style="margin-bottom: 0px">Menu Boards</p>
                <h2 style="color: #fff">Appealing illustrations</h2>
                <p class="text-muted" style="color: #fff!important">Supported client's public relation strategies prepping suitable content for the Public Notice& Invites maintaining visual uniformity with the interiors.Designed and printed Menu cards similarly.</p>
             </div>
          </div>
-         <div class="col-lg-6">
+         <div class="col-lg-6" style="padding: 0px">
             <div class="img-holder" style="padding: 0px">
                <img src="img/sheets.png" class="img-responsive wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;    height: 700px;width: auto;float: right;margin-top: 0px">
             </div>
