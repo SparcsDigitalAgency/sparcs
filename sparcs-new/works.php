@@ -38,7 +38,7 @@
          <div class="col-lg-6">
             <div class="portfolio-item">
                <a href="mr-light.php" class="portfolio-popup">
-                  <img src="img/portfolio/1.jpg" alt="">
+                  <img src="img/works/1.jpg" alt="">
                   <div class="portfolio-overlay"></div>
                </a>
             </div>
@@ -46,7 +46,7 @@
          <div class="col-lg-6">
             <div class="portfolio-item">
                <a href="quovadis.php" class="portfolio-popup">
-                  <img src="img/portfolio/2.jpg" alt="">
+                  <img src="img/works/2.jpg" alt="">
                   <div class="portfolio-overlay"></div>
                </a>
             </div>
@@ -54,7 +54,7 @@
          <div class="col-lg-6">
             <div class="portfolio-item">
                <a href="gloria.php" class="portfolio-popup">
-                  <img src="img/portfolio/3.jpg" alt="">
+                  <img src="img/works/3.jpg" alt="">
                   <div class="portfolio-overlay"></div>
                </a>
             </div>
@@ -62,7 +62,7 @@
          <div class="col-lg-6">
             <div class="portfolio-item">
                <a href="huts.php" class="portfolio-popup">
-                  <img src="img/portfolio/4.jpg" alt="">
+                  <img src="img/works/4.jpg" alt="">
                   <div class="portfolio-overlay"></div>
                </a>
             </div>
@@ -77,7 +77,7 @@
          <div class="col-lg-6">
             <div class="portfolio-item">
                <a href="lumiere.php" class="portfolio-popup">
-                  <img src="img/portfolio/5.jpg" alt="">
+                  <img src="img/works/5.jpg" alt="">
                   <div class="portfolio-overlay"></div>
                </a>
             </div>
@@ -85,7 +85,7 @@
          <div class="col-lg-6">
             <div class="portfolio-item">
                <a href="portfolio.php" class="portfolio-popup">
-                  <img src="img/portfolio/8.jpg" alt="">
+                  <img src="img/works/8.jpg" alt="">
                   <div class="portfolio-overlay"></div>
                </a>
             </div>
@@ -93,7 +93,7 @@
          <div class="col-lg-6">
             <div class="portfolio-item">
                <a href="portfolio.php" class="portfolio-popup">
-                  <img src="img/portfolio/7.jpg" alt="">
+                  <img src="img/works/7.jpg" alt="">
                   <div class="portfolio-overlay"></div>
                </a>
             </div>
@@ -101,7 +101,7 @@
          <div class="col-lg-6">
             <div class="portfolio-item">
                <a href="portfolio.php" class="portfolio-popup">
-                  <img src="img/portfolio/6.jpg" alt="">
+                  <img src="img/works/6.jpg" alt="">
                   <div class="portfolio-overlay"></div>
                </a>
             </div>

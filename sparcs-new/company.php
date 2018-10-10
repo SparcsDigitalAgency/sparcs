@@ -37,7 +37,7 @@
       <div class="row">
          <div class="col-lg-6">
             <div class="img-holder">
-               <img src="img/about1.png" class="img-responsive wow fadeInLeft">
+               <img src="img/company/about1.png" class="img-responsive wow fadeInLeft">
             </div>
          </div>
          <div class="col-lg-6">
@@ -67,7 +67,7 @@
          </div>
          <div class="col-lg-6">
             <div class="img-holder">
-               <img src="img/ourteam.png" class="img-responsive wow fadeInRight">
+               <img src="img/company/ourteam.png" class="img-responsive wow fadeInRight">
             </div>
          </div>
       </div>
@@ -91,7 +91,7 @@
          </div>
          <div class="col-lg-7" style="margin: 0 auto;">
             <div class="image-holder wow fadeInUp">
-               <img src="img/about2.png" class="img-responsive">
+               <img src="img/company/about2.png" class="img-responsive">
             </div>
          </div>
       </div>
@@ -114,7 +114,7 @@
          </div>
          <div class="col-lg-7" style="margin: 0 auto;">
             <div class="image-holder wow fadeInUp">
-               <img src="img/about3.png" class="img-responsive">
+               <img src="img/company/about3.png" class="img-responsive">
             </div>
          </div>
       </div>
@@ -138,7 +138,7 @@
          </div>
          <div class="col-lg-6">
             <div class="img-holder">
-               <img src="img/about4.png" class="img-responsive wow fadeInRight">
+               <img src="img/company/about4.png" class="img-responsive wow fadeInRight">
             </div>
          </div>
       </div>
@@ -159,7 +159,7 @@
       <div class="row">
          <div class="col-lg-6">
             <div class="img-holder">
-               <img src="img/about-5.png" class="img-responsive wow fadeInLeft">
+               <img src="img/company/about-5.png" class="img-responsive wow fadeInLeft">
             </div>
          </div>
          <div class="col-lg-6">

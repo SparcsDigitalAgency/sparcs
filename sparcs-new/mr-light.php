@@ -24,8 +24,8 @@
       <div class="row">
          <div class="col-lg-6">
             <div class="portfolio-section1-imgholder">
-               <img src="img/mrlight-logo.png" alt="" class="img-responsive wow fadeInLeft"style="height:70px;width: auto;">
-               <img src="img/combined.png" alt="" class="img-responsive wow fadeInLeft" style="    padding: 3rem 0rem 0rem 0rem;">
+               <img src="img/mrlight/mrlight-logo.png" alt="" class="img-responsive wow fadeInLeft"style="height:70px;width: auto;">
+               <img src="img/mrlight/combined.png" alt="" class="img-responsive wow fadeInLeft" style="    padding: 3rem 0rem 0rem 0rem;">
             </div>
          </div>
          <div class="col-lg-6">
@@ -67,7 +67,7 @@
                <h2>Swipe right</h2>
                <p>The simplicity of swiping increases user engagement. Swipe right to save a trip and left to discard a trip.</p>
             </div>
-            <img src="img/mrlight-1.png" alt="" class="style2-pic img-responsive wow zoomIn" data-wow-duration="2s">
+            <img src="img/mrlight/mrlight-1.png" alt="" class="style2-pic img-responsive wow zoomIn" data-wow-duration="2s">
          </div>
       </div>
    </div>

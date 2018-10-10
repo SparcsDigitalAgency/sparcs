@@ -27,12 +27,12 @@
       <div class="row">
          <div class="col-lg-6">
             <div class="portfolio-section1-imgholder" style="height: 100vh">
-               <img src="img/combined2.png" alt="" class="img-responsive wow fadeInLeft" >
+               <img src="img/gloria/combined2.png" alt="" class="img-responsive wow fadeInLeft" >
             </div>
          </div>
          <div class="col-lg-6" style="padding-left: 50px;">
             <div class="portfolio-section1-textholder">
-               <img src="img/gloria-logo-w.png" alt="" class="img-responsive wow fadeInLeft"style="height:70px;width: auto;margin-bottom: 30px">
+               <img src="img/gloria/gloria-logo-w.png" alt="" class="img-responsive wow fadeInLeft"style="height:70px;width: auto;margin-bottom: 30px">
                <p class="wow fadeInRight ">A brand new website for a US based Travel Company that speaks to Devotional Christian Hearts ,the world over.</p>
             </div>
             <div class="portfolio-section1-textholder wow fadeInRight">
@@ -73,7 +73,7 @@
                <h2>Window to Europe</h2>
                <p>Brand new user-friendly website for a UK based Destination Management Company.</p>
             </div>
-            <img src="img/gloria-pic1.png" alt="" class="style2-pic img-responsive wow zoomIn" data-wow-duration="2s">
+            <img src="img/gloria/gloria-pic1.png" alt="" class="style2-pic img-responsive wow zoomIn" data-wow-duration="2s">
          </div>
       </div>
    </div>

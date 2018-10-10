@@ -24,12 +24,12 @@
       <div class="row">
          <div class="col-lg-6">
             <div class="portfolio-section1-imgholder">
-               <img src="img/combined3.png" alt="" class="img-responsive wow fadeInLeft" style="    padding: 7rem 0rem 0rem 0rem;">
+               <img src="img/huts/combined3.png" alt="" class="img-responsive wow fadeInLeft" style="    padding: 7rem 0rem 0rem 0rem;">
             </div>
          </div>
          <div class="col-lg-6" style="height: 100vh">
             <div class="portfolio-section1-textholder " style="text-align: center;margin-top: 30px;">
-              <img src="img/huts-logo.png" alt="" class="img-responsive wow fadeInLeft"style="height:100px;width: auto;">
+              <img src="img/huts/huts-logo.png" alt="" class="img-responsive wow fadeInLeft"style="height:100px;width: auto;">
                <h2 class=" wow fadeInRight" style="margin-left: 20px;">Huts Resturant</h2>
                <p class="wow fadeInRight " style="margin-top: 10px">"Creating Awareness is creating Value" The story of a shoestring budget makeover of a highly popular Highway side eatery into a 100 percent Organic Restaurant.</p>
             </div>
@@ -63,7 +63,7 @@
          </div>
          <div class="col-lg-6">
             <div class="img-holder">
-               <img src="img/painting.png" class="img-responsive wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;    height: 625px;width: auto;float: right;">
+               <img src="img/huts/painting.png" class="img-responsive wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;    height: 625px;width: auto;float: right;">
             </div>
          </div>
       </div>
@@ -77,42 +77,42 @@
       <div class="row">
         <div class="col-lg-3">
           <div class="img-holder wow fadeInLeft">
-            <img src="img/painting1.png" class="img-responsive">
+            <img src="img/huts/painting1.png" class="img-responsive">
           </div>
         </div>
         <div class="col-lg-3">
           <div class="img-holder wow fadeInLeft">
-            <img src="img/painting2.png" class="img-responsive">
+            <img src="img/huts/painting2.png" class="img-responsive">
           </div>
         </div>
         <div class="col-lg-3">
           <div class="img-holder wow fadeInRight">
-            <img src="img/painting3.png" class="img-responsive" >
+            <img src="img/huts/painting3.png" class="img-responsive" >
           </div>
         </div>
         <div class="col-lg-3">
           <div class="img-holder wow fadeInRight">
-            <img src="img/painting4.png" class="img-responsive">
+            <img src="img/huts/painting4.png" class="img-responsive">
           </div>
         </div>
         <div class="col-lg-3">
           <div class="img-holder wow fadeInLeft">
-            <img src="img/painting5.png" class="img-responsive" >
+            <img src="img/huts/painting5.png" class="img-responsive" >
           </div>
         </div>
         <div class="col-lg-3">
           <div class="img-holder wow fadeInLeft">
-            <img src="img/painting6.png" class="img-responsive">
+            <img src="img/huts/painting6.png" class="img-responsive">
           </div>
         </div>
         <div class="col-lg-3">
           <div class="img-holder wow fadeInRight">
-            <img src="img/painting7.png" class="img-responsive" ">
+            <img src="img/huts/painting7.png" class="img-responsive" ">
           </div>
         </div>
         <div class="col-lg-3">
           <div class="img-holder wow fadeInRight">
-            <img src="img/painting8.png" class="img-responsive" >
+            <img src="img/huts/painting8.png" class="img-responsive" >
           </div>
         </div>
       </div>
@@ -131,7 +131,7 @@
          </div>
          <div class="col-lg-6" style="padding: 0px">
             <div class="img-holder" style="padding: 0px">
-               <img src="img/sheets.png" class="img-responsive wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;    height: 700px;width: auto;float: right;margin-top: 0px">
+               <img src="img/huts/sheets.png" class="img-responsive wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;    height: 700px;width: auto;float: right;margin-top: 0px">
             </div>
          </div>
       </div>
@@ -145,7 +145,7 @@
       <div class="row">
          <div class="col-lg-6">
             <div class="img-holder" style="padding-top: 20%">
-               <img src="img/hut-fb.png" class="img-responsive wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
+               <img src="img/huts/hut-fb.png" class="img-responsive wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
             </div>
          </div>
          <div class="col-lg-6">
@@ -169,7 +169,7 @@
          </div>
          <div class="col-lg-6">
             <div class="img-holder">
-               <img src="img/menu-boards.png" class="img-responsive wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;    height: 600px;width: auto;float: right;margin-top: 0px">
+               <img src="img/huts/menu-boards.png" class="img-responsive wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;    height: 600px;width: auto;float: right;margin-top: 0px">
             </div>
          </div>
       </div>

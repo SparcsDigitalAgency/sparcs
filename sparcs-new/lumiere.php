@@ -24,12 +24,12 @@
       <div class="row">
          <div class="col-lg-6">
             <div class="portfolio-section1-imgholder">
-               <img src="img/combined3.png" alt="" class="img-responsive wow fadeInLeft" style="    padding: 7rem 0rem 0rem 0rem;">
+               <img src="img/lumiere/social-lumiere.png" alt="" class="img-responsive wow fadeInLeft" style="    padding: 3rem 0rem 0rem 0rem;">
             </div>
          </div>
          <div class="col-lg-6" style="height: 100vh">
             <div class="portfolio-section1-textholder " style="margin-top: 30px;">
-              <img src="img/lumiere-white-logo.png" alt="" class="img-responsive wow fadeInRight"style="height:100px;width: auto;">
+              <img src="img/lumiere/lumiere-white-logo.png" alt="" class="img-responsive wow fadeInRight"style="height:100px;width: auto;">
                <p class="wow fadeInRight " style="margin-top: 10px">"Creating Awareness is creating Value" Soft Image augmentation strategies for a Bangalore based Organic Store Chain Brand ,Lumiere Organic Home Stores </p>
             </div>
             <div class="portfolio-section1-textholder wow fadeInRight">
@@ -40,24 +40,28 @@
                <div class="icon"><i class="fa fa-check-circle"></i></div>
                <p class="description " style="text-align: justify;">Creating Ambience  is creating Value - Setting up Lumiere Organic Home Store Franchisee store in Trivandrum with Public awareness messages inbuilt into decor .</p>
             </div>
+            <div class="portfolio-section1-textholder wow fadeInRight">
+               <div class="icon"><i class="fa fa-check-circle"></i></div>
+               <p class="description " style="text-align: justify;">Managed Social Media including Facebook, Twitter, Instagram and Google Plus that improved public reception to the makeover to 100% Organic.</p>
+            </div>
          </div>
       </div>
    </div>
 </section>
 
- <section id="about-section3" style="height: 500px;padding-top: 0px">
+ <section id="about-section3" style="padding-top: 0px">
    <div class="container">
       <div class="row">
-         <div class="col-lg-4">
-            <div class="text-holder wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;padding-top: 350px;">
+         <div class="col-lg-5">
+            <div class="text-holder wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;padding-top:90%;">
                <p class="text-muted" style="margin-bottom: 0px">Store Board</p>
                <h2>Design for Display </h2>
                <p class="text-muted">Reflecting the Brand's Green ethos doing the Store board with recycled pinewood slats and lettering cut out of sheet iron.</p>
             </div>
          </div>
-         <div class="col-lg-8">
-            <div class="img-holder">
-               <img src="img/lumiere-board.png" class="img-responsive wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;    height: 425px;width: auto;float: right;margin-top: 50px">
+         <div class="col-lg-7">
+            <div class="img-holder" style="padding-top: 10%">
+               <img src="img/lumiere/lumiere-poster.png" class="img-responsive wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;    height: 650px;width: auto;float: right;margin-top: 50px">
             </div>
          </div>
       </div>
@@ -66,36 +70,19 @@
 <!--==========================
    end of portfolio  Section1
    ============================-->
-   <section id="about-section2" style="height: 592.922px;">
+
+ 
+ <section id="about-section2" style="background-color: #fff">
    <div class="container">
       <div class="row">
          <div class="col-lg-6">
-            <div class="img-holder" style="padding-top: 20%">
-               <img src="img/social-lumiere.png" class="img-responsive wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
+            <div class="img-holder" style="padding-top: 0%">
+               <img src="img/lumiere/lumiere-invitation.png" class="img-responsive wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
             </div>
          </div>
          <div class="col-lg-6">
             <div class="text-holder wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
                <h2>Managed Social Media including Facebook, Twitter, Instagram and Google Plus that improved public reception to the makeover to 100% Organic.</h2>
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
- 
- <section id="about-section3" style="height: 500px;padding-top: 0px;background-color: #222">
-   <div class="container">
-      <div class="row">
-         <div class="col-lg-5">
-            <div class="text-holder wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;padding-top: 75%;">
-               <p class="text-muted" style="margin-bottom: 0px;color: #fff">Wall Paintings</p>
-               <h2 style="color: #fff">Appealing illustrations</h2>
-               <p class="text-muted" style="color: #fff!important">By generating Content articulating the Brand's Vision Statement turned into large scale visually attractive illustration on the shop walls.</p>
-            </div>
-         </div>
-         <div class="col-lg-7">
-            <div class="img-holder">
-               <img src="img/lumierw-wall.png" class="img-responsive wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;    height: 425px;width: auto;float: right;margin-top: 100px">
             </div>
          </div>
       </div>
@@ -109,16 +96,16 @@
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img class="d-block w-100" src="img/wall-slider1.jpg" alt="First slide">
+              <img class="d-block w-100" src="img/lumiere/wall-slider1.jpg" alt="First slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="img/wall-slider2.jpg" alt="Second slide">
+              <img class="d-block w-100" src="img/lumiere/wall-slider2.jpg" alt="Second slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="img/wall-slider3.jpg" alt="Third slide">
+              <img class="d-block w-100" src="img/lumiere/wall-slider3.jpg" alt="Third slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="img/wall-slider4.jpg" alt="Third slide">
+              <img class="d-block w-100" src="img/lumiere/wall-slider4.jpg" alt="Third slide">
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -171,15 +158,3 @@ end of contact-us Section
   });
 </script>
 
-<script type="text/javascript">
-  $('.carousel').carousel({
-    interval: 2000
-    })
-  $('.carousel-inner').bind('mousewheel', function(e) {
-    if(e.originalEvent.wheelDelta /120 > 0) {
-        $(this).carousel('next');
-    } else {
-        $(this).carousel('prev');
-    }
-  });
-</script>
