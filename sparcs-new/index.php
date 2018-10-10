@@ -81,7 +81,7 @@ Services Section
                         <div class="inner">
                            <div class="feature-box media-box">
                               <div class="fbox-icon position-relative mb-4" style="width: 38px;height: 38px">
-                                 <img src="img/services/service-icon1.png" class="noradius nobg tleft" alt="">
+                                 <img src="img/service-icon1.png" class="noradius nobg tleft" alt="">
                               </div>
                               <div class="fbox-desc">
                                  <h3 class="nott">Strategy & Consulting</h3>
@@ -98,7 +98,7 @@ Services Section
                         <div class="inner">
                            <div class="feature-box media-box">
                               <div class="fbox-icon position-relative mb-4" style="width: 38px;height: 38px">
-                                 <img src="img/services/service-icon2.png" class="noradius nobg tleft" alt="">
+                                 <img src="img/service-icon2.png" class="noradius nobg tleft" alt="">
                               </div>
                               <div class="fbox-desc">
                                  <h3 class="nott">Creative Design</h3>
@@ -115,7 +115,7 @@ Services Section
                         <div class="inner">
                            <div class="feature-box media-box">
                               <div class="fbox-icon position-relative mb-4" style="width: 38px;height: 38px">
-                                 <img src="img/services/service-icon3.png" class="noradius nobg tleft" alt="">
+                                 <img src="img/service-icon3.png" class="noradius nobg tleft" alt="">
                               </div>
                               <div class="fbox-desc">
                                  <h3 class="nott">Web & Mobile Development</h3>
@@ -132,7 +132,7 @@ Services Section
                         <div class="inner">
                            <div class="feature-box media-box">
                               <div class="fbox-icon position-relative mb-4" style="width: 38px;height: 38px">
-                                 <img src="img/services/service-icon4.png" class="noradius nobg tleft" alt="">
+                                 <img src="img/service-icon4.png" class="noradius nobg tleft" alt="">
                               </div>
                               <div class="fbox-desc">
                                  <h3 class=" nott">Digital Marketing</h3>
