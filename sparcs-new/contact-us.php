@@ -64,3 +64,10 @@ end of contact-us Section
 
 <!-- JavaScript Libraries -->
 <?php include_once('partials/footer-scripts.php')?>
+<script type="text/javascript">
+   $(function() {
+   $.scrollify({
+   section : "section",
+   });
+   });
+</script>

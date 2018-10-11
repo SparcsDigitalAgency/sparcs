@@ -176,7 +176,7 @@ portfolio Section
                         <div class="col-lg-4 col-md-4">
                            <div class="portfolio-item wow fadeInUp" >
                               <a href="mr-light.php" class="portfolio-popup">
-                                 <img src="img/portfolio/1.jpg" alt="">
+                                 <img src="img/works/1.jpg" alt="">
                                  <div class="portfolio-overlay"></div>
                               </a>
                            </div>
@@ -184,7 +184,7 @@ portfolio Section
                         <div class="col-lg-4 col-md-4">
                            <div class="portfolio-item wow fadeInUp">
                               <a href="quovadis.php" class="portfolio-popup">
-                                 <img src="img/portfolio/2.jpg" alt="">
+                                 <img src="img/works/2.jpg" alt="">
                                  <div class="portfolio-overlay"></div>
                               </a>
                            </div>
@@ -192,7 +192,7 @@ portfolio Section
                         <div class="col-lg-4 col-md-4">
                            <div class="portfolio-item wow fadeInUp">
                               <a href="gloria.php" class="portfolio-popup">
-                                 <img src="img/portfolio/3.jpg" alt="">
+                                 <img src="img/works/3.jpg" alt="">
                                  <div class="portfolio-overlay"></div>
                               </a>
                            </div>
@@ -225,3 +225,10 @@ end of CONTACT Section
 
 <!-- JavaScript Libraries -->
 <?php include_once('partials/footer-scripts.php')?>
+<script type="text/javascript">
+   $(function() {
+   $.scrollify({
+   section : "section",
+   });
+   });
+</script>

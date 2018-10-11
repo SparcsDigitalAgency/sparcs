@@ -18,13 +18,13 @@
 </script>
 
 <!-- scrollify-->
-<script type="text/javascript">
+<!-- <script type="text/javascript">
    $(function() {
    $.scrollify({
    section : "section",
    });
    });
-</script>
+</script> -->
       
 <!-- change navbrand logo class-->
 <script type="text/javascript">

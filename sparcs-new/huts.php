@@ -16,64 +16,66 @@
 <!--==========================
  end of header-menu
 ============================-->
-<!--==========================
+   <!--==========================
    portfolio  Section1
    ============================-->
-<section id="portfolio-section1" style="background-color: #74c044;">
-   <div class="portfoliopage-container">
+<section id="portfolio-section1" style="background:url('img/huts/bg.jpg') no-repeat;background-size: cover;">
+   <div class="container-fluid cf-padding">
       <div class="row">
-         <div class="col-lg-6">
-            <div class="portfolio-section1-imgholder">
-               <img src="img/huts/combined3.png" alt="" class="img-responsive wow fadeInLeft" style="    padding: 7rem 0rem 0rem 0rem;">
+         <div class="col-lg-6"  style="padding: 130px 0px 0px 0px;">
+            <div class="portfolio-section1-imgholder text-center">
+               <img src="img/huts/combined3.png" alt="" class="img-responsive wow fadeInLeft" style="">
             </div>
          </div>
-         <div class="col-lg-6" style="height: 100vh">
-            <div class="portfolio-section1-textholder " style="text-align: center;margin-top: 30px;">
-              <img src="img/huts/huts-logo.png" alt="" class="img-responsive wow fadeInLeft"style="height:100px;width: auto;">
-               <h2 class=" wow fadeInRight" style="margin-left: 20px;">Huts Resturant</h2>
-               <p class="wow fadeInRight " style="margin-top: 10px">"Creating Awareness is creating Value" The story of a shoestring budget makeover of a highly popular Highway side eatery into a 100 percent Organic Restaurant.</p>
+         <div class="col-lg-6"  style="padding: 80px 80px 0px 80px;">
+            <div class="portfolio-section1-textholder">
+               <img src="img/huts/huts-logo.png" alt="" class="img-responsive wow fadeInLeft"style="height:100px;width: auto;margin-bottom: 20px">
+               <h2 class=" wow fadeInRight" style="display: inline-block;margin-left: 20px">Huts Resturant</h2>
+               <p class="wow fadeInRight ">"Creating Awareness is creating Value" The story of a shoestring budget makeover of a highly popular Highway side eatery into a 100 percent Organic Restaurant.</p>
             </div>
             <div class="portfolio-section1-textholder wow fadeInRight">
                <div class="icon"><i class="fa fa-check-circle"></i></div>
-               <p class="description " style="text-align: justify;">Creating a  website with content that highlights the Restaurant's  backward integration with Organic farms , attractive visuals of food and selecting customer testimonials relevant to the objective of public education.</p>
+               <p class="description">Creating a  website with content that highlights the Restaurant's  backward integration with Organic farms , attractive visuals of food and selecting customer testimonials relevant to the objective of public education.</p>
             </div>
             <div class="portfolio-section1-textholder wow fadeInRight">
                <div class="icon"><i class="fa fa-check-circle"></i></div>
-               <p class="description " style="text-align: justify;">Suggested and executed changes in  design & color of uniform for personnel in accordance with Client budget. Supporting the change of official color from Orange to Brilliant Green.</p>
+               <p class="description">Suggested and executed changes in  design & color of uniform for personnel in accordance with Client budget. Supporting the change of official color from Orange to Brilliant Green.</p>
             </div>
-            <div class="portfolio-section1-textholder wow fadeInRight text-center">
-               <a href="http://www.hutsrestaurant.com/"" class="btn btn-readmore">Visit Website</a>
+            <div class="portfolio-section1-textholder wow fadeInRight">
+               <a href="http://www.hutsrestaurant.com/"" class="btn btn-readmore-outline">Visit Website</a>
             </div>
          </div>
       </div>
    </div>
 </section>
-<!--==========================
-   end of portfolio  Section1
+
+   <!--==========================
+   portfolio  Section3
    ============================-->
-<section id="about-section3" style="height: 500px;padding-top: 0px">
-   <div class="container">
-      <div class="row">
-         <div class="col-lg-6">
-            <div class="text-holder wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;padding-top: 75%;">
-               <p class="text-muted" style="margin-bottom: 0px">Story Boards</p>
-               <h2>Interior Designs.</h2>
-               <p class="text-muted">With powerful content and appealing illustrations,turning  all earmarked surfaces  from table mats to the wall decor  into educative messages about the benefits of Organic Agriculture & Food .</p>
-            </div>
-         </div>
-         <div class="col-lg-6">
-            <div class="img-holder">
-               <img src="img/huts/painting.png" class="img-responsive wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;    height: 625px;width: auto;float: right;">
-            </div>
-         </div>
+<section id="portfolio-section3" style="background-color: #fff">
+  <div class="cf-padding">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="text-holder wow fadeInLeft" style="padding-top: 400px;padding-left: 100px">
+           <p class="text-muted">Story Boards</p>
+           <h2>Interior Designs.</h2>
+           <p class="text-muted">With powerful content and appealing illustrations,turning  all earmarked surfaces  from table mats to the wall decor  into educative messages about the benefits of Organic Agriculture & Food .</p>
+        </div>
       </div>
-   </div>
+      <div class="col-lg-6">
+        <div class="img-holder">
+               <img src="img/huts/painting.png" class="img-responsive wow fadeInRight auto-margin" style="height:700px;width: auto;;">
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
-<!--==========================
-   portfolio section2
+
+   <!--==========================
+   portfolio  Section4
    ============================-->
-<section id="portfolio-section4" style="background:url('img/wall.jpg');background-repeat: no-repeat;background-size: cover;">
-   <div class="portfoliopage-container">
+<section id="portfolio-section4" style="background: #eaeaea">
+   <div class="container-fluid cf-padding">
       <div class="row">
         <div class="col-lg-3">
           <div class="img-holder wow fadeInLeft">
@@ -119,62 +121,69 @@
    </div>
 </section>
 
-<section id="about-section3" style="height: 500px;padding-top: 0px;background-color:#323c45">
-   <div class="container-fluid" style="">
-      <div class="row">
-         <div class="col-lg-6" style="padding: 0px">
-            <div class="text-holder wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;padding-top: 65%;padding-left: 20%">
-               <p class="text-muted" style="margin-bottom: 0px">Menu Boards</p>
-               <h2 style="color: #fff">Appealing illustrations</h2>
-               <p class="text-muted" style="color: #fff!important">Supported client's public relation strategies prepping suitable content for the Public Notice& Invites maintaining visual uniformity with the interiors.Designed and printed Menu cards similarly.</p>
-            </div>
-         </div>
-         <div class="col-lg-6" style="padding: 0px">
-            <div class="img-holder" style="padding: 0px">
-               <img src="img/huts/sheets.png" class="img-responsive wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;    height: 700px;width: auto;float: right;margin-top: 0px">
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
-<!--==========================
-   end of portfolio section2
+   <!--==========================
+   portfolio  Section3
    ============================-->
-   <section id="about-section2" style="height: 592.922px;">
+<section id="portfolio-section3" style="background-color: #fff">
+  <div class="cf-padding">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="text-holder wow fadeInLeft" style="padding-top: 300px;padding-left: 100px">
+           <p class="text-muted">Menu Boards</p>
+           <h2>Appealing illustrations</h2>
+           <p class="text-muted">With powerful content and appealing illustrations,turning  all earmarked surfaces  from table mats to the wall decor  into educative messages about the benefits of Organic Agriculture & Food .</p>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="img-holder">
+               <img src="img/huts/menu-boards.png" class="img-responsive wow fadeInRight auto-margin" style="height:600px;width: auto;;">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+   <!--==========================
+   portfolio section5
+   ============================-->
+   <section id="portfolio-section5" style="background: #eaeaea">
    <div class="container">
       <div class="row">
          <div class="col-lg-6">
-            <div class="img-holder" style="padding-top: 20%">
-               <img src="img/huts/hut-fb.png" class="img-responsive wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
+            <div class="img-holder">
+               <img src="img/huts/hut-fb.png" class="img-responsive wow fadeInLeft">
             </div>
          </div>
          <div class="col-lg-6">
-            <div class="text-holder wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+            <div class="text-holder wow fadeInRight">
                <h2>Managed Social Media including Facebook , Instagram and Google Plus that improved public reception to the makeover to 100% Organic.</h2>
             </div>
          </div>
       </div>
    </div>
 </section>
- 
- <section id="about-section3" style="height: 500px;padding-top: 0px">
-   <div class="container">
+
+
+
+   <!--==========================
+   portfolio section6
+   ============================-->
+<section id="portfolio-section6" style="background-color: #404040;">
+   <div class="container-fluid cf-padding">
       <div class="row">
-         <div class="col-lg-6">
-            <div class="text-holder wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;padding-top: 75%;">
-               <p class="text-muted" style="margin-bottom: 0px">Menu Boards</p>
-               <h2>Appealing illustrations</h2>
-               <p class="text-muted">Supported client's public relation strategies prepping suitable content for the Public Notice& Invites maintaining visual uniformity with the interiors.Designed and printed Menu cards similarly.</p>
-            </div>
-         </div>
-         <div class="col-lg-6">
-            <div class="img-holder">
-               <img src="img/huts/menu-boards.png" class="img-responsive wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;    height: 600px;width: auto;float: right;margin-top: 0px">
-            </div>
-         </div>
+        <div class="text-holder wow fadeIn" >
+            <h2>Swipe right</h2>
+             <p>The simplicity of swiping increases user engagement. Swipe right to save a trip and left to discard a trip.</p>
+          </div>
+          <div class="img-holder auto-margin">
+            <img src="img/huts/table-tops.png" alt="" class="style2-pic img-responsive wow zoomIn" data-wow-duration="2s">
+          </div>
       </div>
    </div>
 </section>
+
+
+
 <!--==========================
 contact-us Section
 ============================-->

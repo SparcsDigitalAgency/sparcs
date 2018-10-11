@@ -19,21 +19,21 @@
 
 
 
-   <!--==========================
+ <!--==========================
    portfolio  Section1
    ============================-->
-<section id="portfolio-section1" style="background-color: #222;">
-   <div class="portfoliopage-container">
+<section id="portfolio-section1" style="background:url('img/quovadis/bg.jpg') no-repeat;background-size: cover;">
+   <div class="container-fluid cf-padding">
       <div class="row">
-         <div class="col-lg-6">
-            <div class="portfolio-section1-imgholder" style="height: 100vh">
-               <img src="img/quovadis/combined1.png" alt="" class="img-responsive wow fadeInLeft" >
+         <div class="col-lg-6"  style="padding: 100px 0px 0px 0px;">
+            <div class="portfolio-section1-imgholder text-center">
+               <img src="img/quovadis/combined1.png" alt="" class="img-responsive wow fadeInLeft" style="max-height: 550px;width: auto;">
             </div>
          </div>
-         <div class="col-lg-6" style="padding-left: 50px;">
+         <div class="col-lg-6"  style="padding: 80px 80px 0px 80px;">
             <div class="portfolio-section1-textholder">
-               <img src="img/quovadis/quovadis-logo-w.png" alt="" class="img-responsive wow fadeInLeft"style="height:70px;width: auto;margin-bottom: 30px">
-               <p class="wow fadeInRight "> A brand new website for a US based Travel Company that speaks to Devotional Christian Hearts ,the world over</p>
+               <img src="img/quovadis/quovadis-logo-w.png" alt="" class="img-responsive wow fadeInLeft"style="height:70px;width: auto;margin-bottom: 20px">
+               <p class="wow fadeInRight ">A brand new website for a US based Travel Company that speaks to Devotional Christian Hearts ,the world over </p>
             </div>
             <div class="portfolio-section1-textholder wow fadeInRight">
                <div class="icon"><i class="fa fa-check-circle"></i></div>
@@ -48,7 +48,7 @@
                <p class="description">Creating Perfectly validated easy to use booking forms smoothly integrated with Payment gateway.</p>
             </div>
             <div class="portfolio-section1-textholder wow fadeInRight">
-               <a href="http://quovadis.travel/"" class="btn btn-readmore">Visit Website</a>
+               <a href="http://quovadis.travel/"" class="btn btn-readmore-outline">Visit Website</a>
             </div>
          </div>
       </div>
@@ -62,61 +62,22 @@
    portfolio section2
    ============================-->
 <section id="portfolio-section2" style="background-color: #f2f2f2;">
-   <div class="portfoliopage-container">
+   <div class="container-fluid cf-padding">
       <div class="row">
-         <div class="">
-            <div class=" wow fadeIn">
-               <h2>Window to Europe</h2>
-               <p>Brand new user-friendly website for a UK based Destination Management Company.</p>
-            </div>
+          <div class="text-holder auto-margin wow fadeIn">
+             <h2>Swipe right</h2>
+             <p>The simplicity of swiping increases user engagement. Swipe right to save a trip and left to discard a trip.</p>
+          </div>
+          <div class="img-holder auto-margin">
             <img src="img/quovadis/quovadis-pic1.png" alt="" class="style2-pic img-responsive wow zoomIn" data-wow-duration="2s">
-         </div>
+          </div>
       </div>
    </div>
 </section>
 <!--==========================
    end of portfolio section2
    ============================-->
-         <!--==========================
-   portfolio section3
-   ============================-->
-<section id="portfolio-section3" style="background-color: #fff;">
-   <div class="container">
-      <div class="container">
-        <h2>Window to Europe</h2>
-        <p>Brand new user-friendly website for a UK based Destination Management Company.</p>
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="d-block w-100" src="img/slider1.jpg" alt="First slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="img/slider1.jpg" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="img/slider1.jpg" alt="Third slide">
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
-   </div>
-</section>
-<!--==========================
-   end of portfolio section3
-   ============================-->
+ 
 <!--==========================
 contact-us Section
 ============================-->
