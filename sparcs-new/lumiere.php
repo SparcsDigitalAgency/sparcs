@@ -63,7 +63,7 @@
       </div>
       <div class="col-lg-7">
         <div class="img-holder">
-               <img src="img/lumiere/lumiere-poster.png" class="img-responsive wow fadeInRight auto-margin" style="height:700px;width: auto;;">
+               <img src="img/lumiere/lumiere-poster.png" class="img-responsive wow fadeInRight auto-margin" style="height:750px;width: auto;;">
         </div>
       </div>
     </div>
@@ -116,6 +116,29 @@
       </div>
     </div>
   </div>
+</section>
+
+   <!--==========================
+   portfolio section9
+   ============================-->
+   <section id="portfolio-section9" style="background: #eaeaea">
+   <div class="container">
+      <div class="row">
+         
+         <div class="col-lg-5">
+            <div class="text-holder wow fadeInLeft" style="padding-top: 300px;">
+               <p class="text-muted">Story Boards</p>
+               <h2>Interior Designs.</h2>
+               <p class="text-muted">With powerful content and appealing illustrations,turning  all earmarked surfaces  from table mats to the wall decor  into educative messages about the benefits of Organic Agriculture & Food .</p>
+            </div>
+         </div>
+         <div class="col-lg-7">
+            <div class="img-holder" style="padding: 0px">
+               <img src="img/lumiere/pylon.png" class="img-responsive wow fadeInRight">
+            </div>
+         </div>
+      </div>
+   </div>
 </section>
 <!--==========================
 contact-us Section
