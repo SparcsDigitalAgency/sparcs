@@ -34,76 +34,58 @@
    ============================-->
 <section id="works-section2">
    <div class="container-fluid">
-      <div class="row ">
-         <div class="col-lg-6  padding1 padding3">
-            <div class="portfolio-item">
-               <a href="mr-light.php" class="portfolio-popup">
-                  <img src="img/works/test.jpg" alt="">
-                  <div class="portfolio-overlay"></div>
-               </a>
+      <div class="work-container">
+         <div class="row">
+            <div class="col-lg-4 ">
+               <div class="portfolio-item">
+                  <a href="mr-light.php" class="portfolio-popup">
+                     <div class="texts">
+                        <div class="texts-head">
+                           <h2 >Mr.Light</h2>
+                           <p >Web Design & Developent, Responsive Design</p>
+                        </div>
+                        <div class="texts-icon">
+                           <i class="fa fa-angle-right"></i>
+                        </div>
+                     </div>
+                     <img src="img/works/test.jpg" alt="">
+                     <div class="portfolio-overlay"></div>
+                  </a>
+               </div>
             </div>
-         </div>
-         <div class="col-lg-6  padding2 padding3">
-            <div class="portfolio-item">
-               <a href="quovadis.php" class="portfolio-popup">
-                  <img src="img/works/test1.jpg" alt="">
-                  <div class="portfolio-overlay"></div>
-               </a>
+            <div class="col-lg-4 ">
+               <div class="portfolio-item">
+                  <a href="mr-light.php" class="portfolio-popup">
+                     <div class="texts">
+                        <div class="texts-head">
+                           <h2 >Quovadis</h2>
+                           <p >Web Design & Developent, Responsive Design</p>
+                        </div>
+                        <div class="texts-icon">
+                           <i class="fa fa-angle-right"></i>
+                        </div>
+                     </div>
+                     <img src="img/works/test1.jpg" alt="">
+                     <div class="portfolio-overlay"></div>
+                  </a>
+               </div>
             </div>
-         </div>
-         <div class="col-lg-6 padding1 padding4">
-            <div class="portfolio-item ">
-               <a href="gloria.php" class="portfolio-popup">
-                  <img src="img/works/test2.jpg" alt="">
-                  <div class="portfolio-overlay"></div>
-               </a>
-            </div>
-         </div>
-         <div class="col-lg-6 padding2 padding4">
-            <div class="portfolio-item ">
-               <a href="huts.php" class="portfolio-popup">
-                  <img src="img/works/4.jpg" alt="">
-                  <div class="portfolio-overlay"></div>
-               </a>
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
-
-<section id="works-section2">
-   <div class="container" style="padding: 0px;">
-      <div class="row no-gutters">
-         <div class="col-lg-6">
-            <div class="portfolio-item">
-               <a href="lumiere.php" class="portfolio-popup">
-                  <img src="img/works/5.jpg" alt="">
-                  <div class="portfolio-overlay"></div>
-               </a>
-            </div>
-         </div>
-         <div class="col-lg-6">
-            <div class="portfolio-item">
-               <a href="portfolio.php" class="portfolio-popup">
-                  <img src="img/works/8.jpg" alt="">
-                  <div class="portfolio-overlay"></div>
-               </a>
-            </div>
-         </div>
-         <div class="col-lg-6">
-            <div class="portfolio-item">
-               <a href="portfolio.php" class="portfolio-popup">
-                  <img src="img/works/7.jpg" alt="">
-                  <div class="portfolio-overlay"></div>
-               </a>
-            </div>
-         </div>
-         <div class="col-lg-6">
-            <div class="portfolio-item">
-               <a href="portfolio.php" class="portfolio-popup">
-                  <img src="img/works/6.jpg" alt="">
-                  <div class="portfolio-overlay"></div>
-               </a>
+            <div class="col-lg-4 ">
+               <div class="portfolio-item">
+                  <a href="mr-light.php" class="portfolio-popup">
+                     <div class="texts">
+                        <div class="texts-head">
+                           <h2 >Gloria Travels</h2>
+                           <p >Web Design & Developent, Responsive Design</p>
+                        </div>
+                        <div class="texts-icon">
+                           <i class="fa fa-angle-right"></i>
+                        </div>
+                     </div>
+                     <img src="img/works/test2.jpg" alt="">
+                     <div class="portfolio-overlay"></div>
+                  </a>
+               </div>
             </div>
          </div>
       </div>
@@ -124,10 +106,4 @@ end of CONTACT Section
 
 <!-- JavaScript Libraries -->
 <?php include_once('partials/footer-scripts.php')?>
-<script type="text/javascript">
-   $(function() {
-   $.scrollify({
-   section : "section",
-   });
-   });
-</script>
+

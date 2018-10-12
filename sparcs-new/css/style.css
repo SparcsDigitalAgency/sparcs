@@ -1131,6 +1131,7 @@ font-size: 36px;
 background: url(../img/portfolio-bg.png);
 background-size: cover;
 position: relative;
+height: 100vh;
 
 }
 #works-section1 p {
@@ -1235,21 +1236,8 @@ text-align: center;
 height:auto;
 width: 100%;
 }
-.padding1{
-	padding-left: 12px;
-	padding-right: 6px;
-}
-.padding2{
-	padding-left: 6px;
-	padding-right: 12px;
-}
-.padding3{
-	padding-top: 12px;
-	padding-bottom:12px;
-}
-.padding4{
-	padding-top: 0px;
-	padding-bottom:12px;
+.work-container{
+	padding: 15px;
 }
 #works-section2 .portfolio-overlay {
 position: absolute;
@@ -1262,7 +1250,9 @@ height: 100%;
 opacity: 1;
 -webkit-transition: all ease-in-out 0.4s;
 transition: all ease-in-out 0.4s;
+background-image: linear-gradient(#00000050 7% , #ffff0000 20%);
 }
+
 #works-section2 .portfolio-info {
 position: absolute;
 top: 50%;
@@ -1277,10 +1267,45 @@ margin: 0;
 text-transform: capitalize;
 font-weight: 700;
 }
-#works-section2 .portfolio-item:hover .portfolio-overlay {
+#works-section2 .texts{
+	position: absolute;
+	z-index:999;
+	padding: 25px 0px 0px 50px;
+	text-align: left;
+	width: 100%;
+}
+#works-section2 .texts-head{
+	display: inline-block;
+	width: 75%;
+}
+#works-section2 .texts p{
+	color: #eee;
+	font-size: 0.9em;
+}
+#works-section2 .texts h2 {
+    color: #ffffff;
+    font-size: 32px;
+    margin: 0;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+#works-section2 .texts-icon{
+	float: right;
+	transition: all 0.4s ease;
+	margin-right: 15%
+}
+#works-section2 .texts-icon .fa{
+	font-size: 42px;
+    color: #fff;
+}
+#works-section2 .portfolio-item:hover  .texts-icon{
+    margin-right: 10%;
+}
+
+/* #works-section2 .portfolio-item:hover .portfolio-overlay background-image: linear-gradient(#00000050 7% , #ffff0000 20%);{
 opacity: 1;
 background: rgba(0, 0, 0, 0.7);
-}
+} */
 #works-section2 .portfolio-item img {
 max-width: 100%;
 -moz-transition: all 0.3s;
