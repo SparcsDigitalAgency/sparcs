@@ -33,34 +33,34 @@
    works section2
    ============================-->
 <section id="works-section2">
-   <div class="container" style="padding: 0px;">
-      <div class="row no-gutters">
-         <div class="col-lg-6">
+   <div class="container-fluid">
+      <div class="row ">
+         <div class="col-lg-6  padding1 padding3">
             <div class="portfolio-item">
                <a href="mr-light.php" class="portfolio-popup">
-                  <img src="img/works/1.jpg" alt="">
+                  <img src="img/works/test.jpg" alt="">
                   <div class="portfolio-overlay"></div>
                </a>
             </div>
          </div>
-         <div class="col-lg-6">
+         <div class="col-lg-6  padding2 padding3">
             <div class="portfolio-item">
                <a href="quovadis.php" class="portfolio-popup">
-                  <img src="img/works/2.jpg" alt="">
+                  <img src="img/works/test1.jpg" alt="">
                   <div class="portfolio-overlay"></div>
                </a>
             </div>
          </div>
-         <div class="col-lg-6">
-            <div class="portfolio-item">
+         <div class="col-lg-6 padding1 padding4">
+            <div class="portfolio-item ">
                <a href="gloria.php" class="portfolio-popup">
-                  <img src="img/works/3.jpg" alt="">
+                  <img src="img/works/test2.jpg" alt="">
                   <div class="portfolio-overlay"></div>
                </a>
             </div>
          </div>
-         <div class="col-lg-6">
-            <div class="portfolio-item">
+         <div class="col-lg-6 padding2 padding4">
+            <div class="portfolio-item ">
                <a href="huts.php" class="portfolio-popup">
                   <img src="img/works/4.jpg" alt="">
                   <div class="portfolio-overlay"></div>

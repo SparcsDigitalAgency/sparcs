@@ -1232,7 +1232,24 @@ position: relative;
 padding: 0;
 vertical-align: middle;
 text-align: center;
-height: 50vh;
+height:auto;
+width: 100%;
+}
+.padding1{
+	padding-left: 12px;
+	padding-right: 6px;
+}
+.padding2{
+	padding-left: 6px;
+	padding-right: 12px;
+}
+.padding3{
+	padding-top: 12px;
+	padding-bottom:12px;
+}
+.padding4{
+	padding-top: 0px;
+	padding-bottom:12px;
 }
 #works-section2 .portfolio-overlay {
 position: absolute;
