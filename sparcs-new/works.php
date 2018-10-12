@@ -48,7 +48,7 @@
                            <i class="fa fa-angle-right"></i>
                         </div>
                      </div>
-                     <img src="img/works/test.jpg" alt="">
+                     <img src="img/mrlight/cover.jpg" alt="">
                      <div class="portfolio-overlay"></div>
                   </a>
                </div>
@@ -65,7 +65,7 @@
                            <i class="fa fa-angle-right"></i>
                         </div>
                      </div>
-                     <img src="img/works/test1.jpg" alt="">
+                     <img src="img/quovadis/cover.jpg" alt="">
                      <div class="portfolio-overlay"></div>
                   </a>
                </div>
@@ -82,7 +82,7 @@
                            <i class="fa fa-angle-right"></i>
                         </div>
                      </div>
-                     <img src="img/works/test2.jpg" alt="">
+                     <img src="img/gloria-travels/cover.jpg" alt="">
                      <div class="portfolio-overlay"></div>
                   </a>
                </div>
