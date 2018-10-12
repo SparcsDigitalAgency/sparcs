@@ -121,6 +121,7 @@ z-index: 11;
 padding-top: 12px;
 color: #fff;
 }
+
 @media (max-width: 768px) {
 .back-to-top {
 bottom: 15px;
@@ -317,10 +318,17 @@ bottom: -9px;
 * responsive:
 * header
 * ------------------------------------------------------------------- */
+@media only screen and (min-width: 1600px) {
+.container {
+max-width: 1410px;
+}
+}
+
 @media only screen and (max-width: 1600px) {
 .header-logo {
 left: 60px;
 }
+
 .header-menu-toggle {
 right: 60px;
 }
@@ -628,7 +636,7 @@ z-index: 10;
 margin-bottom: 50px;
 }
 .about-content {
-margin-top: 50%;
+margin-top: 40%;
 }
 #about h2 {
 color: #444;
@@ -658,10 +666,10 @@ background-size: cover;
 height: 100vh;
 }
 #services .margintop {
-padding: 10% 0% 0% 0%;
+padding-top: 10%;
 }
 .services-content {
-margin-top: 65%;
+margin-top: 20%;
 }
 #services h2 {
 color: #444;
@@ -1143,7 +1151,7 @@ position: relative;
 z-index: 10;
 }
 #works-section1 .works-content {
-margin-top: 50%;
+margin-top: 40%;
 }
 #works-section1 h2 {
 color: #444;
@@ -1151,8 +1159,10 @@ font-size: 50px;
 font-weight: 700;
 }
 #works-section2{
-padding: 0% 0% 0% 0%;
 background: #f9f9f9;
+}
+#works-section2 .container{
+padding:5px 0;
 }
 .works-section1-list{
 margin-left: -40px;
@@ -1227,6 +1237,9 @@ color: #444;
 .marginbottom{
 margin-bottom: 20px;
 }
+#works-section2 .items{
+	padding: 5px;
+}
 #works-section2 .portfolio-item {
 overflow: hidden;
 position: relative;
@@ -1235,7 +1248,6 @@ vertical-align: middle;
 text-align: center;
 height:auto;
 width: 100%;
-margin:20px 0;
 }
 .work-container{
 	padding: 15px;
@@ -1271,18 +1283,20 @@ font-weight: 700;
 #works-section2 .texts{
 	position: absolute;
 	z-index:999;
-	padding: 25px 0px 0px 50px;
+	padding: 20px 40px;
 	text-align: left;
 	width: 100%;
 }
 #works-section2 .texts-head{
-	display: inline-block;
-	width: 75%;
+	transition: all 0.4s ease;
+	width: 90%;
+	float:left;
+	
 }
 #works-section2 .texts p{
 	color: #fff;
 	font-size: 0.9em;
-	opacity: 0.7;
+	opacity: 0.5;
 }
 #works-section2 .texts h2 {
     color: #fff;
@@ -1290,20 +1304,30 @@ font-weight: 700;
     margin: 0;
     text-transform: capitalize;
     font-weight: 400;
+    padding:20px 0 15px;
 }
 #works-section2 .texts-icon{
 	float: right;
-	transition: all 0.4s ease;
-	margin-right: 15%;
+	text-align: right;
+	width: 10%;
 	opacity: 0.5;
+	transition: all 0.4s ease;
+	padding: 10px 0 0 0;
 }
+
 #works-section2 .texts-icon .fa{
 	font-size: 42px;
     color: #fff;
 }
-#works-section2 .portfolio-item:hover  .texts-icon{
-    margin-right: 10%;
+#works-section2 .portfolio-item:hover .texts-icon{
+    padding-right:10px;
 }
+#works-section2 .portfolio-item:hover  .texts-head{
+    padding-left:5px;
+}
+
+#works-section2 .black h2, #works-section2 .black p, #works-section2 .black .fa{color: #000;}
+#works-section2 .white h2, #works-section2 .white p, #works-section2 .white .fa{color: #fff;}
 
 /* #works-section2 .portfolio-item:hover .portfolio-overlay background-image: linear-gradient(#00000050 7% , #ffff0000 20%);{
 opacity: 1;

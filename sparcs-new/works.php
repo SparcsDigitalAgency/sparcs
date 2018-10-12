@@ -33,63 +33,70 @@
    works section2
    ============================-->
 <section id="works-section2">
-   <div class="container-fluid">
-      <div class="work-container">
+   <div class="container">
+      
          <div class="row">
-            <div class="col-lg-4 ">
-               <div class="portfolio-item">
+            <div class="col-lg-6 items">
+               <div class="portfolio-item black">
                   <a href="mr-light.php" class="portfolio-popup">
+                        
                      <div class="texts">
                         <div class="texts-head">
                            <h2 >Mr.Light</h2>
                            <p >Web Design & Developent, Responsive Design</p>
                         </div>
-                        <div class="texts-icon">
-                           <i class="fa fa-angle-right"></i>
-                        </div>
+                        <div class="texts-icon"><i class="fa fa-angle-right"></i></div>
                      </div>
                      <img src="img/mrlight/cover.jpg" alt="">
-                     <div class="portfolio-overlay"></div>
                   </a>
                </div>
             </div>
-            <div class="col-lg-4 ">
-               <div class="portfolio-item">
+            <div class="col-lg-6 items">
+               <div class="portfolio-item white">
                   <a href="mr-light.php" class="portfolio-popup">
                      <div class="texts">
                         <div class="texts-head">
-                           <h2 >Quovadis</h2>
+                           <h2 >Quovadis Travel</h2>
                            <p >Web Design & Developent, Responsive Design</p>
                         </div>
-                        <div class="texts-icon">
-                           <i class="fa fa-angle-right"></i>
-                        </div>
+                        <div class="texts-icon"><i class="fa fa-angle-right"></i></div>
                      </div>
                      <img src="img/quovadis/cover.jpg" alt="">
-                     <div class="portfolio-overlay"></div>
                   </a>
                </div>
             </div>
-            <div class="col-lg-4 ">
-               <div class="portfolio-item">
+            <div class="col-lg-6 items">
+               <div class="portfolio-item white">
                   <a href="mr-light.php" class="portfolio-popup">
                      <div class="texts">
                         <div class="texts-head">
                            <h2 >Gloria Travels</h2>
-                           <p >Web Design & Developent, Responsive Design</p>
+                           <p >Web Developent, Responsive Design</p>
                         </div>
-                        <div class="texts-icon">
-                           <i class="fa fa-angle-right"></i>
-                        </div>
+                        <div class="texts-icon"><i class="fa fa-angle-right"></i></div>
                      </div>
                      <img src="img/gloria-travels/cover.jpg" alt="">
-                     <div class="portfolio-overlay"></div>
                   </a>
                </div>
             </div>
+            <div class="col-lg-6 items">
+               <div class="portfolio-item black">
+                  <a href="mr-light.php" class="portfolio-popup">
+                     <div class="texts">
+                        <div class="texts-head">
+                           <h2 >Lumiere Organic</h2>
+                           <p >Content, Social Media, Branding</p>
+                        </div>
+                        <div class="texts-icon"><i class="fa fa-angle-right"></i></div>
+                     </div>
+                     <img src="img/quovadis/cover.jpg" alt="">
+                  </a>
+               </div>
+            </div>
+
+          
          </div>
       </div>
-   </div>
 </section>
 <!--==========================
    end of works  Section2
