@@ -29,8 +29,8 @@ include_once('partials/header.php')
                <div class="carousel-background"><img src="img/intro-bg.png" alt=""></div>
                <div class="carousel-container">
                   <div class="carousel-content ">
-                     <h2 class="wow fadeInUp">Driven by design</h2>
-                     <p class="wow fadeInUp">A reliable responsive creative hands-on team of creative no-frills perfectionists.
+                     <h2 class="wow fadeInUp">Driven by Design</h2>
+                     <p class="wow fadeInUp">A reliable responsive artistic hands-on team of professional perfectionists.
                      </p>
                      <a href="contact-us.php" class="btn btn-readmore wow fadeInUp">Get In Touch</a>
                   </div>
@@ -48,15 +48,15 @@ include_once('partials/header.php')
    About Us Section
 ============================-->
 <section id="about" class="">
-   <div class="container marginbottom50">
+   <div class="container ">
       <div class="row">
          <div class="col-lg-8">
             <div class="about-content">
                <h2 class="wow fadeInUp">Company</h2>
-               <p class="wow fadeInUp">SPARCS is a digital agency which delivers high quality, reliable and affordable services to our customers globally. We specialize in Creative Campaigns, Website Design & Development, Mobile App/OTT Development, Branding and Digital Marketing.</p>
-            </div>
-            <div class="button-holder">
-               <a href="company.php#about-section2" class="btn btn-readmore wow fadeInUp">Read more</a>
+               <p class="wow fadeInUp">SPARCS delivers high quality, reliable and affordable services to customers globally. We specialize in Creative Campaigns, Website Design & Development, Mobile App/OTT Development, Branding and Digital Marketing.</p>
+               <div class="button-holder">
+                  <a href="company.php#about-section1" class="btn btn-readmore wow fadeInUp">Read more</a>
+               </div>
             </div>
          </div>
       </div>
@@ -70,7 +70,7 @@ include_once('partials/header.php')
 Services Section
 ============================-->
 <section id="services">
-   <div class="container margintop">
+   <div class="container">
       <div class="row">
          <div class="col-lg-5">
             <div class="services-content">

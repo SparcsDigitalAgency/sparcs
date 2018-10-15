@@ -20,7 +20,7 @@ include_once('partials/header.php')
    About Us  Section1
    ============================-->
 <section id="about-section1" class="">
-   <div class="container marginbottom50">
+   <div class="container ">
       <div class="row">
          <div class="col-lg-8">
             <div class="about-content">
@@ -187,5 +187,6 @@ include_once('partials/header.php')
 <!--==========================
 Footer
 ============================-->
+
 <?php include_once('partials/footer.php')?>
 <!-- end footer -->

@@ -19,8 +19,8 @@ include_once('partials/header.php')
 <!--==========================
    services  Section1
    ============================-->
-<section id="services-section1" class="">
-   <div class="container marginbottom50">
+   <section id="services-section1" class="">
+   <div class="container ">
       <div class="row">
          <div class="col-lg-8">
             <div class="services-content">
@@ -28,7 +28,7 @@ include_once('partials/header.php')
                <p class="wow fadeInUp">A full service interactive digital agency approach to grow your brand online and amplify its reach.</p>
             </div>
             <div class="button-holder">
-               <a href="contact.php" class="btn btn-readmore wow fadeInUp">Get in Touch</a>
+               <a href="contact-us.php" class="btn btn-readmore wow fadeInUp">Get in Touch</a>
             </div>
          </div>
       </div>
