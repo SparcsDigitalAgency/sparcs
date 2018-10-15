@@ -32,7 +32,7 @@ include_once('partials/header.php')
                      <h2 class="wow fadeInUp">Driven by design</h2>
                      <p class="wow fadeInUp">A reliable responsive creative hands-on team of creative no-frills perfectionists.
                      </p>
-                     <a href="contact-us.php" class="btn btn-readmore wow fadeInUp">Get In Touch</a>
+                     <a href="<?php echo $path; ?>contact" class="btn btn-readmore wow fadeInUp">Get In Touch</a>
                   </div>
                </div>
             </div>
@@ -56,7 +56,7 @@ include_once('partials/header.php')
                <p class="wow fadeInUp">SPARCS is a digital agency which delivers high quality, reliable and affordable services to our customers globally. We specialize in Creative Campaigns, Website Design & Development, Mobile App/OTT Development, Branding and Digital Marketing.</p>
             </div>
             <div class="button-holder">
-               <a href="company.php#about-section2" class="btn btn-readmore wow fadeInUp">Read more</a>
+               <a href="<?php echo $path; ?>company#about-section2" class="btn btn-readmore wow fadeInUp">Read more</a>
             </div>
          </div>
       </div>
@@ -78,7 +78,7 @@ Services Section
                <p class="wow fadeInUp">A full service interactive digital agency approach to grow your brand online and amplify its reach.</p>
             </div>
             <div class="button-holder">
-               <a href="services.php" class="btn btn-readmore wow fadeInUp">View more</a>
+               <a href="<?php echo $path; ?>services" class="btn btn-readmore wow fadeInUp">View more</a>
             </div>
          </div>
          <div class="col-lg-7">

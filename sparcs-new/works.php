@@ -28,7 +28,7 @@ include_once('partials/header.php')
                <p class="wow fadeInUp">Take a moment to view some of our latest work. While most of the sites below were built by us from the ground up, we experience a wide range of involvement with our client’s websites.</p>
             </div>
             <div class="button-holder">
-               <a href="contact.php" class="btn btn-readmore wow fadeInUp">Get in Touch</a>
+               <a href="<?php echo $path; ?>contact" class="btn btn-readmore wow fadeInUp">Get in Touch</a>
             </div>
          </div>
       </div>
@@ -61,7 +61,7 @@ include_once('partials/header.php')
             </div>
             <div class="col-lg-6 items">
                <div class="portfolio-item white">
-                  <a href="<?php echo $path ?>/work/quovadis" class="portfolio-popup">
+                  <a href="<?php echo $path ?>work/quovadis" class="portfolio-popup">
                      <div class="texts">
                         <div class="texts-head">
                            <h2 >Quovadis Travel</h2>

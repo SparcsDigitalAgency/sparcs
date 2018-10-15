@@ -15,7 +15,7 @@ $site = isset($_POST['value']) ? $_POST['value'] : '';
 	//$http = ($_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https' || ($_SERVER['HTTPS'] && $_SERVER['HTTPS'] != 'off')) ? 'https' : 'http';
 	$index = ($index) ? $index : (($path == './') && preg_match("/index.php/",$_SERVER['SCRIPT_FILENAME']));
 	$company =  (preg_match("/company.php/",$_SERVER['SCRIPT_FILENAME']));
-	$contact =  (preg_match("/contact-us.php/",$_SERVER['SCRIPT_FILENAME']));
+	$contact =  (preg_match("/contact.php/",$_SERVER['SCRIPT_FILENAME']));
 	$contact_me =  (preg_match("/contact_me.php/",$_SERVER['SCRIPT_FILENAME']));
 	$works = (preg_match("/works.php/", $_SERVER['SCRIPT_FILENAME']));
 	$services = (preg_match("/services.php/", $_SERVER['SCRIPT_FILENAME']));

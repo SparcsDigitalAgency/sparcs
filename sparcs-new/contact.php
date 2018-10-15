@@ -57,25 +57,7 @@ include_once('partials/header.php')
       end of CONTACT Section
       ============================-->
 <!--==========================
-contact-us Section
+Footer
 ============================-->
-<?php include_once('partials/contact.php')?>
-<!--==========================
-end of contact-us Section
-============================-->
-
-<!-- scroll-top -->
-<?php include_once('partials/scroll-top.php')?>
-
-<!-- map Script Libraries -->
-<?php include_once('partials/map-styles.php')?>
-
-<!-- JavaScript Libraries -->
-<?php include_once('partials/footer-scripts.php')?>
-<script type="text/javascript">
-   $(function() {
-   $.scrollify({
-   section : "section",
-   });
-   });
-</script>
+<?php include_once('partials/footer.php')?>
+<!-- end footer -->
