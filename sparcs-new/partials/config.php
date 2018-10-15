@@ -11,7 +11,7 @@ $services = isset($_POST['value']) ? $_POST['value'] : '';
 
 $site = isset($_POST['value']) ? $_POST['value'] : '';
 	
-	$path = ($path) ?: './';
+	$path = ($path) ?: 'http://localhost/~thomasaugusti/git/sparcs/sparcs-new/';
 	//$http = ($_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https' || ($_SERVER['HTTPS'] && $_SERVER['HTTPS'] != 'off')) ? 'https' : 'http';
 	$index = ($index) ? $index : (($path == './') && preg_match("/index.php/",$_SERVER['SCRIPT_FILENAME']));
 	$company =  (preg_match("/company.php/",$_SERVER['SCRIPT_FILENAME']));

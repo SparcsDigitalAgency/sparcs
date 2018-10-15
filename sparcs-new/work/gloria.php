@@ -12,7 +12,7 @@ $meta_tags=array(
 
    );
 
-include_once('partials/header.php')
+include_once('../partials/header.php')
 ?>
 <style type="text/css">
    .nav-icon3 span{
@@ -29,17 +29,17 @@ include_once('partials/header.php')
    <!--==========================
    portfolio  Section1
    ============================-->
-<section id="portfolio-section1" style="background:url('img/gloria/bg.jpg') no-repeat;background-size: cover;">
+<section id="portfolio-section1" style="background:url('<?php echo $path; ?>img/gloria/bg.jpg') no-repeat;background-size: cover;">
    <div class="container-fluid cf-padding">
       <div class="row">
          <div class="col-lg-6"  style="padding: 50px 0px 0px 0px;">
             <div class="portfolio-section1-imgholder text-center">
-               <img src="img/gloria/combined2.png" alt="" class="img-responsive wow fadeInLeft" style="max-height: 550px;width: auto;">
+               <img src="<?php echo $path; ?>img/gloria/combined2.png" alt="" class="img-responsive wow fadeInLeft" style="max-height: 550px;width: auto;">
             </div>
          </div>
          <div class="col-lg-6"  style="padding: 80px 80px 0px 80px;">
             <div class="portfolio-section1-textholder">
-               <img src="img/gloria/gloria-logo-w.png" alt="" class="img-responsive wow fadeInLeft"style="height:70px;width: auto;margin-bottom: 20px">
+               <img src="<?php echo $path; ?>img/gloria/gloria-logo-w.png" alt="" class="img-responsive wow fadeInLeft"style="height:70px;width: auto;margin-bottom: 20px">
                <p class="wow fadeInRight ">A brand new website for a US based Travel Company that speaks to Devotional Christian Hearts ,the world over.</p>
             </div>
             <div class="portfolio-section1-textholder wow fadeInRight">
@@ -80,7 +80,7 @@ include_once('partials/header.php')
              <p>The simplicity of swiping increases user engagement. Swipe right to save a trip and left to discard a trip.</p>
           </div>
           <div class="img-holder auto-margin">
-            <img src="img/gloria/gloria-pic1.png" alt="" class="style2-pic img-responsive wow zoomIn" data-wow-duration="2s">
+            <img src="<?php echo $path; ?>img/gloria/gloria-pic1.png" alt="" class="style2-pic img-responsive wow zoomIn" data-wow-duration="2s">
           </div>
       </div>
    </div>
@@ -94,31 +94,7 @@ include_once('partials/header.php')
 <!--==========================
 Footer
 ============================-->
-<?php include_once('partials/footer.php')?>
+<?php include_once('../partials/footer.php')?>
 <!-- end footer -->
 
- <!-- Jnavicon portfolio special -->     
-<script type="text/javascript">
-   var portfolio_section2 = $("#portfolio-section2").offset().top;
-   var contact = $("#contact").offset().top;
-   var $w = $(window).scroll(function(){
-       if ( $w.scrollTop() > portfolio_section2 && $w.scrollTop() < contact ) {   
-           $('.nav-icon3').addClass('change-color2');
-       } else {
-           $('.nav-icon3').removeClass('change-color2');
-       }
-   });
-</script>
-
-<!-- change navbrand logo class-->
-<script type="text/javascript">
-    $(window).scroll(function() {
-    if ($(this).scrollTop() > 500) {
-      $('#change-logo').addClass('logo-changed');
-      $('.logo-changed img').attr('src', 'img/toggle-icon.png');
-    } else {
-      $('.header-logo img').attr('src', 'img/logo-white.png');
-      $('#change-logo').removeClass('logo-changed');
-    }
-  });
-</script>
+ 

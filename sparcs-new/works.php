@@ -46,7 +46,7 @@ include_once('partials/header.php')
          <div class="row">
             <div class="col-lg-6 items">
                <div class="portfolio-item black">
-                  <a href="<?php echo $path ?>/work/mr-light" class="portfolio-popup">
+                  <a href="<?php echo $path ?>work/mr-light" class="portfolio-popup">
                         
                      <div class="texts">
                         <div class="texts-head">
@@ -75,7 +75,7 @@ include_once('partials/header.php')
             </div>
             <div class="col-lg-6 items">
                <div class="portfolio-item white">
-                  <a href="<?php echo $path ?>work/mr-light" class="portfolio-popup">
+                  <a href="<?php echo $path ?>work/gloria" class="portfolio-popup">
                      <div class="texts">
                         <div class="texts-head">
                            <h2 >Gloria Travels</h2>
@@ -83,7 +83,7 @@ include_once('partials/header.php')
                         </div>
                         <div class="texts-icon"><i class="fa fa-angle-right"></i></div>
                      </div>
-                     <img src="<?php echo $path ?>img/gloria-travels/cover.jpg" alt="">
+                     <img src="<?php echo $path ?>img/gloria/cover.jpg" alt="">
                   </a>
                </div>
             </div>

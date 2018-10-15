@@ -268,14 +268,14 @@
   <!-- end map -->
   <?php endif; ?>
 
-<script src="js/jquery.min.js"></script>
-<script src="js/superfish.min.js"></script>
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/easing.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/scrollify.js"></script>
-<script src="js/main.js"></script>
+<script src="<?php echo $path; ?>js/jquery.min.js"></script>
+<script src="<?php echo $path; ?>js/superfish.min.js"></script>
+<script src="<?php echo $path; ?>js/bootstrap.bundle.min.js"></script>
+<script src="<?php echo $path; ?>js/easing.min.js"></script>
+<script src="<?php echo $path; ?>js/wow.min.js"></script>
+<script src="<?php echo $path; ?>js/owl.carousel.min.js"></script>
+<script src="<?php echo $path; ?>js/scrollify.js"></script>
+<script src="<?php echo $path; ?>js/main.js"></script>
 
 <!-- toggle open-->
 <script type="text/javascript">
@@ -328,6 +328,32 @@
    section : "section",
    });
    });
+</script>
+
+<!-- Jnavicon portfolio special -->     
+<script type="text/javascript">
+   var portfolio_section2 = $("#portfolio-section2").offset().top;
+   var contact = $("#contact").offset().top;
+   var $w = $(window).scroll(function(){
+       if ( $w.scrollTop() > portfolio_section2 && $w.scrollTop() < contact ) {   
+           $('.nav-icon3').addClass('change-color2');
+       } else {
+           $('.nav-icon3').removeClass('change-color2');
+       }
+   });
+</script>
+
+<!-- change navbrand logo class-->
+<script type="text/javascript">
+    $(window).scroll(function() {
+    if ($(this).scrollTop() > 500) {
+      $('#change-logo').addClass('logo-changed');
+      $('.logo-changed img').attr('src', '<?php echo $path; ?>img/toggle-icon.png');
+    } else {
+      $('.header-logo img').attr('src', '<?php echo $path; ?>img/logo-white.png');
+      $('#change-logo').removeClass('logo-changed');
+    }
+  });
 </script>
 
 
