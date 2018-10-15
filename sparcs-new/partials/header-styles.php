@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
-<?php include_once('config.php')?>
->>>>>>> 4943fced981ac73326303e100c2c0a4b9774d37e
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

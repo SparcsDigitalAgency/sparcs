@@ -4,11 +4,11 @@
 <!--==========================
    header-menu
 ============================-->
-<<<<<<< HEAD
+
 <?php include_once('partials/header-menu.php')?>
-=======
-<?php include_once('partials/header.php')?>
->>>>>>> 4943fced981ac73326303e100c2c0a4b9774d37e
+
+<?php include_once('partials/header-menu.php')?>
+
 <!--==========================
  end of header-menu
 ============================-->
@@ -235,11 +235,11 @@ Services Section
 <!--==========================
 contact Section
 ============================-->
-<<<<<<< HEAD
+
 <?php include_once('partials/contact.php')?>
-=======
-<?php include_once('partials/footer.php')?>
->>>>>>> 4943fced981ac73326303e100c2c0a4b9774d37e
+
+<?php include_once('partials/contact.php')?>
+
 <!--==========================
 end of CONTACT Section
 ============================-->
