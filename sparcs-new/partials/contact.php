@@ -1,7 +1,7 @@
 
 <section id="contact" style="height: 100vh">
    <div class="container margintop65">
-\
+
       <div class="row">
          <div class="col-lg-12">
             <div class="contact-content text-center">
