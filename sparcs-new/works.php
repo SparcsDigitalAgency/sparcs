@@ -110,10 +110,13 @@ end of CONTACT Section
 ============================-->
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <?php include_once('partials/footer.php')?>
 <!-- end footer -->
 =======
+=======
+>>>>>>> parent of 8117520... PHP Structure changes
 =======
 >>>>>>> parent of 8117520... PHP Structure changes
 <!-- scroll-top -->
@@ -122,8 +125,11 @@ end of CONTACT Section
 <!-- JavaScript Libraries -->
 <?php include_once('partials/footer-scripts.php')?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 8117520... PHP Structure changes
 
+=======
+>>>>>>> parent of 8117520... PHP Structure changes
 =======
 >>>>>>> parent of 8117520... PHP Structure changes
 

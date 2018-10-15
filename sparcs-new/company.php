@@ -186,9 +186,12 @@ end of contact-us Section
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php include_once('partials/footer.php')?>
 <!-- end footer -->
 =======
+=======
+>>>>>>> parent of 8117520... PHP Structure changes
 =======
 >>>>>>> parent of 8117520... PHP Structure changes
 <!-- scroll-top -->
@@ -203,6 +206,10 @@ end of contact-us Section
    });
    });
 <<<<<<< HEAD
+<<<<<<< HEAD
+</script>
+>>>>>>> parent of 8117520... PHP Structure changes
+=======
 </script>
 >>>>>>> parent of 8117520... PHP Structure changes
 =======

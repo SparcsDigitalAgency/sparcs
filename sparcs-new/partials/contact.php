@@ -1,7 +1,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <section id="contact">
    <div class="container">
+=======
+<section id="contact" style="height: 100vh">
+   <div class="container margintop65">
+>>>>>>> parent of 8117520... PHP Structure changes
 =======
 <section id="contact" style="height: 100vh">
    <div class="container margintop65">
