@@ -886,13 +886,10 @@ font-size: 36px;
 #contact {
 background-color: #111;
 background-size: cover;
-padding: 1px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
 }
 .contactmargin{
 margin-top: 50px;
-}
-.margintop65 {
-margin-top: 65px;
 }
 .contact-content {
 margin-top: 10%;
@@ -1485,7 +1482,6 @@ margin-bottom: 10%;
 --------------------------------------------------------------*/
 #contact-section1 {
 background-size: cover;
-padding: 1px 0 0px 0;
 }
 #contact-section1 .social-links a {
 font-size: 14px;
