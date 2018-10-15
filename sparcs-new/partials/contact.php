@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 <section id="contact">
    <div class="container">
+=======
+<section id="contact" style="height: 100vh">
+   <div class="container margintop65">
+>>>>>>> parent of 8117520... PHP Structure changes
       <div class="row">
          <div class="col-lg-12">
             <div class="contact-content text-center">
