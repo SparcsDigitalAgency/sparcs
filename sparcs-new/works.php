@@ -11,8 +11,8 @@
 <!--==========================
    works  Section1
    ============================-->
-<section id="works-section1" class="">
-   <div class="container ">
+<section id="works-section1">
+   <div class="container marginbottom50">
       <div class="row">
          <div class="col-lg-8">
             <div class="works-content">
@@ -20,7 +20,7 @@
                <p class="wow fadeInUp">Take a moment to view some of our latest work. While most of the sites below were built by us from the ground up, we experience a wide range of involvement with our client’s websites.</p>
             </div>
             <div class="button-holder">
-               <a href="contact-us.php" class="btn btn-readmore wow fadeInUp">Get in Touch</a>
+               <a href="contact.php" class="btn btn-readmore wow fadeInUp">Get in Touch</a>
             </div>
          </div>
       </div>
@@ -101,8 +101,17 @@
 <!--==========================
    end of works  Section2
    ============================-->
+<<<<<<< HEAD
 
 
 
 <?php include_once('partials/footer.php')?>
 <!-- end footer -->
+=======
+<!--==========================
+Footer
+============================-->
+<?php include_once('partials/footer.php')?>
+<!-- end footer -->
+
+>>>>>>> parent of b96059b... Merge branch 'sahid' of https://github.com/SparcsDigitalAgency/sparcs into sahid

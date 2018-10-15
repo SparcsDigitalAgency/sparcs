@@ -12,7 +12,7 @@
    About Us  Section1
    ============================-->
 <section id="about-section1" class="">
-   <div class="container ">
+   <div class="container marginbottom50">
       <div class="row">
          <div class="col-lg-8">
             <div class="about-content">
@@ -177,24 +177,5 @@
    ============================-->
 
 
-<!--==========================
-contact-us Section
-============================-->
-<?php include_once('partials/contact.php')?>
-<!--==========================
-end of contact-us Section
-============================-->
 
-<!-- scroll-top -->
-<?php include_once('partials/scroll-top.php')?>
-
-<!-- JavaScript Libraries -->
-<?php include_once('partials/footer-scripts.php')?>
-<script type="text/javascript">
-   $(function() {
-   $.scrollify({
-   section : "section",
-   });
-   });
-</script>
-
+<?php include_once('partials/footer.php')?>

@@ -636,7 +636,7 @@ z-index: 10;
 margin-bottom: 50px;
 }
 .about-content {
-	padding: 300px 0px 0px 0px;
+margin-top: 40%;
 }
 #about h2 {
 color: #444;
@@ -663,7 +663,10 @@ font-size: 36px;
 #services {
 background-color: #f9f9f9;
 background-size: cover;
-    padding: 200px 0px 0px 0px;
+height: 100vh;
+}
+#services .margintop {
+padding-top: 10%;
 }
 .services-content {
 margin-top: 20%;
@@ -845,7 +848,7 @@ font-size: 16px;
 }
 }
 /*--------------------------------------------------------------
-# works Section
+# portfolio Section
 --------------------------------------------------------------*/
 #portfolio {
 background: url(../img/portfolio-bg.png);
@@ -883,10 +886,16 @@ font-size: 36px;
 #contact {
 background-color: #111;
 background-size: cover;
-padding: 150px 0px 0px 0px;
+padding: 1px 0px 0px 0px;
 }
 .contactmargin{
 margin-top: 50px;
+}
+.margintop65 {
+margin-top: 65px;
+}
+.contact-content {
+margin-top: 10%;
 }
 #contact h2 {
 color: #b9b9b9;
@@ -968,7 +977,7 @@ position: relative;
 z-index: 10;
 }
 #about-section1 .about-content {
-    padding: 400px 0px 0px 0px;
+margin-top: 50%;
 }
 #about-section1 h2 {
 color: #444;
@@ -976,6 +985,7 @@ font-size: 50px;
 font-weight: 700;
 }
 #about-section2{
+padding: 10% 0% 0% 0%;
 background: #f9f9f9;
 }
 .about-section1-list{
@@ -991,22 +1001,33 @@ margin-top: 10px;
 color: #c9252c;
 margin-right: 10px;
 }
+
+#about-section2{
+padding: 5% 0% 0% 0%;
+}
+#about-section2 .about-content {
+margin-top: 50%;
+}
 #about-section2 h2 {
 color: #444;
 font-size: 42px;
 font-weight: 600;
 }
+#about-section2 .text-holder{
+	padding-top: 25%;
+}
+#about-section2 .img-holder{
+	padding-top: 10%;
+}
 #about-section2 .img-holder img{
 	width:100%;
 }
-#about-section2 .img-holder{
-	padding: 200px 100px 0px 100px;
-}
-#about-section2 .text-holder{
-	padding: 200px 100px 0px 0px;
-}
 
 #about-section3{
+padding: 10% 0% 0% 0%;
+}
+#about-section3 .about-content {
+margin-top: 50%;
 }
 #about-section3 h2 {
 color: #444;
@@ -1014,10 +1035,10 @@ font-size: 50px;
 font-weight: 700;
 }
 #about-section3 .text-holder{
-	padding-top: 400px;
+	padding-top: 50%;
 }
 #about-section3 .img-holder{
-	padding-top: 300px;
+	padding-top: 20%;
 }
 #about-section3 .img-holder img{
 	width:100%;
@@ -1026,7 +1047,7 @@ font-weight: 700;
 margin-bottom: 20px;
 }
 #about-section4{
-padding: 100px 0px 0px 0px;
+padding: 10% 0% 0% 0%;
 background: #f9f9f9;
 }
 #about-section4 h2 {
@@ -1035,7 +1056,7 @@ background: #f9f9f9;
     font-weight: 700;
 }
 #about-section5{
-padding: 100px 0px 0px 0px;
+padding: 10% 0% 0% 0%;
 }
 #about-section5 h2 {
     color: #444;
@@ -1043,7 +1064,7 @@ padding: 100px 0px 0px 0px;
     font-weight: 700;
 }
 #about-section6{
-padding: 150px 0px 0px 0px;
+padding: 10% 0% 0% 0%;
 background: #f9f9f9;
 }
 #about-section6 .about-content {
@@ -1064,11 +1085,11 @@ font-weight: 700;
 	width:100%;
 }
 #about-section7{
-padding: 50px 0px 0px 0px;
-background: #fff;
+padding: 7% 0% 0% 0%;
+background: #f9f9f9;
 }
 #about-section7 .about-content {
-margin-top: 300px;
+margin-top: 50%;
 }
 #about-section7 h2 {
 color: #444;
@@ -1076,8 +1097,11 @@ font-size: 50px;
 font-weight: 700;
 }
 #about-section7 .text-holder{
-	padding-top: 400px;
+	padding-top: 50%;
 	padding-left: 100px;
+}
+#about-section7 .img-holder{
+	padding-top:5%;
 }
 #about-section7 .img-holder img{
 	width:100%;
@@ -1111,11 +1135,12 @@ font-size: 36px;
 /*--------------------------------------------------------------
 # works  page
 --------------------------------------------------------------*/
-
 #works-section1 {
 background: url(../img/portfolio-bg.png);
 background-size: cover;
 position: relative;
+height: 100vh;
+
 }
 #works-section1 p {
 font-size: 1.2rem;
@@ -1126,7 +1151,7 @@ position: relative;
 z-index: 10;
 }
 #works-section1 .works-content {
-    padding: 400px 0px 0px 0px;
+margin-top: 40%;
 }
 #works-section1 h2 {
 color: #444;
@@ -1134,7 +1159,7 @@ font-size: 50px;
 font-weight: 700;
 }
 #works-section2{
-background: #fff;
+background: #f9f9f9;
 }
 #works-section2 .container{
 padding:5px 0;
@@ -1384,18 +1409,14 @@ color: #444;
 position: relative;
 z-index: 10;
 }
-#services-section1 .services-content {
-    padding: 200px 0px 0px 0px;
+#services-section1 .about-content {
+margin-top: 50%;
 }
 #services-section1 h2 {
 color: #444;
 font-size: 50px;
 font-weight: 700;
 }
-#services-section2{
-background: #f9f9f9;
-}
-
 #services-section2{
 padding: 10% 0% 0% 0%;
 background: #f9f9f9;
@@ -1464,6 +1485,7 @@ margin-bottom: 10%;
 --------------------------------------------------------------*/
 #contact-section1 {
 background-size: cover;
+padding: 1px 0 0px 0;
 }
 #contact-section1 .social-links a {
 font-size: 14px;
