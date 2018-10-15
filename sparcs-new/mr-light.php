@@ -1,19 +1,6 @@
 
 <!-- header styles-->
-<?php 
-
-$meta_tags=array(
-         'title'        => 'Sparcs Digital Agency | Digital Agency in Kochi, Kerala',
-      'description'  => 'Sparcs is a Digital Agency which delivers high quality, reliable and affordable services to our customer globally.',
-      'keywords'=>'web development, web design, branding, digital marketing, SEO, kochi, Kerala',
-      "no-index" => true,
-      'no-follow' =>true,
-      'no-archieve' =>true,
-
-   );
-
-include_once('partials/header.php')
-?>
+<?php include_once('partials/header-styles.php')?>
 <style type="text/css">
    .nav-icon3 span{
       background: white;
@@ -22,44 +9,45 @@ include_once('partials/header.php')
       background: #c9252c;
    }
 </style>
-
-
-
-
-   <!--==========================
+<!--==========================
+   header-menu
+============================-->
+<?php include_once('partials/header-menu.php')?>
+<!--==========================
+ end of header-menu
+============================-->
+<!--==========================
    portfolio  Section1
    ============================-->
-<section id="portfolio-section1" style="background:url('img/gloria/bg.jpg') no-repeat;background-size: cover;">
+<section id="portfolio-section1" style="background:url('img/mrlight/bg.jpg') no-repeat;background-size: cover;">
    <div class="container-fluid cf-padding">
       <div class="row">
-         <div class="col-lg-6"  style="padding: 50px 0px 0px 0px;">
+         <div class="col-lg-6"  style="padding: 130px 0px 0px 0px;">
             <div class="portfolio-section1-imgholder text-center">
-               <img src="img/gloria/combined2.png" alt="" class="img-responsive wow fadeInLeft" style="max-height: 550px;width: auto;">
+               
+               <img src="img/mrlight/combined.png" alt="" class="img-responsive wow fadeInLeft" style="">
             </div>
          </div>
          <div class="col-lg-6"  style="padding: 80px 80px 0px 80px;">
             <div class="portfolio-section1-textholder">
-               <img src="img/gloria/gloria-logo-w.png" alt="" class="img-responsive wow fadeInLeft"style="height:70px;width: auto;margin-bottom: 20px">
-               <p class="wow fadeInRight ">A brand new website for a US based Travel Company that speaks to Devotional Christian Hearts ,the world over.</p>
+               <img src="img/mrlight/mrlight-logo.png" alt="" class="img-responsive wow fadeInLeft"style="height:70px;width: auto;margin-bottom: 20px">
+               <p class="wow fadeInRight ">Redesigning MrLightGlobal -The inspiring story of a daring entrepreneurship that was looking for a website revamp to reflect its Global Aspirations. </p>
             </div>
             <div class="portfolio-section1-textholder wow fadeInRight">
                <div class="icon"><i class="fa fa-check-circle"></i></div>
-               <p class="description">Giving the Home Page the feel of a real window to the most attractive panoramic views of  well known Christian Pilgrimage sites.</p>
+               <p class="description">Gave the site a modern ,clear cut fresh appeal meeting client preferences on middle ground.</p>
             </div>
             <div class="portfolio-section1-textholder wow fadeInRight">
                <div class="icon"><i class="fa fa-check-circle"></i></div>
-               <p class="description">Making Pilgrimage packages visually attractive and user friendly.</p>
+               <p class="description">Corrected serious errors in product showcasing by  redesigning site all over on Wordpress framework.</p>
             </div>
             <div class="portfolio-section1-textholder wow fadeInRight">
                <div class="icon"><i class="fa fa-check-circle"></i></div>
-               <p class="description">Ensuring  that fully validated sign up forms open smoothly  in accordance with the number or travelers clicked.</p>
+               <p class="description">Converted static pages to Content Management System(CMS) by which Client is enabled to keep adding new products from backend.</p>
             </div>
             <div class="portfolio-section1-textholder wow fadeInRight">
                <div class="icon"><i class="fa fa-check-circle"></i></div>
-               <p class="description">Ensuring that the completed booking forms are well integrated with the payment portal for hassle free remittance.</p>
-            </div>
-            <div class="portfolio-section1-textholder wow fadeInRight">
-               <a href="http://www.gloriatravels.org/"" class="btn btn-readmore-outline">Visit Website</a>
+               <p class="description">Content was written afresh and catchy copywriting added to attractive sliders drawing consumer attention to products.</p>
             </div>
          </div>
       </div>
@@ -68,8 +56,7 @@ include_once('partials/header.php')
 <!--==========================
    end of portfolio  Section1
    ============================-->
-
-   <!--==========================
+<!--==========================
    portfolio section2
    ============================-->
 <section id="portfolio-section2" style="background-color: #f2f2f2;">
@@ -80,7 +67,7 @@ include_once('partials/header.php')
              <p>The simplicity of swiping increases user engagement. Swipe right to save a trip and left to discard a trip.</p>
           </div>
           <div class="img-holder auto-margin">
-            <img src="img/gloria/gloria-pic1.png" alt="" class="style2-pic img-responsive wow zoomIn" data-wow-duration="2s">
+            <img src="img/mrlight/mrlight-1.png" alt="" class="style2-pic img-responsive wow zoomIn" data-wow-duration="2s">
           </div>
       </div>
    </div>
@@ -88,14 +75,19 @@ include_once('partials/header.php')
 <!--==========================
    end of portfolio section2
    ============================-->
+
 <!--==========================
-   end of works  Section2
-   ============================-->
-<!--==========================
-Footer
+contact-us Section
 ============================-->
-<?php include_once('partials/footer.php')?>
-<!-- end footer -->
+<?php include_once('partials/contact.php')?>
+<!--==========================
+end of contact-us Section
+============================-->
+<!-- scroll-top -->
+<?php include_once('partials/scroll-top.php')?>
+
+<!-- JavaScript Libraries -->
+<?php include_once('partials/footer-scripts.php')?>
 
  <!-- Jnavicon portfolio special -->     
 <script type="text/javascript">

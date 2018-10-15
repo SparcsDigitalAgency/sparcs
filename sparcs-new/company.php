@@ -1,21 +1,13 @@
-<!-- header -->
-<?php 
+<!-- header styles-->
+<?php include_once('partials/header-styles.php')?>
 
-   $meta_tags=array(
-         'title'        => 'Sparcs Digital Agency | Digital Agency in Kochi, Kerala',
-      'description'  => 'Sparcs is a Digital Agency which delivers high quality, reliable and affordable services to our customer globally.',
-      'keywords'=>'web development, web design, branding, digital marketing, SEO, kochi, Kerala',
-      "no-index" => true,
-      'no-follow' =>true,
-      'no-archieve' =>true,
-
-   );
-
-include_once('partials/header.php')
-
-?>
-
-
+<!--==========================
+   header-menu
+============================-->
+<?php include_once('partials/header-menu.php')?>
+<!--==========================
+ end of header-menu
+============================-->
 <!--==========================
    About Us  Section1
    ============================-->
@@ -185,8 +177,22 @@ include_once('partials/header.php')
    ============================-->
 
 <!--==========================
-Footer
+contact-us Section
+============================-->
+<?php include_once('partials/contact.php')?>
+<!--==========================
+end of contact-us Section
 ============================-->
 
-<?php include_once('partials/footer.php')?>
-<!-- end footer -->
+<!-- scroll-top -->
+<?php include_once('partials/scroll-top.php')?>
+
+<!-- JavaScript Libraries -->
+<?php include_once('partials/footer-scripts.php')?>
+<script type="text/javascript">
+   $(function() {
+   $.scrollify({
+   section : "section",
+   });
+   });
+</script> 
