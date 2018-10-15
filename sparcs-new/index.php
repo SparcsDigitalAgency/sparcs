@@ -46,9 +46,9 @@
             <div class="about-content">
                <h2 class="wow fadeInUp">Company</h2>
                <p class="wow fadeInUp">SPARCS delivers high quality, reliable and affordable services to customers globally. We specialize in Creative Campaigns, Website Design & Development, Mobile App/OTT Development, Branding and Digital Marketing.</p>
-            </div>
-            <div class="button-holder">
-               <a href="company.php#about-section2" class="btn btn-readmore wow fadeInUp">Read more</a>
+               <div class="button-holder">
+                  <a href="company.php#about-section1" class="btn btn-readmore wow fadeInUp">Read more</a>
+               </div>
             </div>
          </div>
       </div>
@@ -62,7 +62,7 @@
 Services Section
 ============================-->
 <section id="services">
-   <div class="container margintop">
+   <div class="container">
       <div class="row">
          <div class="col-lg-5">
             <div class="services-content">

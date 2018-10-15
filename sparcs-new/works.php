@@ -11,8 +11,8 @@
 <!--==========================
    works  Section1
    ============================-->
-<section id="works-section1">
-   <div class="container marginbottom50">
+<section id="works-section1" class="">
+   <div class="container ">
       <div class="row">
          <div class="col-lg-8">
             <div class="works-content">
@@ -20,7 +20,7 @@
                <p class="wow fadeInUp">Take a moment to view some of our latest work. While most of the sites below were built by us from the ground up, we experience a wide range of involvement with our client’s websites.</p>
             </div>
             <div class="button-holder">
-               <a href="contact.php" class="btn btn-readmore wow fadeInUp">Get in Touch</a>
+               <a href="contact-us.php" class="btn btn-readmore wow fadeInUp">Get in Touch</a>
             </div>
          </div>
       </div>
@@ -113,4 +113,10 @@ end of CONTACT Section
 
 <!-- JavaScript Libraries -->
 <?php include_once('partials/footer-scripts.php')?>
-
+<script type="text/javascript">
+   $(function() {
+   $.scrollify({
+   section : "section",
+   });
+   });
+</script> 
