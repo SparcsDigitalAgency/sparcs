@@ -176,6 +176,29 @@
    end of About Us section 7
    ============================-->
 
+<<<<<<< HEAD
 
 
 <?php include_once('partials/footer.php')?>
+=======
+<!--==========================
+contact-us Section
+============================-->
+<?php include_once('partials/contact.php')?>
+<!--==========================
+end of contact-us Section
+============================-->
+
+<!-- scroll-top -->
+<?php include_once('partials/scroll-top.php')?>
+
+<!-- JavaScript Libraries -->
+<?php include_once('partials/footer-scripts.php')?>
+<script type="text/javascript">
+   $(function() {
+   $.scrollify({
+   section : "section",
+   });
+   });
+</script> 
+>>>>>>> 4943fced981ac73326303e100c2c0a4b9774d37e

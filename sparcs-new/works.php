@@ -102,16 +102,38 @@
    end of works  Section2
    ============================-->
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
 <?php include_once('partials/footer.php')?>
 <!-- end footer -->
 =======
-<!--==========================
-Footer
+=======
+ <!--==========================
+contact Section
 ============================-->
+<?php include_once('partials/contact.php')?>
+>>>>>>> 4943fced981ac73326303e100c2c0a4b9774d37e
+<!--==========================
+end of CONTACT Section
+============================-->
+<<<<<<< HEAD
 <?php include_once('partials/footer.php')?>
 <!-- end footer -->
 
 >>>>>>> parent of b96059b... Merge branch 'sahid' of https://github.com/SparcsDigitalAgency/sparcs into sahid
+=======
+<!-- scroll-top -->
+<?php include_once('partials/scroll-top.php')?>
+
+<!-- JavaScript Libraries -->
+<?php include_once('partials/footer-scripts.php')?>
+<script type="text/javascript">
+   $(function() {
+   $.scrollify({
+   section : "section",
+   });
+   });
+</script> 
+>>>>>>> 4943fced981ac73326303e100c2c0a4b9774d37e

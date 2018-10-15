@@ -4,7 +4,11 @@
 <!--==========================
    header-menu
 ============================-->
+<<<<<<< HEAD
 <?php include_once('partials/header-menu.php')?>
+=======
+<?php include_once('partials/header.php')?>
+>>>>>>> 4943fced981ac73326303e100c2c0a4b9774d37e
 <!--==========================
  end of header-menu
 ============================-->
@@ -24,7 +28,7 @@
                      <h2 class="wow fadeInUp">Driven by design</h2>
                      <p class="wow fadeInUp">A reliable responsive creative hands-on team of creative no-frills perfectionists.
                      </p>
-                     <a href="contact-us.php" class="btn btn-readmore wow fadeInUp">Get In Touch</a>
+                     <a href="<?php echo $path ?>contact-us" class="btn btn-readmore wow fadeInUp">Get In Touch</a>
                   </div>
                </div>
             </div>
@@ -231,7 +235,11 @@ Services Section
 <!--==========================
 contact Section
 ============================-->
+<<<<<<< HEAD
 <?php include_once('partials/contact.php')?>
+=======
+<?php include_once('partials/footer.php')?>
+>>>>>>> 4943fced981ac73326303e100c2c0a4b9774d37e
 <!--==========================
 end of CONTACT Section
 ============================-->
