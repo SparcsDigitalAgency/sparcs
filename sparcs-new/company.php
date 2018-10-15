@@ -1,13 +1,21 @@
-<!-- header styles-->
-<?php include_once('partials/header-styles.php')?>
+<!-- header -->
+<?php 
 
-<!--==========================
-   header-menu
-============================-->
-<?php include_once('partials/header-menu.php')?>
-<!--==========================
- end of header-menu
-============================-->
+   $meta_tags=array(
+         'title'        => 'Sparcs Digital Agency | Digital Agency in Kochi, Kerala',
+      'description'  => 'Sparcs is a Digital Agency which delivers high quality, reliable and affordable services to our customer globally.',
+      'keywords'=>'web development, web design, branding, digital marketing, SEO, kochi, Kerala',
+      "no-index" => true,
+      'no-follow' =>true,
+      'no-archieve' =>true,
+
+   );
+
+include_once('partials/header.php')
+
+?>
+
+
 <!--==========================
    About Us  Section1
    ============================-->
@@ -176,6 +184,8 @@
    end of About Us section 7
    ============================-->
 
-
+<!--==========================
+Footer
+============================-->
 <?php include_once('partials/footer.php')?>
-
+<!-- end footer -->

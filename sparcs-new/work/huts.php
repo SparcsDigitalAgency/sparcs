@@ -1,6 +1,18 @@
 
 <!-- header styles-->
-<?php include_once('partials/header-styles.php')?>
+<?php 
+$meta_tags=array(
+         'title'        => 'Sparcs Digital Agency | Digital Agency in Kochi, Kerala',
+      'description'  => 'Sparcs is a Digital Agency which delivers high quality, reliable and affordable services to our customer globally.',
+      'keywords'=>'web development, web design, branding, digital marketing, SEO, kochi, Kerala',
+      "no-index" => true,
+      'no-follow' =>true,
+      'no-archieve' =>true,
+
+   );
+
+include_once('partials/header.php')
+?>
 <style type="text/css">
    .nav-icon3 span{
       background: white;
@@ -9,13 +21,6 @@
       background: #c9252c;
    }
 </style>
-<!--==========================
-   header-menu
-============================-->
-<?php include_once('partials/header-menu.php')?>
-<!--==========================
- end of header-menu
-============================-->
    <!--==========================
    portfolio  Section1
    ============================-->
@@ -185,17 +190,13 @@
 
 
 <!--==========================
-contact-us Section
-============================-->
-<?php include_once('partials/contact.php')?>
+   end of works  Section2
+   ============================-->
 <!--==========================
-end of contact-us Section
+Footer
 ============================-->
-<!-- scroll-top -->
-<?php include_once('partials/scroll-top.php')?>
-
-<!-- JavaScript Libraries -->
-<?php include_once('partials/footer-scripts.php')?>
+<?php include_once('partials/footer.php')?>
+<!-- end footer -->
 
  <!-- Jnavicon portfolio special -->     
 <script type="text/javascript">

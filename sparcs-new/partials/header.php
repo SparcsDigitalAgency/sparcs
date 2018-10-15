@@ -1,19 +1,73 @@
 <?php 
-$active_page=$_SERVER['REQUEST_URI'];
-$portfolio_pages=array('/Git/sparcs/sparcs-new/mr-light.php','/Git/sparcs/sparcs-new/quovadis.php','/Git/sparcs/sparcs-new/gloria.php','/Git/sparcs/sparcs-new/huts.php','/Git/sparcs/sparcs-new/lumiere.php');
+
+include_once('config.php')
 ?>
-<header class="s-header">
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- amitha-->
+<meta http_equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<title><?php echo $meta_tags['title']; ?></title>
+<meta name="keywords" content="<?php echo $meta_tags['keywords']; ?>">
+<meta name="description" content="<?php echo $meta_tags['description']; ?>">
+<meta property="og:title" content="Sparcs, an interactive digital agency."/>
+<meta property="og:type" content="company"/>
+<meta property="og:url" content="http://www.sparcsdigital.com"/>
+<meta property="og:image" content="http://www.sparcsdigital.com/images/logo.png"/>
+<meta property="og:site_name" content="Sparcs"/>
+<meta property="fb:admins" content="1301551246"/>
+<?php if ($meta_tags['no-index'] ): ?> 
+	<meta name="robots" content="noindex">
+	<meta name="robots" content="nofollow">
+	<meta name="robots" content="noarchive">
+<?php endif; ?>
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" sizes="57x57" href="../img/favicons/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="../img/favicons/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="../img/favicons/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="../img/favicons/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="../img/favicons/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="../img/favicons/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="../img/favicons/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="../img/favicons/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="../img/favicons/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="../img/favicons/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../img/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="../img/favicons/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../img/favicons/favicon-16x16.png">
+	<link rel="manifest" href="../img/favicons/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<link href="http://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,600,700" rel="stylesheet" type="text/css">
+	<!-- Bootstrap CSS File -->
+	<link href="../css/bootstrap.css" rel="stylesheet">
+	<!-- Libraries CSS Files -->
+	<link href="../css/font-awesome/css/font-awesome.css" rel="stylesheet">
+	<link href="../lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+	<link href="../css/animate.css" rel="stylesheet">
+	<link href="../css/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<!-- Main Stylesheet File -->
+	<link href="../css/portfolio.css" rel="stylesheet">
+	<link href="../css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<!--==========================
+   header-menu
+============================-->
+
+	<header class="s-header">
    <!--  header logo-->
    <div class="header-logo" id="change-logo">
-      <a class="site-logo" href="index.php">
-      <?php
-      if (in_array($active_page, $portfolio_pages)){
-           ?><img src="img/logo-white.png" alt="Homepage">
-      <?php
-      }
-      else { ?>
-           <img src="img/logo-red.png" alt="Homepage">
-      <?php } ?>
+      <a class="site-logo" href="<?php echo $index; ?>">
+      
+      <!--<img src="img/logo-white.png" alt="Homepage">-->
+     
+           <img src="../img/logo-red.png" alt="Homepage">
+      
       </a>
    </div>
    <!-- end header-logo -->
@@ -21,31 +75,22 @@ $portfolio_pages=array('/Git/sparcs/sparcs-new/mr-light.php','/Git/sparcs/sparcs
    <nav class="header-nav">
       <div class="header-nav__content">
          <div class="toggle-logo">
-            <a href="index.php">
-            <img src="img/toggle-icon.png" alt="Homepage">
+            <a href="<?php echo $index; ?>">
+            <img src="../img/toggle-icon.png" alt="Homepage">
             </a>
          </div>
          <ul class="header-nav__list">
-            <li <?php if (stripos($active_page, 'index.php')){?> class="current"><?php } else { ?>
-               class=""><?php } ?>
-               <a href="index.php" title="home">Home</a>
-            </li>
-            <li <?php if (stripos($active_page, 'company.php')){?> class="current"><?php } else { ?>
-               class=""><?php } ?>
-               <a href="company.php" title="company">Company</a>
-            </li>
-            <li <?php if (stripos($active_page, 'services.php')){?> class="current"><?php } else { ?>
-               class=""><?php } ?>
-               <a href="services.php" title="services">Services</a>
-            </li>
-            <li <?php if (stripos($active_page, 'works.php')){?> class="current"><?php }  else { ?>
-               class=""><?php } ?>
-               <a href="works.php" title="works">Works</a>
-            </li>
-            <li <?php if (stripos($active_page, 'contact-us.php')){?> class="current"><?php } else { ?>
-               class=""><?php } ?>
-               <a href="contact-us.php" title="contact">Contact</a>
-            </li>
+
+            <li <?php echo (preg_match("/index.php/",$_SERVER['SCRIPT_FILENAME']) ? 'class="current"': '');?>>
+               <a  href="<?php echo $index; ?>" title="Portfolio">Home</a></li>
+            <li <?php echo (preg_match("/company.php/",$_SERVER['SCRIPT_FILENAME']) ? 'class="current"': '');?>>
+               <a  href="<?php echo $path; ?>company" title="Portfolio">Company</a></li>
+            <li <?php echo (preg_match("/services.php/",$_SERVER['SCRIPT_FILENAME']) ? 'class="current"': '');?>>
+               <a  href="<?php echo $path; ?>services" title="Portfolio">Services</a></li>
+            <li <?php echo (preg_match("/works.php/",$_SERVER['SCRIPT_FILENAME']) ? 'class="current"': '');?>>
+               <a  href="<?php echo $path; ?>works" title="Portfolio">Works</a></li>
+            <li <?php echo (preg_match("/contact-us.php/",$_SERVER['SCRIPT_FILENAME']) ? 'class="current"': '');?>>
+               <a  href="<?php echo $path; ?>contact-us" title="Portfolio">Contact</a></li>
          </ul>
          <p>1st floor, Thachil Tower, <br>Pottakuzhi Jn, Kaloor,<br>Kochi - 682017<br>
             info@sparcsdigital.com
@@ -77,3 +122,7 @@ $portfolio_pages=array('/Git/sparcs/sparcs-new/mr-light.php','/Git/sparcs/sparcs
       </div>
    </a>
 </header>
+
+<!--==========================
+ end of header-menu
+============================-->
