@@ -1,13 +1,21 @@
 <!-- header styles-->
-<?php include_once('partials/header-styles.php')?>
+<?php 
 
-<!--==========================
-   header-menu
-============================-->
-<?php include_once('partials/header-menu.php')?>
-<!--==========================
- end of header-menu
-============================-->
+   $meta_tags=array(
+         'title'        => 'Sparcs Digital Agency | Digital Agency in Kochi, Kerala',
+      'description'  => 'Sparcs is a Digital Agency which delivers high quality, reliable and affordable services to our customer globally.',
+      'keywords'=>'web development, web design, branding, digital marketing, SEO, kochi, Kerala',
+      "no-index" => true,
+      'no-follow' =>true,
+      'no-archieve' =>true,
+
+   );
+
+include_once('partials/header.php')
+
+?>
+
+
 
 <!--==========================
    Intro Section
@@ -160,63 +168,7 @@ Services Section
    <div class="container">
       
          <div class="row">
-            <div class="col-lg-6 items">
-               <div class="portfolio-item black">
-                  <a href="mr-light.php" class="portfolio-popup">
-                        
-                     <div class="texts">
-                        <div class="texts-head">
-                           <h2 >Mr.Light</h2>
-                           <p >Web Design & Developent, Responsive Design</p>
-                        </div>
-                        <div class="texts-icon"><i class="fa fa-angle-right"></i></div>
-                     </div>
-                     <img src="img/mrlight/cover.jpg" alt="">
-                  </a>
-               </div>
-            </div>
-            <div class="col-lg-6 items">
-               <div class="portfolio-item white">
-                  <a href="mr-light.php" class="portfolio-popup">
-                     <div class="texts">
-                        <div class="texts-head">
-                           <h2 >Quovadis Travel</h2>
-                           <p >Web Design & Developent, Responsive Design</p>
-                        </div>
-                        <div class="texts-icon"><i class="fa fa-angle-right"></i></div>
-                     </div>
-                     <img src="img/quovadis/cover.jpg" alt="">
-                  </a>
-               </div>
-            </div>
-            <div class="col-lg-6 items">
-               <div class="portfolio-item white">
-                  <a href="mr-light.php" class="portfolio-popup">
-                     <div class="texts">
-                        <div class="texts-head">
-                           <h2 >Gloria Travels</h2>
-                           <p >Web Developent, Responsive Design</p>
-                        </div>
-                        <div class="texts-icon"><i class="fa fa-angle-right"></i></div>
-                     </div>
-                     <img src="img/gloria-travels/cover.jpg" alt="">
-                  </a>
-               </div>
-            </div>
-            <div class="col-lg-6 items">
-               <div class="portfolio-item black">
-                  <a href="mr-light.php" class="portfolio-popup">
-                     <div class="texts">
-                        <div class="texts-head">
-                           <h2 >Lumiere Organic</h2>
-                           <p >Content, Social Media, Branding</p>
-                        </div>
-                        <div class="texts-icon"><i class="fa fa-angle-right"></i></div>
-                     </div>
-                     <img src="img/quovadis/cover.jpg" alt="">
-                  </a>
-               </div>
-            </div>
+            
 
           
          </div>
@@ -227,24 +179,6 @@ Services Section
    ============================-->
 
 
-
-<!--==========================
-contact Section
-============================-->
-<?php include_once('partials/contact.php')?>
-<!--==========================
-end of CONTACT Section
-============================-->
-
-<!-- scroll-top -->
-<?php include_once('partials/scroll-top.php')?>
-
-<!-- JavaScript Libraries -->
-<?php include_once('partials/footer-scripts.php')?>
-<script type="text/javascript">
-   $(function() {
-   $.scrollify({
-   section : "section",
-   });
-   });
-</script>
+<!-- footer -->
+<?php include_once('partials/footer.php')?>
+<!-- end footer -->
