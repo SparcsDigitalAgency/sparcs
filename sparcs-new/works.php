@@ -101,35 +101,7 @@
 <!--==========================
    end of works  Section2
    ============================-->
- <!--==========================
-contact Section
-============================-->
-<?php include_once('partials/contact.php')?>
-<!--==========================
-end of CONTACT Section
-============================-->
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 
 <?php include_once('partials/footer.php')?>
 <!-- end footer -->
-=======
-=======
->>>>>>> parent of 8117520... PHP Structure changes
-=======
->>>>>>> parent of 8117520... PHP Structure changes
-<!-- scroll-top -->
-<?php include_once('partials/scroll-top.php')?>
-
-<!-- JavaScript Libraries -->
-<?php include_once('partials/footer-scripts.php')?>
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 8117520... PHP Structure changes
-
-=======
->>>>>>> parent of 8117520... PHP Structure changes
-=======
->>>>>>> parent of 8117520... PHP Structure changes
-
