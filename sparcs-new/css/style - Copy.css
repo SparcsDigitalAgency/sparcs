@@ -1,0 +1,91 @@
+.cf-padding{
+    padding: 0px 100px;
+}
+
+/* portfolio section 1 */
+#portfolio-section1{
+padding: 100px 0px;
+}
+#portfolio-section1 h2{
+color: #fff;
+}
+#portfolio-section1 p{
+color: #fff;
+}
+#portfolio-section1  ul {
+list-style: none;
+padding: 0;
+}
+#portfolio-section1 ul li {
+padding-bottom: 10px;
+color: #fff;
+}
+#portfolio-section1 i {
+font-size: 20px;
+padding-right: 4px;
+color: #fff;
+}
+.portfolio-section1-textholder{
+margin-bottom: 20px;
+}
+#portfolio-section1 .icon {
+float: left;
+}
+#portfolio-section1 .description {
+font-size: 16px;
+margin-left: 30px;
+line-height: 24px;
+margin-bottom: 0;
+}
+
+/* portfolio section 2 */
+#portfolio-section2{
+padding: 100px 0px;
+}
+#portfolio-section2 h2{
+color: #444;
+margin-bottom: 30px;
+font-size: 50px;
+font-weight: 700;
+text-align: center;
+}
+#portfolio-section2 p{
+color: #444;
+margin-bottom: 50px;
+font-size: 16px;
+text-align: center;
+}
+
+
+
+
+
+.w-100 {
+    max-height: 450px;
+    width: auto !important;
+}
+#portfolio-section4{
+padding: 5% 0% 0% 0%;
+}
+#portfolio-section4 .img-holder img{
+	height: 300px;
+	width: auto;
+	margin-bottom: 30px;
+	box-shadow:9px 9px 15px 1px #999999;
+}
+/*--------------------------------------------------------------
+# MEDIA QUERY MOBILE
+--------------------------------------------------------------*/
+@media (max-width: 450px) {
+.portfolio-section1-imgholder{padding: 60px;
+}
+#portfolio-section1 {
+padding:0% 0% 0% 0%;
+}
+#portfolio-section2 h2{
+font-size: 36px;
+}
+#portfolio-section2 {
+padding: 50% 0% 0% 0%;
+}
+}
