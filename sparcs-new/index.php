@@ -164,16 +164,7 @@ Services Section
 <!--==========================
    works section2
    ============================-->
-<section id="works-section2">
-   <div class="container">
-      
-         <div class="row">
-            
 
-          
-         </div>
-      </div>
-</section>
 <!--==========================
    end of works  Section2
    ============================-->

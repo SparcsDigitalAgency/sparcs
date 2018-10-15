@@ -4,7 +4,7 @@
          <div class="col-lg-12">
             <div class="contact-content text-center">
                <h2 class="wow fadeInUp">Get In Touch</h2>
-               <a href="contact-us.php" class="btn btn-readmore wow fadeInUp">Contact Us</a>
+               <a href="<?php echo $path; ?>contact" class="btn btn-readmore wow fadeInUp">Contact Us</a>
             </div>
          </div>
       </div>
