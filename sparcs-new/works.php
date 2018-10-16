@@ -19,16 +19,21 @@ include_once('partials/header.php')
 <!--==========================
    works  Section1
    ============================-->
-<section id="works-section1">
-   <div class="container marginbottom50">
-      <div class="row">
-         <div class="col-lg-8">
-            <div class="works-content">
-               <h2 class="wow fadeInUp">Our Works</h2>
-               <p class="wow fadeInUp">Take a moment to view some of our latest work. While most of the sites below were built by us from the ground up, we experience a wide range of involvement with our client’s websites.</p>
-            </div>
-            <div class="button-holder">
-               <a href="<?php echo $path; ?>contact" class="btn btn-readmore wow fadeInUp">Get in Touch</a>
+<section id="intro">
+   <div class="intro-container">
+      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+         <ol class="carousel-indicators"></ol>
+         <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+               <div class="carousel-background"><img src="img/intro-bg.png" alt=""></div>
+               <div class="carousel-container">
+                  <div class="carousel-content ">
+                     <h2 class="wow fadeInUp">Our Works</h2>
+                     <p class="wow fadeInUp">A reliable responsive creative hands-on team of creative no-frills perfectionists.
+                     </p>
+                     <a href="<?php echo $path; ?>contact" class="btn btn-readmore wow fadeInUp">Get In Touch</a>
+                  </div>
+               </div>
             </div>
          </div>
       </div>

@@ -37,7 +37,7 @@ color: #444;
 }
 .btn-readmore {
 padding: 0.375rem 1.75rem;
-color: #fff;
+color: #fff!important;
 background-color: #c9252c;
 border-color: #c9252c;
 border-radius: 50px;
@@ -627,13 +627,14 @@ color: #c9252c;
 background: url(../img/about-bg.png);
 background-size: cover;
 position: relative;
+padding:20% 0%;
 }
 #about .container {
 position: relative;
 z-index: 10;
 }
 .about-content {
-margin-top: 40%;
+margin-top: 0%;
 }
 #about h2 {
 color: #444;
@@ -660,10 +661,9 @@ font-size: 36px;
 #services {
 background-color: #f9f9f9;
 background-size: cover;
-}
-#services .paddingtop {
 padding: 7% 0%;
 }
+
 .services-content {
 margin-top: 50px;
 }
@@ -883,12 +883,10 @@ font-size: 36px;
 #contact {
 background-color: #111;
 background-size: cover;
+padding: 10% 0% 2% 0%;
 }
 .margintop65 {
 margin-top: 65px;
-}
-.contact-content {
-margin-top: 10%;
 }
 #contact h2 {
 color: #b9b9b9;
@@ -960,17 +958,14 @@ padding-top: 45px;
 background: url(../img/about-bg.png);
 background-size: cover;
 position: relative;
-}
-#about-section1 p {
-font-size: 1.2rem;
-color: #444;
+padding:20% 0%;
 }
 #about-section1 .container {
 position: relative;
 z-index: 10;
 }
 #about-section1 .about-content {
-margin-top: 40%;
+margin-top: 0%;
 }
 #about-section1 h2 {
 color: #444;
@@ -996,7 +991,7 @@ margin-right: 10px;
 }
 
 #about-section2{
-padding: 5% 0% 0% 0%;
+padding: 5% 0% 5% 0%;
 }
 #about-section2 .about-content {
 margin-top: 50%;
@@ -1007,17 +1002,17 @@ font-size: 42px;
 font-weight: 600;
 }
 #about-section2 .text-holder {
-    padding: 150px 50px 0px 0px;
+    padding: 50px 50px 0px 0px;
 }
 #about-section2 .img-holder {
-    padding: 100px 100px 0px 100px;
+    padding: 0px 100px 0px 100px;
 }
 #about-section2 .img-holder img{
 	width:100%;
 }
 
 #about-section3{
-padding: 10% 0% 0% 0%;
+padding: 5% 0% 5% 0%;
 }
 #about-section3 .about-content {
 margin-top: 50%;
@@ -1040,7 +1035,7 @@ font-weight: 700;
 margin-bottom: 20px;
 }
 #about-section4{
-padding: 5% 0% 0% 0%;
+padding: 5% 0% 5% 0%;
 background: #f9f9f9;
 }
 #about-section4 h2 {
@@ -1049,7 +1044,7 @@ background: #f9f9f9;
     font-weight: 700;
 }
 #about-section5{
-padding: 5% 0% 0% 0%;
+padding: 5% 0% 5% 0%;
 }
 #about-section5 h2 {
     color: #444;
@@ -1057,7 +1052,7 @@ padding: 5% 0% 0% 0%;
     font-weight: 700;
 }
 #about-section6{
-padding: 10% 0% 0% 0%;
+padding: 7% 0% 7% 0%;
 background: #f9f9f9;
 }
 #about-section6 .about-content {
@@ -1078,7 +1073,7 @@ font-weight: 700;
 	width:100%;
 }
 #about-section7{
-padding: 0% 0% 0% 0%;
+padding: 7% 0% 7% 0%;
 background: #fff;
 }
 #about-section7 .about-content {
@@ -1092,9 +1087,6 @@ font-weight: 700;
 #about-section7 .text-holder{
 	padding-top: 50%;
 	padding-left: 100px;
-}
-#about-section7 .img-holder{
-	padding-top:5%;
 }
 #about-section7 .img-holder img{
 	width:100%;
@@ -1516,7 +1508,7 @@ height: 100vh
 .contact-content2{
 padding-top: 15%;
 height: 100vh;
-background-color: #c9252c;  
+background-color: #eaeaea;  
 }
 .contact-content1 h2{
 color: #b9b9b9;
@@ -1571,9 +1563,9 @@ display: block;
     border: none;
     line-height: 1.5;
     color: #fffcfc;
-    background-color: #ffffff00;
+    background-color: #eaeaea;
     background-clip: padding-box;
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 1px solid #bbb;
     border-radius: 0.25rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     margin-bottom: 1.3rem;
@@ -1582,18 +1574,18 @@ textarea {
 height: 100px;
 }
 .form-control::placeholder {
-color: #ffffff65;
+color: #bbb;
 opacity: 1;
 }
 .form-control:focus {
 color: #fff;
-    background-color: #921e1e24;
-    border-color: #c9252c00;
+    background-color: #fff;
+    border-color: #fff;
     outline: 0;
     box-shadow: none;
 }
 .form-holder h4{
-	color: #fff;
+	color: #666;
 }
 input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
     background-color: #c9252c!important;

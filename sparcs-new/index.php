@@ -70,7 +70,7 @@ include_once('partials/header.php')
 Services Section
 ============================-->
 <section id="services">
-   <div class="container paddingtop">
+   <div class="container">
       <div class="row">
          <div class="col-lg-5">
             <div class="services-content">

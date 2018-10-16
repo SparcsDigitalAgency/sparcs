@@ -19,16 +19,21 @@ include_once('partials/header.php')
 <!--==========================
    About Us  Section1
    ============================-->
-<section id="about-section1" class="">
-   <div class="container">
-      <div class="row">
-         <div class="col-lg-8">
-            <div class="about-content">
-               <h2 class="wow fadeInUp">About Us</h2>
-               <p class="wow fadeInUp">SPARCS is a digital agency which delivers high quality, reliable and affordable services to our customers globally. We specialize in Creative Campaigns, Website Design & Development, Mobile App/OTT Development, Branding and Digital Marketing.</p>
-            </div>
-            <div class="button-holder">
-               <a href="contact-us.php" class="btn btn-readmore wow fadeInUp">Get in Touch</a>
+<section id="intro">
+   <div class="intro-container">
+      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+         <ol class="carousel-indicators"></ol>
+         <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+               <div class="carousel-background"><img src="img/intro-bg.png" alt=""></div>
+               <div class="carousel-container">
+                  <div class="carousel-content ">
+                     <h2 class="wow fadeInUp">About Us</h2>
+                     <p class="wow fadeInUp">A reliable responsive creative hands-on team of creative no-frills perfectionists.
+                     </p>
+                     <a href="<?php echo $path; ?>contact" class="btn btn-readmore wow fadeInUp">Get In Touch</a>
+                  </div>
+               </div>
             </div>
          </div>
       </div>

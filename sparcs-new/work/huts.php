@@ -11,7 +11,7 @@ $meta_tags=array(
 
    );
 
-include_once('partials/header.php')
+include_once('../partials/header.php')
 ?>
 <style type="text/css">
    .nav-icon3 span{
@@ -24,17 +24,17 @@ include_once('partials/header.php')
    <!--==========================
    portfolio  Section1
    ============================-->
-<section id="portfolio-section1" style="background:url('img/huts/bg.jpg') no-repeat;background-size: cover;">
+<section id="portfolio-section1" style="background:url('<?php echo $path; ?>img/huts/bg.jpg') no-repeat;background-size: cover;">
    <div class="container-fluid cf-padding">
       <div class="row">
          <div class="col-lg-6"  style="padding: 130px 0px 0px 0px;">
             <div class="portfolio-section1-imgholder text-center">
-               <img src="img/huts/combined3.png" alt="" class="img-responsive wow fadeInLeft" style="">
+               <img src="<?php echo $path; ?>img/huts/combined3.png" alt="" class="img-responsive wow fadeInLeft" style="">
             </div>
          </div>
          <div class="col-lg-6"  style="padding: 80px 80px 0px 80px;">
             <div class="portfolio-section1-textholder">
-               <img src="img/huts/huts-logo.png" alt="" class="img-responsive wow fadeInLeft"style="height:100px;width: auto;margin-bottom: 20px">
+               <img src="<?php echo $path; ?>img/huts/huts-logo.png" alt="" class="img-responsive wow fadeInLeft"style="height:100px;width: auto;margin-bottom: 20px">
                <h2 class=" wow fadeInRight" style="display: inline-block;margin-left: 20px">Huts Resturant</h2>
                <p class="wow fadeInRight ">"Creating Awareness is creating Value" The story of a shoestring budget makeover of a highly popular Highway side eatery into a 100 percent Organic Restaurant.</p>
             </div>
@@ -69,7 +69,7 @@ include_once('partials/header.php')
       </div>
       <div class="col-lg-6">
         <div class="img-holder">
-               <img src="img/huts/painting.png" class="img-responsive wow fadeInRight auto-margin" style="height:700px;width: auto;;">
+               <img src="<?php echo $path; ?>img/huts/painting.png" class="img-responsive wow fadeInRight auto-margin" style="height:700px;width: auto;;">
         </div>
       </div>
     </div>
@@ -84,42 +84,42 @@ include_once('partials/header.php')
       <div class="row">
         <div class="col-lg-3">
           <div class="img-holder wow fadeInLeft">
-            <img src="img/huts/painting1.png" class="img-responsive">
+            <img src="<?php echo $path; ?>img/huts/painting1.png" class="img-responsive">
           </div>
         </div>
         <div class="col-lg-3">
           <div class="img-holder wow fadeInLeft">
-            <img src="img/huts/painting2.png" class="img-responsive">
+            <img src="<?php echo $path; ?>img/huts/painting2.png" class="img-responsive">
           </div>
         </div>
         <div class="col-lg-3">
           <div class="img-holder wow fadeInRight">
-            <img src="img/huts/painting3.png" class="img-responsive" >
+            <img src="<?php echo $path; ?>img/huts/painting3.png" class="img-responsive" >
           </div>
         </div>
         <div class="col-lg-3">
           <div class="img-holder wow fadeInRight">
-            <img src="img/huts/painting4.png" class="img-responsive">
+            <img src="<?php echo $path; ?>img/huts/painting4.png" class="img-responsive">
           </div>
         </div>
         <div class="col-lg-3">
           <div class="img-holder wow fadeInLeft">
-            <img src="img/huts/painting5.png" class="img-responsive" >
+            <img src="<?php echo $path; ?>img/huts/painting5.png" class="img-responsive" >
           </div>
         </div>
         <div class="col-lg-3">
           <div class="img-holder wow fadeInLeft">
-            <img src="img/huts/painting6.png" class="img-responsive">
+            <img src="<?php echo $path; ?>img/huts/painting6.png" class="img-responsive">
           </div>
         </div>
         <div class="col-lg-3">
           <div class="img-holder wow fadeInRight">
-            <img src="img/huts/painting7.png" class="img-responsive" ">
+            <img src="<?php echo $path; ?>img/huts/painting7.png" class="img-responsive" ">
           </div>
         </div>
         <div class="col-lg-3">
           <div class="img-holder wow fadeInRight">
-            <img src="img/huts/painting8.png" class="img-responsive" >
+            <img src="<?php echo $path; ?>img/huts/painting8.png" class="img-responsive" >
           </div>
         </div>
       </div>
@@ -141,7 +141,7 @@ include_once('partials/header.php')
       </div>
       <div class="col-lg-6">
         <div class="img-holder">
-               <img src="img/huts/menu-boards.png" class="img-responsive wow fadeInRight auto-margin" style="height:600px;width: auto;;">
+               <img src="<?php echo $path; ?>img/huts/menu-boards.png" class="img-responsive wow fadeInRight auto-margin" style="height:600px;width: auto;;">
         </div>
       </div>
     </div>
@@ -156,7 +156,7 @@ include_once('partials/header.php')
       <div class="row">
          <div class="col-lg-6">
             <div class="img-holder">
-               <img src="img/huts/hut-fb.png" class="img-responsive wow fadeInLeft">
+               <img src="<?php echo $path; ?>img/huts/hut-fb.png" class="img-responsive wow fadeInLeft">
             </div>
          </div>
          <div class="col-lg-6">
@@ -181,7 +181,7 @@ include_once('partials/header.php')
              <p>The simplicity of swiping increases user engagement. Swipe right to save a trip and left to discard a trip.</p>
           </div>
           <div class="img-holder auto-margin">
-            <img src="img/huts/table-tops.png" alt="" class="style2-pic img-responsive wow zoomIn" data-wow-duration="2s">
+            <img src="<?php echo $path; ?>img/huts/table-tops.png" alt="" class="style2-pic img-responsive wow zoomIn" data-wow-duration="2s">
           </div>
       </div>
    </div>
@@ -195,7 +195,7 @@ include_once('partials/header.php')
 <!--==========================
 Footer
 ============================-->
-<?php include_once('partials/footer.php')?>
+<?php include_once('../partials/footer.php')?>
 <!-- end footer -->
 
  

@@ -322,13 +322,13 @@
    });
 </script>
 
-<script type="text/javascript">
+<!-- <script type="text/javascript">
    $(function() {
    $.scrollify({
    section : "section",
    });
    });
-</script>
+</script> -->
 
 <!-- Jnavicon portfolio special -->     
 <script type="text/javascript">
