@@ -48,7 +48,7 @@ include_once('partials/header.php')
    About Us Section
 ============================-->
 <section id="about" class="">
-   <div class="container marginbottom50">
+   <div class="container">
       <div class="row">
          <div class="col-lg-8">
             <div class="about-content">
@@ -70,7 +70,7 @@ include_once('partials/header.php')
 Services Section
 ============================-->
 <section id="services">
-   <div class="container margintop">
+   <div class="container paddingtop">
       <div class="row">
          <div class="col-lg-5">
             <div class="services-content">
