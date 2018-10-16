@@ -11,7 +11,7 @@ $services = isset($_POST['value']) ? $_POST['value'] : '';
 
 $site = isset($_POST['value']) ? $_POST['value'] : '';
 	
-	$path = ($path) ?: 'http://localhost/~thomasaugusti/git/sparcs/sparcs-new/';
+	$path = ($path) ?: 'http://localhost/Git/sparcs/sparcs-new/';
 	//$http = ($_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https' || ($_SERVER['HTTPS'] && $_SERVER['HTTPS'] != 'off')) ? 'https' : 'http';
 	$index = ($index) ? $index : (($path == './') && preg_match("/index.php/",$_SERVER['SCRIPT_FILENAME']));
 	$company =  (preg_match("/company.php/",$_SERVER['SCRIPT_FILENAME']));
@@ -20,5 +20,5 @@ $site = isset($_POST['value']) ? $_POST['value'] : '';
 	$works = (preg_match("/works.php/", $_SERVER['SCRIPT_FILENAME']));
 	$services = (preg_match("/services.php/", $_SERVER['SCRIPT_FILENAME']));
  
-	$site = (preg_match("/localhost/",$_SERVER['HTTP_HOST'])) ? 'http://localhost/~thomasaugusti/git/sparcs/sparcs-new/' : 'http://www.sparcsdigital.com';
+	$site = (preg_match("/localhost/",$_SERVER['HTTP_HOST'])) ? 'http://localhost/Git/sparcs/sparcs-new/' : 'http://www.sparcsdigital.com';
 ?>
