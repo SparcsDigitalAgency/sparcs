@@ -328,7 +328,7 @@
    section : "section",
    });
    });
-</script> -->
+</script>
 
 <!-- Jnavicon portfolio special -->     
 <script type="text/javascript">
