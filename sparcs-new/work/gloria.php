@@ -79,8 +79,12 @@ include_once('../partials/header.php')
              <h2>Swipe right</h2>
              <p>The simplicity of swiping increases user engagement. Swipe right to save a trip and left to discard a trip.</p>
           </div>
+      </div>
+   </div>
+   <div class="container-fluid ">
+      <div class="row">
           <div class="img-holder auto-margin">
-            <img src="<?php echo $path; ?>img/gloria/gloria-pic1.png" alt="" class="style2-pic img-responsive wow zoomIn" data-wow-duration="2s">
+            <img src="<?php echo $path; ?>img/gloria/tile.png" alt="" class="style2-pic img-responsive wow zoomIn" data-wow-duration="2s">
           </div>
       </div>
    </div>
