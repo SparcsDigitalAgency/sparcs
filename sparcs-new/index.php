@@ -29,8 +29,8 @@ include_once('partials/header.php')
                <div class="carousel-background"><img src="img/intro-bg.png" alt=""></div>
                <div class="carousel-container">
                   <div class="carousel-content ">
-                     <h2 class="wow fadeInUp">Driven by design</h2>
-                     <p class="wow fadeInUp">A reliable responsive creative hands-on team of creative no-frills perfectionists.
+                     <h2 class="wow fadeInUp">Driven by Design</h2>
+                     <p class="wow fadeInUp">A responsive artistic professional team of hands-on perfectionists.
                      </p>
                      <a href="<?php echo $path; ?>contact" class="btn btn-readmore wow fadeInUp">Get In Touch</a>
                   </div>
@@ -53,7 +53,7 @@ include_once('partials/header.php')
          <div class="col-lg-8">
             <div class="about-content">
                <h2 class="wow fadeInUp">Company</h2>
-               <p class="wow fadeInUp">SPARCS is a digital agency which delivers high quality, reliable and affordable services to our customers globally. We specialize in Creative Campaigns, Website Design & Development, Mobile App/OTT Development, Branding and Digital Marketing.</p>
+               <p class="wow fadeInUp">SPARCS delivers high quality, reliable and affordable services to customers globally: Creative Campaigns, Website Design & Development, Mobile App/OTT Development, Branding, Digital Marketing,Content development and more ...</p>
             </div>
             <div class="button-holder">
                <a href="<?php echo $path; ?>company#about-section2" class="btn btn-readmore wow fadeInUp">Read more</a>
@@ -75,7 +75,7 @@ Services Section
          <div class="col-lg-5">
             <div class="services-content">
                <h2 class="wow fadeInUp">Services</h2>
-               <p class="wow fadeInUp">A full service interactive digital agency approach to grow your brand online and amplify its reach.</p>
+               <p class="wow fadeInUp">Our full service interactive approach helps grow your brand online and to amplify its reach.</p>
             </div>
             <div class="button-holder">
                <a href="<?php echo $path; ?>services" class="btn btn-readmore wow fadeInUp">View more</a>
@@ -93,7 +93,7 @@ Services Section
                               </div>
                               <div class="fbox-desc">
                                  <h3 class="nott">Strategy & Consulting</h3>
-                                 <p class="t500">We build brands with razor-sharp strategy. We analyze every aspect of your industry and apply our digital expertise to provide a roadmap for success.</p>
+                                 <p class="t500">Good strategy builds great brands.We analyze every aspect of your industry , apply our expertise and help you hit target.</p>
                               </div>
                            </div>
                         </div>
@@ -110,7 +110,7 @@ Services Section
                               </div>
                               <div class="fbox-desc">
                                  <h3 class="nott">Creative Design</h3>
-                                 <p class="t500">We bring ideas to life with perfectly executed creative. Our websites, videos, campaigns and copywriting build a brand story that will resonate.</p>
+                                 <p class="t500">Our perfectly executed inspired creatives bring Ideas to Life. Our websites, videos, campaigns and copywriting help build a winning brand story</p>
                               </div>
                            </div>
                         </div>
@@ -127,7 +127,7 @@ Services Section
                               </div>
                               <div class="fbox-desc">
                                  <h3 class="nott">Web & Mobile Development</h3>
-                                 <p class="t500">Using the best-in-class technology, we build websites and apps that perform. With a full team of developers working on cutting-edge solutions.</p>
+                                 <p class="t500">Our developers use cutting edge technology to provide avant garde  solutions and build you high performance apps and websites.</p>
                               </div>
                            </div>
                         </div>
@@ -144,7 +144,7 @@ Services Section
                               </div>
                               <div class="fbox-desc">
                                  <h3 class=" nott">Digital Marketing</h3>
-                                 <p class=" t500">Our dynamic marketing team gets results. We apply a series of customized tactics to bring qualified traffic to your site and build relevant content that converts.</p>
+                                 <p class=" t500">Our marketing team are go-getters who build relevant content and apply  customized strategies and tactics to increase qualified traffic to your business.</p>
                               </div>
                            </div>
                         </div>
