@@ -970,7 +970,7 @@ position: relative;
 z-index: 10;
 }
 #about-section1 .about-content {
-margin-top: 50%;
+margin-top: 40%;
 }
 #about-section1 h2 {
 color: #444;
@@ -1006,11 +1006,11 @@ color: #444;
 font-size: 42px;
 font-weight: 600;
 }
-#about-section2 .text-holder{
-	padding-top: 25%;
+#about-section2 .text-holder {
+    padding: 150px 50px 0px 0px;
 }
-#about-section2 .img-holder{
-	padding-top: 10%;
+#about-section2 .img-holder {
+    padding: 100px 100px 0px 100px;
 }
 #about-section2 .img-holder img{
 	width:100%;
@@ -1028,7 +1028,7 @@ font-size: 50px;
 font-weight: 700;
 }
 #about-section3 .text-holder{
-	padding-top: 50%;
+	padding: 50% 20% 0% 0%;
 }
 #about-section3 .img-holder{
 	padding-top: 20%;
@@ -1040,7 +1040,7 @@ font-weight: 700;
 margin-bottom: 20px;
 }
 #about-section4{
-padding: 10% 0% 0% 0%;
+padding: 5% 0% 0% 0%;
 background: #f9f9f9;
 }
 #about-section4 h2 {
@@ -1049,7 +1049,7 @@ background: #f9f9f9;
     font-weight: 700;
 }
 #about-section5{
-padding: 10% 0% 0% 0%;
+padding: 5% 0% 0% 0%;
 }
 #about-section5 h2 {
     color: #444;
@@ -1072,14 +1072,14 @@ font-weight: 700;
 	padding-top: 50%;
 }
 #about-section6 .img-holder{
-	padding-top: 10%;
+	padding-top: 0%;
 }
 #about-section6 .img-holder img{
 	width:100%;
 }
 #about-section7{
-padding: 7% 0% 0% 0%;
-background: #f9f9f9;
+padding: 0% 0% 0% 0%;
+background: #fff;
 }
 #about-section7 .about-content {
 margin-top: 50%;
