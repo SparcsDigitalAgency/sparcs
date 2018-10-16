@@ -56,7 +56,7 @@ include_once('partials/header.php')
                <p class="wow fadeInUp">SPARCS delivers high quality, reliable and affordable services to customers globally: Creative Campaigns, Website Design & Development, Mobile App/OTT Development, Branding, Digital Marketing,Content development and more ...</p>
             </div>
             <div class="button-holder">
-               <a href="<?php echo $path; ?>company#about-section2" class="btn btn-readmore wow fadeInUp">Read more</a>
+               <a href="<?php echo $path; ?>company#intro" class="btn btn-readmore wow fadeInUp">Read more</a>
             </div>
          </div>
       </div>
@@ -78,7 +78,7 @@ Services Section
                <p class="wow fadeInUp">Our full service interactive approach helps grow your brand online and to amplify its reach.</p>
             </div>
             <div class="button-holder">
-               <a href="<?php echo $path; ?>services" class="btn btn-readmore wow fadeInUp">View more</a>
+               <a href="<?php echo $path; ?>services#intro" class="btn btn-readmore wow fadeInUp">View more</a>
             </div>
          </div>
          <div class="col-lg-7">

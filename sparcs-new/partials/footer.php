@@ -344,7 +344,7 @@
 </script>
 
 <!-- change navbrand logo class-->
-<!-- <script type="text/javascript">
+<script type="text/javascript">
     $(window).scroll(function() {
     if ($(this).scrollTop() > 500) {
       $('#change-logo').addClass('logo-changed');
@@ -354,7 +354,7 @@
       $('#change-logo').removeClass('logo-changed');
     }
   });
-</script> -->
+</script>
 
 
 </body>

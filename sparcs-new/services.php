@@ -19,16 +19,21 @@ include_once('partials/header.php')
 <!--==========================
    services  Section1
    ============================-->
-<section id="services-section1" class="">
-   <div class="container marginbottom50">
-      <div class="row">
-         <div class="col-lg-8">
-            <div class="services-content">
-               <h2 class="wow fadeInUp">Our Services</h2>
-               <p class="wow fadeInUp">A full service interactive digital agency approach to grow your brand online and amplify its reach.</p>
-            </div>
-            <div class="button-holder">
-               <a href="contact.php" class="btn btn-readmore wow fadeInUp">Get in Touch</a>
+<section id="intro">
+   <div class="intro-container">
+      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+         <ol class="carousel-indicators"></ol>
+         <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+               <div class="carousel-background"><img src="img/intro-bg.png" alt=""></div>
+               <div class="carousel-container">
+                  <div class="carousel-content ">
+                     <h2 class="wow fadeInUp">Our Services</h2>
+                     <p class="wow fadeInUp">A responsive artistic professional team of hands-on perfectionists.
+                     </p>
+                     <a href="<?php echo $path; ?>contact" class="btn btn-readmore wow fadeInUp">Get In Touch</a>
+                  </div>
+               </div>
             </div>
          </div>
       </div>
