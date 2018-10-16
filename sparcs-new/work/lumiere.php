@@ -83,7 +83,7 @@ include_once('../partials/header.php')
    <div class="container">
       <div class="row">
          <div class="col-lg-7">
-            <div class="img-holder" style="padding: 0px">
+            <div class="img-holder" style="padding:100px">
                <img src="<?php echo $path; ?>img/lumiere/invitation.png" class="img-responsive wow fadeInLeft">
             </div>
          </div>
