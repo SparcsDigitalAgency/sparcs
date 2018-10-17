@@ -268,15 +268,16 @@
   <!-- end map -->
   <?php endif; ?>
 
-<script src="<?php echo $path; ?>js/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
 <script src="<?php echo $path; ?>js/superfish.min.js"></script>
 <script src="<?php echo $path; ?>js/bootstrap.bundle.min.js"></script>
 <script src="<?php echo $path; ?>js/easing.min.js"></script>
 <script src="<?php echo $path; ?>js/wow.min.js"></script>
-<script src="<?php echo $path; ?>js/owl.carousel.min.js"></script>
+<script src="<?php echo $path; ?>js/custom.js"></script>
 <script src="<?php echo $path; ?>js/scrollify.js"></script>
-<script src="<?php echo $path; ?>js/main.js"></script>
+<script src="<?php echo $path; ?>lib/slick/slick.js"></script>
 
+ 
 <!-- toggle open-->
 <script type="text/javascript">
    $(document).ready(function(){
@@ -355,7 +356,23 @@
     }
   });
 </script>
+<script type="text/javascript">
 
+
+ $(document).ready(function(){
+  $('.app-screens').slick({
+    dots: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        centerMode: true,
+        centerPadding: '50px',
+        autoplay:true,
+        autoplaySpeed:1000
+  });
+
+});
+</script>
 
 </body>
 </html>
