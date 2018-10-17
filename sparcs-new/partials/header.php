@@ -83,7 +83,7 @@ include_once('config.php')
          <ul class="header-nav__list">
 
             <li <?php echo (preg_match("/index.php/",$_SERVER['SCRIPT_FILENAME']) ? 'class="current"': '');?>>
-               <a  href="<?php echo $path; ?>/" title="Portfolio">Home</a></li>
+               <a  href="<?php echo $path; ?>" title="Portfolio">Home</a></li>
             <li <?php echo (preg_match("/company.php/",$_SERVER['SCRIPT_FILENAME']) ? 'class="current"': '');?>>
                <a  href="<?php echo $path; ?>company" title="Portfolio">Company</a></li>
             <li <?php echo (preg_match("/services.php/",$_SERVER['SCRIPT_FILENAME']) ? 'class="current"': '');?>>

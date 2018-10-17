@@ -28,8 +28,8 @@ include_once('partials/header.php')
                <div class="carousel-background"><img src="img/intro-bg.png" alt=""></div>
                <div class="carousel-container">
                   <div class="carousel-content ">
-                     <h2 class="wow fadeInUp">About Us</h2>
-                     <p class="wow fadeInUp">A reliable responsive creative hands-on team of creative no-frills perfectionists.
+                     <h2 class="wow fadeInUp">Company</h2>
+                     <p class="wow fadeInUp">We are a full-service and integrated UX Web Development, Live Streaming / Webcasting, Branding and Digital Marketing agency. We build brands with 360 degree solutions. A full service interactive digital agency approach to grow your brand online and amplify its reach.
                      </p>
                      <a href="<?php echo $path; ?>contact" class="btn btn-readmore wow fadeInUp">Get In Touch</a>
                   </div>

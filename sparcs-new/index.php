@@ -30,7 +30,7 @@ include_once('partials/header.php')
                <div class="carousel-container">
                   <div class="carousel-content ">
                      <h2 class="wow fadeInUp">Driven by Design</h2>
-                     <p class="wow fadeInUp">A responsive artistic professional team of hands-on perfectionists.
+                     <p class="wow fadeInUp">A responsive creative professional team of hands-on perfectionists.
                      </p>
                      <a href="<?php echo $path; ?>contact" class="btn btn-readmore wow fadeInUp">Get In Touch</a>
                   </div>
@@ -53,7 +53,7 @@ include_once('partials/header.php')
          <div class="col-lg-8">
             <div class="about-content">
                <h2 class="wow fadeInUp">Company</h2>
-               <p class="wow fadeInUp">SPARCS delivers high quality, reliable and affordable services to customers globally: Creative Campaigns, Website Design & Development, Mobile App/OTT Development, Branding, Digital Marketing,Content development and more ...</p>
+               <p class="wow fadeInUp">SPARCS delivers high quality, reliable and affordable services to customers globally: Creative Campaigns, Website Design & Development, Mobile App/OTT Development, Branding, Digital Marketing, Content development and more ...</p>
             </div>
             <div class="button-holder">
                <a href="<?php echo $path; ?>company#intro" class="btn btn-readmore wow fadeInUp">Read more</a>
