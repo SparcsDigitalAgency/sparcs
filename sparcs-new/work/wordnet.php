@@ -53,19 +53,25 @@ include_once('../partials/header.php')
    portfolio section2
    ============================-->
 <section id="portfolio-section10" style="background-color: #fff;">
-   <div class="container-fluid cf-padding">
+   <div class="container-fluid">
       <div class="row">
-            <div class="col-lg-4">
+          <div class="text-holder auto-margin wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                <h2>Swipe right</h2>
+                <p>The simplicity of swiping increases user engagement. Swipe right to save a trip and left to discard a trip.</p>
+            </div>
+      </div>
+      <div class="row">
+            <div class="col-lg-4 no-padding">
                <div class="img-holder">
                   <img src="<?php echo $path; ?>img/wordnet/scribble.jpg" alt="" class="img-responsive">
                </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 no-padding">
                <div class="img-holder">
                   <img src="<?php echo $path; ?>img/wordnet/wireframe.jpg" alt="" class="img-responsive">
                </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 no-padding">
                <div class="img-holder">
                   <img src="<?php echo $path; ?>img/wordnet/logo.jpg" alt="" class="img-responsive">
                </div>

@@ -28,6 +28,9 @@ padding: 0;
 .auto-margin{
 	margin:0 auto;
 }
+.no-margin{
+	margin: 0px;
+}
 .img-responsive{
 width: 100%;
 }
@@ -1005,7 +1008,7 @@ font-weight: 600;
     padding: 50px 50px 0px 0px;
 }
 #about-section2 .img-holder {
-    padding: 0px 100px 0px 100px;
+    padding: 100px 100px 0px 100px;
 }
 #about-section2 .img-holder img{
 	width:100%;

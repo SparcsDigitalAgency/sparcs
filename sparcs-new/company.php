@@ -29,7 +29,7 @@ include_once('partials/header.php')
                <div class="carousel-container">
                   <div class="carousel-content ">
                      <h2 class="wow fadeInUp">About Us</h2>
-                     <p class="wow fadeInUp">A reliable responsive creative hands-on team of creative no-frills perfectionists.
+                     <p class="wow fadeInUp">SPARCS has over 15 years of rich experience with loyal,long term client relationships . We deliver high quality, reliable and affordable services to our customers globally- Creative Campaigns, Website Design & Development, Mobile App/OTT Development, Branding and Digital Marketing, Content Development and more ...
                      </p>
                      <a href="<?php echo $path; ?>contact" class="btn btn-readmore wow fadeInUp">Get In Touch</a>
                   </div>
@@ -55,8 +55,8 @@ include_once('partials/header.php')
          </div>
          <div class="col-lg-6">
             <div class="text-holder wow fadeInRight">
-               <h2>We are a full-service and integrated UX Web Development, Live Streaming/ Webcast, Branding and Digital Marketing agency.</h2>
-               <p>We build brands with 360 degree solutions.A full service interactive digital agency approach to grow your brand online and amplify its reach.</p>
+               <p>Sparcs is a Full Service Provider.</p>
+               <h2> We offer Integrated UX Development, Live Streaming/Webcast, Branding & Digital Marketing Solutions, Mobile App/ OTT Development, Content Development and whatever it takes to provide apt solutions to grow your business.</h2>
             </div>
          </div>
       </div>
@@ -74,8 +74,8 @@ include_once('partials/header.php')
          <div class="col-lg-6">
             <div class="text-holder wow fadeInLeft">
                <p class="text-muted" style="margin-bottom: 0px">Our Team</p>
-               <h2>See How We Do.</h2>
-               <p class="text-muted">Our team comprises of highly motivated and innovative User Experience Designers, Graphic Designers, Web Developers, SEO Specialists, Technical Content Writers and Professional Photographers.</p>
+               <h2>Sparcs is a'What If...?</h2>
+               <p class="text-muted">Team of problem solvers who are game to search out solutions anywhere!Even in unusual places.By disposition we are Art Lovers who are also highly motivated innovative UX Designers, Graphic Designers, Web Developers, SEO Specialists, Content Writers and Professional Photographers.</p>
             </div>
          </div>
          <div class="col-lg-6">
@@ -98,8 +98,11 @@ include_once('partials/header.php')
       <div class="row">
          <div class="col-lg-12">
             <div class="text-holder wow fadeInDown text-center">
-               <h2>Brainstorm</h2>
-               <p class="text-muted">The first step would be to sit down and get to know you.<br> We'll discuss goals and project objectives and any other relevant information.</p>
+               <h2>Plan it</h2>
+               <p class="no-margin">Brainstorm mode on!</p>
+               <p class="no-margin">Let's discuss goals and project objectives and any other relevant information.</p>
+               <p class="no-margin">Content ?Content structure?Interaction ?Layout?All clarified?OK?</p>
+               <p>Let’s get on with Wire Frame Building !</p>
             </div>
          </div>
          <div class="col-lg-7" style="margin: 0 auto;">
@@ -113,29 +116,6 @@ include_once('partials/header.php')
 <!--==========================
    end of About Us section 4
    ============================-->
-      <!--==========================
-   About Us section5
-   ============================-->
-<section id="about-section5">
-   <div class="container">
-      <div class="row">
-         <div class="col-lg-12">
-            <div class="text-holder wow fadeInDown text-center">
-               <h2>Planning</h2>
-               <p class="text-muted">With the information gathered from our brainstorm session, <br> wireframes would be developed defining layout, interactions and content structure.</p>
-            </div>
-         </div>
-         <div class="col-lg-7" style="margin: 0 auto;">
-            <div class="image-holder wow fadeInUp">
-               <img src="img/company/about3.png" class="img-responsive">
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
-<!--==========================
-   end of About Us section 5
-   ============================-->
 
    <!--==========================
    About Us section6
@@ -145,8 +125,8 @@ include_once('partials/header.php')
       <div class="row">
          <div class="col-lg-6">
             <div class="text-holder wow fadeInLeft">
-               <h2>Designing</h2>
-               <p class="text-muted">Once the wireframes are finalized, detailed mock-ups <br>of key pages will be designed to show the look and<br> feel of your product.</p>
+               <h2>Design It</h2>
+               <p class="text-muted">Wireframes finalised?<br> Now take a look at the mock up of Your Key pages !<br>Need changes? <br> We are on it!</p>
             </div>
          </div>
          <div class="col-lg-6">
@@ -177,8 +157,8 @@ include_once('partials/header.php')
          </div>
          <div class="col-lg-6">
             <div class="text-holder wow fadeInRight ">
-               <h2>Development</h2>
-               <p class="text-muted">With the final creative concepts completed, the designs are then coded and transformed into a fully functional product.</p>
+               <h2>Develop It </h2>
+               <p class="text-muted">Satisfied?<br>Great!<br>Let's get on with coding your designs.</p>
             </div>
          </div>
          
@@ -187,6 +167,30 @@ include_once('partials/header.php')
 </section>
 <!--==========================
    end of About Us section 7
+   ============================-->
+      <!--==========================
+   About Us section4
+   ============================-->
+<section id="about-section4">
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-12">
+            <div class="text-holder wow fadeInDown text-center">
+               <h2>Deliver</h2>
+               <p class="no-margin">On time and just right.</p>
+               <p > Here is your final finished product from us!</p>
+            </div>
+         </div>
+         <div class="col-lg-7" style="margin: 0 auto;">
+            <div class="image-holder wow fadeInUp">
+               <img src="img/company/about2.png" class="img-responsive">
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!--==========================
+   end of About Us section 4
    ============================-->
 
 <!--==========================
