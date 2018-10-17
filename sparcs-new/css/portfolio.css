@@ -204,7 +204,20 @@ margin-bottom: 30px;
 #portfolio-section10 .img-holder{
 
 }
-
+/* portfolio section 11 */
+#portfolio-section11{
+padding: 50px 0px;
+}
+#portfolio-section11 h2{
+color: #444;
+font-size: 50px;
+font-weight: 700;
+}
+#portfolio-section11 p{
+color: #444;
+margin-bottom: 0px;
+font-size: 16px;
+}
 /*--------------------------------------------------------------
 # MEDIA QUERY MOBILE
 --------------------------------------------------------------*/

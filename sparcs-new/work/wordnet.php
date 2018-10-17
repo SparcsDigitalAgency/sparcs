@@ -82,6 +82,27 @@ include_once('../partials/header.php')
 <!--==========================
    end of portfolio section2
    ============================-->
+      <!--==========================
+   portfolio  Section11
+   ============================-->
+<section id="portfolio-section11" style="background-color: #f4f4f4;">
+  <div class="cf-padding">
+    <div class="row">
+      <div class="col-lg-5">
+        <div class="text-holder wow fadeInLeft" style="padding-top: 400px;padding-left: 100px">
+           <p class="text-muted">Story Boards</p>
+           <h2>Interior Designs.</h2>
+           <p class="text-muted">With powerful content and appealing illustrations,turning  all earmarked surfaces  from table mats to the wall decor  into educative messages about the benefits of Organic Agriculture & Food .</p>
+        </div>
+      </div>
+      <div class="col-lg-7">
+        <div class="img-holder">
+               <img src="<?php echo $path; ?>img/wordnet/telecast.png" class="img-responsive wow fadeInRight auto-margin" style="height:750px;width: auto;;">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!--==========================
 Footer
