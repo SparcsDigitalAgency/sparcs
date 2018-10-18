@@ -45,7 +45,7 @@ include_once('partials/header.php')
                            <input type="text" class="form-control"  name="email" placeholder="Email Address" required>
                            <input type="text" class="form-control"  name="phone" placeholder="Mobile Number" required>
                            <textarea class="form-control" name="message"  placeholder="Message" maxlength="140" rows="7"></textarea>  
-                        <button class="contact100-form-btn submit_btn pull-right" id="submit_btn" >Send us an enquiry</button><div style="display:none; float:left; margin:5px;" id="dvloader"><img src="img/ajax-loader.gif" /></div>
+                        <a class="btn btn-readmore  pull-right" id="submit_btn" >Send us an enquiry</a><div style="display:none; float:left; margin:5px;" id="dvloader"><img src="img/ajax-loader.gif" /></div>
                      </fieldset>
                   </div>
                </div>

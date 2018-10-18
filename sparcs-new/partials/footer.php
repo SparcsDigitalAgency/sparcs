@@ -1,10 +1,10 @@
-<section id="contact" style="height: 100vh">
-   <div class="container margintop65">
+<section id="contact">
+   <div class="container ">
       <div class="row">
          <div class="col-lg-12">
             <div class="contact-content text-center">
                <h2 class="wow fadeInUp">Get In Touch</h2>
-               <a href="contact-us.php" class="btn btn-readmore wow fadeInUp">Contact Us</a>
+               <a href="<?php echo $path; ?>contact" class="btn btn-readmore wow fadeInUp">Contact Us</a>
             </div>
          </div>
       </div>
@@ -268,15 +268,16 @@
   <!-- end map -->
   <?php endif; ?>
 
-<script src="js/jquery.min.js"></script>
-<script src="js/superfish.min.js"></script>
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/easing.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/scrollify.js"></script>
-<script src="js/main.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="<?php echo $path; ?>js/superfish.min.js"></script>
+<script src="<?php echo $path; ?>js/bootstrap.bundle.min.js"></script>
+<script src="<?php echo $path; ?>js/easing.min.js"></script>
+<script src="<?php echo $path; ?>js/wow.min.js"></script>
+<script src="<?php echo $path; ?>js/custom.js"></script>
+<script src="<?php echo $path; ?>js/scrollify.js"></script>
+<script src="<?php echo $path; ?>lib/slick/slick.js"></script>
 
+ 
 <!-- toggle open-->
 <script type="text/javascript">
    $(document).ready(function(){
@@ -322,7 +323,7 @@
    });
 </script>
 
-<script type="text/javascript">
+<!-- <script type="text/javascript">
    $(function() {
    $.scrollify({
    section : "section",
@@ -330,6 +331,48 @@
    });
 </script>
 
+<!-- Jnavicon portfolio special -->     
+<script type="text/javascript">
+   var portfolio_section2 = $("#portfolio-section2").offset().top;
+   var contact = $("#contact").offset().top;
+   var $w = $(window).scroll(function(){
+       if ( $w.scrollTop() > portfolio_section2 && $w.scrollTop() < contact ) {   
+           $('.nav-icon3').addClass('change-color2');
+       } else {
+           $('.nav-icon3').removeClass('change-color2');
+       }
+   });
+</script>
+
+<!-- change navbrand logo class-->
+<script type="text/javascript">
+    $(window).scroll(function() {
+    if ($(this).scrollTop() > 500) {
+      $('#change-logo').addClass('logo-changed');
+      $('.logo-changed img').attr('src', '<?php echo $path; ?>img/toggle-icon.png');
+    } else {
+      $('.header-logo img').attr('src', '<?php echo $path; ?>img/logo-white.png');
+      $('#change-logo').removeClass('logo-changed');
+    }
+  });
+</script>
+<script type="text/javascript">
+
+
+ $(document).ready(function(){
+  $('.app-screens').slick({
+    dots: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        centerMode: true,
+        centerPadding: '50px',
+        autoplay:true,
+        autoplaySpeed:1000
+  });
+
+});
+</script>
 
 </body>
 </html>
