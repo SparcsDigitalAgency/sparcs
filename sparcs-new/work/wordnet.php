@@ -66,15 +66,17 @@ include_once('../partials/header.php')
 <section id="intro">
    <div class="intro-container">
       <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
-         <ol class="carousel-indicators"></ol>
-         <div class="carousel-inner" role="listbox">
+         
+         <div class="carousel-inner " role="listbox">
             <div class="carousel-item active">
                <div class="carousel-background"><img src="<?php echo $path; ?>img/wordnet/bg.jpg" alt=""></div>
                <div class="carousel-container">
-                  <div class="carousel-content ">
-                     <h2 class="wow fadeInUp white f64">Driven by Design</h2>
-                     <p class="wow fadeInUp white">A responsive artistic professional team of hands-on perfectionists.
-                     </p>
+                  <div class="carousel-content col-md-8">
+                     <h2 class="wow fadeInUp white f64">Wordnet Productions</h2>
+                     <p class="wow fadeInUp white">Wordnet TV is today a successful  digital evangelisation ministry - an initiative of Society for the Divine Word of God, whose activities are spread over 72 countries.</p>
+                     <p class="wow fadeInUp white">
+We provided cutting edge technical support and quality design inputs from A-Z  into Wordnet’s  transformation from a website with a blog into a full fledged popular live webcasting channel  supported by extensive OTT application development over ROKU, Apple TV, Amazon Fire TV, Chromecast  and Android TV.
+</p>
                   </div>
                </div>
             </div>
@@ -90,11 +92,12 @@ include_once('../partials/header.php')
    portfolio section2
    ============================-->
 <section id="portfolio-section10" style="background-color: #fff;">
-   <div class="container-fluid">
+   <div class="container">
       <div class="row">
-          <div class="text-holder auto-margin wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-                <h2>Swipe right</h2>
-                <p>The simplicity of swiping increases user engagement. Swipe right to save a trip and left to discard a trip.</p>
+          <div class="col-xs-12 col-md-8 auto-margin text-holder auto-margin wow fadeIn marginbottom" style="visibility: visible; animation-name: fadeIn;">
+                <h2>WordNet TV Identity </h2>
+                <p>To visually sum up the identity of Wordnet TV as a digital evangelising platform through which the Divine Word of God is spread like a gift across the globe, we developed the logo using the image of the gift ribbon. </p>
+                  <p>In the contrast color  of sunshine yellow, it travels around and across a spinning blue globe set on a starry sky in a slightly asymmetric way expressing the feeling of being securely held and protected while also evoking the image of the Holy Cross.</p>
             </div>
       </div>
       <div class="row">
@@ -114,6 +117,11 @@ include_once('../partials/header.php')
                </div>
             </div>
       </div>
+        <div class="row">
+            <div class="col-lg-12 no-padding text-center">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/2QURjCh9xqo?controls=0&rel=0&showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+          </div>
    </div>
 </section>
 <!--==========================
@@ -122,13 +130,14 @@ include_once('../partials/header.php')
    <section id="portfolio-section10" style="background-color: #fff;">
    <div class="container-fluid">
       <div class="row">
-          <div class="text-holder auto-margin wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-                <h2>Swipe right</h2>
-                <p>The simplicity of swiping increases user engagement. Swipe right to save a trip and left to discard a trip.</p>
+          <div class="col-lg-12 text-holder auto-margin wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                <h2>OTT App Development</h2>
+                <p>Developing OTT Applications for Worldnet on Apple TV, Chromecast, Android TV, Roku, Amazon Fire TV</p>
             </div>
       </div>
-      <div class="row margintop50">
-            <div class="col-lg-2 no-padding auto-margin">
+      <div class="col-md-6 col-md-offset-3 auto-margin">
+              <div class="row margintop50">
+              <div class="col-lg-2 no-padding auto-margin">
                <div class="img-holder">
                   <img src="<?php echo $path; ?>img/wordnet/apple-tv.png" alt="" class="img-responsive">
                   <img src="<?php echo $path; ?>img/wordnet/appletv-logo.png" alt="" class="img-responsive">
@@ -158,6 +167,7 @@ include_once('../partials/header.php')
                   <img src="<?php echo $path; ?>img/wordnet/amazontv-logo.png" alt="" class="img-responsive">
                </div>
             </div>
+          </div>
       </div>
    </div>
 </section>
@@ -189,14 +199,14 @@ include_once('../partials/header.php')
 </section>
 
 <section id="portfolio-section12" style="background-color: #f7f7f7">
-   <div class="container cr-padding2">
+   <div class="container ">
       <div class="row">
-          <div class="text-holder auto-margin wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+          <div class="col-md-12 text-holder auto-margin wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
                 <h2>Swipe right</h2>
                 <p>The simplicity of swiping increases user engagement. Swipe right to save a trip and left to discard a trip.</p>
             </div>
       </div>
-      <div class="app-screens">
+      <div class="col-xs-12 col-md-6 auto-margin app-screens">
        <div>
          <img src="<?php echo $path; ?>img/wordnet/screen-1.jpg">
        </div>

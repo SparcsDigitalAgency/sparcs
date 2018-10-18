@@ -164,7 +164,103 @@ Services Section
 <!--==========================
    works section2
    ============================-->
+<section id="works-section2">
+   <div class="container">
+      
+         <div class="row">
+            <div class="col-lg-6 items">
+               <div class="portfolio-item white">
+                  <a href="<?php echo $path ?>work/wordnet" class="portfolio-popup">
+                     <div class="texts">
+                        <div class="texts-head">
+                           <h2 >Wordnet Productions</h2>
+                           <p >Web/Mobile Development, Webcasting, OTT Apps, Channel Identity</p>
+                        </div>
+                        <div class="texts-icon"><i class="fa fa-angle-right"></i></div>
+                     </div>
+                     <img src="<?php echo $path ?>img/wordnet/cover.jpg" alt="">
+                  </a>
+               </div>
+            </div>
+            
+            <div class="col-lg-6 items">
+               <div class="portfolio-item black">
+                  <a href="<?php echo $path ?>work/mr-light" class="portfolio-popup">
+                        
+                     <div class="texts">
+                        <div class="texts-head">
+                           <h2 >Mr.Light</h2>
+                           <p >Web Design & Developent, Responsive Design</p>
+                        </div>
+                        <div class="texts-icon"><i class="fa fa-angle-right"></i></div>
+                     </div>
+                     <img src="<?php echo $path ?>img/mrlight/cover.jpg" alt="">
+                  </a>
+               </div>
+            </div>
+            <div class="col-lg-6 items">
+               <div class="portfolio-item white">
+                  <a href="<?php echo $path ?>work/omg" class="portfolio-popup">
+                     <div class="texts">
+                        <div class="texts-head">
+                           <h2 >One More Game</h2>
+                           <p >Web Development, Branding, Print Design</p>
+                        </div>
+                        <div class="texts-icon"><i class="fa fa-angle-right"></i></div>
+                     </div>
+                     <img src="<?php echo $path ?>img/omg/cover.jpg" alt="">
+                  </a>
+               </div>
+            </div>
+            <div class="col-lg-6 items">
+               <div class="portfolio-item black">
+                  <a href="<?php echo $path ?>work/genex" class="portfolio-popup">
+                        
+                     <div class="texts">
+                        <div class="texts-head">
+                           <h2 >Genex Automation</h2>
+                           <p >Web Design & Developent, Branding, Print Design</p>
+                        </div>
+                        <div class="texts-icon"><i class="fa fa-angle-right"></i></div>
+                     </div>
+                     <img src="<?php echo $path ?>img/genex/cover.jpg" alt="">
+                  </a>
+               </div>
+            </div>
+            
+            <div class="col-lg-6 items">
+               <div class="portfolio-item black">
+                  <a href="<?php echo $path ?>work/lumiere" class="portfolio-popup">
+                     <div class="texts">
+                        <div class="texts-head">
+                           <h2 >Lumiere Organic</h2>
+                           <p >Content, Social Media, Branding, Photography, Illustrations, Print Materials, Package Designs</p>
+                        </div>
+                        <div class="texts-icon"><i class="fa fa-angle-right"></i></div>
+                     </div>
+                     <img src="<?php echo $path ?>img/lumiere/cover.jpg" alt="">
+                  </a>
+               </div>
+            </div>
 
+            <div class="col-lg-6 items">
+               <div class="portfolio-item black">
+                  <a href="<?php echo $path ?>works" class="portfolio-popup">
+                     <div class="texts see-all">
+                        <div class="texts-head">
+                           <h2 >See All Works <i class="fa fa-angle-right"></i></h2>
+                        </div>
+                        <div class="texts-icon"><i class="fa fa-angle-right"></i></div>
+                     </div>
+                     <img src="<?php echo $path ?>img/see-all-cover.jpg" alt="">
+                  </a>
+               </div>
+            </div>
+
+          
+         </div>
+      </div>
+</section>
 <!--==========================
    end of works  Section2
    ============================-->

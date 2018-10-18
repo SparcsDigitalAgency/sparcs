@@ -31,7 +31,7 @@ include_once('partials/header.php')
                      <h2 class="wow fadeInUp">Our Works</h2>
                      <p class="wow fadeInUp">A reliable responsive creative hands-on team of creative no-frills perfectionists.
                      </p>
-                     <a href="<?php echo $path; ?>contact" class="btn btn-readmore wow fadeInUp">Get In Touch</a>
+                     <a href="#works-section2" class="btn btn-readmore wow fadeInUp">See more</a>
                   </div>
                </div>
             </div>
@@ -50,6 +50,21 @@ include_once('partials/header.php')
       
          <div class="row">
             <div class="col-lg-6 items">
+               <div class="portfolio-item white">
+                  <a href="<?php echo $path ?>work/wordnet" class="portfolio-popup">
+                     <div class="texts">
+                        <div class="texts-head">
+                           <h2 >Wordnet Productions</h2>
+                           <p >Web/Mobile Development, Webcasting, OTT Apps, Channel Identity</p>
+                        </div>
+                        <div class="texts-icon"><i class="fa fa-angle-right"></i></div>
+                     </div>
+                     <img src="<?php echo $path ?>img/wordnet/cover.jpg" alt="">
+                  </a>
+               </div>
+            </div>
+            
+            <div class="col-lg-6 items">
                <div class="portfolio-item black">
                   <a href="<?php echo $path ?>work/mr-light" class="portfolio-popup">
                         
@@ -65,7 +80,7 @@ include_once('partials/header.php')
                </div>
             </div>
             <div class="col-lg-6 items">
-               <div class="portfolio-item white">
+               <div class="portfolio-item black">
                   <a href="<?php echo $path ?>work/quovadis" class="portfolio-popup">
                      <div class="texts">
                         <div class="texts-head">
@@ -80,11 +95,40 @@ include_once('partials/header.php')
             </div>
             <div class="col-lg-6 items">
                <div class="portfolio-item white">
+                  <a href="<?php echo $path ?>work/omg" class="portfolio-popup">
+                     <div class="texts">
+                        <div class="texts-head">
+                           <h2 >One More Game</h2>
+                           <p >Web Development, Branding, Print Design</p>
+                        </div>
+                        <div class="texts-icon"><i class="fa fa-angle-right"></i></div>
+                     </div>
+                     <img src="<?php echo $path ?>img/omg/cover.jpg" alt="">
+                  </a>
+               </div>
+            </div>
+            <div class="col-lg-6 items">
+               <div class="portfolio-item black">
+                  <a href="<?php echo $path ?>work/genex" class="portfolio-popup">
+                        
+                     <div class="texts">
+                        <div class="texts-head">
+                           <h2 >Genex Automation</h2>
+                           <p >Web Design & Developent, Branding, Print Design</p>
+                        </div>
+                        <div class="texts-icon"><i class="fa fa-angle-right"></i></div>
+                     </div>
+                     <img src="<?php echo $path ?>img/genex/cover.jpg" alt="">
+                  </a>
+               </div>
+            </div>
+            <div class="col-lg-6 items">
+               <div class="portfolio-item white">
                   <a href="<?php echo $path ?>work/gloria" class="portfolio-popup">
                      <div class="texts">
                         <div class="texts-head">
                            <h2 >Gloria Travels</h2>
-                           <p >Web Developent, Responsive Design</p>
+                           <p >Web Design & Developent, Responsive Design</p>
                         </div>
                         <div class="texts-icon"><i class="fa fa-angle-right"></i></div>
                      </div>
@@ -98,11 +142,26 @@ include_once('partials/header.php')
                      <div class="texts">
                         <div class="texts-head">
                            <h2 >Lumiere Organic</h2>
-                           <p >Content, Social Media, Branding</p>
+                           <p >Content, Social Media, Branding, Photography, Illustrations, Print Materials, Package Designs</p>
                         </div>
                         <div class="texts-icon"><i class="fa fa-angle-right"></i></div>
                      </div>
                      <img src="<?php echo $path ?>img/lumiere/cover.jpg" alt="">
+                  </a>
+               </div>
+            </div>
+
+            <div class="col-lg-6 items">
+               <div class="portfolio-item black">
+                  <a href="<?php echo $path ?>work/huts" class="portfolio-popup">
+                     <div class="texts">
+                        <div class="texts-head">
+                           <h2 >Huts Organic Restaurant</h2>
+                           <p >Web Development, Content, Social Media, Photography, Illustrations, Print Materials</p>
+                        </div>
+                        <div class="texts-icon"><i class="fa fa-angle-right"></i></div>
+                     </div>
+                     <img src="<?php echo $path ?>img/huts/cover.jpg" alt="">
                   </a>
                </div>
             </div>

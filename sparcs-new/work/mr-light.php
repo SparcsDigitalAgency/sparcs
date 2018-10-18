@@ -24,7 +24,7 @@ include_once('../partials/header.php')
 <!--==========================
    portfolio section2
    ============================-->
-<section id="portfolio-section2" style="background:url('../img/mrlight/bg2.jpg') no-repeat;background-size: cover;">
+<section id="portfolio-section2" style="background:url('../img/mrlight/bg21.jpg') no-repeat;background-size: cover;">
    <div class="container-fluid cf-padding">
       <div class="row">
           <div class="text-holder auto-margin wow fadeIn">
@@ -44,7 +44,7 @@ include_once('../partials/header.php')
 <!--==========================
    portfolio  Section1
    ============================-->
-<section id="portfolio-section1" style="background:url('../img/mrlight/bg.jpg') no-repeat;background-size: cover;">
+<section id="portfolio-section1" style="background:url('../img/mrlight/bg1.jpg') no-repeat;background-size: cover;">
    <div class="container-fluid cf-padding">
       <div class="row">
          <div class="col-lg-6"  style="padding: 0px 0px 0px 0px;">
