@@ -8,10 +8,14 @@ jQuery(document).ready(function( $ ) {
       $('.back-to-top').fadeOut('slow');
     }
   });
+
+
+
   $('.back-to-top').click(function(){
     $('html, body').animate({scrollTop : 0},1500, 'easeInOutExpo');
     return false;
   });
+
 
   // Initiate the wowjs animation library
   new WOW().init();
@@ -60,9 +64,11 @@ jQuery(document).ready(function( $ ) {
         }
       }
     });
-  } else if ($("#mobile-nav, #mobile-nav-toggle").length) {
+  } 
+  else if ($("#mobile-nav, #mobile-nav-toggle").length) {
     $("#mobile-nav, #mobile-nav-toggle").hide();
   }
+
 
   // Smooth scroll for the menu and links with .scrollto classes
   $('.nav-menu a, #mobile-nav a, .scrollto').on('click', function() {
@@ -98,6 +104,7 @@ jQuery(document).ready(function( $ ) {
     }
   });
 
+
   // Header scroll class
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
@@ -119,74 +126,10 @@ jQuery(document).ready(function( $ ) {
     $(this).children('.carousel-background').remove();
   });
 
-  $(".carousel").swipe({
-    swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
-      if (direction == 'left') $(this).carousel('next');
-      if (direction == 'right') $(this).carousel('prev');
-    },
-    allowPageScroll:"vertical"
-  });
 
-  // Skills section
-  $('#skills').waypoint(function() {
-    $('.progress .progress-bar').each(function() {
-      $(this).css("width", $(this).attr("aria-valuenow") + '%');
-    });
-  }, { offset: '80%'} );
 
-  // jQuery counterUp (used in Facts section)
-  $('[data-toggle="counter-up"]').counterUp({
-    delay: 10,
-    time: 1000
-  });
 
-  // Porfolio isotope and filter
-  var portfolioIsotope = $('.portfolio-container').isotope({
-    itemSelector: '.portfolio-item',
-    layoutMode: 'fitRows'
-  });
-
-  $('#portfolio-flters li').on( 'click', function() {
-    $("#portfolio-flters li").removeClass('filter-active');
-    $(this).addClass('filter-active');
-
-    portfolioIsotope.isotope({ filter: $(this).data('filter') });
-  });
-
-  // Clients carousel (uses the Owl Carousel library)
-  $(".clients-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    responsive: { 0: { items: 2 }, 768: { items: 4 }, 900: { items: 6 }
-    }
-  });
-
-  // Testimonials carousel (uses the Owl Carousel library)
-  $(".testimonials-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    items: 1
-  });
 
 });
- // Porfolio - uses the magnific popup jQuery plugin
-  $('.portfolio-popup').magnificPopup({
-    type: 'image',
-    removalDelay: 300,
-    mainClass: 'mfp-fade',
-    gallery: {
-      enabled: true
-    },
-    zoom: {
-      enabled: true,
-      duration: 300,
-      easing: 'ease-in-out',
-      opener: function(openerElement) {
-        return openerElement.is('img') ? openerElement : openerElement.find('img');
-      }
-    }
-  });
 
 
