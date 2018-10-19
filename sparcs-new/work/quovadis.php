@@ -26,33 +26,30 @@ include_once('../partials/header.php')
  <!--==========================
    portfolio  Section1
    ============================-->
-<section id="portfolio-section1" style="background:url('<?php echo $path; ?>img/quovadis/bg.jpg') no-repeat;background-size: cover;">
+<section id="portfolio-section1" style="background:#c1c1c1;">
    <div class="container-fluid cf-padding">
       <div class="row">
-         <div class="col-lg-6"  style="padding: 100px 0px 0px 0px;">
+         <div class="col-lg-6"  style="padding: 50px 0px 0px 0px;">
             <div class="portfolio-section1-imgholder text-center">
-               <img src="<?php echo $path; ?>img/quovadis/combined1.png" alt="" class="img-responsive wow fadeInLeft" style="max-height: 550px;width: auto;">
+               <img src="<?php echo $path; ?>img/quovadis/responsive.png" alt="" class="img-responsive wow fadeInLeft" style="width:110%">
             </div>
          </div>
          <div class="col-lg-6"  style="padding: 80px 80px 0px 80px;">
             <div class="portfolio-section1-textholder">
-               <img src="<?php echo $path; ?>img/quovadis/quovadis-logo-w.png" alt="" class="img-responsive wow fadeInLeft"style="height:70px;width: auto;margin-bottom: 20px">
-               <p class="wow fadeInRight ">A brand new website for a US based Travel Company that speaks to Devotional Christian Hearts ,the world over </p>
+               <img src="<?php echo $path; ?>img/quovadis/quovadis-logo.png" alt="" class="img-responsive wow fadeInLeft"style="height:70px;width: auto;margin-bottom: 20px">
+               <p class="wow fadeInRight " style="color: #222">A brand new website for a US based Travel Company that speaks to Devotional Christian Hearts ,the world over </p>
             </div>
             <div class="portfolio-section1-textholder wow fadeInRight">
-               <div class="icon"><i class="fa fa-check-circle"></i></div>
-               <p class="description">Giving  the Home page Full screen highly attractive visuals of projected destinations.</p>
+               <div class="icon" ><i class="fa fa-check-circle" style="color: #222"></i></div>
+               <p class="description" style="color: #222">Giving  the Home page Full screen highly attractive visuals of projected destinations.</p>
             </div>
             <div class="portfolio-section1-textholder wow fadeInRight">
-               <div class="icon"><i class="fa fa-check-circle"></i></div>
-               <p class="description">Creating easy to open & browse Gallery of Destinations and Travel packages  with all details.</p>
+               <div class="icon" ><i class="fa fa-check-circle" style="color: #222"></i></div>
+               <p class="description" style="color: #222">Creating easy to open & browse Gallery of Destinations and Travel packages  with all details.</p>
             </div>
             <div class="portfolio-section1-textholder wow fadeInRight">
-               <div class="icon"><i class="fa fa-check-circle"></i></div>
-               <p class="description">Creating Perfectly validated easy to use booking forms smoothly integrated with Payment gateway.</p>
-            </div>
-            <div class="portfolio-section1-textholder wow fadeInRight">
-               <a href="http://quovadis.travel/"" class="btn btn-readmore-outline">Visit Website</a>
+               <div class="icon" ><i class="fa fa-check-circle" style="color: #222"></i></div>
+               <p class="description" style="color: #222">Creating Perfectly validated easy to use booking forms smoothly integrated with Payment gateway.</p>
             </div>
          </div>
       </div>
@@ -65,12 +62,12 @@ include_once('../partials/header.php')
    <!--==========================
    portfolio section2
    ============================-->
-<section id="portfolio-section2" style="background-color: #f2f2f2;">
+<section id="portfolio-section2" style="background-color: #222;">
    <div class="container-fluid cf-padding">
       <div class="row">
           <div class="text-holder auto-margin wow fadeIn">
-             <h2>Swipe right</h2>
-             <p>The simplicity of swiping increases user engagement. Swipe right to save a trip and left to discard a trip.</p>
+             <h2 style="color: #fff">Swipe right</h2>
+             <p style="color: #fff">The simplicity of swiping increases user engagement. Swipe right to save a trip and left to discard a trip.</p>
           </div>
           <div class="img-holder auto-margin">
             <img src="<?php echo $path; ?>img/quovadis/quovadis-pic1.png" alt="" class="style2-pic img-responsive wow zoomIn" data-wow-duration="2s">

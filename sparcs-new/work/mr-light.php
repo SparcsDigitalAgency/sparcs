@@ -24,7 +24,7 @@ include_once('../partials/header.php')
 <!--==========================
    portfolio section2
    ============================-->
-<section id="portfolio-section2" style="background:url('../img/mrlight/bg21.jpg') no-repeat;background-size: cover;">
+<section id="portfolio-section2" style="background-image: linear-gradient(#c1c1c1,#fff );">
    <div class="container-fluid cf-padding">
       <div class="row">
           <div class="text-holder auto-margin wow fadeIn">
@@ -44,7 +44,7 @@ include_once('../partials/header.php')
 <!--==========================
    portfolio  Section1
    ============================-->
-<section id="portfolio-section1" style="background:url('../img/mrlight/bg1.jpg') no-repeat;background-size: cover;">
+<section id="portfolio-section1" style="background:#e1343b;">
    <div class="container-fluid cf-padding">
       <div class="row">
          <div class="col-lg-6"  style="padding: 0px 0px 0px 0px;">
@@ -80,7 +80,25 @@ include_once('../partials/header.php')
 <!--==========================
    end of portfolio  Section1
    ============================-->
-
+<!--==========================
+   portfolio section2
+   ============================-->
+<section id="portfolio-section2" style="background-image: linear-gradient(#c1c1c1,#fff );">
+   <div class="container-fluid cf-padding">
+      <div class="row">
+          <div class="text-holder auto-margin wow fadeIn">
+             <h2>Mr.Light</h2>
+             <p><b>Re-imaging  MrLightGlobal -</b> The inspiring story of a daring entrepreneurship that was looking <br>for a website revamp to reflect its Global Aspirations.</p>
+          </div>
+          <div class="img-holder auto-margin">
+            <img src="<?php echo $path; ?>img/mrlight/mrlight-screens.png" alt="" class="style2-pic img-responsive wow zoomIn" data-wow-duration="2s">
+          </div>
+      </div>
+   </div>
+</section>
+<!--==========================
+   end of portfolio section2
+   ============================-->
 
 <!--==========================
    end of works  Section2

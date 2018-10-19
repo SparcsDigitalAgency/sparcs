@@ -26,7 +26,7 @@ box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
 }
 /* portfolio section 1 */
 #portfolio-section1{
-padding: 100px 0px;
+padding: 120px 0px 100px 0px;
 }
 #portfolio-section1 h2{
 color: #fff;
@@ -59,6 +59,7 @@ margin-left: 30px;
 line-height: 24px;
 margin-bottom: 0;
 }
+
 
 /* portfolio section 2 */
 #portfolio-section2{

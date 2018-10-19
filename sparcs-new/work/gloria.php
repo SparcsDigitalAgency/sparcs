@@ -26,10 +26,10 @@ include_once('../partials/header.php')
 
 
 
-   <!--==========================
+   <!--==========================#f94617
    portfolio  Section1
    ============================-->
-<section id="portfolio-section1" style="background:url('<?php echo $path; ?>img/gloria/bg.jpg') no-repeat;background-size: cover;">
+<section id="portfolio-section1" style="background:#ff663e">
    <div class="container-fluid cf-padding">
       <div class="row">
          <div class="col-lg-6"  style="padding: 50px 0px 0px 0px;">
@@ -75,16 +75,16 @@ include_once('../partials/header.php')
 <section id="portfolio-section2" style="background-color: #f2f2f2;">
    <div class="container-fluid cf-padding">
       <div class="row">
-          <div class="text-holder auto-margin wow fadeIn">
+          <div class="text-holder auto-margin wow fadeInUp">
              <h2>Swipe right</h2>
              <p>The simplicity of swiping increases user engagement. Swipe right to save a trip and left to discard a trip.</p>
           </div>
       </div>
    </div>
-   <div class="container-fluid ">
+   <div class="container-fluid wow fadeInUp">
       <div class="row">
           <div class="img-holder auto-margin">
-            <img src="<?php echo $path; ?>img/gloria/tile.png" alt="" class="style2-pic img-responsive wow zoomIn" data-wow-duration="2s">
+            <img src="<?php echo $path; ?>img/gloria/tile.png" alt="" class="style2-pic img-responsive " data-wow-duration="2s">
           </div>
       </div>
    </div>
