@@ -1692,3 +1692,91 @@ font-size: 18px;
 }
 }
 .see-all{margin: 40% 25%;}
+
+
+.section-company1 {
+    position: relative;
+    margin: 60px 0;
+    padding: 60px 0;
+    background-color: #F9F9F9;
+    overflow: hidden;
+}
+.nobg {
+    background: none !important;
+}
+.nopadding {
+    padding: 0 !important;
+}
+.notopmargin {
+    margin-top: 0 !important;
+}
+.col-padding {
+    padding: 100px 60px !important;
+}
+.center {
+    text-align: center !important;
+}
+.heading-block:before {
+    content: attr(data-heading);
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #F5F5F5;
+    z-index: -1;
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
+    font-size: 90px;
+    line-height: .3;
+}
+.heading-block h3 {
+    font-size: 26px;
+}
+.heading-block {
+    margin-bottom: 50px;
+}
+.bottommargin {
+    margin-bottom: 50px !important;
+}
+.feature-box:first-child {
+    margin-top: 0;
+}
+.feature-box {
+    position: relative;
+    margin-top: 20px;
+    padding: 0 0 0 80px;
+}
+.feature-box.fbox-plain .fbox-icon {
+    border: none !important;
+    height: auto !important;
+}
+.feature-box .fbox-icon {
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 0;
+    left: 0;
+}
+.feature-box .fbox-icon a, .feature-box .fbox-icon i, .feature-box .fbox-icon img {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+}
+.feature-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    color: #333;
+}
+#content p {
+    line-height: 1.8;
+}
+.feature-box p {
+    margin: 8px 0 0 0;
+    color: #999;
+}

@@ -371,6 +371,15 @@
         autoplaySpeed:1000
   });
 
+ $('.lumiere-slider').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  centerMode: true,
+  variableWidth: true,
+});
+
 });
 </script>
 

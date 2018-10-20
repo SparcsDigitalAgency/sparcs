@@ -67,6 +67,78 @@ include_once('partials/header.php')
 <!--==========================
    end of About Us section 2
    ============================-->
+
+<section class="section-company1 nopadding notopmargin nobg clearfix" style="border-top: 1px solid #EEE; border-bottom: 1px solid #EEE;">
+   <div class="row common-height clearfix">
+      <div class="col-lg-6 center col-padding" style="background: url('img/company/1.jpg') center center / cover no-repeat; height: 750px;">
+         <div>&nbsp;</div>
+      </div>
+
+      <div class="col-lg-6 col-padding" style="height: 750px;">
+         <div>
+            <div style="position: relative;">
+               <div class="heading-block noborder" data-heading="A">
+                  <h3 class="nott ls0">About Us</h3>
+               </div>
+            </div>
+
+            <!-- About Us Featured Boxes
+            ============================================= -->
+            <div class="row clearfix">
+               <div class="col-lg-10 col-md-8 bottommargin">
+                  <div class="feature-box fbox-plain">
+                     <div class="fbox-icon">
+                        <a href="#"><i class="icon-et-globe"></i></a>
+                     </div>
+                     <h3>Brainstorm mode on!</h3>
+                     <p>Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
+                  </div>
+               </div>
+               <div class="col-lg-10 col-md-8 bottommargin">
+                  <div class="feature-box fbox-plain">
+                     <div class="fbox-icon">
+                        <a href="#"><i class="icon-et-gears"></i></a>
+                     </div>
+                     <h3>Wireframes finalised?</h3>
+                     <p>Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
+                  </div>
+               </div>
+               <div class="col-lg-10 col-md-8 bottommargin">
+                  <div class="feature-box fbox-plain">
+                     <div class="fbox-icon">
+                        <a href="#"><i class="icon-et-globe"></i></a>
+                     </div>
+                     <h3>Satisfied?</h3>
+                     <p>Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
+                  </div>
+               </div>
+               <div class="col-lg-10 col-md-8">
+                  <div class="feature-box fbox-plain">
+                     <div class="fbox-icon">
+                        <a href="#"><i class="icon-et-document"></i></a>
+                     </div>
+                     <h3>On time and just right.</h3>
+                     <p>Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+   </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!--==========================
    About Us section3
    ============================-->
@@ -90,109 +162,6 @@ include_once('partials/header.php')
 </section>
 <!--==========================
    end of About Us section 3
-   ============================-->
-
-   <!--==========================
-   About Us section4
-   ============================-->
-<section id="about-section4">
-   <div class="container">
-      <div class="row">
-         <div class="col-lg-12">
-            <div class="text-holder wow fadeInDown text-center">
-               <h2>Plan it</h2>
-               <p class="no-margin">Brainstorm mode on!</p>
-               <p class="no-margin">Let's discuss goals and project objectives and any other relevant information.</p>
-               <p class="no-margin">Content ?Content structure?Interaction ?Layout?All clarified?OK?</p>
-               <p>Let’s get on with Wire Frame Building !</p>
-            </div>
-         </div>
-         <div class="col-lg-7" style="margin: 0 auto;">
-            <div class="image-holder wow fadeInUp">
-               <img src="img/company/about2.png" class="img-responsive">
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
-<!--==========================
-   end of About Us section 4
-   ============================-->
-
-   <!--==========================
-   About Us section6
-   ============================-->
-<section id="about-section6">
-   <div class="container">
-      <div class="row">
-         <div class="col-lg-6">
-            <div class="text-holder wow fadeInLeft">
-               <h2>Design It</h2>
-               <p class="text-muted">Wireframes finalised?<br> Now take a look at the mock up of Your Key pages !<br>Need changes? <br> We are on it!</p>
-            </div>
-         </div>
-         <div class="col-lg-6">
-            <div class="img-holder">
-               <img src="img/company/about4.png" class="img-responsive wow fadeInRight">
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
-<!--==========================
-   end of About Us section 6
-   ============================-->
-   <!--==========================
-   end of About Us section 5
-   ============================-->
-
-   <!--==========================
-   About Us section7
-   ============================-->
-<section id="about-section7">
-   <div class="container">
-      <div class="row">
-         <div class="col-lg-6">
-            <div class="img-holder">
-               <img src="img/company/about-5.png" class="img-responsive wow fadeInLeft">
-            </div>
-         </div>
-         <div class="col-lg-6">
-            <div class="text-holder wow fadeInRight ">
-               <h2>Develop It </h2>
-               <p class="text-muted">Satisfied?<br>Great!<br>Let's get on with coding your designs.</p>
-            </div>
-         </div>
-         
-      </div>
-   </div>
-</section>
-<!--==========================
-   end of About Us section 7
-   ============================-->
-      <!--==========================
-   About Us section4
-   ============================-->
-<section id="about-section4">
-   <div class="container">
-      <div class="row">
-         <div class="col-lg-12">
-            <div class="text-holder wow fadeInDown text-center">
-               <h2>Deliver</h2>
-               <p class="no-margin">On time and just right.</p>
-               <p > Here is your final finished product from us!</p>
-            </div>
-         </div>
-         <div class="col-lg-7" style="margin: 0 auto;">
-            <div class="image-holder wow fadeInUp">
-               <img src="img/company/about2.png" class="img-responsive">
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
-<!--==========================
-   end of About Us section 4
    ============================-->
 
 <!--==========================

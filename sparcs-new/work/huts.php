@@ -24,10 +24,10 @@ include_once('../partials/header.php')
    <!--==========================
    portfolio  Section1
    ============================-->
-<section id="portfolio-section1" style="background:url('<?php echo $path; ?>img/huts/bg.jpg') no-repeat;background-size: cover;">
+<section id="portfolio-section1" style="background:#74c044">
    <div class="container-fluid cf-padding">
       <div class="row">
-         <div class="col-lg-6"  style="padding: 130px 0px 0px 0px;">
+         <div class="col-lg-6"  style="padding: 80px 0px 0px 0px;">
             <div class="portfolio-section1-imgholder text-center">
                <img src="<?php echo $path; ?>img/huts/combined3.png" alt="" class="img-responsive wow fadeInLeft" style="">
             </div>
@@ -45,9 +45,6 @@ include_once('../partials/header.php')
             <div class="portfolio-section1-textholder wow fadeInRight">
                <div class="icon"><i class="fa fa-check-circle"></i></div>
                <p class="description">Suggested and executed changes in  design & color of uniform for personnel in accordance with Client budget. Supporting the change of official color from Orange to Brilliant Green.</p>
-            </div>
-            <div class="portfolio-section1-textholder wow fadeInRight">
-               <a href="http://www.hutsrestaurant.com/"" class="btn btn-readmore-outline">Visit Website</a>
             </div>
          </div>
       </div>
