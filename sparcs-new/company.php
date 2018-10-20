@@ -86,36 +86,36 @@ include_once('partials/header.php')
             ============================================= -->
             <div class="row clearfix">
                <div class="col-lg-10 col-md-8 bottommargin">
-                  <div class="feature-box fbox-plain">
+                  <div class="featured-box fbox-plain">
                      <div class="fbox-icon">
-                        <a href="#"><i class="icon-et-globe"></i></a>
+                        <i class="fa fa-coffee"></i>
                      </div>
                      <h3>Brainstorm mode on!</h3>
                      <p>Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
                   </div>
                </div>
                <div class="col-lg-10 col-md-8 bottommargin">
-                  <div class="feature-box fbox-plain">
+                  <div class="featured-box fbox-plain">
                      <div class="fbox-icon">
-                        <a href="#"><i class="icon-et-gears"></i></a>
+                        <i class="fa fa-cubes"></i>
                      </div>
                      <h3>Wireframes finalised?</h3>
                      <p>Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
                   </div>
                </div>
                <div class="col-lg-10 col-md-8 bottommargin">
-                  <div class="feature-box fbox-plain">
+                  <div class="featured-box fbox-plain">
                      <div class="fbox-icon">
-                        <a href="#"><i class="icon-et-globe"></i></a>
+                        <i class="fa fa-question-circle"></i>
                      </div>
                      <h3>Satisfied?</h3>
                      <p>Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
                   </div>
                </div>
                <div class="col-lg-10 col-md-8">
-                  <div class="feature-box fbox-plain">
+                  <div class="featured-box fbox-plain">
                      <div class="fbox-icon">
-                        <a href="#"><i class="icon-et-document"></i></a>
+                        <i class="fa fa-handshake-o"></i>
                      </div>
                      <h3>On time and just right.</h3>
                      <p>Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
