@@ -1565,7 +1565,7 @@ display: block;
     font-size: 1rem;
     border: none;
     line-height: 1.5;
-    color: #fffcfc;
+    color: #000;
     background-color: #eaeaea;
     background-clip: padding-box;
     border-bottom: 1px solid #bbb;
@@ -1581,9 +1581,9 @@ color: #bbb;
 opacity: 1;
 }
 .form-control:focus {
-color: #fff;
-    background-color: #fff;
-    border-color: #fff;
+color: #000;
+    background-color: #ececec;
+    border-color: #ddd;
     outline: 0;
     box-shadow: none;
 }
@@ -1714,21 +1714,11 @@ font-size: 18px;
 .section-company1 .center {
     text-align: center !important;
 }
-.section-company1 .heading-block:before {
-    content: attr(data-heading);
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    color: #F5F5F5;
-    z-index: -1;
-    font-family: 'poppins', sans-serif;
-    font-weight: bold;
-    font-size: 90px;
-    line-height: .3;
-}
+
 .section-company1 .heading-block h3 {
-    font-size: 26px;
+        color: #444;
+    font-size: 42px;
+    font-weight: 600;
 }
 .section-company1 .heading-block {
     margin-bottom: 50px;
@@ -1765,7 +1755,6 @@ font-size: 18px;
     font-size: 16px;
     font-weight: 700;
     text-transform: capitalize;
-    letter-spacing: 1px;
     margin-bottom: 0;
     color: #333;
 }

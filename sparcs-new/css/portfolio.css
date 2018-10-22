@@ -190,7 +190,7 @@ font-size: 16px;
 }
 /* portfolio section 2 */
 #portfolio-section10{
-padding: 100px 0px 0px 0px;
+padding: 100px 0px 100px 0px;
 }
 #portfolio-section10 h2{
 color: #444;
@@ -257,14 +257,74 @@ margin-bottom: 30px;
 font-size: 50px;
 font-weight: 700;
 }
+#portfolio-section13 h4{
+color: #fff;
+font-weight: 200;
+line-height: 1.4em;
+margin-bottom: 50px;
+}
 #portfolio-section13 p{
 color: #fff;
 margin-bottom: 0px;
 font-size: 16px;
 margin-bottom: 30px;
 }
+
 #portfolio-section13 .text-holder{
-    padding: 200px 100px 200px 100px;
+    padding: 250px 100px 160px 100px;
+}
+
+
+
+.v-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.screen-slider .item {
+    background: url('../img/wordnet/mobile.png') no-repeat scroll center center / auto 100%;
+    padding: 56px 22px;
+    display: inline-block;
+    margin: auto;
+}
+
+.screen-slider.owl-carousel .owl-item {
+    text-align: center
+}
+
+.screen-slider .owl-controls {
+    position: absolute;
+    left: 0;
+    top: 100%;
+}
+
+.screen-slider .owl-controls .owl-nav > div {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.screen-slider .owl-controls .owl-nav {
+    position: relative;
+    margin-top: 0;
+}
+
+.screen-slider .owl-controls .owl-nav:after {
+    content: "/";
+    position: absolute;
+    left: 50%;
+    top: 12px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
 }
 /*--------------------------------------------------------------
 # MEDIA QUERY MOBILE

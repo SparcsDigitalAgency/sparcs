@@ -275,6 +275,7 @@
 <script src="<?php echo $path; ?>js/wow.min.js"></script>
 <script src="<?php echo $path; ?>js/custom.js"></script>
 <script src="<?php echo $path; ?>js/scrollify.js"></script>
+<script src="<?php echo $path; ?>lib/owl-carousel/owl.carousel.min.js"></script>
 <script src="<?php echo $path; ?>lib/slick/slick.js"></script>
 
  
@@ -379,6 +380,21 @@
   centerMode: true,
   variableWidth: true,
 });
+
+ $('.screen-slider').owlCarousel({
+        loop: true,
+        margin: 0,
+        responsiveClass: true,
+        nav: true,
+        autoplay: true,
+        autoplayTimeout: 2500,
+        smartSpeed: 1000,
+        navText: ['<i class="ti-arrow-left"></i>', '<i class="ti-arrow-right" ></i>'],
+        items: 1,
+        animateIn: 'fadeIn',
+        animateOut: 'fadeOut',
+        center: true,
+    });
 
 });
 </script>

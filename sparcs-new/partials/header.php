@@ -48,6 +48,8 @@ include_once('config.php')
 	<link href="<?php echo $path; ?>css/font-awesome/css/font-awesome.css" rel="stylesheet">
 	<link href="<?php echo $path; ?>lib/ionicons/css/ionicons.min.css" rel="stylesheet">
 	<link href="<?php echo $path; ?>css/animate.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://rawgit.com/lykmapipo/themify-icons/master/css/themify-icons.css">
+   <link href="<?php echo $path; ?>lib/owl-carousel/owl.carousel.min.css" rel="stylesheet">
    <link href="<?php echo $path; ?>lib/slick/slick.css" rel="stylesheet">
    <link href="<?php echo $path; ?>lib/slick/slick-theme.css" rel="stylesheet">
 	<!-- Main Stylesheet File -->
