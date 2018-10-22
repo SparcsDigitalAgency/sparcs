@@ -29,7 +29,7 @@ include_once('../partials/header.php')
    <!--==========================#f94617
    portfolio  Section1
    ============================-->
-<section id="portfolio-section1" style="background-image: linear-gradient(#c13628,#f96152 );">
+<section id="portfolio-section1" style="background:#b72314">
    <div class="container-fluid cf-padding">
       <div class="row">
          <div class="col-lg-6"  style="padding: 50px 0px 0px 0px;">
@@ -95,7 +95,7 @@ include_once('../partials/header.php')
               <img src="<?php echo $path; ?>img/genex/pic2.jpg" alt="" class="img-responsive wow fadeIn" style="">
             </div>
          </div>
-         <div class="col-lg-6" style="background: #f96152">
+         <div class="col-lg-6" style="background:#b72314">
             <div class="text-holder auto-margin wow fadeIn ">
              <h2>Swipe right</h2>
              <p>The simplicity of swiping increases user engagement. Swipe right to save a trip and left to discard a trip.</p>

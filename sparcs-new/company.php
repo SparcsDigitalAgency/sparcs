@@ -57,8 +57,9 @@ include_once('partials/header.php')
          </div>
          <div class="col-lg-6">
             <div class="text-holder wow fadeInRight">
-               <p>Sparcs is a Full Service Provider.</p>
-               <h2> We offer Integrated UX Development, Live Streaming/Webcast, Branding & Digital Marketing Solutions, Mobile App/ OTT Development, Content Development and whatever it takes to provide apt solutions to grow your business.</h2>
+               <h2> Sparcs is a Full Service Provider.</h2>
+               <p>We offer Integrated UX Development, Live Streaming/Webcast, Branding & Digital Marketing Solutions, Mobile App/ OTT Development, Content Development and whatever it takes to provide apt solutions to grow your business.</p>
+               
             </div>
          </div>
       </div>
@@ -142,7 +143,7 @@ include_once('partials/header.php')
 <!--==========================
    About Us section3
    ============================-->
-<section id="about-section3">
+<section id="about-section3" style="background-color: #eaeaea">
    <div class="container">
       <div class="row">
          <div class="col-lg-6">

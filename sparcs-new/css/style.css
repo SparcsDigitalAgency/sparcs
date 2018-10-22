@@ -1005,10 +1005,10 @@ font-size: 42px;
 font-weight: 600;
 }
 #about-section2 .text-holder {
-    padding: 50px 50px 0px 0px;
+    padding: 130px 50px 100px 50px;
 }
 #about-section2 .img-holder {
-    padding: 100px 100px 0px 100px;
+    padding: 0px 100px 0px 100px;
 }
 #about-section2 .img-holder img{
 	width:100%;
