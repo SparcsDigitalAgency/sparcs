@@ -42,7 +42,7 @@ include_once('../partials/header.php')
             <div class="portfolio-section1-textholder">
                <img src="<?php echo $path; ?>img/omg/logo-w.png" alt="" class="img-responsive wow fadeInLeft"style="height:100px;width: auto;margin-bottom: 20px">
                <h2 class=" wow fadeInRight" style="display: inline-block;margin-left: 20px">One More Game</h2>
-               <p class="wow fadeInRight ">"Creating Awareness is creating Value" The story of a shoestring budget makeover of a highly popular Highway side eatery into a 100 percent Organic Restaurant.</p>
+               <p class="wow fadeInRight ">Built a responsive site with a trendy understated Gothic appeal using the the Brand colors of Black & Acid Green customised for the client.</p>
             </div>
             <div class="portfolio-section1-textholder wow fadeInRight">
                <div class="icon"><i class="fa fa-check-circle"></i></div>
@@ -55,6 +55,79 @@ include_once('../partials/header.php')
          </div>
       </div>
    </div>
+</section>
+
+<section id="portfolio-section10" style="background-color: #fff;">
+   <div class="container">
+      <div class="row">
+          <div class="col-xs-12 col-md-8 auto-margin text-holder auto-margin wow fadeIn marginbottom" style="visibility: visible; animation-name: fadeIn;">
+                <h2>Logo Creation</h2>
+                <p> Designed an exciting  Logo that while playing with the letters that form the name is also a visual pun on the joystick epitomising the whole activity  of Gaming .</p>
+            </div>
+      </div>
+      <div class="row">
+            <div class="col-lg-4 no-padding auto-margin-left">
+               <div class="img-holder">
+                  <img src="<?php echo $path; ?>img/omg/omg-scribble.jpg" alt="" class="img-responsive">
+               </div>
+            </div>
+            <div class="col-lg-4 no-padding auto-margin-right">
+               <div class="img-holder">
+                  <img src="<?php echo $path; ?>img/omg/omg-logo.jpg" alt="" class="img-responsive">
+               </div>
+            </div>
+      </div>
+</section>
+
+
+<section id="portfolio-section10" style="background-color: #fff;padding-bottom: 0px">
+   <div class="container">
+      <div class="row">
+          <div class="col-xs-12 col-md-8 auto-margin text-holder auto-margin wow fadeIn marginbottom" style="visibility: visible; animation-name: fadeIn;">
+                <h2>Branding</h2>
+                <p>Designed Brochure Design, business card and other print materials using the same visual style .</p>
+            </div>
+      </div>
+    </div>  
+    <div class="container-fluid no-padding">
+       <div class="row">
+            <div class="col-lg-4 no-padding">
+               <div class="img-holder">
+                  <img src="<?php echo $path; ?>img/omg/brochure-1.jpg" alt="" class="img-responsive">
+               </div>
+            </div>
+            <div class="col-lg-4 no-padding">
+               <div class="img-holder">
+                  <img src="<?php echo $path; ?>img/omg/brochure-2.jpg" alt="" class="img-responsive">
+               </div>
+            </div>
+            <div class="col-lg-4 no-padding">
+               <div class="img-holder">
+                  <img src="<?php echo $path; ?>img/omg/brochure-3.jpg" alt="" class="img-responsive">
+               </div>
+            </div>
+            <div class="col-lg-4 no-padding">
+               <div class="img-holder">
+                  <img src="<?php echo $path; ?>img/omg/brochure-4.jpg" alt="" class="img-responsive">
+               </div>
+            </div>
+            <div class="col-lg-4 no-padding">
+               <div class="img-holder">
+                  <img src="<?php echo $path; ?>img/omg/brochure-5.jpg" alt="" class="img-responsive">
+               </div>
+            </div>
+            <div class="col-lg-4 no-padding">
+               <div class="img-holder">
+                  <img src="<?php echo $path; ?>img/omg/brochure-6.jpg" alt="" class="img-responsive">
+               </div>
+            </div>
+            <div class="col-lg-12 no-padding">
+               <div class="img-holder">
+                  <img src="<?php echo $path; ?>img/omg/print.jpg" alt="" class="img-responsive">
+               </div>
+            </div>
+      </div>
+    </div>
 </section>
 <!--==========================
    end of portfolio  Section1
