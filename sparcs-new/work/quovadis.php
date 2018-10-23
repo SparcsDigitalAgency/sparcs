@@ -62,15 +62,11 @@ include_once('../partials/header.php')
    <!--==========================
    portfolio section2
    ============================-->
-<section id="portfolio-section2" style="background-color: #444;">
-   <div class="container-fluid cf-padding">
+<section id="portfolio-section2" style="background-color: #444;padding: 0px">
+   <div class="container-fluid no-padding">
       <div class="row">
-          <div class="text-holder auto-marginleft wow fadeIn" >
-             <h2 style="color: #fff;text-align: right;">Swipe right</h2>
-             <p style="color: #fff;text-align: right;">The simplicity of swiping increases user engagement.<br>Swipe right to save a trip and left to discard a trip.</p>
-          </div>
-          <div class="img-holder auto-margin" style="margin-top: -70px;">
-            <img src="<?php echo $path; ?>img/quovadis/quovadis-pic1.png" alt="" class="style2-pic img-responsive wow zoomIn" data-wow-duration="2s">
+          <div class="img-holder auto-margin">
+            <img src="<?php echo $path; ?>img/quovadis/sheets.jpg" alt="" class="style2-pic img-responsive wow fadeIn" data-wow-duration="2s">
           </div>
       </div>
    </div>

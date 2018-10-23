@@ -170,15 +170,16 @@ include_once('../partials/header.php')
    <!--==========================
    portfolio section6
    ============================-->
-<section id="portfolio-section6" >
+<section id="portfolio-section6" style="background-color:#798368;padding: 200px 0px 100px 0px ">
    <div class="">
       <div class="row">
-        <div class="text-holder wow fadeIn style="background:url('<?php echo $path; ?>img/huts/tabletops-fin.jpg');" >
+        
+          <div class="img-holder auto-margin" >
+            <img src="<?php echo $path; ?>img/huts/tabletops-fin.jpg" alt="" class="style2-pic img-responsive wow " data-wow-duration="2s">
+          </div>
+          <div class="text-holder wow fadeIn" style="position:absolute" >
             <h2>Swipe right</h2>
              <p>The simplicity of swiping increases user engagement. Swipe right to save a trip and left to discard a trip.</p>
-          </div>
-          <div class="img-holder auto-margin">
-            <img src="<?php echo $path; ?>img/huts/tabletops-fin.jpg" alt="" class="style2-pic img-responsive wow " data-wow-duration="2s">
           </div>
       </div>
    </div>
