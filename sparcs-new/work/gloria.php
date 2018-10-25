@@ -73,14 +73,7 @@ include_once('../partials/header.php')
    portfolio section2
    ============================-->
 <section id="portfolio-section2" style="background-color: #f2f2f2;">
-   <div class="container-fluid cf-padding">
-      <div class="row">
-          <div class="text-holder auto-margin wow fadeInUp">
-             <h2>Swipe right</h2>
-             <p>The simplicity of swiping increases user engagement. Swipe right to save a trip and left to discard a trip.</p>
-          </div>
-      </div>
-   </div>
+  
    <div class="container-fluid wow fadeInUp">
       <div class="row">
           <div class="img-holder auto-margin">

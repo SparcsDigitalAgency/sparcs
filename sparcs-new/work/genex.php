@@ -63,14 +63,24 @@ include_once('../partials/header.php')
    </div>
 </section>
 
+<section id="portfolio-section2" style="background-color: #f2f2f2;">
+   <div class="container-fluid wow fadeInUp">
+      <div class="row">
+          <div class="img-holder auto-margin">
+            <img src="<?php echo $path; ?>img/genex/tile.png" alt="" class="style2-pic img-responsive " data-wow-duration="2s">
+          </div>
+      </div>
+   </div>
+</section>
+
 <section id="portfolio-section2" style="background:#eaeaea;">
    <div class="container-fluid cf-padding">
       <div class="row">
-          <div class="text-holder auto-margin wow fadeIn">
+          <div class="col-md-8 text-holder auto-margin wow fadeIn">
             <h2>Logo Identity</h2>
              <p>Our redesign reflected the function of  of GenX’s products to deflect and protect in its branding by using sharp highly dynamic strongly <br>diagonal lines and incorporating the image of a shield stylised minimally but dramatically.</p>
           </div>
-          <div class="img-holder auto-margin">
+          <div class="col-md-8 img-holder auto-margin">
             <img src="<?php echo $path; ?>img/genex/logo-big.jpg" alt="" class="style2-pic img-responsive wow zoomIn" data-wow-duration="2s">
           </div>
       </div>
@@ -99,23 +109,7 @@ include_once('../partials/header.php')
       </div>
 </section>
 
-<section id="portfolio-section2" style="background-color: #f2f2f2;">
-   <div class="container-fluid cf-padding">
-      <div class="row">
-          <div class="text-holder auto-margin wow fadeInUp">
-             <h2>Swipe right</h2>
-             <p>The simplicity of swiping increases user engagement. Swipe right to save a trip and left to discard a trip.</p>
-          </div>
-      </div>
-   </div>
-   <div class="container-fluid wow fadeInUp">
-      <div class="row">
-          <div class="img-holder auto-margin">
-            <img src="<?php echo $path; ?>img/genex/tile.png" alt="" class="style2-pic img-responsive " data-wow-duration="2s">
-          </div>
-      </div>
-   </div>
-</section>
+
    <!--==========================
    portfolio section2
    ============================-->

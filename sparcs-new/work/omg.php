@@ -61,12 +61,12 @@ include_once('../partials/header.php')
    <div class="container">
       <div class="row">
           <div class="col-xs-12 col-md-8 auto-margin text-holder auto-margin wow fadeIn marginbottom" style="visibility: visible; animation-name: fadeIn;">
-                <h2>Logo Creation</h2>
+                <h2>Branding Identity</h2>
                 <p> Designed an exciting  Logo that while playing with the letters that form the name is also a visual pun on the joystick epitomising the whole activity  of Gaming .</p>
             </div>
       </div>
       <div class="row">
-            <div class="col-lg-4 no-padding auto-margin-left">
+            <div class="col-lg-4 no-padding ">
                <div class="img-holder">
                   <img src="<?php echo $path; ?>img/omg/omg-scribble.jpg" alt="" class="img-responsive">
                </div>
@@ -74,6 +74,11 @@ include_once('../partials/header.php')
             <div class="col-lg-4 no-padding auto-margin-right">
                <div class="img-holder">
                   <img src="<?php echo $path; ?>img/omg/omg-logo.jpg" alt="" class="img-responsive">
+               </div>
+            </div>
+            <div class="col-lg-4 no-padding auto-margin-right">
+               <div class="img-holder">
+                  <img src="<?php echo $path; ?>img/omg/omg-logo-sticker.jpg" alt="" class="img-responsive">
                </div>
             </div>
       </div>
@@ -129,9 +134,14 @@ include_once('../partials/header.php')
                   <img src="<?php echo $path; ?>img/omg/brochure-6.jpg" alt="" class="img-responsive">
                </div>
             </div>
-            <div class="col-lg-12 no-padding">
+            <div class="col-lg-6 no-padding">
                <div class="img-holder">
-                  <img src="<?php echo $path; ?>img/omg/print.jpg" alt="" class="img-responsive">
+                  <img src="<?php echo $path; ?>img/omg/brand-meterial-01.jpg" alt="" class="img-responsive">
+               </div>
+            </div>
+            <div class="col-lg-6 no-padding">
+               <div class="img-holder">
+                  <img src="<?php echo $path; ?>img/omg/brand-meterial-02.jpg" alt="" class="img-responsive">
                </div>
             </div>
       </div>

@@ -553,11 +553,12 @@ right: 0;
 #intro .carousel-content {
 padding-left: 15%;
 padding-top: 10%;
+
 }
 #intro h2 {
 color: #444;
 margin-bottom: 30px;
-font-size: 50px;
+font-size: 3rem;
 font-weight: 700;
 }
 @media (max-width: 768px) {
@@ -573,6 +574,7 @@ color: #444;
 #intro p {
 width: 85%;
 }
+
 }
 #intro .carousel-fade .carousel-inner .carousel-item {
 -webkit-transition-property: opacity;
@@ -636,7 +638,7 @@ color: #c9252c;
 background: url(../img/about-bg.png);
 background-size: cover;
 position: relative;
-padding:20% 0%;
+padding:15% 0%;
 }
 #about .container {
 position: relative;
@@ -670,7 +672,7 @@ font-size: 36px;
 #services {
 background-color: #f9f9f9;
 background-size: cover;
-padding: 7% 0%;
+padding: 10% 0%;
 }
 
 .services-content {
@@ -1007,8 +1009,7 @@ margin-top: 50%;
 }
 #about-section2 h2 {
 color: #444;
-font-size: 42px;
-font-weight: 600;
+font-weight: 700;
 }
 #about-section2 .text-holder {
     padding: 130px 50px 100px 50px;
@@ -1028,11 +1029,11 @@ margin-top: 50%;
 }
 #about-section3 h2 {
 color: #444;
-font-size: 50px;
+font-size: 2rem;
 font-weight: 700;
 }
 #about-section3 .text-holder{
-	padding: 50% 20% 0% 0%;
+	padding: 30% 10% 0% 0%;
 }
 #about-section3 .img-holder{
 	padding-top: 20%;
@@ -1153,7 +1154,8 @@ font-size: 50px;
 font-weight: 700;
 }
 #works-section2{
-background: #f9f9f9;
+background: #fff;
+padding:5% 0;
 }
 #works-section2 .container{
 padding:5px 0;
@@ -1421,7 +1423,7 @@ background: #f9f9f9;
 }
 
 #services-section2 .heading-block h2 {
-    font-size: 30px;
+    font-size: 1.5rem;
     margin-bottom: 0;
     font-weight: 700;
     text-transform: uppercase;
@@ -1436,7 +1438,7 @@ background: #f9f9f9;
     color: #777;
 }
 #services-section2 .heading-block h2 + span {
-    font-size: 22px;
+    font-size: 1rem;
 }
 #services-section2 .heading-block:after {
     content: '';
@@ -1454,70 +1456,20 @@ background: #f9f9f9;
 }
 #services-section2 ul .fa{
 	margin-right: 0.5em;
+	color:#c9252c;
 }
 #services-section2 ul li{
-	font-size: 1.3em;
+	font-size: 1rem;
 }
 #services-section2 .services-icon{
-	height: 128px;
-	width: 128px;
+	height: 100px;
+	width: 100px;
 	margin-bottom: 30px;
 }
-
-#services-section3{
-padding: 5% 0% 10% 0%;
-background: #fff;
-}
-#services-section3 .paddingleft200{
-	padding-left: 200px;
-}
-#services-section3 .heading-block {
-    margin-bottom: 30px;
+.bgwhite{
+	background-color: #fff !important;
 }
 
-#services-section3 .heading-block h2 {
-    font-size: 30px;
-    margin-bottom: 0;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #333;
-    line-height: 1.5;
-}
-#services-section3 .heading-block > span:not(.before-heading) {
-    display: block;
-    margin-top: 10px;
-    font-weight: 300;
-    color: #777;
-}
-#services-section3 .heading-block h2 + span {
-    font-size: 22px;
-}
-#services-section3 .heading-block:after {
-    content: '';
-    display: block;
-    margin-top: 30px;
-    width: 40px;
-    border-top: 2px solid #444;
-}
-#services-section3 ul{
-	list-style: none;padding: 0px;
-}
-#services-section3 ul{
-	list-style: none;
-	padding: 0px;
-}
-#services-section3 ul .fa{
-	margin-right: 0.5em;
-}
-#services-section3 ul li{
-	font-size: 1.3em;
-}
-#services-section3 .services-icon{
-	height: 128px;
-	width: 128px;
-	margin-bottom: 30px;
-}
 /*--------------------------------------------------------------
 # MEDIA QUERY MOBILE
 --------------------------------------------------------------*/
@@ -1787,7 +1739,7 @@ font-size: 18px;
     margin-top: 0 !important;
 }
 .section-company1 .col-padding {
-    padding: 100px 60px !important;
+    padding: 5%;
 }
 .section-company1 .center {
     text-align: center !important;
@@ -1830,16 +1782,17 @@ font-size: 18px;
     font-size: 32px;
 }
 .section-company1 .featured-box h3 {
-    font-size: 16px;
-    font-weight: 700;
     text-transform: capitalize;
     margin-bottom: 0;
-    color: #333;
+    font-size:1.3rem;
+    font-weight: 600;
 }
 .section-company1 #content p {
     line-height: 1.8;
+
 }
 .section-company1 .featured-box p {
     margin: 8px 0 0 0;
     color: #999;
+    
 }
