@@ -11,9 +11,9 @@
 <meta name="description" content="<?php echo $meta_tags['description']; ?>">
 <meta property="og:title" content="Sparcs, an interactive digital agency."/>
 <meta property="og:type" content="company"/>
-<meta property="og:url" content="http://www.Sparcs.com"/>
-<meta property="og:image" content="http://www.Sparcs.com/images/logo.png"/>
-<meta property="og:site_name" content="Sparcs"/>
+<meta property="og:url" content="http://www.sparcsdigital.com"/>
+<meta property="og:image" content="http://www.sparcsdigital.com/images/logo.png"/>
+<meta property="og:site_name" content="Sparcs Digital Agency"/>
 <meta property="fb:admins" content="1301551246"/>
 <?php if ($meta_tags['no-index'] ): ?> 
 	<meta name="robots" content="noindex">
