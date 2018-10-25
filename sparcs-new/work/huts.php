@@ -58,7 +58,7 @@ include_once('../partials/header.php')
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
-        <div class="text-holder wow fadeInLeft" style="padding-top: 400px;">
+        <div class="text-holder wow fadeInLeft" style="padding-top: 20%;">
            <p class="text-muted">Story Boards</p>
            <h2>Interior Designs.</h2>
            <p class="text-muted">With powerful content and appealing illustrations,turning  all earmarked surfaces  from table mats to the wall decor  into educative messages about the benefits of Organic Agriculture & Food .</p>
@@ -66,7 +66,7 @@ include_once('../partials/header.php')
       </div>
       <div class="col-lg-6">
         <div class="img-holder text-right">
-               <img src="<?php echo $path; ?>img/huts/painting.jpg" class="img-responsive wow fadeInRight auto-margin" style="height:700px;width: auto;;">
+               <img src="<?php echo $path; ?>img/huts/painting.jpg" class="img-responsive wow fadeInRight auto-margin" >
         </div>
       </div>
     </div>
@@ -130,7 +130,7 @@ include_once('../partials/header.php')
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
-        <div class="text-holder wow fadeInLeft" style="padding-top: 300px;">
+        <div class="text-holder wow fadeInLeft" style="padding-top: 20%;">
            <p class="text-muted">Menu Boards</p>
            <h2>Appealing illustrations</h2>
            <p class="text-muted">With powerful content and appealing illustrations,turning  all earmarked surfaces  from table mats to the wall decor  into educative messages about the benefits of Organic Agriculture & Food .</p>
@@ -138,7 +138,7 @@ include_once('../partials/header.php')
       </div>
       <div class="col-lg-6">
         <div class="img-holder">
-               <img src="<?php echo $path; ?>img/huts/menu-boards.png" class="img-responsive wow fadeInRight auto-margin" style="height:600px;width: auto;;">
+               <img src="<?php echo $path; ?>img/huts/menu-boards.png" class="img-responsive wow fadeInRight auto-margin" >
         </div>
       </div>
     </div>
@@ -170,7 +170,7 @@ include_once('../partials/header.php')
    <!--==========================
    portfolio section6
    ============================-->
-<section id="portfolio-section6" style="background-color:#798368;padding: 200px 0px 100px 0px ">
+<section id="portfolio-section6" style="background-color:#798368;padding:10% 0; ">
    <div class="container">
       <div class="row">
         
