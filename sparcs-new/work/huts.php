@@ -76,7 +76,7 @@ include_once('../partials/header.php')
    <!--==========================
    portfolio  Section4
    ============================-->
-<section id="portfolio-section4" style="background: #eaeaea">
+<section id="portfolio-section4" style="background-image:url(<?php echo $path; ?>img/huts/wall-bg.jpg);">
    <div class="container">
       <div class="row">
         <div class="col-md-4">

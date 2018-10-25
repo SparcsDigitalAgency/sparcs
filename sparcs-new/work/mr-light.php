@@ -24,7 +24,7 @@ include_once('../partials/header.php')
 <!--==========================
    portfolio section2
    ============================-->
-<section id="portfolio-section2" style="background-image: linear-gradient(#c1c1c1,#fff );">
+<section id="portfolio-section2" style="background-image: linear-gradient(#eeeeee,#ffffff );">
    <div class="container">
       <div class="row">
           <div class="text-holder auto-margin wow fadeIn">
@@ -83,7 +83,7 @@ include_once('../partials/header.php')
 <!--==========================
    portfolio section2
    ============================-->
-<section id="portfolio-section2" style="background-image: linear-gradient(#c1c1c1,#fff );">
+<section id="portfolio-section2" style="background-image: linear-gradient(#eeeeee,#fff );">
    <div class="container">
       <div class="row">
           <div class="text-holder auto-margin wow fadeIn">

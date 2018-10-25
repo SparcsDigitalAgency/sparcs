@@ -26,7 +26,7 @@ include_once('../partials/header.php')
  <!--==========================
    portfolio  Section1
    ============================-->
-<section id="portfolio-section1" style="background:#eee;">
+<section id="portfolio-section1" style="background-image: linear-gradient(#eeeeee,#fff );">
    <div class="container">
       <div class="row">
          <div class="col-lg-6"  style="padding: 50px 0px 0px 0px;">
