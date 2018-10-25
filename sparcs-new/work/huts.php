@@ -25,7 +25,7 @@ include_once('../partials/header.php')
    portfolio  Section1
    ============================-->
 <section id="portfolio-section1" style="background:#74c044">
-   <div class="container-fluid cf-padding">
+   <div class="container">
       <div class="row">
          <div class="col-lg-6"  style="padding: 80px 0px 0px 0px;">
             <div class="portfolio-section1-imgholder text-center">
@@ -55,18 +55,18 @@ include_once('../partials/header.php')
    portfolio  Section3
    ============================-->
 <section id="portfolio-section3" style="background-color: #fff">
-  <div class="cf-padding">
+  <div class="container">
     <div class="row">
       <div class="col-lg-6">
-        <div class="text-holder wow fadeInLeft" style="padding-top: 400px;padding-left: 100px">
+        <div class="text-holder wow fadeInLeft" style="padding-top: 400px;">
            <p class="text-muted">Story Boards</p>
            <h2>Interior Designs.</h2>
            <p class="text-muted">With powerful content and appealing illustrations,turning  all earmarked surfaces  from table mats to the wall decor  into educative messages about the benefits of Organic Agriculture & Food .</p>
         </div>
       </div>
       <div class="col-lg-6">
-        <div class="img-holder">
-               <img src="<?php echo $path; ?>img/huts/painting.png" class="img-responsive wow fadeInRight auto-margin" style="height:700px;width: auto;;">
+        <div class="img-holder text-right">
+               <img src="<?php echo $path; ?>img/huts/painting.jpg" class="img-responsive wow fadeInRight auto-margin" style="height:700px;width: auto;;">
         </div>
       </div>
     </div>
@@ -77,46 +77,46 @@ include_once('../partials/header.php')
    portfolio  Section4
    ============================-->
 <section id="portfolio-section4" style="background: #eaeaea">
-   <div class="container-fluid cf-padding">
+   <div class="container">
       <div class="row">
-        <div class="col-lg-3">
+        <div class="col-md-4">
           <div class="img-holder wow fadeInLeft">
-            <img src="<?php echo $path; ?>img/huts/painting1.png" class="img-responsive">
+            <img src="<?php echo $path; ?>img/huts/painting1.jpg" class="img-responsive">
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-md-4">
           <div class="img-holder wow fadeInLeft">
-            <img src="<?php echo $path; ?>img/huts/painting2.png" class="img-responsive">
+            <img src="<?php echo $path; ?>img/huts/painting2.jpg" class="img-responsive">
           </div>
         </div>
-        <div class="col-lg-3">
-          <div class="img-holder wow fadeInRight">
-            <img src="<?php echo $path; ?>img/huts/painting3.png" class="img-responsive" >
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="img-holder wow fadeInRight">
-            <img src="<?php echo $path; ?>img/huts/painting4.png" class="img-responsive">
-          </div>
-        </div>
-        <div class="col-lg-3">
+        <div class="col-md-4">
           <div class="img-holder wow fadeInLeft">
-            <img src="<?php echo $path; ?>img/huts/painting5.png" class="img-responsive" >
+            <img src="<?php echo $path; ?>img/huts/painting3.jpg" class="img-responsive" >
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-md-4">
+          <div class="img-holder wow fadeInRight">
+            <img src="<?php echo $path; ?>img/huts/painting4.jpg" class="img-responsive">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="img-holder wow fadeInRight">
+            <img src="<?php echo $path; ?>img/huts/painting5.jpg" class="img-responsive" >
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="img-holder wow fadeInRight">
+            <img src="<?php echo $path; ?>img/huts/painting6.jpg" class="img-responsive">
+          </div>
+        </div>
+        <div class="col-md-4">
           <div class="img-holder wow fadeInLeft">
-            <img src="<?php echo $path; ?>img/huts/painting6.png" class="img-responsive">
+            <img src="<?php echo $path; ?>img/huts/painting7.jpg" class="img-responsive" ">
           </div>
         </div>
-        <div class="col-lg-3">
-          <div class="img-holder wow fadeInRight">
-            <img src="<?php echo $path; ?>img/huts/painting7.png" class="img-responsive" ">
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="img-holder wow fadeInRight">
-            <img src="<?php echo $path; ?>img/huts/painting8.png" class="img-responsive" >
+        <div class="col-md-4">
+          <div class="img-holder wow fadeInLeft">
+            <img src="<?php echo $path; ?>img/huts/painting8.jpg" class="img-responsive" >
           </div>
         </div>
       </div>
@@ -127,10 +127,10 @@ include_once('../partials/header.php')
    portfolio  Section3
    ============================-->
 <section id="portfolio-section3" style="background-color: #fff">
-  <div class="cf-padding">
+  <div class="container">
     <div class="row">
       <div class="col-lg-6">
-        <div class="text-holder wow fadeInLeft" style="padding-top: 300px;padding-left: 100px">
+        <div class="text-holder wow fadeInLeft" style="padding-top: 300px;">
            <p class="text-muted">Menu Boards</p>
            <h2>Appealing illustrations</h2>
            <p class="text-muted">With powerful content and appealing illustrations,turning  all earmarked surfaces  from table mats to the wall decor  into educative messages about the benefits of Organic Agriculture & Food .</p>
@@ -171,13 +171,13 @@ include_once('../partials/header.php')
    portfolio section6
    ============================-->
 <section id="portfolio-section6" style="background-color:#798368;padding: 200px 0px 100px 0px ">
-   <div class="">
+   <div class="container">
       <div class="row">
         
           <div class="img-holder auto-margin" >
             <img src="<?php echo $path; ?>img/huts/tabletops-fin.jpg" alt="" class="style2-pic img-responsive wow " data-wow-duration="2s">
           </div>
-          <div class="text-holder wow fadeIn" style="position:absolute" >
+          <div class="wow fadeIn" style="position:absolute" >
             <h2>Swipe right</h2>
              <p>The simplicity of swiping increases user engagement. Swipe right to save a trip and left to discard a trip.</p>
           </div>

@@ -131,7 +131,7 @@ We provided cutting edge technical support and quality design inputs from A-Z  i
    ============================-->
 
 <section id="portfolio-section3" style="background-color: #ececec">
-  <div class="cf-padding">
+  <div class="container">
     <div class="row">
       <div class="col-lg-6 margintop50">
         <div class="col-md-12 text-holder wow fadeInLeft text-center" >

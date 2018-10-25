@@ -30,7 +30,7 @@ include_once('../partials/header.php')
    portfolio  Section1
    ============================-->
 <section id="portfolio-section1" style="background:#ff663e">
-   <div class="container-fluid cf-padding">
+   <div class="container">
       <div class="row">
          <div class="col-lg-6"  style="padding: 50px 0px 0px 0px;">
             <div class="portfolio-section1-imgholder text-center">
@@ -72,12 +72,12 @@ include_once('../partials/header.php')
    <!--==========================
    portfolio section2
    ============================-->
-<section id="portfolio-section2" style="background-color: #f2f2f2;">
+<section id="portfolio-section2" class="no-padding" style="background-color: #f2f2f2;">
   
-   <div class="container-fluid wow fadeInUp">
+   <div class="container-fluid wow fadeInDown">
       <div class="row">
           <div class="img-holder auto-margin">
-            <img src="<?php echo $path; ?>img/gloria/tile.png" alt="" class="style2-pic img-responsive " data-wow-duration="2s">
+            <img src="<?php echo $path; ?>img/gloria/tile.jpg" alt="" class="style2-pic img-responsive " data-wow-duration="2s">
           </div>
       </div>
    </div>

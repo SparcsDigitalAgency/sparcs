@@ -31,7 +31,7 @@ include_once('../partials/header.php')
    ============================-->
 
 <section id="portfolio-section1" style="background:#68ab44">
-   <div class="container-fluid cf-padding">
+   <div class="container">
       <div class="row">
          <div class="col-lg-6"  style="padding: 50px 0px 0px 0px;">
             <div class="portfolio-section1-imgholder text-center">
@@ -57,6 +57,15 @@ include_once('../partials/header.php')
    </div>
 </section>
 
+
+
+
+<section id="portfolio-section10" class="no-padding">
+   <div class="container-fluid no-padding">
+      <img src="<?php echo $path; ?>img/omg/sheets.jpg" alt="" class="img-responsive">
+   </div>
+</section>
+
 <section id="portfolio-section10" style="background-color: #fff;">
    <div class="container">
       <div class="row">
@@ -71,12 +80,12 @@ include_once('../partials/header.php')
                   <img src="<?php echo $path; ?>img/omg/omg-scribble.jpg" alt="" class="img-responsive">
                </div>
             </div>
-            <div class="col-lg-4 no-padding auto-margin-right">
+            <div class="col-lg-4 no-padding ">
                <div class="img-holder">
                   <img src="<?php echo $path; ?>img/omg/omg-logo.jpg" alt="" class="img-responsive">
                </div>
             </div>
-            <div class="col-lg-4 no-padding auto-margin-right">
+            <div class="col-lg-4 no-padding ">
                <div class="img-holder">
                   <img src="<?php echo $path; ?>img/omg/omg-logo-sticker.jpg" alt="" class="img-responsive">
                </div>
@@ -86,50 +95,39 @@ include_once('../partials/header.php')
 </section>
 
 
-<section id="portfolio-section10" style="padding: 0px 0px 0px 0px">
-   <div class="container-fluid no-padding">
-      <img src="<?php echo $path; ?>img/omg/sheets.png" alt="" class="img-responsive">
-   </div>
-</section>
-
-
-<section id="portfolio-section10" style="background-color: #fff;padding-bottom: 0px">
-   <div class="container">
+<section id="portfolio-section10" class="bgwhite" style="padding-top:0;">
+   <div class="container-fluid cf-padding">
       <div class="row">
-          <div class="col-xs-12 col-md-8 auto-margin text-holder auto-margin wow fadeIn marginbottom" style="visibility: visible; animation-name: fadeIn;">
-                <h2>Branding</h2>
-                <p>Designed Brochure Design, business card and other print materials using the same visual style .</p>
+          <div class="col-md-12 auto-margin text-holder auto-margin wow fadeIn " style="visibility: visible; padding:0 0 3%;animation-name: fadeIn;">
+                <p>Brochure Design, business card and other print materials using the same visual style .</p>
             </div>
-      </div>
-    </div>  
-    <div class="container-fluid no-padding">
-       <div class="row">
-            <div class="col-lg-4 no-padding">
+      
+            <div class="col-md-4 no-padding">
                <div class="img-holder">
                   <img src="<?php echo $path; ?>img/omg/brochure-1.jpg" alt="" class="img-responsive">
                </div>
             </div>
-            <div class="col-lg-4 no-padding">
+            <div class="col-md-4 no-padding">
                <div class="img-holder">
                   <img src="<?php echo $path; ?>img/omg/brochure-2.jpg" alt="" class="img-responsive">
                </div>
             </div>
-            <div class="col-lg-4 no-padding">
+            <div class="col-md-4 no-padding">
                <div class="img-holder">
                   <img src="<?php echo $path; ?>img/omg/brochure-3.jpg" alt="" class="img-responsive">
                </div>
             </div>
-            <div class="col-lg-4 no-padding">
+            <div class="col-md-4 no-padding">
                <div class="img-holder">
                   <img src="<?php echo $path; ?>img/omg/brochure-4.jpg" alt="" class="img-responsive">
                </div>
             </div>
-            <div class="col-lg-4 no-padding">
+            <div class="col-md-4 no-padding">
                <div class="img-holder">
                   <img src="<?php echo $path; ?>img/omg/brochure-5.jpg" alt="" class="img-responsive">
                </div>
             </div>
-            <div class="col-lg-4 no-padding">
+            <div class="col-md-4 no-padding">
                <div class="img-holder">
                   <img src="<?php echo $path; ?>img/omg/brochure-6.jpg" alt="" class="img-responsive">
                </div>
@@ -144,8 +142,8 @@ include_once('../partials/header.php')
                   <img src="<?php echo $path; ?>img/omg/brand-meterial-02.jpg" alt="" class="img-responsive">
                </div>
             </div>
-      </div>
-    </div>
+         </div>
+     </div>
 </section>
 <!--==========================
    end of portfolio  Section1

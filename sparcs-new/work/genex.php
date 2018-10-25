@@ -30,7 +30,7 @@ include_once('../partials/header.php')
    portfolio  Section1
    ============================-->
 <section id="portfolio-section1" style="background:#b72314">
-   <div class="container-fluid cf-padding">
+   <div class="container">
       <div class="row">
          <div class="col-lg-6"  style="padding: 50px 0px 0px 0px;">
             <div class="portfolio-section1-imgholder text-center">
@@ -63,25 +63,25 @@ include_once('../partials/header.php')
    </div>
 </section>
 
-<section id="portfolio-section2" style="background-color: #f2f2f2;">
-   <div class="container-fluid wow fadeInUp">
+<section  style="">
+   <div class="container-fluid wow fadeInDown">
       <div class="row">
           <div class="img-holder auto-margin">
-            <img src="<?php echo $path; ?>img/genex/tile.png" alt="" class="style2-pic img-responsive " data-wow-duration="2s">
+            <img src="<?php echo $path; ?>img/genex/tile.jpg" alt="" class="style2-pic img-responsive " data-wow-duration="2s">
           </div>
       </div>
    </div>
 </section>
 
-<section id="portfolio-section2" style="background:#eaeaea;">
-   <div class="container-fluid cf-padding">
+<section id="portfolio-section2" >
+   <div class="container">
       <div class="row">
-          <div class="col-md-8 text-holder auto-margin wow fadeIn">
+          <div class="col-md-6 text-holder auto-margin wow fadeIn">
             <h2>Logo Identity</h2>
-             <p>Our redesign reflected the function of  of GenX’s products to deflect and protect in its branding by using sharp highly dynamic strongly <br>diagonal lines and incorporating the image of a shield stylised minimally but dramatically.</p>
+             <p>Our redesign reflected the function of  of GenX’s products to deflect and protect in its branding by using sharp highly dynamic strongly diagonal lines and incorporating the image of a shield stylised minimally but dramatically.</p>
           </div>
-          <div class="col-md-8 img-holder auto-margin">
-            <img src="<?php echo $path; ?>img/genex/logo-big.jpg" alt="" class="style2-pic img-responsive wow zoomIn" data-wow-duration="2s">
+          <div class="col-md-6 img-holder auto-margin text-center">
+            <img src="<?php echo $path; ?>img/genex/logo-big.jpg" alt="" class="style2-pic wow zoomIn img-responsive " data-wow-duration="2s">
           </div>
       </div>
    </div>
@@ -89,8 +89,8 @@ include_once('../partials/header.php')
 <!--==========================
    end of portfolio  Section1
    ============================-->
-<section id="portfolio-section13" style="background-color: #f2f2f2;">
-   <div class="container-fluid no-padding">
+<section id="portfolio-section13" >
+   <div class="container no-padding">
       <div class="row no-gutters">
          <div class="col-lg-6">
             <div class="img-holder  wow fadeIn">
@@ -98,10 +98,10 @@ include_once('../partials/header.php')
             </div>
          </div>
          <div class="col-lg-6" style="background:#b72314">
-            <div class="text-holder auto-margin wow fadeIn ">
+            <div class="text-holder auto-margin wow fadeIn text-center">
              <h2>Branding</h2>
-             <h4>Print Media Designs for Shop Board, Business Cards, Letterhead were part of the branding.</h4>
-             <h4>The original identity of the company looked static and did not reflect the active nature of the security products it was selling.</h4>
+             <p>Print Media Designs for Shop Board, Business Cards, Letterhead were part of the branding.</p>
+             <p>The original identity of the company looked static and did not reflect the active nature of the security products it was selling.</p>
           </div>
          </div>
           
@@ -113,13 +113,13 @@ include_once('../partials/header.php')
    <!--==========================
    portfolio section2
    ============================-->
-<section id="portfolio-section13" style="background-color: #f2f2f2;">
-   <div class="container-fluid no-padding">
+<section id="portfolio-section13">
+   <div class="container no-padding">
       <div class="row no-gutters">
          <div class="col-lg-6" style="background:#b72314">
-            <div class="text-holder wow fadeIn ">
+            <div class="text-holder wow fadeIn text-center">
              <h2>Brochure</h2>
-             <h4>When Gen X diversified into Smart Homes Technological Applications it was new in the local market.We created brochures to popularise and sell the concept as well as ads for glossy magazines.</h4>
+             <p>When Gen X diversified into Smart Homes Technological Applications it was new in the local market.We created brochures to popularise and sell the concept as well as ads for glossy magazines.</p>
           </div>
          </div>
           <div class="col-lg-6">
