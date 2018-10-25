@@ -122,7 +122,7 @@ We provided cutting edge technical support and quality design inputs from A-Z  i
       </div>
       <div class="row">
             <div class="col-lg-12 no-padding text-center" style="padding-top: 100px">
-              <iframe width="600" height="600" src="https://www.youtube.com/embed/2QURjCh9xqo?controls=0&rel=0&showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              <iframe width="100%" height="700" src="https://www.youtube.com/embed/2QURjCh9xqo?controls=0&rel=0&showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
       </div>
 </section>
