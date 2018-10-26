@@ -13,10 +13,7 @@
    include_once('../partials/header.php')
    ?>
 <style type="text/css">
-   .nav-icon3 span{
-   background: white;
-   }
-   .change-color2 span{
+   .change-color span{
    background: #c9252c;
    }
    .slick-slide {
@@ -50,9 +47,6 @@
    .slick-prev{
    display: none!important;
    }
-   .carousel .carousel-inner{
-   background: url('../img/wordnet/lap.png') no-repeat scroll center center!important;
-   }
 </style>
 <!--==========================
    Intro Section
@@ -83,7 +77,7 @@
 <!--==========================
    portfolio section1
    ============================-->
-<section id="wordnet-portfolio-section-1">
+<section id="wordnet-portfolio-section1">
    <div class="container">
    <div class="row">
       <div class="col-xs-12 col-md-8 auto-margin text-holder auto-margin wow fadeIn marginbottom">
@@ -121,7 +115,7 @@
 <!--==========================
    portfolio section2
    ============================-->
-<section id="wordnet-portfolio-section-2">
+<section id="wordnet-portfolio-section2">
    <div class="container">
       <div class="row">
          <div class="col-lg-6 margintop50">
@@ -196,7 +190,7 @@
 <!--==========================
    portfolio section3
    ============================-->
-<section id="wordnet-portfolio-section-3">
+<section id="wordnet-portfolio-section3">
    <div class="container cf-padding">
       <div class="row v-center">
          <div class="col-xs-12 col-md-7 header-text wow fadeInLeft">
@@ -228,5 +222,10 @@
 <!--==========================
    Footer
    ============================-->
+
+
+
+
+
 <?php include_once('../partials/footer.php')?>
 <!-- end footer -->

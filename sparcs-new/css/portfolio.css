@@ -30,62 +30,62 @@ box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
 }
 /* wordnet */
 /* section 1 */
-#wordnet-portfolio-section-1{
+#wordnet-portfolio-section1{
 padding: 100px 0px 100px 0px;
 background-color: #fff;
 }
-#wordnet-portfolio-section-1 h2{
+#wordnet-portfolio-section1 h2{
 color: #444;
 margin-bottom: 30px;
 font-weight: 700;
 text-align: center;
 }
-#wordnet-portfolio-section-1 p{
+#wordnet-portfolio-section1 p{
 color: #444;
 margin-bottom: 0px;
 font-size: 16px;
 text-align: center;
 margin-bottom: 30px;
 }
-#wordnet-portfolio-section-1 .y-video{
+#wordnet-portfolio-section1 .y-video{
 padding-top: 100px
 }
 /* section 2 */
-#wordnet-portfolio-section-2{
+#wordnet-portfolio-section2{
 padding: 100px 0px;
 background-color: #ececec
 }
-#wordnet-portfolio-section-2 h2{
+#wordnet-portfolio-section2 h2{
 color: #444;
 font-weight: 700;
 }
-#wordnet-portfolio-section-2 p{
+#wordnet-portfolio-section2 p{
 color: #444;
 margin-bottom: 0px;
 font-size: 16px;
 }
-#wordnet-portfolio-section-2 .margintop50{
+#wordnet-portfolio-section2 .margintop50{
 margin-top: 50px;
 }
 /* section 3 */
-#wordnet-portfolio-section-3{
+#wordnet-portfolio-section3{
 padding: 100px 0px;
 background-color: #f7f7f7
 }
-#wordnet-portfolio-section-3 h2{
+#wordnet-portfolio-section3 h2{
 color: #444;
 margin-bottom: 30px;
 font-weight: 700;
 text-align: left;
 }
-#wordnet-portfolio-section-3 p{
+#wordnet-portfolio-section3 p{
 color: #444;
 margin-bottom: 0px;
 font-size: 16px;
 text-align: left;
 margin-bottom: 30px;
 }
-#wordnet-portfolio-section-3 .v-center {
+#wordnet-portfolio-section3 .v-center {
 display: -webkit-box;
 display: -ms-flexbox;
 display: flex;
@@ -97,32 +97,32 @@ align-content: center;
 -ms-flex-wrap: wrap;
 flex-wrap: wrap;
 }
-#wordnet-portfolio-section-3 .screen-slider .item {
+#wordnet-portfolio-section3 .screen-slider .item {
 background: url('../img/wordnet/mobile.png') no-repeat scroll center center / auto 100%;
 padding: 56px 22px;
 display: inline-block;
 margin: auto;
 }
-#wordnet-portfolio-section-3 .screen-slider.owl-carousel .owl-item {
+#wordnet-portfolio-section3 .screen-slider.owl-carousel .owl-item {
 text-align: center
 }
-#wordnet-portfolio-section-3 .screen-slider .owl-controls {
+#wordnet-portfolio-section3 .screen-slider .owl-controls {
 position: absolute;
 left: 0;
 top: 100%;
 }
-#wordnet-portfolio-section-3 .screen-slider .owl-controls .owl-nav > div {
+#wordnet-portfolio-section3 .screen-slider .owl-controls .owl-nav > div {
 display: inline-block;
 margin: 0 15px;
 font-size: 20px;
 text-align: center;
 position: relative;
 }
-#wordnet-portfolio-section-3 .screen-slider .owl-controls .owl-nav {
+#wordnet-portfolio-section3 .screen-slider .owl-controls .owl-nav {
 position: relative;
 margin-top: 0;
 }
-#wordnet-portfolio-section-3 .screen-slider .owl-controls .owl-nav:after {
+#wordnet-portfolio-section3 .screen-slider .owl-controls .owl-nav:after {
 content: "/";
 position: absolute;
 left: 50%;
@@ -378,6 +378,7 @@ margin-bottom: 30px;
 #omg-portfolio-section4 .paddingbottom{
 padding:0 0 3%;
 }
+
 /* genex */
 /* section1 */
 #genex-portfolio-section1{
@@ -427,6 +428,7 @@ width: auto;
 margin-bottom: 20px;
 }
 /* section2 */
+
 /* section3 */
 #genex-portfolio-section3{
 padding: 100px 0px;
@@ -494,6 +496,7 @@ background:#b72314;
 #genex-portfolio-section5 .text-holder{
 padding: 20%;
 }
+
 /* gloria */
 /* section1 */
 #gloria-portfolio-section1{
@@ -550,6 +553,7 @@ margin-bottom: 20px;
 #gloria-portfolio-section2{
 background-color: #f2f2f2;
 }
+
 /* lumiere */
 /* section1 */
 #lumiere-portfolio-section1{
@@ -658,6 +662,7 @@ font-size: 64px!important;
 #lumiere-portfolio-section4 .paddingtop300{
 padding-top: 300px;
 }
+
 /* huts */
 /* section1 */
 #huts-portfolio-section1{

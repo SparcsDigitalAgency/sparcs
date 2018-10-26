@@ -16,9 +16,6 @@ include_once('partials/header.php')
 
 ?>
 <style type="text/css">
-   .nav-icon3 span{
-      background: white;
-   }
    #map{
       height: 100%;
       width: 100%;
@@ -61,3 +58,14 @@ Footer
 ============================-->
 <?php include_once('partials/footer.php')?>
 <!-- end footer -->
+<script type="text/javascript">
+  var targetOffset = $("#contact").offset().top;
+   var $w = $(window).scroll(function(){
+       if ( $w.scrollTop() > targetOffset ) {   
+           $('.nav-icon3').addClass('change-color');
+       } else {
+          $('.nav-icon3').removeClass('change-color');
+
+       }
+   });
+</script>

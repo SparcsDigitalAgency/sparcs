@@ -269,3 +269,27 @@ Services Section
 <!-- footer -->
 <?php include_once('partials/footer.php')?>
 <!-- end footer -->
+
+<script type="text/javascript">
+  var targetOffset = $("#contact").offset().top;
+   var $w = $(window).scroll(function(){
+       if ( $w.scrollTop() > targetOffset ) {   
+           $('.nav-icon3').addClass('change-color');
+       } else {
+          $('.nav-icon3').removeClass('change-color');
+
+       }
+   });
+</script>
+
+<script type="text/javascript">
+    $(window).scroll(function() {
+    if ($(this).scrollTop() > 500) {
+      $('#change-logo').addClass('logo-changed');
+      $('.logo-changed img').attr('src', 'img/toggle-icon.png');
+    } else {
+      $('#change-logo').removeClass('logo-changed');
+      $('.header-logo img').attr('src', 'img/logo-red.png');
+    }
+  });
+</script>

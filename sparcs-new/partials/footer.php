@@ -298,68 +298,9 @@
    });
 </script> -->
       
-<!-- change navbrand logo class-->
+
+
 <script type="text/javascript">
-    $(window).scroll(function() {
-    if ($(this).scrollTop() > 500) {
-      $('#change-logo').addClass('logo-changed');
-      $('.logo-changed img').attr('src', 'img/toggle-icon.png');
-    } else {
-      $('#change-logo').removeClass('logo-changed');
-      $('.header-logo img').attr('src', 'img/logo-red.png');
-    }
-  });
-</script>
-   
-<!-- change toggle icon color when reaches the contact section-->
-<script type="text/javascript">
-  var targetOffset = $("#contact").offset().top;
-   var $w = $(window).scroll(function(){
-       if ( $w.scrollTop() > targetOffset ) {   
-           $('.nav-icon3').addClass('change-color');
-       } else {
-          $('.nav-icon3').removeClass('change-color');
-
-       }
-   });
-</script>
-
-<!-- <script type="text/javascript">
-   $(function() {
-   $.scrollify({
-   section : "section",
-   });
-   });
-</script>
-
-<!-- Jnavicon portfolio special -->     
-<script type="text/javascript">
-   var portfolio_section2 = $("#portfolio-section2").offset().top;
-   var contact = $("#contact").offset().top;
-   var $w = $(window).scroll(function(){
-       if ( $w.scrollTop() > portfolio_section2 && $w.scrollTop() < contact ) {   
-           $('.nav-icon3').addClass('change-color2');
-       } else {
-           $('.nav-icon3').removeClass('change-color2');
-       }
-   });
-</script>
-
-<!-- change navbrand logo class-->
-<script type="text/javascript">
-    $(window).scroll(function() {
-    if ($(this).scrollTop() > 500) {
-      $('#change-logo').addClass('logo-changed');
-      $('.logo-changed img').attr('src', '<?php echo $path; ?>img/toggle-icon.png');
-    } else {
-      $('.header-logo img').attr('src', '<?php echo $path; ?>img/logo-white.png');
-      $('#change-logo').removeClass('logo-changed');
-    }
-  });
-</script>
-<script type="text/javascript">
-
-
  $(document).ready(function(){
   $('.app-screens').slick({
     dots: true,

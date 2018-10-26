@@ -457,6 +457,9 @@ width: 0%;
 left: 10%;
 background:#c9252c;
 }
+ .nav-icon3.light span{
+  background: #fff;
+}
 .change-color span{
 	background: #fff;
 }
