@@ -196,6 +196,18 @@
          <div class="col-xs-12 col-md-7 header-text wow fadeInLeft">
             <h2>Mobile Application Development</h2>
             <p>Developed Mobile Application for WordNet TV in Android and iOs platform with latest cutting edge technologies like Cordova, Ionic and Angular.</p>
+            <div class="row">
+               <div class="col-lg-6">
+                  <div class="logo-holder">
+                     <img src="<?php echo $path; ?>img/wordnet/android-logo.png" class="img-responsive">
+                  </div>
+               </div>
+               <div class="col-lg-6">
+                  <div class="logo-holder">
+                     <img src="<?php echo $path; ?>img/wordnet/ios-logo.png" class="img-responsive">
+                  </div>
+               </div>
+            </div>
          </div>
          <div class="hidden-xs hidden-sm col-md-5 text-right wow fadeInRight">
             <div class="screen-box screen-slider">
