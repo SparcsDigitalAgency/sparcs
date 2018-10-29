@@ -638,8 +638,7 @@ padding: 80px 80px 0px 80px;
 padding:50px 0px 0px 0px;
 }
 #gloria-portfolio-section1 .portfolio-section-imgholder img{
-max-height: 550px;
-width: auto;
+
 }
 #gloria-portfolio-section1 .portfolio-section-textholder img{
 height:70px;
@@ -945,10 +944,7 @@ color: #fff;
 padding: 0px 100px;
 width: 50%
 }
-#huts-portfolio-section6 .img-holder{
-margin-top: -150px;
-margin-bottom: -30px;
-}
+
 #huts-portfolio-section6 .absolute{
 position: absolute;
 }

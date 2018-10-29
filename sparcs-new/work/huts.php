@@ -12,18 +12,11 @@
    
    include_once('../partials/header.php')
    ?>
-<style type="text/css">
-   .nav-icon3 span{
-   background: white;
-   }
-   .change-color2 span{
-   background: #c9252c;
-   }
-</style>
+
 <!--==========================
    portfolio  Section1
    ============================-->
-<section id="huts-portfolio-section1">
+<section id="huts-portfolio-section1" class="dark-section">
    <div class="container">
       <div class="row">
          <div class="col-lg-6 paddingtop80only">
@@ -55,7 +48,7 @@
 <!--==========================
    portfolio  Section2
    ============================-->
-<section id="huts-portfolio-section2">
+<section id="huts-portfolio-section2" >
    <div class="container">
       <div class="row">
          <div class="col-lg-6">
@@ -155,7 +148,7 @@
 <!--==========================
    portfolio section5
    ============================-->
-<section id="huts-portfolio-section5">
+<section id="huts-portfolio-section5" >
    <div class="container">
       <div class="row">
          <div class="col-lg-6">
@@ -177,7 +170,7 @@
 <!--==========================
    portfolio section6
    ============================-->
-<section id="huts-portfolio-section6">
+<section id="huts-portfolio-section6" class="dark-section">
    <div class="container">
       <div class="row">
          <div class="img-holder auto-margin" >

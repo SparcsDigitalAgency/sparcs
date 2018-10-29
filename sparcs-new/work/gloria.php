@@ -12,26 +12,19 @@
    
    include_once('../partials/header.php')
    ?>
-<style type="text/css">
-   .nav-icon3 span{
-   background: white;
-   }
-   .change-color2 span{
-   background: #c9252c;
-   }
-</style>
+
 <!--==========================#
    portfolio  Section1
    ============================-->
-<section id="gloria-portfolio-section1">
+<section id="gloria-portfolio-section1" class="dark-section">
    <div class="container">
       <div class="row">
-         <div class="col-lg-6 paddingtop50only">
+         <div class="col-lg-6 ">
             <div class="portfolio-section-imgholder text-center">
                <img src="<?php echo $path; ?>img/gloria/combined2.png" alt="" class="img-responsive wow fadeInLeft">
             </div>
          </div>
-         <div class="col-lg-6 paddingsidestop80">
+         <div class="col-lg-6 ">
             <div class="portfolio-section-textholder">
                <img src="<?php echo $path; ?>img/gloria/gloria-logo-w.png" alt="" class="img-responsive wow fadeInLeft">
                <p class="wow fadeInRight ">A brand new website for a US based Travel Company that speaks to Devotional Christian Hearts ,the world over.</p>

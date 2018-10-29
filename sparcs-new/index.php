@@ -20,7 +20,7 @@ include_once('partials/header.php')
 <!--==========================
    Intro Section
 ============================-->
-<section id="intro">
+<section id="intro" class="">
    <div class="intro-container">
       <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
         
@@ -69,7 +69,7 @@ include_once('partials/header.php')
 <!--==========================
 Services Section
 ============================-->
-<section id="services">
+<section id="services" class="">
    <div class="container">
       <div class="row">
          <div class="col-lg-5">

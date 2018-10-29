@@ -12,21 +12,11 @@
    
    include_once('../partials/header.php')
    ?>
-<style type="text/css">
-   .nav-icon3 span{
-   background: white;
-   }
-   .change-color2 span{
-   background: #c9252c;
-   }
-   .slick-dots{
-   display: none!important;
-   }
-</style>
+
 <!--==========================
    portfolio  Section1
    ============================-->
-<section id="lumiere-portfolio-section1">
+<section id="lumiere-portfolio-section1" class="dark-section">
    <div class="container">
       <div class="row">
          <div class="col-lg-6 paddingtop30only">

@@ -12,14 +12,7 @@
    
    include_once('../partials/header.php')
    ?>
-<style type="text/css">
-   .nav-icon3 span{
-   background: white;
-   }
-   .change-color2 span{
-   background: #c9252c;
-   }
-</style>
+
 <!--==========================
    portfolio section1
    ============================-->
@@ -42,7 +35,7 @@
 <!--==========================
    portfolio  Section2
    ============================-->
-<section id="mrlight-portfolio-section2">
+<section id="mrlight-portfolio-section2" class="dark-section">
    <div class="container">
       <div class="row">
          <div class="col-lg-6 no-padding">
@@ -101,27 +94,3 @@
    ============================-->
 <?php include_once('../partials/footer.php')?>
 <!-- end footer -->
-<!-- Jnavicon portfolio special -->     
-<script type="text/javascript">
-   var portfolio_section2 = $("#portfolio-section2").offset().top;
-   var contact = $("#contact").offset().top;
-   var $w = $(window).scroll(function(){
-       if ( $w.scrollTop() > portfolio_section2 && $w.scrollTop() < contact ) {   
-           $('.nav-icon3').addClass('change-color2');
-       } else {
-           $('.nav-icon3').removeClass('change-color2');
-       }
-   });
-</script>
-<!-- change navbrand logo class-->
-<script type="text/javascript">
-   $(window).scroll(function() {
-   if ($(this).scrollTop() > 500) {
-     $('#change-logo').addClass('logo-changed');
-     $('.logo-changed img').attr('src', '../img/toggle-icon.png');
-   } else {
-     $('.header-logo img').attr('src', '../img/logo-white.png');
-     $('#change-logo').removeClass('logo-changed');
-   }
-   });
-</script>

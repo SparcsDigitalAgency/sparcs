@@ -74,7 +74,7 @@
 <!--==========================
    portfolio section1
    ============================-->
-<section id="wordnet-portfolio-section1" class="light-section">
+<section id="wordnet-portfolio-section1" class="">
    <div class="container">
    <div class="row">
       <div class="col-xs-12 col-md-8 auto-margin text-holder auto-margin wow fadeIn marginbottom">

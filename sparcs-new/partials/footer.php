@@ -291,7 +291,7 @@
 
 <script type="text/javascript">
     $(window).scroll(function() {
-    if ($(this).scrollTop() > 500) {
+    if ($(this).scrollTop() > 50) {
       $('#change-logo').addClass('logo-changed');
       $('.logo-changed img').attr('src', '<?php echo $path; ?>img/toggle-icon.png');
     } else {
@@ -301,14 +301,26 @@
   });
 </script>
 
-<script type="text/javascript">
-$(window).scroll( function( e ){ 
-    if( $(this).scrollTop() > $('.dark-section').offset().top ){
-        $(".nav-icon3").addClass("white-color");
-    } else {
-        $(".nav-icon3").removeClass("white-color");
-    }
-});
+<script>
+    var offset = 50;
+    var $blackRows;
+    var $nav;
+
+        $blackRows = $(".dark-section");
+        $nav = $(".nav-icon3");
+        $nav.removeClass("white-color");
+    
+  $(window).scroll( function( e ){
+        $blackRows.each(function(){
+            var rect = this.getBoundingClientRect();
+            if(rect.top - offset < 0 && rect.bottom - offset > 0){
+                $nav.addClass("white-color");
+                return false;
+            }else{
+                $nav.removeClass("white-color");
+            }
+        });
+    });
 </script>
 
 <!-- scrollify-->
