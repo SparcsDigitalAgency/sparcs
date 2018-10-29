@@ -302,20 +302,13 @@
 </script>
 
 <script type="text/javascript">
-$(window).scroll(function (event) {
-    var scroll = $(window).scrollTop();
-    var dark = $('.dark-section').offset().top
-      if(scroll >= dark){
-        $('.nav-icon3').addClass('white-color');
-        $('.nav-icon3').removeClass('red-color');
-      }else{
-        $('.nav-icon3').addClass('red-color');
-        $('.nav-icon3').removeClass('white-color');
-      }
-
+$(window).scroll( function( e ){ 
+    if( $(this).scrollTop() > $('.dark-section').offset().top ){
+        $(".nav-icon3").addClass("white-color");
+    } else {
+        $(".nav-icon3").removeClass("white-color");
+    }
 });
-//trigger the scroll
-$(window).scroll();
 </script>
 
 <!-- scrollify-->
