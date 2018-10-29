@@ -1,4 +1,4 @@
-<section id="contact">
+<section id="contact" class="dark-section">
    <div class="container ">
       <div class="row">
          <div class="col-lg-12">
@@ -287,6 +287,35 @@
          $('body').toggleClass('menu-is-open');
       });
    });
+</script>
+
+<script type="text/javascript">
+    $(window).scroll(function() {
+    if ($(this).scrollTop() > 500) {
+      $('#change-logo').addClass('logo-changed');
+      $('.logo-changed img').attr('src', '<?php echo $path; ?>img/toggle-icon.png');
+    } else {
+      $('#change-logo').removeClass('logo-changed');
+      $('.header-logo img').attr('src', '<?php echo $path; ?>img/logo-red.png');
+    }
+  });
+</script>
+
+<script type="text/javascript">
+$(window).scroll(function (event) {
+    var scroll = $(window).scrollTop();
+    var dark = $('.dark-section').offset().top
+      if(scroll >= dark){
+        $('.nav-icon3').addClass('white-color');
+        $('.nav-icon3').removeClass('red-color');
+      }else{
+        $('.nav-icon3').addClass('red-color');
+        $('.nav-icon3').removeClass('white-color');
+      }
+
+});
+//trigger the scroll
+$(window).scroll();
 </script>
 
 <!-- scrollify-->

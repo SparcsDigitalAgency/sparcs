@@ -13,9 +13,6 @@
    include_once('../partials/header.php')
    ?>
 <style type="text/css">
-   .change-color span{
-   background: #c9252c;
-   }
    .slick-slide {
    margin: 0px 20px;
    }
@@ -51,7 +48,7 @@
 <!--==========================
    Intro Section
    ============================-->
-<section id="intro">
+<section id="intro" class="dark-section">
    <div class="intro-container">
       <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
          <div class="carousel-inner " role="listbox">
@@ -77,7 +74,7 @@
 <!--==========================
    portfolio section1
    ============================-->
-<section id="wordnet-portfolio-section1">
+<section id="wordnet-portfolio-section1" class="light-section">
    <div class="container">
    <div class="row">
       <div class="col-xs-12 col-md-8 auto-margin text-holder auto-margin wow fadeIn marginbottom">

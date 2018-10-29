@@ -93,16 +93,22 @@
    <div class="">
       <div class=" auto-margin lumiere-slider">
          <div>
-            <img src="<?php echo $path; ?>img/lumiere/wall-slider1-1.jpg">
+            <img src="<?php echo $path; ?>img/lumiere/slider-1.jpg">
          </div>
          <div>
-            <img src="<?php echo $path; ?>img/lumiere/wall-slider2-1.jpg">
+            <img src="<?php echo $path; ?>img/lumiere/slider-2.jpg">
          </div>
          <div>
-            <img src="<?php echo $path; ?>img/lumiere/wall-slider3-1.jpg">
+            <img src="<?php echo $path; ?>img/lumiere/slider-3.jpg">
          </div>
          <div>
-            <img src="<?php echo $path; ?>img/lumiere/wall-slider4-1.jpg">
+            <img src="<?php echo $path; ?>img/lumiere/slider-4.jpg">
+         </div>
+         <div>
+            <img src="<?php echo $path; ?>img/lumiere/slider-5.jpg">
+         </div>
+         <div>
+            <img src="<?php echo $path; ?>img/lumiere/slider-6.jpg">
          </div>
       </div>
    </div>

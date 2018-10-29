@@ -72,6 +72,9 @@ margin-top: 50px;
 padding: 100px 0px;
 background-color: #f7f7f7
 }
+#wordnet-portfolio-section3 .logo{
+    padding:75px;
+    }
 #wordnet-portfolio-section3 h2{
 color: #444;
 margin-bottom: 30px;
@@ -134,9 +137,15 @@ transform: translateX(-50%)
 	#wordnet-portfolio-section2 .logo{
 	padding:0px 50px 50px 50px;
 	}
+    #wordnet-portfolio-section2 .img-holder{
+    padding:0px 50px 50px 50px;
+    }
 	#wordnet-portfolio-section3 .logo{
 	padding:0px 50px 50px 50px;
 	}
+    #wordnet-portfolio-section3 .logo-holder{
+    padding:0px 50px 0px 50px;
+    }
 }
 /* mrlight */
 /* section 1 */
@@ -727,7 +736,7 @@ width: auto;
 /* section3 */
 #lumiere-portfolio-section3{
 padding: 100px 0px;
-background-image: linear-gradient(#eeeeee,#fff );
+background:#eeeeee;
 }
 #lumiere-portfolio-section3 h2{
 color: #444;
