@@ -77,7 +77,7 @@ Services Section
                <h2 class="wow fadeInUp">Services</h2>
                <p class="wow fadeInUp">Our full service interactive approach helps grow your brand online and to amplify its reach.</p>
             </div>
-            <div class="button-holder">
+            <div class="button-holder mob-hide">
                <a href="<?php echo $path; ?>services#intro" class="btn btn-readmore wow fadeInUp">View more</a>
             </div>
          </div>
@@ -151,6 +151,9 @@ Services Section
                      </div>
                   </div>
                </div>
+               <div class="button-holder mob-only">
+                  <a href="<?php echo $path; ?>services#intro" class="btn btn-readmore wow fadeInUp">View more</a>
+               </div>
             </div>
          </div>
       </div>
@@ -178,7 +181,7 @@ Services Section
                         </div>
                         <div class="texts-icon"><i class="fa fa-angle-right"></i></div>
                      </div>
-                     <img src="<?php echo $path ?>img/wordnet/cover.jpg" alt="">
+                     <img src="<?php echo $path ?>img/wordnet/cover.jpg" alt="" class="img-responsive">
                   </a>
                </div>
             </div>
@@ -194,7 +197,7 @@ Services Section
                         </div>
                         <div class="texts-icon"><i class="fa fa-angle-right"></i></div>
                      </div>
-                     <img src="<?php echo $path ?>img/mrlight/cover.jpg" alt="">
+                     <img src="<?php echo $path ?>img/mrlight/cover.jpg" alt=""  class="img-responsive">
                   </a>
                </div>
             </div>
@@ -208,7 +211,7 @@ Services Section
                         </div>
                         <div class="texts-icon"><i class="fa fa-angle-right"></i></div>
                      </div>
-                     <img src="<?php echo $path ?>img/omg/cover.jpg" alt="">
+                     <img src="<?php echo $path ?>img/omg/cover.jpg" alt=""  class="img-responsive">
                   </a>
                </div>
             </div>
@@ -223,7 +226,7 @@ Services Section
                         </div>
                         <div class="texts-icon"><i class="fa fa-angle-right"></i></div>
                      </div>
-                     <img src="<?php echo $path ?>img/genex/cover.jpg" alt="">
+                     <img src="<?php echo $path ?>img/genex/cover.jpg" alt=""  class="img-responsive">
                   </a>
                </div>
             </div>
@@ -238,7 +241,7 @@ Services Section
                         </div>
                         <div class="texts-icon"><i class="fa fa-angle-right"></i></div>
                      </div>
-                     <img src="<?php echo $path ?>img/lumiere/cover.jpg" alt="">
+                     <img src="<?php echo $path ?>img/lumiere/cover.jpg" alt=""  class="img-responsive">
                   </a>
                </div>
             </div>
@@ -252,7 +255,7 @@ Services Section
                         </div>
                         <div class="texts-icon"><i class="fa fa-angle-right"></i></div>
                      </div>
-                     <img src="<?php echo $path ?>img/see-all-cover.jpg" alt="">
+                     <img src="<?php echo $path ?>img/see-all-cover.jpg" alt=""  class="img-responsive">
                   </a>
                </div>
             </div>

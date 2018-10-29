@@ -183,7 +183,7 @@
          <div class="img-holder auto-margin" >
             <img src="<?php echo $path; ?>img/huts/tabletops-fin.jpg" alt="" class="style2-pic img-responsive wow " data-wow-duration="2s">
          </div>
-         <div class="wow fadeIn absolute" >
+         <div class="wow fadeIn absolute paddingtext" >
             <h2>Swipe right</h2>
             <p>The simplicity of swiping increases user engagement. Swipe right to save a trip and left to discard a trip.</p>
          </div>

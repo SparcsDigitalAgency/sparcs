@@ -70,7 +70,7 @@ include_once('partials/header.php')
 
 <section class="section-company1 nopadding notopmargin nobg clearfix" >
    <div class="row common-height clearfix">
-      <div class="col-lg-6 center col-padding" style="background: url('img/company/1.jpg') center center / cover no-repeat; height: 750px;">
+      <div class="col-lg-6 center col-padding bottommargin" style="background: url('img/company/1.jpg') center center / cover no-repeat; height: 750px;">
          <div>&nbsp;</div>
       </div>
 

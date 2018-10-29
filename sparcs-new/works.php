@@ -59,7 +59,7 @@ include_once('partials/header.php')
                         </div>
                         <div class="texts-icon"><i class="fa fa-angle-right"></i></div>
                      </div>
-                     <img src="<?php echo $path ?>img/wordnet/cover.jpg" alt="">
+                     <img src="<?php echo $path ?>img/wordnet/cover.jpg" alt="" class="img-responsive">
                   </a>
                </div>
             </div>
@@ -75,7 +75,7 @@ include_once('partials/header.php')
                         </div>
                         <div class="texts-icon"><i class="fa fa-angle-right"></i></div>
                      </div>
-                     <img src="<?php echo $path ?>img/mrlight/cover.jpg" alt="">
+                     <img src="<?php echo $path ?>img/mrlight/cover.jpg" alt="" class="img-responsive">
                   </a>
                </div>
             </div>
@@ -89,7 +89,7 @@ include_once('partials/header.php')
                         </div>
                         <div class="texts-icon"><i class="fa fa-angle-right"></i></div>
                      </div>
-                     <img src="<?php echo $path ?>img/quovadis/cover.jpg" alt="">
+                     <img src="<?php echo $path ?>img/quovadis/cover.jpg" alt="" class="img-responsive">
                   </a>
                </div>
             </div>
@@ -103,7 +103,7 @@ include_once('partials/header.php')
                         </div>
                         <div class="texts-icon"><i class="fa fa-angle-right"></i></div>
                      </div>
-                     <img src="<?php echo $path ?>img/omg/cover.jpg" alt="">
+                     <img src="<?php echo $path ?>img/omg/cover.jpg" alt="" class="img-responsive">
                   </a>
                </div>
             </div>
@@ -118,7 +118,7 @@ include_once('partials/header.php')
                         </div>
                         <div class="texts-icon"><i class="fa fa-angle-right"></i></div>
                      </div>
-                     <img src="<?php echo $path ?>img/genex/cover.jpg" alt="">
+                     <img src="<?php echo $path ?>img/genex/cover.jpg" alt="" class="img-responsive">
                   </a>
                </div>
             </div>
@@ -132,7 +132,7 @@ include_once('partials/header.php')
                         </div>
                         <div class="texts-icon"><i class="fa fa-angle-right"></i></div>
                      </div>
-                     <img src="<?php echo $path ?>img/gloria/cover.jpg" alt="">
+                     <img src="<?php echo $path ?>img/gloria/cover.jpg" alt="" class="img-responsive">
                   </a>
                </div>
             </div>
@@ -146,7 +146,7 @@ include_once('partials/header.php')
                         </div>
                         <div class="texts-icon"><i class="fa fa-angle-right"></i></div>
                      </div>
-                     <img src="<?php echo $path ?>img/lumiere/cover.jpg" alt="">
+                     <img src="<?php echo $path ?>img/lumiere/cover.jpg" alt="" class="img-responsive">
                   </a>
                </div>
             </div>
@@ -161,7 +161,7 @@ include_once('partials/header.php')
                         </div>
                         <div class="texts-icon"><i class="fa fa-angle-right"></i></div>
                      </div>
-                     <img src="<?php echo $path ?>img/huts/cover.jpg" alt="">
+                     <img src="<?php echo $path ?>img/huts/cover.jpg" alt="" class="img-responsive">
                   </a>
                </div>
             </div>

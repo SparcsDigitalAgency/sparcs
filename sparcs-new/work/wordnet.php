@@ -128,31 +128,31 @@
                   <div class="col-lg-2 no-padding auto-margin">
                      <div class="img-holder">
                         <img src="<?php echo $path; ?>img/wordnet/apple-tv.png" alt="" class="img-responsive">
-                        <img src="<?php echo $path; ?>img/wordnet/appletv-logo.png" alt="" class="img-responsive">
+                        <img src="<?php echo $path; ?>img/wordnet/appletv-logo.png" alt="" class="img-responsive logo">
                      </div>
                   </div>
                   <div class="col-lg-2 no-padding auto-margin">
                      <div class="img-holder">
                         <img src="<?php echo $path; ?>img/wordnet/android-tv.png" alt="" class="img-responsive">
-                        <img src="<?php echo $path; ?>img/wordnet/androidtv-logo.png" alt="" class="img-responsive">
+                        <img src="<?php echo $path; ?>img/wordnet/androidtv-logo.png" alt="" class="img-responsive logo">
                      </div>
                   </div>
                   <div class="col-lg-2 no-padding auto-margin">
                      <div class="img-holder">
                         <img src="<?php echo $path; ?>img/wordnet/roku-tv.png" alt="" class="img-responsive">
-                        <img src="<?php echo $path; ?>img/wordnet/rokutv-logo.png" alt="" class="img-responsive">
+                        <img src="<?php echo $path; ?>img/wordnet/rokutv-logo.png" alt="" class="img-responsive logo">
                      </div>
                   </div>
                   <div class="col-lg-2 no-padding auto-margin">
                      <div class="img-holder">
                         <img src="<?php echo $path; ?>img/wordnet/chromecast.png" alt="" class="img-responsive">
-                        <img src="<?php echo $path; ?>img/wordnet/chromecast-logo.png" alt="" class="img-responsive">
+                        <img src="<?php echo $path; ?>img/wordnet/chromecast-logo.png" alt="" class="img-responsive logo">
                      </div>
                   </div>
                   <div class="col-lg-2 no-padding auto-margin">
                      <div class="img-holder">
                         <img src="<?php echo $path; ?>img/wordnet/amazon-firetv.png" alt="" class="img-responsive">
-                        <img src="<?php echo $path; ?>img/wordnet/amazontv-logo.png" alt="" class="img-responsive">
+                        <img src="<?php echo $path; ?>img/wordnet/amazontv-logo.png" alt="" class="img-responsive logo">
                      </div>
                   </div>
                </div>
@@ -199,12 +199,12 @@
             <div class="row">
                <div class="col-lg-6">
                   <div class="logo-holder">
-                     <img src="<?php echo $path; ?>img/wordnet/android-logo.png" class="img-responsive">
+                     <img src="<?php echo $path; ?>img/wordnet/android-logo.png" class="img-responsive logo">
                   </div>
                </div>
                <div class="col-lg-6">
                   <div class="logo-holder">
-                     <img src="<?php echo $path; ?>img/wordnet/ios-logo.png" class="img-responsive">
+                     <img src="<?php echo $path; ?>img/wordnet/ios-logo.png" class="img-responsive logo">
                   </div>
                </div>
             </div>
