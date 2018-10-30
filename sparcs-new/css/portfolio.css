@@ -5,7 +5,7 @@ color: #fff!important;
 padding: 0 10%;
 }
 .no-padding{
-padding: 0px !important;
+padding: 0px;
 }
 .auto-marginleft{
 margin-left: auto;
@@ -133,7 +133,7 @@ top: 12px;
 -webkit-transform: translateX(-50%);
 transform: translateX(-50%)
 }
-@media (max-width: 450px) {
+@media (min-width: 320px) and (max-width: 480px) {
 	#wordnet-portfolio-section2 .logo{
 	padding:0px 50px 50px 50px;
 	}
@@ -146,6 +146,21 @@ transform: translateX(-50%)
     #wordnet-portfolio-section3 .logo-holder{
     padding:0px 50px 0px 50px;
     }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .tab-no-padding{
+        padding: 0px;
+    }
+#wordnet-portfolio-section2 .tab-padding50{
+    padding:50px;
+}
+#wordnet-portfolio-section3 .logo {
+    padding: 0px;
+}
+#wordnet-portfolio-section3 .logo-holder img{
+    height: 100px;
+    width: auto;
+}
 }
 /* mrlight */
 /* section 1 */
@@ -228,7 +243,7 @@ font-size: 16px;
 text-align: center;
 margin-bottom: 30px;
 }
-@media (max-width: 450px) {
+@media (min-width: 320px) and (max-width: 480px) {
 	#mrlight-portfolio-section1 {
     padding: 100px 0px 50px 0px;
 	}
@@ -246,6 +261,11 @@ margin-bottom: 30px;
 	#mrlight-portfolio-section3 {
     padding: 50px 0px;
 	}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+#mrlight-portfolio-section1 {
+    padding: 200px 0px 100px;
+}
 }
 /* quovadis */
 /* section1 */
@@ -319,7 +339,7 @@ font-size: 16px;
 text-align: center;
 margin-bottom: 30px;
 }
-@media (max-width: 450px) {
+@media (min-width: 320px) and (max-width: 480px){
 	#quovadis-portfolio-section1 {
     padding: 75px 0px 50px 0px;
 }
@@ -333,6 +353,14 @@ margin-bottom: 30px;
     height: 50px;
     width: auto;
     margin-bottom: 20px;
+}
+#quovadis-portfolio-section2 .no-padding {
+    padding: 0px 15px !important;
+}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+#quovadis-portfolio-section1 .portfolio-section-imgholder img {
+    width: 100%;
 }
 #quovadis-portfolio-section2 .no-padding {
     padding: 0px 15px !important;
@@ -433,7 +461,7 @@ margin-bottom: 30px;
 #omg-portfolio-section4 .paddingbottom{
 padding:0 0 3%;
 }
-@media (max-width: 450px) {
+@media (min-width: 320px) and (max-width: 480px) {
 	#omg-portfolio-section1 {
     padding: 75px 0px 50px 0px;
 	}
@@ -456,6 +484,17 @@ padding:0 0 3%;
     padding: 50px 0px 50px 0px;
     background-color: #fff;
 	}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+#omg-portfolio-section2 {
+    padding: 0px 0px 0px 0px;
+}
+#omg-portfolio-section4 .cf-padding {
+    padding: 0px 2%;
+}
+#omg-portfolio-section4 {
+    padding: 0px 0px 0px 0px;
+}
 }
 /* genex */
 /* section1 */
@@ -574,7 +613,7 @@ background:#b72314;
 #genex-portfolio-section5 .text-holder{
 padding: 20%;
 }
-@media (max-width: 450px) {
+@media (min-width: 320px) and (max-width: 480px) {
 	#genex-portfolio-section1 {
     padding: 75px 0px 50px 0px;
     background: #b72314;
@@ -650,7 +689,7 @@ margin-bottom: 20px;
 background-color: #f2f2f2;
 }
 
-@media (max-width: 450px) {
+@media (min-width: 320px) and (max-width: 480px) {
 	#gloria-portfolio-section1 .portfolio-section-imgholder img {
     max-height: 550px;
     width: 100%;
@@ -771,7 +810,7 @@ font-size: 64px!important;
 #lumiere-portfolio-section4 .paddingtop300{
 padding-top: 300px;
 }
-@media (max-width: 450px) {
+@media (min-width: 320px) and (max-width: 480px) {
 	#lumiere-portfolio-section1 {
     padding: 75px 0px 50px 0px;
     background-color: #7b844b;
@@ -811,6 +850,25 @@ padding-top: 300px;
 #lumiere-portfolio-section3 {
     padding: 50px 0px;
     background-image: linear-gradient(#eeeeee,#fff );
+}
+.slick-next {
+    right: 0px!important;
+}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+#lumiere-portfolio-section2 .paddingtop300 {
+    padding-top: 0px;
+}
+#lumiere-portfolio-section2 .img-holder img {
+    height: 100%;
+    width: 100%;
+}
+#lumiere-portfolio-section4 .paddingtop300 {
+    padding-top: 0px;
+}
+#lumiere-portfolio-section4 {
+    padding: 100px 0px 100px 0px;
+    background: #eaeaea;
 }
 .slick-next {
     right: 0px!important;
@@ -948,7 +1006,7 @@ width: 50%
 #huts-portfolio-section6 .absolute{
 position: absolute;
 }
-@media (max-width: 450px) {
+@media (min-width: 320px) and (max-width: 480px) {
     #huts-portfolio-section1 {
     padding: 75px 0px 50px 0px;
     background: #74c044;
@@ -997,4 +1055,19 @@ position: absolute;
 #huts-portfolio-section6 .paddingtext{
     padding: 75px 15px 75px 15px;
     }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+#huts-portfolio-section2 .padding-top20 {
+    padding-top: 0%;
+}
+#huts-portfolio-section4 .padding-top20 {
+    padding-top: 0%;
+}
+#huts-portfolio-section5 .text-holder {
+    padding:0px;
+}
+#huts-portfolio-section6 .img-holder{
+    margin:100px 0px 0px 0px;
+}
+
 }

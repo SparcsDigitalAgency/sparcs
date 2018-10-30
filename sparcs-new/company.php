@@ -70,18 +70,18 @@ include_once('partials/header.php')
 
 <section class="section-company1 nopadding notopmargin nobg clearfix" >
    <div class="row common-height clearfix">
-      <div class="col-lg-6 center col-padding bottommargin" style="background: url('img/company/1.jpg') center center / cover no-repeat; height: 750px;">
+      <div class="col-lg-6 center col-padding height750" style="background: url('img/company/1.jpg') center center / cover no-repeat;">
          <div>&nbsp;</div>
       </div>
 
-      <div class="col-lg-6 col-padding" style="height: 750px;">
+      <div class="col-lg-6 col-padding ">
          <div>
             
 
             <!-- About Us Featured Boxes
             ============================================= -->
             <div class="row clearfix">
-               <div class="col-lg-10 col-md-8 bottommargin">
+               <div class="col-lg-10 col-md-6 bottommargin">
                   <div class="featured-box fbox-plain">
                      <div class="fbox-icon">
                         <i class="fa fa-coffee"></i>
@@ -90,7 +90,7 @@ include_once('partials/header.php')
                      <p>Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
                   </div>
                </div>
-               <div class="col-lg-10 col-md-8 bottommargin">
+               <div class="col-lg-10 col-md-6 bottommargin">
                   <div class="featured-box fbox-plain">
                      <div class="fbox-icon">
                         <i class="fa fa-cubes"></i>
@@ -99,7 +99,7 @@ include_once('partials/header.php')
                      <p>Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
                   </div>
                </div>
-               <div class="col-lg-10 col-md-8 bottommargin">
+               <div class="col-lg-10 col-md-6 bottommargin">
                   <div class="featured-box fbox-plain">
                      <div class="fbox-icon">
                         <i class="fa fa-question-circle"></i>
@@ -108,7 +108,7 @@ include_once('partials/header.php')
                      <p>Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
                   </div>
                </div>
-               <div class="col-lg-10 col-md-8">
+               <div class="col-lg-10 col-md-6">
                   <div class="featured-box fbox-plain">
                      <div class="fbox-icon">
                         <i class="fa fa-handshake-o"></i>

@@ -68,17 +68,17 @@
          </div>
       </div>
       <div class="row">
-         <div class="col-lg-4 no-padding ">
+         <div class="col-md-4  no-padding ">
             <div class="img-holder">
                <img src="<?php echo $path; ?>img/omg/omg-scribble.jpg" alt="" class="img-responsive">
             </div>
          </div>
-         <div class="col-lg-4 no-padding ">
+         <div class="col-md-4  no-padding ">
             <div class="img-holder">
                <img src="<?php echo $path; ?>img/omg/omg-logo.jpg" alt="" class="img-responsive">
             </div>
          </div>
-         <div class="col-lg-4 no-padding ">
+         <div class="col-md-4  no-padding ">
             <div class="img-holder">
                <img src="<?php echo $path; ?>img/omg/omg-logo-sticker.jpg" alt="" class="img-responsive">
             </div>
@@ -98,32 +98,32 @@
          <div class="col-md-12 auto-margin text-holder auto-margin wow fadeIn paddingbottom">
             <p>Brochure Design, business card and other print materials using the same visual style .</p>
          </div>
-         <div class="col-md-4 no-padding">
+         <div class="col-lg-4 col-md-12 no-padding">
             <div class="img-holder">
                <img src="<?php echo $path; ?>img/omg/brochure-1.jpg" alt="" class="img-responsive">
             </div>
          </div>
-         <div class="col-md-4 no-padding">
+         <div class="col-lg-4 col-md-12 no-padding">
             <div class="img-holder">
                <img src="<?php echo $path; ?>img/omg/brochure-2.jpg" alt="" class="img-responsive">
             </div>
          </div>
-         <div class="col-md-4 no-padding">
+         <div class="col-lg-4 col-md-12 no-padding">
             <div class="img-holder">
                <img src="<?php echo $path; ?>img/omg/brochure-3.jpg" alt="" class="img-responsive">
             </div>
          </div>
-         <div class="col-md-4 no-padding">
+         <div class="col-lg-4 col-md-12 no-padding">
             <div class="img-holder">
                <img src="<?php echo $path; ?>img/omg/brochure-4.jpg" alt="" class="img-responsive">
             </div>
          </div>
-         <div class="col-md-4 no-padding">
+         <div class="col-lg-4 col-md-12 no-padding">
             <div class="img-holder">
                <img src="<?php echo $path; ?>img/omg/brochure-5.jpg" alt="" class="img-responsive">
             </div>
          </div>
-         <div class="col-md-4 no-padding">
+         <div class="col-lg-4 col-md-12 no-padding">
             <div class="img-holder">
                <img src="<?php echo $path; ?>img/omg/brochure-6.jpg" alt="" class="img-responsive">
             </div>

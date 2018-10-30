@@ -75,42 +75,42 @@
 <section id="huts-portfolio-section3" style="background-image:url(<?php echo $path; ?>img/huts/wall-bg.jpg);">
    <div class="container">
       <div class="row">
-         <div class="col-md-4">
+         <div class="col-lg-4 col-md-6">
             <div class="img-holder wow fadeInLeft">
                <img src="<?php echo $path; ?>img/huts/painting1.jpg" class="img-responsive">
             </div>
          </div>
-         <div class="col-md-4">
+         <div class="col-lg-4 col-md-6">
             <div class="img-holder wow fadeInLeft">
                <img src="<?php echo $path; ?>img/huts/painting2.jpg" class="img-responsive">
             </div>
          </div>
-         <div class="col-md-4">
+         <div class="col-lg-4 col-md-6">
             <div class="img-holder wow fadeInLeft">
                <img src="<?php echo $path; ?>img/huts/painting3.jpg" class="img-responsive" >
             </div>
          </div>
-         <div class="col-md-4">
+         <div class="col-lg-4 col-md-6">
             <div class="img-holder wow fadeInRight">
                <img src="<?php echo $path; ?>img/huts/painting4.jpg" class="img-responsive">
             </div>
          </div>
-         <div class="col-md-4">
+         <div class="col-lg-4 col-md-6">
             <div class="img-holder wow fadeInRight">
                <img src="<?php echo $path; ?>img/huts/painting5.jpg" class="img-responsive" >
             </div>
          </div>
-         <div class="col-md-4">
+         <div class="col-lg-4 col-md-6">
             <div class="img-holder wow fadeInRight">
                <img src="<?php echo $path; ?>img/huts/painting6.jpg" class="img-responsive">
             </div>
          </div>
-         <div class="col-md-4">
+         <div class="col-lg-4 col-md-6">
             <div class="img-holder wow fadeInLeft">
                <img src="<?php echo $path; ?>img/huts/painting7.jpg" class="img-responsive" ">
             </div>
          </div>
-         <div class="col-md-4">
+         <div class="col-lg-4 col-md-6">
             <div class="img-holder wow fadeInLeft">
                <img src="<?php echo $path; ?>img/huts/painting8.jpg" class="img-responsive" >
             </div>

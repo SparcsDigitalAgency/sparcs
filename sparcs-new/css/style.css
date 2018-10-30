@@ -438,27 +438,27 @@ top: 24px;
 top: 18px;
 width: 0%;
 left: 50%;
-background:#c9252c;
+background:#c9252c!important;
 }
 .nav-icon3.opened span:nth-child(2) {
 -webkit-transform: rotate(45deg);
 -moz-transform: rotate(45deg);
 -o-transform: rotate(45deg);
 transform: rotate(45deg);
-background:#c9252c;
+background:#c9252c!important;
 }
 .nav-icon3.opened span:nth-child(3) {
 -webkit-transform: rotate(-45deg);
 -moz-transform: rotate(-45deg);
 -o-transform: rotate(-45deg);
 transform: rotate(-45deg);
-background-color: #c9252c;
+background:#c9252c!important;
 }
 .nav-icon3.opened span:nth-child(4) {
 top: 18px;
 width: 0%;
 left: 10%;
-background:#c9252c;
+background:#c9252c!important;
 }
  .nav-icon3.light span{
   background: #fff;
@@ -500,7 +500,7 @@ transition: all 1s ease;
 /*--------------------------------------------------------------
 # MEDIA QUERY MOBILE
 --------------------------------------------------------------*/
-@media (max-width: 450px) {
+@media (min-width: 320px) and (max-width: 480px) {
 .mob-hide{
 		display: none;
 }
@@ -667,7 +667,7 @@ font-weight: 700;
 /*--------------------------------------------------------------
 # MEDIA QUERY MOBILE
 --------------------------------------------------------------*/
-@media (max-width: 450px) {
+@media (min-width: 320px) and (max-width: 480px) {
 #about {
 padding:50% 5% 0% 5%;
 }
@@ -856,7 +856,7 @@ font-weight: 500 !important;
 /*--------------------------------------------------------------
 # MEDIA QUERY MOBILE
 --------------------------------------------------------------*/
-@media (max-width: 450px) {
+@media (min-width: 320px) and (max-width: 480px){
 #services {
 padding:0% 5% 10% 5%;
 }
@@ -898,7 +898,7 @@ font-weight: 700;
 /*--------------------------------------------------------------
 # MEDIA QUERY MOBILE
 --------------------------------------------------------------*/
-@media (max-width: 450px) {
+@media (min-width: 320px) and (max-width: 480px) {
 #portfolio {
 padding:0% 5% 10% 5%;
 }
@@ -966,7 +966,7 @@ border-left: 1px solid #dddddd17;border-right: 1px solid #dddddd17;
 /*--------------------------------------------------------------
 # MEDIA QUERY MOBILE
 --------------------------------------------------------------*/
-@media (max-width: 450px) {
+@media (min-width: 320px) and (max-width: 480px) {
 #contact {
 padding:15% 5% 10% 5%;
 }
@@ -1125,7 +1125,7 @@ font-weight: 700;
 /*--------------------------------------------------------------
 # MEDIA QUERY MOBILE
 --------------------------------------------------------------*/
-@media (max-width: 450px) {
+@media (min-width: 320px) and (max-width: 480px) {
 #about-section1 {
 padding:50% 5% 0% 5%;
 }
@@ -1392,7 +1392,7 @@ opacity: 1;
 /*--------------------------------------------------------------
 # MEDIA QUERY MOBILE
 --------------------------------------------------------------*/
-@media (max-width: 450px) {
+@media (min-width: 320px) and (max-width: 480px) {
 #works-section1 {
 padding:20% 5% 0% 5%;
 }
@@ -1502,7 +1502,7 @@ background: #f9f9f9;
 /*--------------------------------------------------------------
 # MEDIA QUERY MOBILE
 --------------------------------------------------------------*/
-@media (max-width: 450px) {
+@media (min-width: 320px) and (max-width: 480px){
 #services-section1 {
 padding:50% 5% 0% 5%;
 }
@@ -1734,7 +1734,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
 /*--------------------------------------------------------------
 # MEDIA QUERY MOBILE
 --------------------------------------------------------------*/
-@media (max-width: 450px) {
+@media (min-width: 320px) and (max-width: 480px){
 	
 	#map-overlay{
 	display: none;
@@ -1774,7 +1774,7 @@ font-size: 18px;
     margin-top: 0 !important;
 }
 .section-company1 .col-padding {
-    padding: 5%;
+     padding: 8% 5% 5% 5%;
 }
 .section-company1 .center {
     text-align: center !important;
@@ -1830,4 +1830,31 @@ font-size: 18px;
     margin: 8px 0 0 0;
     color: #999;
     
+}
+.section-company1 .height750{
+	height: 750px;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+   .tab-hide{
+  	display: none;
+  }
+   .tab-button{
+  	display: block;
+  	margin: 0 auto;
+  }
+  #about-section2 .text-holder {
+    padding: 100px 50px 0px 50px;
+}
+.section-company1 .col-padding {
+    padding: 10% 5% 5% 5%;
+}
+#about-section3 .text-holder {
+    padding: 5% 10% 0% 0%;
+}
+#about-section3 .img-holder {
+    padding-top: 5%;
+}
+  
 }

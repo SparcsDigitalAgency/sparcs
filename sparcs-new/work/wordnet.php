@@ -55,7 +55,7 @@
             <div class="carousel-item active">
                <div class="carousel-background"><img src="<?php echo $path; ?>img/wordnet/bg.jpg" alt=""></div>
                <div class="carousel-container">
-                  <div class="carousel-content col-md-8">
+                  <div class="carousel-content col-lg-8 col-md-12 ">
                      <h2 class="wow fadeInUp white f64">Wordnet Productions</h2>
                      <p class="wow fadeInUp white">Wordnet TV is today a successful  digital evangelisation ministry - an initiative of Society for the Divine Word of God, whose activities are spread over 72 countries.</p>
                      <p class="wow fadeInUp white">
@@ -77,7 +77,7 @@
 <section id="wordnet-portfolio-section1" class="">
    <div class="container">
    <div class="row">
-      <div class="col-xs-12 col-md-8 auto-margin text-holder auto-margin wow fadeIn marginbottom">
+      <div class="col-xs-12 col-md-12 auto-margin text-holder auto-margin wow fadeIn marginbottom">
          <h2>WordNet TV Identity </h2>
          <p>To visually sum up the identity of Wordnet TV as a digital evangelising platform through which the Divine Word of God is spread like a gift across the globe, we developed the logo using the image of the gift ribbon. </p>
          <p>In the contrast color  of sunshine yellow, it travels around and across a spinning blue globe set on a starry sky in a slightly asymmetric way expressing the feeling of being securely held and protected while also evoking the image of the Holy Cross.</p>
@@ -122,31 +122,31 @@
             </div>
             <div class="col-md-12 wow fadeInLeft">
                <div class="row margintop50">
-                  <div class="col-lg-2 no-padding auto-margin">
+                  <div class="col-lg-2 col-md-6 no-padding auto-margin tab-padding50">
                      <div class="img-holder">
                         <img src="<?php echo $path; ?>img/wordnet/apple-tv.png" alt="" class="img-responsive">
                         <img src="<?php echo $path; ?>img/wordnet/appletv-logo.png" alt="" class="img-responsive logo">
                      </div>
                   </div>
-                  <div class="col-lg-2 no-padding auto-margin">
+                  <div class="col-lg-2 col-md-6 no-padding auto-margin tab-padding50">
                      <div class="img-holder">
                         <img src="<?php echo $path; ?>img/wordnet/android-tv.png" alt="" class="img-responsive">
                         <img src="<?php echo $path; ?>img/wordnet/androidtv-logo.png" alt="" class="img-responsive logo">
                      </div>
                   </div>
-                  <div class="col-lg-2 no-padding auto-margin">
+                  <div class="col-lg-2 col-md-6 no-padding auto-margin tab-padding50">
                      <div class="img-holder">
                         <img src="<?php echo $path; ?>img/wordnet/roku-tv.png" alt="" class="img-responsive">
                         <img src="<?php echo $path; ?>img/wordnet/rokutv-logo.png" alt="" class="img-responsive logo">
                      </div>
                   </div>
-                  <div class="col-lg-2 no-padding auto-margin">
+                  <div class="col-lg-2 col-md-6 no-padding auto-margin tab-padding50">
                      <div class="img-holder">
                         <img src="<?php echo $path; ?>img/wordnet/chromecast.png" alt="" class="img-responsive">
                         <img src="<?php echo $path; ?>img/wordnet/chromecast-logo.png" alt="" class="img-responsive logo">
                      </div>
                   </div>
-                  <div class="col-lg-2 no-padding auto-margin">
+                  <div class="col-lg-2 col-md-6 no-padding auto-margin tab-padding50">
                      <div class="img-holder">
                         <img src="<?php echo $path; ?>img/wordnet/amazon-firetv.png" alt="" class="img-responsive">
                         <img src="<?php echo $path; ?>img/wordnet/amazontv-logo.png" alt="" class="img-responsive logo">
@@ -206,7 +206,7 @@
                </div>
             </div>
          </div>
-         <div class="hidden-xs hidden-sm col-md-5 text-right wow fadeInRight">
+         <div class="hidden-xs hidden-sm col-md-5 text-right wow fadeInRight tab-no-padding">
             <div class="screen-box screen-slider">
                <div class="item">
                   <img src="<?php echo $path; ?>img/wordnet/screen-1.jpg">

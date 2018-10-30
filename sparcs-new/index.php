@@ -77,13 +77,13 @@ Services Section
                <h2 class="wow fadeInUp">Services</h2>
                <p class="wow fadeInUp">Our full service interactive approach helps grow your brand online and to amplify its reach.</p>
             </div>
-            <div class="button-holder mob-hide">
+            <div class="button-holder mob-hide tab-hide">
                <a href="<?php echo $path; ?>services#intro" class="btn btn-readmore wow fadeInUp">View more</a>
             </div>
          </div>
          <div class="col-lg-7">
             <div class="row">
-               <div class="col-lg-6">
+               <div class="col-lg-6 col-md-6">
                   <div class="flip-card wow fadeInUp">
                      <div class="front no-after">
                         <div class="inner">
@@ -100,7 +100,7 @@ Services Section
                      </div>
                   </div>
                </div>
-               <div class="col-lg-6">
+               <div class="col-lg-6 col-md-6">
                   <div class="flip-card wow fadeInUp">
                      <div class="front no-after">
                         <div class="inner">
@@ -117,7 +117,7 @@ Services Section
                      </div>
                   </div>
                </div>
-               <div class="col-lg-6">
+               <div class="col-lg-6 col-md-6">
                   <div class="flip-card wow fadeInUp">
                      <div class="front no-after">
                         <div class="inner">
@@ -134,7 +134,7 @@ Services Section
                      </div>
                   </div>
                </div>
-               <div class="col-lg-6">
+               <div class="col-lg-6 col-md-6">
                   <div class="flip-card wow fadeInUp">
                      <div class="front no-after">
                         <div class="inner">
@@ -151,7 +151,7 @@ Services Section
                      </div>
                   </div>
                </div>
-               <div class="button-holder mob-only">
+               <div class="button-holder mob-only tab-button">
                   <a href="<?php echo $path; ?>services#intro" class="btn btn-readmore wow fadeInUp">View more</a>
                </div>
             </div>
@@ -171,7 +171,7 @@ Services Section
    <div class="container">
       
          <div class="row">
-            <div class="col-lg-6 items">
+            <div class="col-md-12 items">
                <div class="portfolio-item white">
                   <a href="<?php echo $path ?>work/wordnet" class="portfolio-popup">
                      <div class="texts">
@@ -186,7 +186,7 @@ Services Section
                </div>
             </div>
             
-            <div class="col-lg-6 items">
+            <div class="col-md-12  items">
                <div class="portfolio-item black">
                   <a href="<?php echo $path ?>work/mr-light" class="portfolio-popup">
                         
@@ -201,7 +201,7 @@ Services Section
                   </a>
                </div>
             </div>
-            <div class="col-lg-6 items">
+            <div class="col-md-12 items">
                <div class="portfolio-item white">
                   <a href="<?php echo $path ?>work/omg" class="portfolio-popup">
                      <div class="texts">
@@ -215,7 +215,7 @@ Services Section
                   </a>
                </div>
             </div>
-            <div class="col-lg-6 items">
+            <div class="col-md-12 items">
                <div class="portfolio-item black">
                   <a href="<?php echo $path ?>work/genex" class="portfolio-popup">
                         
@@ -231,7 +231,7 @@ Services Section
                </div>
             </div>
             
-            <div class="col-lg-6 items">
+            <div class="col-md-12 items">
                <div class="portfolio-item black">
                   <a href="<?php echo $path ?>work/lumiere" class="portfolio-popup">
                      <div class="texts">
@@ -246,7 +246,7 @@ Services Section
                </div>
             </div>
 
-            <div class="col-lg-6 items">
+            <div class="col-md-12 items">
                <div class="portfolio-item black">
                   <a href="<?php echo $path ?>works" class="portfolio-popup">
                      <div class="texts see-all">
