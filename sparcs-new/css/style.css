@@ -735,10 +735,6 @@ transform: rotateY(0deg);
 transform-style: preserve-3d;
 }
 .flip-card .inner {
--webkit-transform: translateY(-50%) translateZ(60px) scale(0.94);
-transform: translateY(-50%) translateZ(60px) scale(0.94);
-top: 50%;
-position: absolute;
 left: 0;
 width: 100%;
 padding: 2rem;
@@ -1489,6 +1485,7 @@ background: #f9f9f9;
 }
 #services-section2 ul li{
 	font-size: 1rem;
+	color: #000;
 }
 #services-section2 .services-icon{
 	height: 100px;

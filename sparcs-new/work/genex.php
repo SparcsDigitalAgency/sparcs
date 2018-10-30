@@ -92,11 +92,6 @@
 <section id="genex-portfolio-section4" >
    <div class="container no-padding">
       <div class="row no-gutters">
-         <div class="col-lg-6">
-            <div class="img-holder  wow fadeIn">
-               <img src="<?php echo $path; ?>img/genex/pic2.jpg" alt="" class="img-responsive" style="">
-            </div>
-         </div>
          <div class="col-lg-6 bg-red">
             <div class="text-holder auto-margin wow fadeIn text-center">
                <h2>Branding</h2>
@@ -104,6 +99,12 @@
                <p>The original identity of the company looked static and did not reflect the active nature of the security products it was selling.</p>
             </div>
          </div>
+         <div class="col-lg-6">
+            <div class="img-holder  wow fadeIn">
+               <img src="<?php echo $path; ?>img/genex/pic2.jpg" alt="" class="img-responsive" style="">
+            </div>
+         </div>
+         
       </div>
    </div>
 </section>
@@ -127,6 +128,8 @@
                <img src="<?php echo $path; ?>img/genex/pic1.jpg" alt="" class="img-responsive wow fadeIn" style="">
             </div>
          </div>
+         
+         
       </div>
    </div>
 </section>

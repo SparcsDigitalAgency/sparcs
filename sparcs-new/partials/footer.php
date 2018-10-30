@@ -315,13 +315,19 @@
             var rect = this.getBoundingClientRect();
             if(rect.top - offset < 0 && rect.bottom - offset > 0){
                 $nav.addClass("white-color");
+                $('.header-logo img').attr('src', '<?php echo $path; ?>img/logo-white.png');
+                $('.logo-changed img').attr('src', '<?php echo $path; ?>img/toggle-icon-white.png');
                 return false;
             }else{
                 $nav.removeClass("white-color");
             }
         });
     });
+
+
 </script>
+
+
 
 <!-- scrollify-->
 <!-- <script type="text/javascript">

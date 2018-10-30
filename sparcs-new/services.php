@@ -31,7 +31,7 @@ include_once('partials/header.php')
                      <h2 class="wow fadeInUp">Our Services</h2>
                      <p class="wow fadeInUp">A responsive artistic professional team of hands-on perfectionists.
                      </p>
-                     <a href="<?php echo $path; ?>contact" class="btn btn-readmore wow fadeInUp">Get In Touch</a>
+                     <a href="<?php echo $path; ?>works" class="btn btn-readmore wow fadeInUp">See Our Works</a>
                   </div>
                </div>
             </div>
@@ -61,7 +61,7 @@ include_once('partials/header.php')
                      <img src="img/services/service-icon1.png" alt="" class="img-responsive">
                   </div>
                   <h2>Strategy & Consulting</h2>
-                  <span>We build brands with razor-sharp strategy. We analyze every aspect of your industry and apply our digital expertise to provide a roadmap for success.</span>
+                  <span>Good strategy builds great brands.We analyze every aspect of your industry , apply our expertise and help you hit target.</span>
                </div>
                <ul>
                    <li><i class="fa fa-check"></i>Business Analysis &amp; Consulting</li>
@@ -87,12 +87,12 @@ include_once('partials/header.php')
                      <img src="img/services/service-icon2.png" alt="" class="img-responsive">
                   </div>
                   <h2>Creative Design</h2>
-                  <span>Our perfectly executed inspired creatives bring Ideas to Life. Our websites, videos, campaigns and copywriting help build a winning brand story.</span>
+                  <span>Our perfectly executed inspired creatives bring Ideas to Life building winning brand stories.</span>
                </div>
                <ul>
                    <li><i class="fa fa-check"></i>Logo &amp; Branding</li>
                      <li><i class="fa fa-check"></i>Web &amp; Mob App Design</li>
-                     <li><i class="fa fa-check"></i>User Interface Design</li>
+                     <li><i class="fa fa-check"></i>UI/UX Design</li>
                      <li><i class="fa fa-check"></i>Print Design</li>
                      <li><i class="fa fa-check"></i>Digital Photography</li>
                      <li><i class="fa fa-check"></i>Motion Graphics</li>
@@ -123,15 +123,16 @@ include_once('partials/header.php')
                      <img src="img/services/service-icon3.png" alt="" class="img-responsive">
                   </div>
                   <h2>Web & Mobile Development</h2>
-                  <span>Our developers use cutting edge technology to provide avant garde  solutions and build you high performance apps and websites.</span>
+                  <span>Our developers use cutting edge technologies to provide avant garde, high performance solutions.</span>
                </div>
                <ul>
                    <li><i class="fa fa-check"></i>Web Application Development</li>
                      <li><i class="fa fa-check"></i>Mobile Application Development</li>
                      <li><i class="fa fa-check"></i>Ecommerce Development</li>
                      <li><i class="fa fa-check"></i>Content Management System</li>
-                     <li><i class="fa fa-check"></i>Live Video Streaming</li>
-                     <li><i class="fa fa-check"></i>Web Hosting</li>
+                     <li><i class="fa fa-check"></i>Webcasting</li>
+                     <li><i class="fa fa-check"></i>OTT App Development</li>
+                     <li><i class="fa fa-check"></i>Hosting & Server Management</li>
                </ul>
             </div>
          </div>
@@ -149,16 +150,16 @@ include_once('partials/header.php')
                      <img src="img/services/service-icon4.png" alt="" class="img-responsive">
                   </div>
                   <h2>Digital Marketing</h2>
-                  <span>Our marketing team are go-getters who build relevant content and apply  customized strategies and tactics to increase qualified traffic to your business.</span>
+                  <span>Our go-getter approach generates the right content and sets strategies to increase qualified & organic traffic to your business.</span>
                </div>
                <ul>
-                   <li><i class="fa fa-check"></i>Search Engine Optimization</li>
-                     <li><i class="fa fa-check"></i>Pay-Per-Click Marketing</li>
-                     <li><i class="fa fa-check"></i>Email Marketing</li>
-                     <li><i class="fa fa-check"></i>Social Media Marketing</li>
-                     <li><i class="fa fa-check"></i>Conversion Rate Optimization</li>
-                     <li><i class="fa fa-check"></i>Display Advertising</li>
-                     <li><i class="fa fa-check"></i>Online Public Relations</li>
+                   <li><i class="fa fa-check"></i>Search Engine Optimization (SEO)</li>
+                   <li><i class="fa fa-check"></i>Search Engine Marketing (SEM)</li>
+                   <li><i class="fa fa-check"></i>Social Media Optimization (SMO)</li>
+                   <li><i class="fa fa-check"></i>Email Marketing</li>
+                   <li><i class="fa fa-check"></i>Conversion Rate Optimization</li>
+                   <li><i class="fa fa-check"></i>Display Advertising</li>
+                   <li><i class="fa fa-check"></i>Online Public Relations</li>
                </ul>
             </div>
          </div>

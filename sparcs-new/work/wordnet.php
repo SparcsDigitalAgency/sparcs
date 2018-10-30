@@ -48,6 +48,8 @@
 <!--==========================
    Intro Section
    ============================-->
+
+
 <section id="intro" class="dark-section">
    <div class="intro-container">
       <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
@@ -71,6 +73,38 @@
 <!--==========================
    end of Intro Section
    ============================-->
+   <section id="wordnet-portfolio-section4">
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-6 no-padding">
+            <div class="portfolio-section-imgholder text-center">
+               <img src="../img/wordnet/responsive.png" alt="" class="img-responsive wow fadeInLeft">
+            </div>
+         </div>
+         <div class="col-lg-6 paddingsides80">
+            <div class="portfolio-section-textholder">
+               <img src="../img/wordnet/logo.png" alt="" class="img-responsive wow fadeInLeft">
+            </div>
+            <div class="portfolio-section-textholder wow fadeInRight">
+               <div class="icon"><i class="fa fa-check-circle"></i></div>
+               <p class="description">Giving the site a modern ,clear cut fresh appeal meeting client preferences on middle ground.</p>
+            </div>
+            <div class="portfolio-section-textholder wow fadeInRight">
+               <div class="icon"><i class="fa fa-check-circle"></i></div>
+               <p class="description">Correcting serious errors in product showcasing by  redesigning site all over on Wordpress framework.</p>
+            </div>
+            <div class="portfolio-section-textholder wow fadeInRight">
+               <div class="icon"><i class="fa fa-check-circle"></i></div>
+               <p class="description">Converting static pages to Content Management System(CMS) by which Client is enabled to keep adding new products from backend.</p>
+            </div>
+            <div class="portfolio-section-textholder wow fadeInRight">
+               <div class="icon"><i class="fa fa-check-circle"></i></div>
+               <p class="description">Writing Content afresh adding catchy copy to attractive sliders drawing consumer attention to products.</p>
+            </div>
+         </div>
+      </div>
+   </div>
+</section> 
 <!--==========================
    portfolio section1
    ============================-->

@@ -32,7 +32,7 @@ include_once('partials/header.php')
                      <h2 class="wow fadeInUp">Driven by Design</h2>
                      <p class="wow fadeInUp">A responsive creative professional team of hands-on perfectionists.
                      </p>
-                     <a href="<?php echo $path; ?>contact" class="btn btn-readmore wow fadeInUp">Get In Touch</a>
+                     <a href="<?php echo $path; ?>works" class="btn btn-readmore wow fadeInUp">See Our Works</a>
                   </div>
                </div>
             </div>
@@ -53,7 +53,7 @@ include_once('partials/header.php')
          <div class="col-lg-8">
             <div class="about-content">
                <h2 class="wow fadeInUp">Company</h2>
-               <p class="wow fadeInUp">SPARCS delivers high quality, reliable and affordable services to customers globally: Creative Campaigns, Website Design & Development, Mobile App/OTT Development, Branding, Digital Marketing, Content development and more ...</p>
+               <p class="wow fadeInUp">SPARCS has over 15 years experience and a powerful hands-on creative team.<br>We deliver high quality, reliable and affordable services to our customers globally.</p>
             </div>
             <div class="button-holder">
                <a href="<?php echo $path; ?>company#intro" class="btn btn-readmore wow fadeInUp">Read more</a>
@@ -110,7 +110,7 @@ Services Section
                               </div>
                               <div class="fbox-desc">
                                  <h3 class="nott">Creative Design</h3>
-                                 <p class="t500">Our perfectly executed inspired creatives bring Ideas to Life. Our websites, videos, campaigns and copywriting help build a winning brand story</p>
+                                 <p class="t500">Our perfectly executed inspired creatives bring Ideas to Life building winning brand stories.</p>
                               </div>
                            </div>
                         </div>
@@ -127,7 +127,7 @@ Services Section
                               </div>
                               <div class="fbox-desc">
                                  <h3 class="nott">Web & Mobile Development</h3>
-                                 <p class="t500">Our developers use cutting edge technology to provide avant garde  solutions and build you high performance apps and websites.</p>
+                                 <p class="t500">Our developers use cutting edge technologies to provide avant garde, high performance solutions.</p>
                               </div>
                            </div>
                         </div>
@@ -144,7 +144,7 @@ Services Section
                               </div>
                               <div class="fbox-desc">
                                  <h3 class=" nott">Digital Marketing</h3>
-                                 <p class=" t500">Our marketing team are go-getters who build relevant content and apply  customized strategies and tactics to increase qualified traffic to your business.</p>
+                                 <p class=" t500">Our go-getter approach generates the right content and sets strategies to increase qualified & organic traffic to your business.</p>
                               </div>
                            </div>
                         </div>
@@ -171,7 +171,7 @@ Services Section
    <div class="container">
       
          <div class="row">
-            <div class="col-md-12 items">
+            <div class="col-lg-6 col-md-12 items">
                <div class="portfolio-item white">
                   <a href="<?php echo $path ?>work/wordnet" class="portfolio-popup">
                      <div class="texts">
@@ -186,7 +186,7 @@ Services Section
                </div>
             </div>
             
-            <div class="col-md-12  items">
+            <div class="col-lg-6 col-md-12 items">
                <div class="portfolio-item black">
                   <a href="<?php echo $path ?>work/mr-light" class="portfolio-popup">
                         
@@ -201,7 +201,7 @@ Services Section
                   </a>
                </div>
             </div>
-            <div class="col-md-12 items">
+            <div class="col-lg-6 col-md-12 items">
                <div class="portfolio-item white">
                   <a href="<?php echo $path ?>work/omg" class="portfolio-popup">
                      <div class="texts">
@@ -215,7 +215,7 @@ Services Section
                   </a>
                </div>
             </div>
-            <div class="col-md-12 items">
+            <div class="col-lg-6 col-md-12 items">
                <div class="portfolio-item black">
                   <a href="<?php echo $path ?>work/genex" class="portfolio-popup">
                         
@@ -231,7 +231,7 @@ Services Section
                </div>
             </div>
             
-            <div class="col-md-12 items">
+            <div class="col-lg-6 col-md-12 items">
                <div class="portfolio-item black">
                   <a href="<?php echo $path ?>work/lumiere" class="portfolio-popup">
                      <div class="texts">
@@ -246,7 +246,7 @@ Services Section
                </div>
             </div>
 
-            <div class="col-md-12 items">
+            <div class="col-lg-6 col-md-12 items">
                <div class="portfolio-item black">
                   <a href="<?php echo $path ?>works" class="portfolio-popup">
                      <div class="texts see-all">

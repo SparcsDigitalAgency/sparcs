@@ -26,11 +26,11 @@ include_once('partials/header.php')
             <div class="carousel-item active">
                <div class="carousel-background"><img src="img/intro-bg.png" alt=""></div>
                <div class="carousel-container">
-                  <div class="carousel-content ">
+                  <div class="carousel-content " style="width: 70%">
                      <h2 class="wow fadeInUp">Company</h2>
-                     <p class="wow fadeInUp">SPARCS has over 15 years of rich experience with loyal,long term client relationships . We deliver high quality, reliable and affordable services to our customers globally- Creative Campaigns, Website Design & Development, Mobile App/OTT Development, Branding and Digital Marketing, Content Development and more ...
+                     <p class="wow fadeInUp">SPARCS has over 15 years of rich experience with loyal, long term client relationships.We deliver high quality, reliable and affordable services to our customers globally:<br>Creative Campaigns, Website Design & Development, Mobile App/OTT Development, Branding and Digital Marketing, Content Development and more ...
                      </p>
-                     <a href="<?php echo $path; ?>contact" class="btn btn-readmore wow fadeInUp">Get In Touch</a>
+                     <a href="<?php echo $path; ?>works" class="btn btn-readmore wow fadeInUp">See Our Works</a>
                   </div>
                </div>
             </div>

@@ -29,7 +29,7 @@ include_once('partials/header.php')
                <div class="carousel-container">
                   <div class="carousel-content ">
                      <h2 class="wow fadeInUp">Our Works</h2>
-                     <p class="wow fadeInUp">A reliable responsive creative hands-on team of creative no-frills perfectionists.
+                     <p class="wow fadeInUp">At SPARCS work is an opportunity to re-imagine and to create fresh new relationships.
                      </p>
                      <a href="#works-section2" class="btn btn-readmore wow fadeInUp">See more</a>
                   </div>

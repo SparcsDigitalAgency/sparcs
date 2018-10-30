@@ -133,6 +133,50 @@ top: 12px;
 -webkit-transform: translateX(-50%);
 transform: translateX(-50%)
 }
+/*  section 4 */
+#wordnet-portfolio-section4{
+padding: 100px 0px 100px 0px;
+background:#eee;
+}
+#wordnet-portfolio-section4 h2{
+color: #222;
+}
+#wordnet-portfolio-section4 p{
+color: #222;
+}
+#wordnet-portfolio-section4  ul {
+list-style: none;
+padding: 0;
+}
+#wordnet-portfolio-section4 ul li {
+padding-bottom: 10px;
+color: #222;
+}
+#wordnet-portfolio-section4 i {
+font-size: 20px;
+padding-right: 4px;
+color: #222;
+}
+#wordnet-portfolio-section4 .portfolio-section-textholder{
+margin-bottom: 20px;
+}
+#wordnet-portfolio-section4 .portfolio-section-textholder img{
+height:70px;
+width: auto;
+margin-bottom: 20px
+}
+#wordnet-portfolio-section4 .icon {
+float: left;
+}
+#wordnet-portfolio-section4 .description {
+font-size: 16px;
+margin-left: 30px;
+line-height: 24px;
+margin-bottom: 0;
+}
+#wordnet-portfolio-section4 .paddingsides80{
+padding: 0px 80px 0px 80px;
+}
 @media (min-width: 320px) and (max-width: 480px) {
 	#wordnet-portfolio-section2 .logo{
 	padding:0px 50px 50px 50px;
@@ -145,6 +189,17 @@ transform: translateX(-50%)
 	}
     #wordnet-portfolio-section3 .logo-holder{
     padding:0px 50px 0px 50px;
+    }
+    #wordnet-portfolio-section4 {
+    padding: 50px 0px 50px 0px;
+    }
+    #wordnet-portfolio-section4 .paddingsides80 {
+    padding: 0px 15px 0px 15px;
+    }
+    #wordnet-portfolio-section4 .portfolio-section-textholder img {
+    height: 50px;
+    width: auto;
+    margin-bottom: 0px;
     }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
