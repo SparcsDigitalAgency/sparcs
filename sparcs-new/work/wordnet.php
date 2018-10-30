@@ -105,6 +105,14 @@
       </div>
    </div>
 </section> 
+
+
+
+<section id="wordnet-portfolio-section5" class="no-padding">
+   <div class="container-fluid no-padding">
+      <img src="<?php echo $path; ?>img/wordnet/tile-wordnet.jpg" alt="" class="img-responsive">
+   </div>
+</section>
 <!--==========================
    portfolio section1
    ============================-->
@@ -230,12 +238,12 @@
             <div class="row">
                <div class="col-lg-6">
                   <div class="logo-holder">
-                     <img src="<?php echo $path; ?>img/wordnet/android-logo.png" class="img-responsive logo">
+                     <img src="<?php echo $path; ?>img/wordnet/android.jpg" class="img-responsive logo">
                   </div>
                </div>
                <div class="col-lg-6">
                   <div class="logo-holder">
-                     <img src="<?php echo $path; ?>img/wordnet/ios-logo.png" class="img-responsive logo">
+                     <img src="<?php echo $path; ?>img/wordnet/ios.jpg" class="img-responsive logo">
                   </div>
                </div>
             </div>

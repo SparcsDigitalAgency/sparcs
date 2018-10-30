@@ -70,7 +70,7 @@ margin-top: 50px;
 /* section 3 */
 #wordnet-portfolio-section3{
 padding: 100px 0px;
-background-color: #f7f7f7
+background-color: #fff
 }
 #wordnet-portfolio-section3 .logo{
     padding:75px;
@@ -176,6 +176,10 @@ margin-bottom: 0;
 }
 #wordnet-portfolio-section4 .paddingsides80{
 padding: 0px 80px 0px 80px;
+}
+/* section5 */
+#wordnet-portfolio-section5{
+background: #2e364e;
 }
 @media (min-width: 320px) and (max-width: 480px) {
 	#wordnet-portfolio-section2 .logo{
@@ -475,7 +479,7 @@ margin-left: 20px
 }
 /* section2 */
 #omg-portfolio-section2{
-padding: 100px 0px 100px 0px;
+padding:0px;
 }
 /* section3 */
 #omg-portfolio-section3{
@@ -603,7 +607,7 @@ margin-bottom: 20px;
 
 /* section3 */
 #genex-portfolio-section3{
-padding: 100px 0px;
+padding: 25px 0px 100px;
 }
 #genex-portfolio-section3 h2{
 color: #444;
@@ -620,30 +624,33 @@ margin-bottom: 30px;
 }
 /* section 4 */
 #genex-portfolio-section4 h2{
-color: #fff;
+color: #222;
 margin-bottom: 30px;
 font-size: 50px;
 font-weight: 700;
 }
 #genex-portfolio-section4 h4{
-color: #fff;
+color: #222;
 font-weight: 200;
 line-height: 1.4em;
 margin-bottom: 50px;
 }
 #genex-portfolio-section4 p{
-color: #fff;
+color: #222;
 margin-bottom: 0px;
 font-size: 16px;
 margin-bottom: 30px;
 }
-#genex-portfolio-section4 .text-holder{
-padding: 20%;
-}
 #genex-portfolio-section4 .bg-red{
 background:#b72314;
 }
+#genex-portfolio-section4 .text-holder{
+    width: 70%;
+}
 /* section 5 */
+#genex-portfolio-section5{
+    padding-bottom: 5%;
+}
 #genex-portfolio-section5 h2{
 color: #fff;
 margin-bottom: 30px;
