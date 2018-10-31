@@ -67,25 +67,7 @@
 <!--==========================#
    portfolio  Section2
    ============================-->
-<!--==========================#
-   portfolio  Section3
-   ============================-->
-<section id="genex-portfolio-section3" >
-   <div class="container">
-      <div class="row">
-         <div class="col-md-6 text-holder auto-margin wow fadeIn">
-            <h2>Logo Identity</h2>
-            <p>Our redesign reflected the function of  of GenX’s products to deflect and protect in its branding by using sharp highly dynamic strongly diagonal lines and incorporating the image of a shield stylised minimally but dramatically.</p>
-         </div>
-         <div class="col-md-6 img-holder auto-margin text-center">
-            <img src="<?php echo $path; ?>img/genex/logo-big.jpg" alt="" class="style2-pic wow zoomIn img-responsive " data-wow-duration="2s">
-         </div>
-      </div>
-   </div>
-</section>
-<!--==========================
-   end of portfolio  Section3
-   ============================-->
+
 <!--==========================#
    portfolio  Section4
    ============================-->
@@ -132,16 +114,40 @@
                <img src="<?php echo $path; ?>img/genex/pic1.jpg" alt="" class="img-responsive wow fadeIn" style="">
             </div>
          </div>
-         
-         
       </div>
    </div>
 </section>
 <!--==========================
    end of portfolio section5
    ============================-->
+
+   <!--==========================#
+   portfolio  Section3
+   ============================-->
+<section id="genex-portfolio-section3" >
+   <div class="container no-padding">
+      <div class="row no-gutters">
+         <div class="col-lg-6">
+            <div class="img-holder auto-margin wow fadeIn">
+               <img src="<?php echo $path; ?>img/genex/logo-identity.jpg" alt="" class="img-responsive wow fadeIn" style="">
+            </div>
+         </div>
+         <div class="col-lg-6 bg-red">
+            <div class="text-holder wow fadeIn text-center">
+               <h2>Logo Identity</h2>
+               <p>Our redesign reflected the function of  of GenX’s products to deflect and protect in its branding by using sharp highly dynamic strongly diagonal lines and incorporating the image of a shield stylised minimally but dramatically.</p>
+            </div>
+         </div>
+         
+      </div>
+   </div>
+</section>
+<!--==========================
+   end of portfolio  Section3
+   ============================-->
 <!--==========================
    Footer
    ============================-->
 <?php include_once('../partials/footer.php')?>
 <!-- end footer -->
+

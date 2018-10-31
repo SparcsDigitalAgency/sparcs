@@ -135,7 +135,7 @@ transform: translateX(-50%)
 }
 /*  section 4 */
 #wordnet-portfolio-section4{
-padding: 100px 0px 100px 0px;
+padding: 200px 0px 200px 0px;
 background:#eee;
 }
 #wordnet-portfolio-section4 h2{
@@ -607,20 +607,31 @@ margin-bottom: 20px;
 
 /* section3 */
 #genex-portfolio-section3{
-padding: 25px 0px 100px;
+    padding-bottom: 5%;
 }
 #genex-portfolio-section3 h2{
-color: #444;
+color: #fff;
 margin-bottom: 30px;
+font-size: 50px;
 font-weight: 700;
-text-align: center;
+}
+#genex-portfolio-section3 h4{
+color: #fff;
+font-weight: 200;
+line-height: 1.4em;
+margin-bottom: 50px;
 }
 #genex-portfolio-section3 p{
-color: #444;
+color: #fff;
 margin-bottom: 0px;
 font-size: 16px;
-text-align: center;
 margin-bottom: 30px;
+}
+#genex-portfolio-section3 .bg-red{
+background:#b72314;
+}
+#genex-portfolio-section3 .text-holder{
+padding: 20%;
 }
 /* section 4 */
 #genex-portfolio-section4 h2{
@@ -649,7 +660,6 @@ background:#b72314;
 }
 /* section 5 */
 #genex-portfolio-section5{
-    padding-bottom: 5%;
 }
 #genex-portfolio-section5 h2{
 color: #fff;
