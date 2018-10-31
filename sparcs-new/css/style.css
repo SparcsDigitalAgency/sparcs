@@ -911,7 +911,7 @@ font-size: 36px;
 #contact {
 background-color: #111;
 background-size: cover;
-padding: 11% 0% 2% 0%;
+padding: 11% 0%;
 }
 .margintop65 {
 margin-top: 65px;
@@ -1727,6 +1727,10 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
 .contact100-form-btn:focus,.contact100-form-btn:active{
 	-webkit-tap-highlight-color: transparent;
 }
+
+.success{background:#CFFFF5;padding:10px;margin-bottom:10px;border:1px solid #B9ECCE;border-radius:5px;font-weight:normal;color:#000;}
+.error{background:#FFDFDF;padding:10px;margin-bottom:10px;border:1px solid #FFCACA;border-radius:5px;font-weight:normal; color:#000;}
+
 
 /*--------------------------------------------------------------
 # MEDIA QUERY MOBILE

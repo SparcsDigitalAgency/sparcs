@@ -37,11 +37,13 @@ include_once('partials/header.php')
                <div class="contact-content2">
                   <div class="form-holder">
                      <h4 class="wow fadeInUp">We'd love to answer any questions you may have. Send us an email or come for a visit.</h4>
+                     <div id="result"></div>
                      <fieldset id="contact_form" style="border:none;">
+                           <input type="hidden" name="subject" value="Enquiry from Sparcs">
                            <input type="text" class="form-control"  name="name" placeholder="Full Name" required>
                            <input type="text" class="form-control"  name="email" placeholder="Email Address" required>
                            <input type="text" class="form-control"  name="phone" placeholder="Mobile Number" required>
-                           <textarea class="form-control" name="message"  placeholder="Message" maxlength="140" rows="7"></textarea>  
+                           <textarea class="form-control" name="message"  placeholder="Ok, Let's Talk" maxlength="140" rows="7"></textarea>  
                         <a class="btn btn-readmore  pull-right" id="submit_btn" >Send us an enquiry</a><div style="display:none; float:left; margin:5px;" id="dvloader"><img src="img/ajax-loader.gif" /></div>
                      </fieldset>
                   </div>
