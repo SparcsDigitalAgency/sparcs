@@ -119,7 +119,7 @@
 <section id="wordnet-portfolio-section1" class="">
    <div class="container">
    <div class="row">
-      <div class="col-xs-12 col-md-12 auto-margin text-holder auto-margin wow fadeIn marginbottom">
+      <div class="col-xs-12 col-md-8 auto-margin text-holder auto-margin wow fadeIn marginbottom">
          <h2>WordNet TV Identity </h2>
          <p>To visually sum up the identity of Wordnet TV as a digital evangelising platform through which the Divine Word of God is spread like a gift across the globe, we developed the logo using the image of the gift ribbon. </p>
          <p>In the contrast color  of sunshine yellow, it travels around and across a spinning blue globe set on a starry sky in a slightly asymmetric way expressing the feeling of being securely held and protected while also evoking the image of the Holy Cross.</p>
