@@ -52,7 +52,7 @@ padding-top: 100px
 }
 /* section 2 */
 #wordnet-portfolio-section2{
-padding: 100px 0px;
+padding: 10% 0;
 background-color: #ececec
 }
 #wordnet-portfolio-section2 h2{
@@ -69,7 +69,7 @@ margin-top: 50px;
 }
 /* section 3 */
 #wordnet-portfolio-section3{
-padding: 100px 0px;
+padding: 10% 0;
 background-color: #f7f7f7
 }
 #wordnet-portfolio-section3 .logo{
@@ -135,7 +135,7 @@ transform: translateX(-50%)
 }
 /*  section 4 */
 #wordnet-portfolio-section4{
-padding: 100px 0px 100px 0px;
+padding: 10% 0;
 background:#eee;
 }
 #wordnet-portfolio-section4 h2{
