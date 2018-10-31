@@ -50,12 +50,12 @@ include_once('partials/header.php')
    <div class="container">
       <div class="row">
          <div class="col-lg-6">
-            <div class="img-holder">
+            <div class="img-holder wow fadeInLeft">
                
             </div>
          </div>
          <div class="col-lg-6 bottommargin">
-            <div class="text-holder">
+            <div class="text-holder wow fadeInRight">
                <div class="heading-block">
                   <div class="services-icon" >
                      <img src="img/services/service-icon1.png" alt="" class="img-responsive">
@@ -81,7 +81,7 @@ include_once('partials/header.php')
    <div class="container">
       <div class="row">
          <div class="col-lg-7 bottommargin paddingleft200">
-            <div class="text-holder">
+            <div class="text-holder  wow fadeInLeft">
                <div class="heading-block">
                   <div class="services-icon" >
                      <img src="img/services/service-icon2.png" alt="" class="img-responsive">
@@ -100,7 +100,7 @@ include_once('partials/header.php')
             </div>
          </div>
          <div class="col-lg-5">
-            <div class="img-holder">
+            <div class="img-holder wow fadeInRight">
                
             </div>
          </div>
@@ -112,12 +112,12 @@ include_once('partials/header.php')
    <div class="container">
       <div class="row">
          <div class="col-lg-6">
-            <div class="img-holder">
+            <div class="img-holder wow fadeInLeft">
                
             </div>
          </div>
          <div class="col-lg-6 bottommargin">
-            <div class="text-holder">
+            <div class="text-holder wow fadeInRight">
                <div class="heading-block">
                   <div class="services-icon" >
                      <img src="img/services/service-icon3.png" alt="" class="img-responsive">
@@ -144,7 +144,7 @@ include_once('partials/header.php')
    <div class="container">
       <div class="row">
          <div class="col-lg-7 bottommargin paddingleft200">
-            <div class="text-holder">
+            <div class="text-holder wow fadeInLeft">
                <div class="heading-block">
                   <div class="services-icon" >
                      <img src="img/services/service-icon4.png" alt="" class="img-responsive">
@@ -164,7 +164,7 @@ include_once('partials/header.php')
             </div>
          </div>
          <div class="col-lg-5">
-            <div class="img-holder">
+            <div class="img-holder wow fadeInRight">
                
             </div>
          </div>

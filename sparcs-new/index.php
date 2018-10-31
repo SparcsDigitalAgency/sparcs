@@ -172,7 +172,7 @@ Services Section
       
          <div class="row">
             <div class="col-lg-6 col-md-12 items">
-               <div class="portfolio-item white">
+               <div class="portfolio-item white wow fadeInLeft">
                   <a href="<?php echo $path ?>work/wordnet" class="portfolio-popup">
                      <div class="texts">
                         <div class="texts-head">
@@ -187,7 +187,7 @@ Services Section
             </div>
             
             <div class="col-lg-6 col-md-12 items">
-               <div class="portfolio-item black">
+               <div class="portfolio-item black wow fadeInRight">
                   <a href="<?php echo $path ?>work/mr-light" class="portfolio-popup">
                         
                      <div class="texts">
@@ -202,7 +202,7 @@ Services Section
                </div>
             </div>
             <div class="col-lg-6 col-md-12 items">
-               <div class="portfolio-item white">
+               <div class="portfolio-item white wow fadeInLeft">
                   <a href="<?php echo $path ?>work/omg" class="portfolio-popup">
                      <div class="texts">
                         <div class="texts-head">
@@ -216,7 +216,7 @@ Services Section
                </div>
             </div>
             <div class="col-lg-6 col-md-12 items">
-               <div class="portfolio-item black">
+               <div class="portfolio-item black wow fadeInRight">
                   <a href="<?php echo $path ?>work/genex" class="portfolio-popup">
                         
                      <div class="texts">
@@ -232,7 +232,7 @@ Services Section
             </div>
             
             <div class="col-lg-6 col-md-12 items">
-               <div class="portfolio-item black">
+               <div class="portfolio-item black wow fadeInLeft">
                   <a href="<?php echo $path ?>work/lumiere" class="portfolio-popup">
                      <div class="texts">
                         <div class="texts-head">
@@ -247,7 +247,7 @@ Services Section
             </div>
 
             <div class="col-lg-6 col-md-12 items">
-               <div class="portfolio-item black">
+               <div class="portfolio-item black wow fadeInRight">
                   <a href="<?php echo $path ?>works" class="portfolio-popup">
                      <div class="texts see-all">
                         <div class="texts-head">

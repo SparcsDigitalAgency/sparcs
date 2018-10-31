@@ -70,7 +70,7 @@ include_once('partials/header.php')
 
 <section class="section-company1 nopadding notopmargin nobg clearfix" >
    <div class="row common-height clearfix">
-      <div class="col-lg-6 center col-padding height750" style="background: url('img/company/1.jpg') center center / cover no-repeat;">
+      <div class="col-lg-6 center col-padding height750 wow fadeInLeft" style="background: url('img/company/1.jpg') center center / cover no-repeat;">
          <div>&nbsp;</div>
       </div>
 
@@ -82,7 +82,7 @@ include_once('partials/header.php')
             ============================================= -->
             <div class="row clearfix">
                <div class="col-lg-10 col-md-6 bottommargin">
-                  <div class="featured-box fbox-plain">
+                  <div class="featured-box fbox-plain wow fadeInRight">
                      <div class="fbox-icon">
                         <i class="fa fa-coffee"></i>
                      </div>
@@ -91,7 +91,7 @@ include_once('partials/header.php')
                   </div>
                </div>
                <div class="col-lg-10 col-md-6 bottommargin">
-                  <div class="featured-box fbox-plain">
+                  <div class="featured-box fbox-plain wow fadeInRight">
                      <div class="fbox-icon">
                         <i class="fa fa-cubes"></i>
                      </div>
@@ -100,7 +100,7 @@ include_once('partials/header.php')
                   </div>
                </div>
                <div class="col-lg-10 col-md-6 bottommargin">
-                  <div class="featured-box fbox-plain">
+                  <div class="featured-box fbox-plain wow fadeInRight">
                      <div class="fbox-icon">
                         <i class="fa fa-question-circle"></i>
                      </div>
@@ -109,7 +109,7 @@ include_once('partials/header.php')
                   </div>
                </div>
                <div class="col-lg-10 col-md-6">
-                  <div class="featured-box fbox-plain">
+                  <div class="featured-box fbox-plain wow fadeInRight">
                      <div class="fbox-icon">
                         <i class="fa fa-handshake-o"></i>
                      </div>
