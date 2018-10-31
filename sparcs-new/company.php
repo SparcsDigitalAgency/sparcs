@@ -30,7 +30,7 @@ include_once('partials/header.php')
                      <h2 class="wow fadeInUp">Company</h2>
                      <p class="wow fadeInUp">SPARCS has over 15 years of rich experience with loyal, long term client relationships.We deliver high quality, reliable and affordable services to our customers globally:<br>Creative Campaigns, Website Design & Development, Mobile App/OTT Development, Branding and Digital Marketing, Content Development and more...
                      </p>
-                     <a href="<?php echo $path; ?>works" class="btn btn-readmore wow fadeInUp">See Our Works</a>
+                     <a href="<?php echo $path; ?>works#works-section2" class="btn btn-readmore wow fadeInUp">See Our Works</a>
                   </div>
                </div>
             </div>

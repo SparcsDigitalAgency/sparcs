@@ -61,13 +61,12 @@
    ============================-->
 <section id="omg-portfolio-section3">
    <div class="container">
-      <div class="row">
-         <div class="col-xs-12 col-md-8 auto-margin text-holder auto-margin wow fadeIn marginbottom" >
+      <div class="col-md-8 auto-margin">
+         <div class="row">
+            <div class="col-md-12 text-holder auto-margin wow fadeIn marginbottom" >
             <h2 class="wow fadeInUp">Branding Identity</h2>
             <p class="wow fadeInUp"> Designed an exciting  Logo that while playing with the letters that form the name is also a visual pun on the joystick epitomising the whole activity  of Gaming .</p>
          </div>
-      </div>
-      <div class="row">
          <div class="col-md-4  no-padding ">
             <div class="img-holder wow fadeInUp">
                <img src="<?php echo $path; ?>img/omg/omg-scribble.jpg" alt="" class="img-responsive">
@@ -84,6 +83,7 @@
             </div>
          </div>
       </div>
+   </div>
    </div>
 </section>
 <!--==========================

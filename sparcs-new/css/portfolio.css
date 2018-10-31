@@ -614,7 +614,7 @@ margin-bottom: 20px;
 #genex-portfolio-section4 h2{
 color: #222;
 margin-bottom: 30px;
-font-size: 50px;
+/*font-size: 50px;*/
 font-weight: 700;
 }
 #genex-portfolio-section4 h4{
@@ -638,7 +638,7 @@ background:#b72314;
 #genex-portfolio-section4 .new h2{
 color: #fff;
 margin-bottom: 30px;
-font-size: 50px;
+/*font-size: 50px;*/
 font-weight: 700;
 }
 #genex-portfolio-section4 .new h4{
@@ -665,7 +665,7 @@ padding: 20%;
 #genex-portfolio-section5 h2{
 color: #fff;
 margin-bottom: 30px;
-font-size: 50px;
+/*font-size: 50px;*/
 font-weight: 700;
 }
 #genex-portfolio-section5 h4{
@@ -693,7 +693,7 @@ padding: 20%;
 #genex-portfolio-section6 h2{
 color: #fff;
 margin-bottom: 30px;
-font-size: 50px;
+/*font-size: 50px;*/
 font-weight: 700;
 }
 #genex-portfolio-section6 h4{
@@ -1048,11 +1048,12 @@ margin-bottom: 0px;
 font-size: 16px;
 }
 #huts-portfolio-section3 .text-holder{
-    padding: 15%;
+    padding: 8% 12%;
     background: #fff;
-    height: 656px;
+    height: auto;
     box-shadow: 5px 5px 10px 5px #66666678;
     background-color: white;
+    margin-bottom: 10%;
 }
 /* section4 */
 #huts-portfolio-section4{
@@ -1088,7 +1089,7 @@ font-weight: 700;
 }
 /* section6 */
 #huts-portfolio-section6{
-background-color:#798368;
+background-color:#74c044;
 padding: 5% 0 4% 0;
 }
 #huts-portfolio-section6 h2{
@@ -1103,7 +1104,7 @@ width: 90%;
 text-align:center;
 }
 #huts-portfolio-section6 .img-holder img{
-margin-bottom: 7%;
+margin-bottom: 4%;
 box-shadow: 3px 3px 10px 1px #00000061;
 
 }  

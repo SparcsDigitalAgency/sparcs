@@ -31,7 +31,7 @@ include_once('partials/header.php')
                      <h2 class="wow fadeInUp">Our Works</h2>
                      <p class="wow fadeInUp">At SPARCS work is an opportunity to re-imagine and to create fresh new relationships.
                      </p>
-                     <a href="#works-section2" class="btn btn-readmore wow fadeInUp">See more</a>
+                     <a href="#works-section2" id="workseemore" class="btn btn-readmore wow fadeInUp">See more</a>
                   </div>
                </div>
             </div>
@@ -45,7 +45,7 @@ include_once('partials/header.php')
 <!--==========================
    works section2
    ============================-->
-<section id="works-section2">
+<section id="works-section2" class="">
    <div class="container">
       
          <div class="row">

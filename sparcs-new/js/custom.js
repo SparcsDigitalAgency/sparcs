@@ -16,6 +16,13 @@ jQuery(document).ready(function( $ ) {
     return false;
   });
 
+  $("#workseemore").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#works-section2").offset().top
+    }, 1500, 'easeInOutExpo');
+});
+  
+
 
   // Initiate the wowjs animation library
   new WOW().init();

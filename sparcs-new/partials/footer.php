@@ -4,6 +4,7 @@
          <div class="col-lg-12">
             <div class="contact-content text-center">
                <h2 class="wow fadeInUp">Get In Touch</h2>
+               <p class="wow fadeInUp">Call: +91 88 48 78 47 32    |    info@sparcsdigital.com</p>
                <a href="<?php echo $path; ?>contact" class="btn btn-readmore wow fadeInUp">Talk to Us</a>
             </div>
          </div>

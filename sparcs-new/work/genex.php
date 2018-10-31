@@ -52,7 +52,7 @@
    portfolio  Section2
    ============================-->
 <section  id="genex-portfolio-section2">
-   <div class="container-fluid wow fadeIn">
+   <div class="container-fluid wow fadeInDown">
       <div class="row">
          <div class="img-holder auto-margin">
             <img src="<?php echo $path; ?>img/genex/tile.jpg" alt="" class="style2-pic img-responsive ">

@@ -32,7 +32,7 @@ include_once('partials/header.php')
                      <h2 class="wow fadeInUp">Driven by Design</h2>
                      <p class="wow fadeInUp">A responsive creative professional team of hands-on perfectionists.
                      </p>
-                     <a href="<?php echo $path; ?>works" class="btn btn-readmore wow fadeInUp">See Our Works</a>
+                     <a href="<?php echo $path; ?>works#works-section2" class="btn btn-readmore wow fadeInUp">See Our Works</a>
                   </div>
                </div>
             </div>

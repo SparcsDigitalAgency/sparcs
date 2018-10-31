@@ -55,7 +55,7 @@
             <div class="text-holder wow fadeInLeft padding-top20">
                <p class="text-muted">Story Boards</p>
                <h2>Speaking Walls</h2>
-               <p class="text-muted">A vintage look with a flowing line drawing style was customised for this client.The line drawings for the walls were directly printed on  thin veneers of wood using a sepia shade for an etched feel .Facsimile wooden frames were used for framing for an antique appeal. Paper placemats under the glass table-tops are about organic food choices with illustrations in the same signature style developed for this client. </p>
+               <p class="text-muted">A vintage look with a flowing line drawing style was customised for this client.The line drawings for the walls were directly printed on thin veneers of wood using a sepia shade for an etched feel. Facsimile wooden frames were used for framing for an antique appeal. </p>
             </div>
          </div>
          <div class="col-lg-4 col-md-6">
@@ -69,7 +69,7 @@
             </div>
          </div>
          <div class="col-lg-4 col-md-6">
-            <div class="img-holder wow fadeInLeft">
+            <div class="img-holder wow fadeInRight">
                <img src="<?php echo $path; ?>img/huts/painting3.jpg" class="img-responsive" >
             </div>
          </div>
@@ -84,7 +84,7 @@
             </div>
          </div>
          <div class="col-lg-4 col-md-6">
-            <div class="img-holder wow fadeInRight">
+            <div class="img-holder wow fadeInLeft">
                <img src="<?php echo $path; ?>img/huts/painting6.jpg" class="img-responsive">
             </div>
          </div>
@@ -103,6 +103,55 @@
 </section>
 <!--==========================
    end of portfolio  Section3
+   ============================-->
+
+   <!--==========================
+   portfolio section6
+   ============================-->
+<section id="huts-portfolio-section6" class="dark-section">
+   <div class="container">
+      <div class="row">
+         <div class="col-xs-12 col-md-8 auto-margin text-holder auto-margin  marginbottom">
+            <h2 class="wow fadeInUp">Speaking Tables</h2>
+            <p class="wow fadeInUp">With powerful content and appealing line illustrations, we effectively turned all earmarked surfaces, from table place mats to the wall decor, into educative messages about the benefits of Organic Agriculture & Food. This creative move also minimised expenditure. A vintage look with a flowing line drawing style was customised for this client.</p>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-md-6">
+            <div class="img-holder wow fadeInLeft">
+               <img src="<?php echo $path; ?>img/huts/table-mat1.jpg" class="img-responsive">
+            </div>
+         </div>
+         <div class="col-md-6">
+            <div class="img-holder wow fadeInRight">
+               <img src="<?php echo $path; ?>img/huts/table-mat2.jpg" class="img-responsive">
+            </div>
+         </div>
+         <div class="col-md-6">
+            <div class="img-holder wow fadeInLeft">
+               <img src="<?php echo $path; ?>img/huts/table-mat3.jpg" class="img-responsive" >
+            </div>
+         </div>
+         <div class="col-md-6">
+            <div class="img-holder wow fadeInRight">
+               <img src="<?php echo $path; ?>img/huts/table-mat4.jpg" class="img-responsive">
+            </div>
+         </div>
+         <div class="col-md-6">
+            <div class="img-holder wow fadeInLeft">
+               <img src="<?php echo $path; ?>img/huts/table-mat5.jpg" class="img-responsive" >
+            </div>
+         </div>
+         <div class="col-md-6">
+            <div class="img-holder wow fadeInRight">
+               <img src="<?php echo $path; ?>img/huts/table-mat6.jpg" class="img-responsive">
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!--==========================
+   end of portfolio  Section6
    ============================-->
 <!--==========================
    portfolio  Section4
@@ -135,7 +184,7 @@
    <div class="container">
       <div class="row">
          <div class="col-lg-6 auto-margin">
-            <div class="text-holder wow fadeInRight">
+            <div class="text-holder wow fadeInUp">
                <h2>SEO & Social Media</h2>
                <p>Managed Social Media accounts and Google Search was optimized to improve public acceptance of  Huts' 100% organic makeover.</p>
             </div>
@@ -149,7 +198,7 @@
          </div>
          <div class="col-lg-6">
             <div class="img-holder">
-               <img src="<?php echo $path; ?>img/huts/huts-google.jpg" class="img-responsive wow fadeInLeft">
+               <img src="<?php echo $path; ?>img/huts/huts-google.jpg" class="img-responsive wow fadeInRight">
             </div>
          </div>
       </div>
@@ -158,54 +207,7 @@
 <!--==========================
    end of portfolio  Section5
    ============================-->
-<!--==========================
-   portfolio section6
-   ============================-->
-<section id="huts-portfolio-section6" class="dark-section">
-   <div class="container">
-      <div class="row">
-         <div class="col-xs-12 col-md-8 auto-margin text-holder auto-margin  marginbottom">
-            <h2 class="wow fadeInUp">Speaking Tables</h2>
-            <p class="wow fadeInUp">With powerful content and appealing line illustrations, we effectively turned all earmarked surfaces, from table place mats to the wall decor, into educative messages about the benefits of Organic Agriculture & Food. This creative move also minimised expenditure. A vintage look with a flowing line drawing style was customised for this client.The line drawings for the walls were directly printed on thin veneers of wood using a sepia shade for an etched feel. Facsimile wooden frames were used for framing for an antique appeal.</p>
-         </div>
-      </div>
-      <div class="row">
-         <div class="col-lg-4 col-md-6">
-            <div class="img-holder wow fadeInLeft">
-               <img src="<?php echo $path; ?>img/huts/table-mat1.jpg" class="img-responsive">
-            </div>
-         </div>
-         <div class="col-lg-4 col-md-6">
-            <div class="img-holder wow fadeInLeft">
-               <img src="<?php echo $path; ?>img/huts/table-mat2.jpg" class="img-responsive">
-            </div>
-         </div>
-         <div class="col-lg-4 col-md-6">
-            <div class="img-holder wow fadeInLeft">
-               <img src="<?php echo $path; ?>img/huts/table-mat3.jpg" class="img-responsive" >
-            </div>
-         </div>
-         <div class="col-lg-4 col-md-6">
-            <div class="img-holder wow fadeInRight">
-               <img src="<?php echo $path; ?>img/huts/table-mat4.jpg" class="img-responsive">
-            </div>
-         </div>
-         <div class="col-lg-4 col-md-6">
-            <div class="img-holder wow fadeInRight">
-               <img src="<?php echo $path; ?>img/huts/table-mat5.jpg" class="img-responsive" >
-            </div>
-         </div>
-         <div class="col-lg-4 col-md-6">
-            <div class="img-holder wow fadeInRight">
-               <img src="<?php echo $path; ?>img/huts/table-mat6.jpg" class="img-responsive">
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
-<!--==========================
-   end of portfolio  Section6
-   ============================-->
+
 <!--==========================
    Footer
    ============================-->
