@@ -52,9 +52,8 @@
       <div class="row">
          <div class="col-lg-5">
             <div class="text-holder wow fadeInLeft paddingtop300">
-               <p class="text-muted">Story Boards</p>
-               <h2>Interior Designs.</h2>
-               <p class="text-muted">With powerful content and appealing illustrations,turning  all earmarked surfaces  from table mats to the wall decor  into educative messages about the benefits of Organic Agriculture & Food .</p>
+               <h2>Print Designs.</h2>
+               <p class="text-muted">Designed attractive invites, fliers.. etc to encourage public to switch over to safe organic options in food & other home products. Generic label for certain sets of products were re-designed to reflect a distinct earthy aesthetic.</p>
             </div>
          </div>
          <div class="col-lg-7">
@@ -74,19 +73,19 @@
 <section id="lumiere-portfolio-section3">
    <div class="container">
       <div class="row">
-         <div class="col-md-12 text-holder auto-margin wow fadeIn">
+         <div class="col-md-8 col-sm-12 text-holder auto-margin wow fadeIn">
             <h2>Wall Illustrations</h2>
-            <p>The simplicity of swiping increases user engagement. Swipe right to save a trip and left to discard a trip.</p>
+            <p> We chose to illustrate this text using the entire 360 degrees wallspace above shelf height in a freehand playful style to appeal to families with children about the benefits of Organic Food & Agriculture.</p>
          </div>
       </div>
    </div>
    <div class="">
       <div class=" auto-margin lumiere-slider">
          <div>
-            <img src="<?php echo $path; ?>img/lumiere/slider-1.jpg">
+            <img src="<?php echo $path; ?>img/lumiere/slider-2.jpg">
          </div>
          <div>
-            <img src="<?php echo $path; ?>img/lumiere/slider-2.jpg">
+            <img src="<?php echo $path; ?>img/lumiere/slider-1.jpg">
          </div>
          <div>
             <img src="<?php echo $path; ?>img/lumiere/slider-3.jpg">
@@ -114,9 +113,8 @@
       <div class="row">
          <div class="col-lg-5">
             <div class="text-holder wow fadeInLeft paddingtop300">
-               <p class="text-muted">Story Boards</p>
-               <h2>Interior Designs.</h2>
-               <p class="text-muted">With powerful content and appealing illustrations,turning  all earmarked surfaces  from table mats to the wall decor  into educative messages about the benefits of Organic Agriculture & Food .</p>
+               <h2>Paper Pylon.</h2>
+               <p class="text-muted">Eco friendly collapsible Pylons where paper replaced flex, were designed to be used in pop-up stalls.</p>
             </div>
          </div>
          <div class="col-lg-7">

@@ -83,23 +83,23 @@
          </div>
          <div class="col-lg-6 paddingsides80">
             <div class="portfolio-section-textholder">
-               <img src="../img/wordnet/logo.png" alt="" class="img-responsive wow fadeInLeft">
+               <img src="../img/wordnet/logo.png" alt="" class="img-responsive wow fadeInRight">
             </div>
             <div class="portfolio-section-textholder wow fadeInRight">
                <div class="icon"><i class="fa fa-check-circle"></i></div>
-               <p class="description">Giving the site a modern ,clear cut fresh appeal meeting client preferences on middle ground.</p>
+               <p class="description">Designed and Developed a Responsive Website for WordNet based on Wordpress framework with frontend technology matching top notch industry standards.</p>
             </div>
             <div class="portfolio-section-textholder wow fadeInRight">
                <div class="icon"><i class="fa fa-check-circle"></i></div>
-               <p class="description">Correcting serious errors in product showcasing by  redesigning site all over on Wordpress framework.</p>
+               <p class="description">Created Shopping Cart for sale of WordNet goods with Integrated Payment Gateway.</p>
             </div>
             <div class="portfolio-section-textholder wow fadeInRight">
                <div class="icon"><i class="fa fa-check-circle"></i></div>
-               <p class="description">Converting static pages to Content Management System(CMS) by which Client is enabled to keep adding new products from backend.</p>
+               <p class="description">Created an event calendar for displaying wordnet events.</p>
             </div>
             <div class="portfolio-section-textholder wow fadeInRight">
                <div class="icon"><i class="fa fa-check-circle"></i></div>
-               <p class="description">Writing Content afresh adding catchy copy to attractive sliders drawing consumer attention to products.</p>
+               <p class="description">Developed program-wise episodes listing with play option.</p>
             </div>
          </div>
       </div>
@@ -110,7 +110,7 @@
 
 <section id="wordnet-portfolio-section5" class="no-padding">
    <div class="container-fluid no-padding">
-      <img src="<?php echo $path; ?>img/wordnet/tile-wordnet.jpg" alt="" class="img-responsive">
+      <img src="<?php echo $path; ?>img/wordnet/tile-wordnet.jpg" alt="" class="img-responsive wow fadeIn">
    </div>
 </section>
 <!--==========================
@@ -119,31 +119,31 @@
 <section id="wordnet-portfolio-section1" class="">
    <div class="container">
    <div class="row">
-      <div class="col-xs-12 col-md-8 auto-margin text-holder auto-margin wow fadeIn marginbottom">
-         <h2>WordNet TV Identity </h2>
-         <p>To visually sum up the identity of Wordnet TV as a digital evangelising platform through which the Divine Word of God is spread like a gift across the globe, we developed the logo using the image of the gift ribbon. </p>
-         <p>In the contrast color  of sunshine yellow, it travels around and across a spinning blue globe set on a starry sky in a slightly asymmetric way expressing the feeling of being securely held and protected while also evoking the image of the Holy Cross.</p>
+      <div class="col-xs-12 col-md-8 auto-margin text-holder auto-margin  marginbottom">
+         <h2 class="wow fadeInUp">Evolution of an Identity </h2>
+         <p class="wow fadeInUp">To visually sum up the identity of Wordnet TV as a digital evangelising platform through which the Divine Word of God is spread like a gift across the globe, we developed the logo using the image of the gift ribbon. </p>
+         <p class="wow fadeInUp">In the contrast color  of sunshine yellow, it travels around and across a spinning blue globe set on a starry sky in a slightly asymmetric way expressing the feeling of being securely held and protected while also evoking the image of the Holy Cross.</p>
       </div>
    </div>
    <div class="row">
-      <div class="col-lg-4 no-padding">
+      <div class="col-lg-4 no-padding wow fadeInUp">
          <div class="img-holder">
             <img src="<?php echo $path; ?>img/wordnet/scribble.jpg" alt="" class="img-responsive">
          </div>
       </div>
-      <div class="col-lg-4 no-padding">
+      <div class="col-lg-4 no-padding wow fadeInUp">
          <div class="img-holder">
             <img src="<?php echo $path; ?>img/wordnet/wireframe.jpg" alt="" class="img-responsive">
          </div>
       </div>
-      <div class="col-lg-4 no-padding">
+      <div class="col-lg-4 no-padding wow fadeInUp">
          <div class="img-holder">
             <img src="<?php echo $path; ?>img/wordnet/logo.jpg" alt="" class="img-responsive">
          </div>
       </div>
    </div>
    <div class="row">
-      <div class="col-lg-12 no-padding text-center y-video">
+      <div class="col-lg-12 no-padding text-center y-video wow fadeInUp">
          <iframe width="100%" height="700" src="https://www.youtube.com/embed/2QURjCh9xqo?controls=0&rel=0&showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </div>
    </div>

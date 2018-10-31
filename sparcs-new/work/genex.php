@@ -27,23 +27,19 @@
          <div class="col-lg-6 paddingsides80">
             <div class="portfolio-section-textholder">
                <img src="<?php echo $path; ?>img/genex/genex-logo-w.png" alt="" class="img-responsive wow fadeInLeft">
-               <p class="wow fadeInRight ">Branding and Web Development with good UX/UI features for a Security Products Company with a wide range of product options.</p>
+               <p class="wow fadeInRight ">Branding and Web Development with visually appealing modern design for GenX, a Security Products Company with a wide range of product options.</p>
             </div>
             <div class="portfolio-section-textholder wow fadeInRight">
                <div class="icon"><i class="fa fa-check-circle"></i></div>
-               <p class="description">Giving the Home Page the feel of a real window to the most attractive panoramic views of  well known Christian Pilgrimage sites.</p>
+               <p class="description">Designed and Developed a Responsive Website  based on Wordpress framework with frontend technology matching top notch industry standards.</p>
             </div>
             <div class="portfolio-section-textholder wow fadeInRight">
                <div class="icon"><i class="fa fa-check-circle"></i></div>
-               <p class="description">Making Pilgrimage packages visually attractive and user friendly.</p>
+               <p class="description">Converting static pages to Content Management System(CMS) by which Client is enabled to keep adding new products from backend.</p>
             </div>
             <div class="portfolio-section-textholder wow fadeInRight">
                <div class="icon"><i class="fa fa-check-circle"></i></div>
-               <p class="description">Ensuring  that fully validated sign up forms open smoothly  in accordance with the number or travelers clicked.</p>
-            </div>
-            <div class="portfolio-section-textholder wow fadeInRight">
-               <div class="icon"><i class="fa fa-check-circle"></i></div>
-               <p class="description">Ensuring that the completed booking forms are well integrated with the payment portal for hassle free remittance.</p>
+               <p class="description">Content writing aimed at drawing consumer attention to products.</p>
             </div>
          </div>
       </div>
@@ -56,10 +52,10 @@
    portfolio  Section2
    ============================-->
 <section  id="genex-portfolio-section2">
-   <div class="container-fluid wow fadeInDown">
+   <div class="container-fluid wow fadeIn">
       <div class="row">
          <div class="img-holder auto-margin">
-            <img src="<?php echo $path; ?>img/genex/tile.jpg" alt="" class="style2-pic img-responsive " data-wow-duration="2s">
+            <img src="<?php echo $path; ?>img/genex/tile.jpg" alt="" class="style2-pic img-responsive ">
          </div>
       </div>
    </div>
@@ -76,16 +72,16 @@
       <div class="row ">
          <div class="col-lg-12">
             <div class="text-holder auto-margin wow fadeIn text-center">
-               <h2>Branding</h2>
-               <p>Print Media Designs for Shop Board, Business Cards, Letterhead were part of the branding.The original identity of the company looked static and did not reflect the active nature of the security products it was selling.</p>
+               <h2>Branding & Identity</h2>
+               <p>Identity was effectively redesigned to reflect the aggressive character of the products. Print Media Designs for Shop Board, Business Cards, Letterhead were part of the branding.</p>
             </div>
          </div>
       </div>
       <div class="row no-gutters new">
          <div class="col-lg-6 bg-red">
             <div class="text-holder2 wow fadeIn text-center">
-               <h2>Logo Identity</h2>
-               <p>Our redesign reflected the function of  of GenX’s products to deflect and protect in its branding by using sharp highly dynamic strongly diagonal lines and incorporating the image of a shield stylised minimally but dramatically.</p>
+               <h2>Re-imaging GenX</h2>
+               <p>The original identity of the company looked static and did not reflect the active nature of the security products it was selling.</P><P>Our redesign reflected the function of  of GenX’s products to deflect and protect in its branding by using sharp highly dynamic strongly diagonal lines and incorporating the image of a shield stylised minimally but dramatically.</p>
             </div>
          </div>
          <div class="col-lg-6">
@@ -121,7 +117,7 @@
          <div class="col-lg-6 bg-red">
             <div class="text-holder wow fadeIn text-center">
                <h2>Brochure</h2>
-               <p>When Gen X diversified into Smart Homes Technological Applications it was new in the local market.We created brochures to popularise and sell the concept as well as ads for glossy magazines.</p>
+               <p>When Gen X diversified into Smart Homes Technological Applications it was new in the local market.We created brochures to popularise and sell the concept.</p>
             </div>
          </div>
          <div class="col-lg-6">
@@ -129,6 +125,30 @@
                <img src="<?php echo $path; ?>img/genex/pic1.jpg" alt="" class="img-responsive wow fadeIn" style="">
             </div>
          </div>
+      </div>
+   </div>
+</section>
+<!--==========================
+   end of portfolio section5
+   ============================-->
+   <!--==========================
+   portfolio section5
+   ============================-->
+<section id="genex-portfolio-section6">
+   <div class="container no-padding">
+      <div class="row no-gutters">
+         <div class="col-lg-6">
+            <div class="img-holder auto-margin wow fadeIn">
+               <img src="<?php echo $path; ?>img/genex/pic4.jpg" alt="" class="img-responsive wow fadeIn" style="">
+            </div>
+         </div>
+         <div class="col-lg-6 bg-red">
+            <div class="text-holder wow fadeIn text-center">
+               <h2>Magazine Ads</h2>
+               <p>Attractive ads showcasing GenX products were designed for high end magazines.</p>
+            </div>
+         </div>
+         
       </div>
    </div>
 </section>

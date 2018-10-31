@@ -46,35 +46,18 @@
    end of portfolio  Section1
    ============================-->
 <!--==========================
-   portfolio  Section2
-   ============================-->
-<section id="huts-portfolio-section2" >
-   <div class="container">
-      <div class="row">
-         <div class="col-lg-6">
-            <div class="text-holder wow fadeInLeft padding-top20">
-               <p class="text-muted">Story Boards</p>
-               <h2>Interior Designs.</h2>
-               <p class="text-muted">With powerful content and appealing illustrations,turning  all earmarked surfaces  from table mats to the wall decor  into educative messages about the benefits of Organic Agriculture & Food .</p>
-            </div>
-         </div>
-         <div class="col-lg-6">
-            <div class="img-holder text-right">
-               <img src="<?php echo $path; ?>img/huts/painting.jpg" class="img-responsive wow fadeInRight auto-margin" >
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
-<!--==========================
-   end of portfolio  Section2
-   ============================-->
-<!--==========================
    portfolio  Section3
    ============================-->
 <section id="huts-portfolio-section3" style="background-image:url(<?php echo $path; ?>img/huts/wall-bg.jpg);">
    <div class="container">
       <div class="row">
+         <div class="col-lg-4 col-md-6">
+            <div class="text-holder wow fadeInLeft padding-top20">
+               <p class="text-muted">Story Boards</p>
+               <h2>Speaking Walls</h2>
+               <p class="text-muted">A vintage look with a flowing line drawing style was customised for this client.The line drawings for the walls were directly printed on  thin veneers of wood using a sepia shade for an etched feel .Facsimile wooden frames were used for framing for an antique appeal. Paper placemats under the glass table-tops are about organic food choices with illustrations in the same signature style developed for this client. </p>
+            </div>
+         </div>
          <div class="col-lg-4 col-md-6">
             <div class="img-holder wow fadeInLeft">
                <img src="<?php echo $path; ?>img/huts/painting1.jpg" class="img-responsive">
@@ -131,7 +114,7 @@
             <div class="text-holder wow fadeInLeft padding-top20">
                <p class="text-muted">Menu Boards</p>
                <h2>Appealing illustrations</h2>
-               <p class="text-muted">With powerful content and appealing illustrations,turning  all earmarked surfaces  from table mats to the wall decor  into educative messages about the benefits of Organic Agriculture & Food .</p>
+               <p class="text-muted">The Menu as also a Public notice announcing the rededication of HUTS and it's changeover into a 100% Organic restaurant to old loyal patrons followed the same vintage look with signature line drawing style customised for this client.</p>
             </div>
          </div>
          <div class="col-lg-6">
@@ -151,14 +134,22 @@
 <section id="huts-portfolio-section5" >
    <div class="container">
       <div class="row">
+         <div class="col-lg-6 auto-margin">
+            <div class="text-holder wow fadeInRight">
+               <h2>SEO & Social Media</h2>
+               <p>Managed Social Media accounts and Google Search was optimized to improve public acceptance of  Huts' 100% organic makeover.</p>
+            </div>
+         </div>
+      </div>
+      <div class="row">
          <div class="col-lg-6">
             <div class="img-holder">
-               <img src="<?php echo $path; ?>img/huts/hut-fb.png" class="img-responsive wow fadeInLeft">
+               <img src="<?php echo $path; ?>img/huts/huts-facebook.jpg" class="img-responsive wow fadeInLeft">
             </div>
          </div>
          <div class="col-lg-6">
-            <div class="text-holder wow fadeInRight">
-               <h2>Managed Social Media including Facebook , Instagram and Google Plus that improved public reception to the makeover to 100% Organic.</h2>
+            <div class="img-holder">
+               <img src="<?php echo $path; ?>img/huts/huts-google.jpg" class="img-responsive wow fadeInLeft">
             </div>
          </div>
       </div>
@@ -173,12 +164,41 @@
 <section id="huts-portfolio-section6" class="dark-section">
    <div class="container">
       <div class="row">
-         <div class="img-holder auto-margin" >
-            <img src="<?php echo $path; ?>img/huts/tabletops-fin.jpg" alt="" class="style2-pic img-responsive wow " data-wow-duration="2s">
+         <div class="col-xs-12 col-md-8 auto-margin text-holder auto-margin  marginbottom">
+            <h2 class="wow fadeInUp">Speaking Tables</h2>
+            <p class="wow fadeInUp">With powerful content and appealing line illustrations, we effectively turned all earmarked surfaces, from table place mats to the wall decor, into educative messages about the benefits of Organic Agriculture & Food. This creative move also minimised expenditure. A vintage look with a flowing line drawing style was customised for this client.The line drawings for the walls were directly printed on thin veneers of wood using a sepia shade for an etched feel. Facsimile wooden frames were used for framing for an antique appeal.</p>
          </div>
-         <div class="wow fadeIn absolute paddingtext" >
-            <h2>Swipe right</h2>
-            <p>The simplicity of swiping increases user engagement. Swipe right to save a trip and left to discard a trip.</p>
+      </div>
+      <div class="row">
+         <div class="col-lg-4 col-md-6">
+            <div class="img-holder wow fadeInLeft">
+               <img src="<?php echo $path; ?>img/huts/table-mat1.jpg" class="img-responsive">
+            </div>
+         </div>
+         <div class="col-lg-4 col-md-6">
+            <div class="img-holder wow fadeInLeft">
+               <img src="<?php echo $path; ?>img/huts/table-mat2.jpg" class="img-responsive">
+            </div>
+         </div>
+         <div class="col-lg-4 col-md-6">
+            <div class="img-holder wow fadeInLeft">
+               <img src="<?php echo $path; ?>img/huts/table-mat3.jpg" class="img-responsive" >
+            </div>
+         </div>
+         <div class="col-lg-4 col-md-6">
+            <div class="img-holder wow fadeInRight">
+               <img src="<?php echo $path; ?>img/huts/table-mat4.jpg" class="img-responsive">
+            </div>
+         </div>
+         <div class="col-lg-4 col-md-6">
+            <div class="img-holder wow fadeInRight">
+               <img src="<?php echo $path; ?>img/huts/table-mat5.jpg" class="img-responsive" >
+            </div>
+         </div>
+         <div class="col-lg-4 col-md-6">
+            <div class="img-holder wow fadeInRight">
+               <img src="<?php echo $path; ?>img/huts/table-mat6.jpg" class="img-responsive">
+            </div>
          </div>
       </div>
    </div>

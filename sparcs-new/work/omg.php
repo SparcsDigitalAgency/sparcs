@@ -26,7 +26,7 @@
          </div>
          <div class="col-lg-6 paddingsidestop80">
             <div class="portfolio-section-textholder">
-               <img src="<?php echo $path; ?>img/omg/logo-w.png" alt="" class="img-responsive wow fadeInLeft">
+               <img src="<?php echo $path; ?>img/omg/logo-w.png" alt="" class="img-responsive wow fadeInRight">
                <h2 class=" wow fadeInRight">One More Game</h2>
                <p class="wow fadeInRight ">Built a responsive site with a trendy understated Gothic appeal using the the Brand colors of Black & Acid Green customised for the client.</p>
             </div>
@@ -50,7 +50,7 @@
    ============================-->
 <section id="omg-portfolio-section2" class="no-padding">
    <div class="container-fluid no-padding">
-      <img src="<?php echo $path; ?>img/omg/sheets.jpg" alt="" class="img-responsive">
+      <img src="<?php echo $path; ?>img/omg/sheets.jpg" alt="" class="img-responsive wow fadeIn">
    </div>
 </section>
 <!--==========================
@@ -63,23 +63,23 @@
    <div class="container">
       <div class="row">
          <div class="col-xs-12 col-md-8 auto-margin text-holder auto-margin wow fadeIn marginbottom" >
-            <h2>Branding Identity</h2>
-            <p> Designed an exciting  Logo that while playing with the letters that form the name is also a visual pun on the joystick epitomising the whole activity  of Gaming .</p>
+            <h2 class="wow fadeInUp">Branding Identity</h2>
+            <p class="wow fadeInUp"> Designed an exciting  Logo that while playing with the letters that form the name is also a visual pun on the joystick epitomising the whole activity  of Gaming .</p>
          </div>
       </div>
       <div class="row">
          <div class="col-md-4  no-padding ">
-            <div class="img-holder">
+            <div class="img-holder wow fadeInUp">
                <img src="<?php echo $path; ?>img/omg/omg-scribble.jpg" alt="" class="img-responsive">
             </div>
          </div>
          <div class="col-md-4  no-padding ">
-            <div class="img-holder">
+            <div class="img-holder wow fadeInUp">
                <img src="<?php echo $path; ?>img/omg/omg-logo.jpg" alt="" class="img-responsive">
             </div>
          </div>
          <div class="col-md-4  no-padding ">
-            <div class="img-holder">
+            <div class="img-holder wow fadeInUp">
                <img src="<?php echo $path; ?>img/omg/omg-logo-sticker.jpg" alt="" class="img-responsive">
             </div>
          </div>
@@ -96,45 +96,45 @@
    <div class="container-fluid cf-padding">
       <div class="row">
          <div class="col-md-12 auto-margin text-holder auto-margin wow fadeIn paddingbottom">
-            <p>Brochure Design, business card and other print materials using the same visual style .</p>
+            <p class="wow fadeInUp">Brochure Design, business card and other print materials using the same visual style .</p>
          </div>
          <div class="col-lg-4 col-md-12 no-padding">
-            <div class="img-holder">
+            <div class="img-holder wow fadeInUp">
                <img src="<?php echo $path; ?>img/omg/brochure-1.jpg" alt="" class="img-responsive">
             </div>
          </div>
          <div class="col-lg-4 col-md-12 no-padding">
-            <div class="img-holder">
+            <div class="img-holder wow fadeInUp">
                <img src="<?php echo $path; ?>img/omg/brochure-2.jpg" alt="" class="img-responsive">
             </div>
          </div>
          <div class="col-lg-4 col-md-12 no-padding">
-            <div class="img-holder">
+            <div class="img-holder wow fadeInUp">
                <img src="<?php echo $path; ?>img/omg/brochure-3.jpg" alt="" class="img-responsive">
             </div>
          </div>
          <div class="col-lg-4 col-md-12 no-padding">
-            <div class="img-holder">
+            <div class="img-holder wow fadeInUp">
                <img src="<?php echo $path; ?>img/omg/brochure-4.jpg" alt="" class="img-responsive">
             </div>
          </div>
          <div class="col-lg-4 col-md-12 no-padding">
-            <div class="img-holder">
+            <div class="img-holder wow fadeInUp">
                <img src="<?php echo $path; ?>img/omg/brochure-5.jpg" alt="" class="img-responsive">
             </div>
          </div>
          <div class="col-lg-4 col-md-12 no-padding">
-            <div class="img-holder">
+            <div class="img-holder wow fadeInUp">
                <img src="<?php echo $path; ?>img/omg/brochure-6.jpg" alt="" class="img-responsive">
             </div>
          </div>
          <div class="col-lg-6 no-padding">
-            <div class="img-holder">
+            <div class="img-holder wow fadeInUp">
                <img src="<?php echo $path; ?>img/omg/brand-meterial-01.jpg" alt="" class="img-responsive">
             </div>
          </div>
          <div class="col-lg-6 no-padding">
-            <div class="img-holder">
+            <div class="img-holder wow fadeInUp">
                <img src="<?php echo $path; ?>img/omg/brand-meterial-02.jpg" alt="" class="img-responsive">
             </div>
          </div>

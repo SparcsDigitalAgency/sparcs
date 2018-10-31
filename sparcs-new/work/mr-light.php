@@ -19,12 +19,12 @@
 <section id="mrlight-portfolio-section1">
    <div class="container">
       <div class="row">
-         <div class="text-holder auto-margin wow fadeIn">
+         <div class="text-holder auto-margin wow fadeInUp">
             <h2>Mr.Light</h2>
             <p><b>Re-imaging  MrLightGlobal -</b> The inspiring story of a daring entrepreneurship that was looking <br>for a website revamp to reflect its Global Aspirations.</p>
          </div>
          <div class="img-holder auto-margin">
-            <img src="<?php echo $path; ?>img/mrlight/mrlight-1.png" alt="" class="style2-pic img-responsive wow zoomIn" data-wow-duration="2s">
+            <img src="<?php echo $path; ?>img/mrlight/mrlight-1.png" alt="" class="style2-pic img-responsive wow fadeInUp" data-wow-duration="2s">
          </div>
       </div>
    </div>
@@ -45,7 +45,7 @@
          </div>
          <div class="col-lg-6 paddingsides80">
             <div class="portfolio-section-textholder">
-               <img src="../img/mrlight/mrlight-logo.png" alt="" class="img-responsive wow fadeInLeft">
+               <img src="../img/mrlight/mrlight-logo.png" alt="" class="img-responsive wow fadeInRight">
             </div>
             <div class="portfolio-section-textholder wow fadeInRight">
                <div class="icon"><i class="fa fa-check-circle"></i></div>
@@ -76,9 +76,9 @@
 <section id="mrlight-portfolio-section3">
    <div class="container">
       <div class="row">
-         <div class="text-holder auto-margin wow fadeIn">
-            <h2>Re-imaging  MrLightGlobal</h2>
-            <p>The inspiring story of a daring entrepreneurship that was looking <br>for a website revamp to reflect its Global Aspirations.</p>
+         <div class="text-holder auto-margin ">
+            <h2 class="wow fadeInUp">Re-imaging  MrLightGlobal</h2>
+            <p class="wow fadeInUp">The inspiring story of a daring entrepreneurship that was looking <br>for a website revamp to reflect its Global Aspirations.</p>
          </div>
          <div class="img-holder auto-margin">
             <img src="<?php echo $path; ?>img/mrlight/mrlight-screens.png" alt="" class="style2-pic img-responsive wow zoomIn" data-wow-duration="2s">

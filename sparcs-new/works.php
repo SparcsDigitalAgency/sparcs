@@ -50,7 +50,7 @@ include_once('partials/header.php')
       
          <div class="row">
             <div class="col-lg-6 items">
-               <div class="portfolio-item white">
+               <div class="portfolio-item white wow fadeInLeft">
                   <a href="<?php echo $path ?>work/wordnet" class="portfolio-popup">
                      <div class="texts">
                         <div class="texts-head">
@@ -65,7 +65,7 @@ include_once('partials/header.php')
             </div>
             
             <div class="col-lg-6 items">
-               <div class="portfolio-item black">
+               <div class="portfolio-item black wow fadeInRight">
                   <a href="<?php echo $path ?>work/mr-light" class="portfolio-popup">
                         
                      <div class="texts">
@@ -80,7 +80,7 @@ include_once('partials/header.php')
                </div>
             </div>
             <div class="col-lg-6 items">
-               <div class="portfolio-item black">
+               <div class="portfolio-item black wow fadeInLeft">
                   <a href="<?php echo $path ?>work/quovadis" class="portfolio-popup">
                      <div class="texts">
                         <div class="texts-head">
@@ -94,7 +94,7 @@ include_once('partials/header.php')
                </div>
             </div>
             <div class="col-lg-6 items">
-               <div class="portfolio-item white">
+               <div class="portfolio-item white wow fadeInRight">
                   <a href="<?php echo $path ?>work/omg" class="portfolio-popup">
                      <div class="texts">
                         <div class="texts-head">
@@ -108,7 +108,7 @@ include_once('partials/header.php')
                </div>
             </div>
             <div class="col-lg-6 items">
-               <div class="portfolio-item black">
+               <div class="portfolio-item black wow fadeInLeft">
                   <a href="<?php echo $path ?>work/genex" class="portfolio-popup">
                         
                      <div class="texts">
@@ -123,7 +123,7 @@ include_once('partials/header.php')
                </div>
             </div>
             <div class="col-lg-6 items">
-               <div class="portfolio-item white">
+               <div class="portfolio-item white wow fadeInRight">
                   <a href="<?php echo $path ?>work/gloria" class="portfolio-popup">
                      <div class="texts">
                         <div class="texts-head">
@@ -137,7 +137,7 @@ include_once('partials/header.php')
                </div>
             </div>
             <div class="col-lg-6 items">
-               <div class="portfolio-item black">
+               <div class="portfolio-item black wow fadeInLeft">
                   <a href="<?php echo $path ?>work/lumiere" class="portfolio-popup">
                      <div class="texts">
                         <div class="texts-head">
@@ -152,7 +152,7 @@ include_once('partials/header.php')
             </div>
 
             <div class="col-lg-6 items">
-               <div class="portfolio-item black">
+               <div class="portfolio-item black wow fadeInRight">
                   <a href="<?php echo $path ?>work/huts" class="portfolio-popup">
                      <div class="texts">
                         <div class="texts-head">

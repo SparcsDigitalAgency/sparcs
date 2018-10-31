@@ -28,7 +28,7 @@ include_once('partials/header.php')
                <div class="carousel-container">
                   <div class="carousel-content " style="width: 70%">
                      <h2 class="wow fadeInUp">Company</h2>
-                     <p class="wow fadeInUp">SPARCS has over 15 years of rich experience with loyal, long term client relationships.We deliver high quality, reliable and affordable services to our customers globally:<br>Creative Campaigns, Website Design & Development, Mobile App/OTT Development, Branding and Digital Marketing, Content Development and more ...
+                     <p class="wow fadeInUp">SPARCS has over 15 years of rich experience with loyal, long term client relationships.We deliver high quality, reliable and affordable services to our customers globally:<br>Creative Campaigns, Website Design & Development, Mobile App/OTT Development, Branding and Digital Marketing, Content Development and more...
                      </p>
                      <a href="<?php echo $path; ?>works" class="btn btn-readmore wow fadeInUp">See Our Works</a>
                   </div>
@@ -52,7 +52,7 @@ include_once('partials/header.php')
          <div class="col-lg-6">
             <div class="text-holder wow fadeInLeft">
                <h2> Sparcs is a Full Service Provider.</h2>
-               <p>We offer Integrated UX Development, Live Streaming/Webcast, Branding & Digital Marketing Solutions, Mobile App/ OTT Development, Content Development and whatever it takes to provide apt solutions to grow your business.</p>
+               <p>We offer Integrated UI/UX Development, Live Streaming/Webcasting, Branding & Digital Marketing Solutions, Mobile App/ OTT Development, Content Development and whatever it takes to provide apt solutions to grow your business.</p>
                
             </div>
          </div>
@@ -86,8 +86,8 @@ include_once('partials/header.php')
                      <div class="fbox-icon">
                         <i class="fa fa-coffee"></i>
                      </div>
-                     <h3>Brainstorm mode on!</h3>
-                     <p>Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
+                     <h3>Brainstorm</h3>
+                     <p>In a typical Sparcs free-for-all, think-tank session, amazing solutions always come up in response to Your needs.</p>
                   </div>
                </div>
                <div class="col-lg-10 col-md-6 bottommargin">
@@ -95,8 +95,8 @@ include_once('partials/header.php')
                      <div class="fbox-icon">
                         <i class="fa fa-cubes"></i>
                      </div>
-                     <h3>Wireframes finalised?</h3>
-                     <p>Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
+                     <h3>Design</h3>
+                     <p>Wireframes are swiftly finalised and that is when You step in again to take a look at the mock up of Your Key pages.</p>
                   </div>
                </div>
                <div class="col-lg-10 col-md-6 bottommargin">
@@ -104,8 +104,8 @@ include_once('partials/header.php')
                      <div class="fbox-icon">
                         <i class="fa fa-question-circle"></i>
                      </div>
-                     <h3>Satisfied?</h3>
-                     <p>Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
+                     <h3>Develope</h3>
+                     <p>With Your feedback we finetune solutions and get down to deployment using the best & latest in technology.</p>
                   </div>
                </div>
                <div class="col-lg-10 col-md-6">
@@ -113,8 +113,8 @@ include_once('partials/header.php')
                      <div class="fbox-icon">
                         <i class="fa fa-handshake-o"></i>
                      </div>
-                     <h3>On time and just right.</h3>
-                     <p>Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
+                     <h3>Deliver</h3>
+                     <p>Our greatest moment at Sparcs is the hand-over  of a  fully functional final product to you.</p>
                   </div>
                </div>
             </div>
@@ -144,8 +144,8 @@ include_once('partials/header.php')
          <div class="col-lg-6">
             <div class="text-holder wow fadeInLeft">
                <p class="text-muted" style="margin-bottom:2%">Our Team</p>
-               <h2>Sparcs is a 'What If Team...?</h2>
-               <p class="text-muted">of problem solvers who are game to search out solutions anywhere!Even in unusual places.By disposition we are Art Lovers who are also highly motivated innovative UX Designers, Graphic Designers, Web Developers, SEO Specialists, Content Writers and Professional Photographers.</p>
+               <h2>Sparcs is a<br> 'What if team of problem solvers'</h2>
+               <p class="text-muted"> who are game to search out solutions anywhere! even in unusual places.By disposition we are Art Lovers who are also highly motivated innovative Designers, Developers, SEO Specialists and Content Writers.</p>
             </div>
          </div>
          <div class="col-lg-6">

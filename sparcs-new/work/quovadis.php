@@ -26,7 +26,7 @@
          </div>
          <div class="col-lg-6 paddingsides80">
             <div class="portfolio-section-textholder wow fadeInRight">
-               <img src="<?php echo $path; ?>img/quovadis/quovadis-logo.png" alt="" class="img-responsive wow fadeInLeft">
+               <img src="<?php echo $path; ?>img/quovadis/quovadis-logo.png" alt="" class="img-responsive wow fadeInRight">
                <p class="wow fadeInRight " >A brand new website for a US based Travel Company that speaks to Devotional Christian Hearts ,the world over </p>
             </div>
             <div class="portfolio-section-textholder wow fadeInRight">
