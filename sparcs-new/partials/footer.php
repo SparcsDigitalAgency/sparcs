@@ -4,7 +4,7 @@
          <div class="col-lg-12">
             <div class="contact-content text-center">
                <h2 class="wow fadeInUp">Get In Touch</h2>
-               <p class="wow fadeInUp">Call: +91 88 48 78 47 32    |    info@sparcsdigital.com</p>
+               <p class="wow fadeInUp">Call: +91 88 48 78 47 32 &nbsp; | &nbsp; info@sparcsdigital.com</p>
                <a href="<?php echo $path; ?>contact" class="btn btn-readmore wow fadeInUp">Talk to Us</a>
             </div>
          </div>
@@ -35,7 +35,7 @@
       <div class="row">
          <div class="col-lg-12">
             <div class="copyright wow fadeInUp text-center">
-               <p class="wow fadeInUp" style="margin-top: 50px;margin-bottom: 10px">Follow Us:</p>
+               <p class="wow fadeInUp" >Follow Us:</p>
                <div class="social-links" style="margin-bottom: 10px">
                   <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
                   <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
