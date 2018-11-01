@@ -15,28 +15,22 @@
 include_once('partials/header.php')
 
 ?>
-<style type="text/css">
-   #map{
-      height: 100%;
-      width: 100%;
-   }
-</style>
+
 
 <!--==========================
       contact Section
       ============================-->
    <section id="contact-section1">
-      <div class="container-fluid ">
-         <div class="row">
+      <div class="container-fluid h-100">
+         <div class="row ">
             <div class="col-lg-6 nopadding">
                <div class="contact-content1" id="map">
-                  
                </div>
             </div>
-            <div class="col-lg-6 nopadding">
+            <div class="col-lg-6 nopadding contact-form-wrap">
                <div class="contact-content2">
-                  <div class="form-holder">
-                     <h4 class="wow fadeInUp">We'd love to answer any questions you may have. Send us an email or come for a visit.</h4>
+                  <div class="">
+                     <h4 class="wow fadeInUp">Have a query? We'd love to answer. Drop in or just drop a line!</h4>
                      <div id="result"></div>
                      <fieldset id="contact_form" style="border:none;">
                            <input type="hidden" name="subject" value="Enquiry from Sparcs">
@@ -55,6 +49,7 @@ include_once('partials/header.php')
    <!--==========================
       end of CONTACT Section
       ============================-->
+
 <!--==========================
 Footer
 ============================-->
