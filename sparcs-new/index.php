@@ -28,7 +28,7 @@ include_once('partials/header.php')
             <div class="carousel-item active">
                <div class="carousel-background"><img src="img/intro-bg.png" alt=""></div>
                <div class="carousel-container">
-                  <div class="carousel-content ">
+                  <div class="carousel-content col-md-8">
                      <h2 class="wow fadeInUp">Driven by Design</h2>
                      <p class="wow fadeInUp">A responsive creative professional team of hands-on perfectionists.
                      </p>
