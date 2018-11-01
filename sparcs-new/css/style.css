@@ -909,9 +909,10 @@ font-size: 36px;
 # contact Section
 --------------------------------------------------------------*/
 #contact {
-background-color: #111;
-background-size: cover;
-padding: 11% 0%;
+    background-color: #111;
+    background-size: cover;
+    padding-top: 6%;
+    height: 100vh;
 }
 .margintop65 {
 margin-top: 65px;
