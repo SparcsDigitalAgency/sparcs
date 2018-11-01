@@ -1836,6 +1836,9 @@ font-size: 18px;
 .section-company1 .height750{
 	height: 750px;
 }
+.section-company1 .height550 {
+    height: 550px;
+}
 
 
 @media (min-width: 768px) and (max-width: 1024px) {

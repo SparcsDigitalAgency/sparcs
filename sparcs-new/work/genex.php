@@ -134,7 +134,7 @@
    <!--==========================
    portfolio section5
    ============================-->
-<section id="genex-portfolio-section6">
+<section id="genex-portfolio-section5">
    <div class="container no-padding">
       <div class="row no-gutters">
          <div class="col-lg-6">
@@ -149,6 +149,28 @@
             </div>
          </div>
          
+      </div>
+   </div>
+</section>
+
+<section id="genex-portfolio-section6">
+   <div class="container no-padding">
+      <div class="row no-gutters">
+         <div class="col-lg-4">
+            <div class="img-holder auto-margin wow fadeIn">
+               <img src="<?php echo $path; ?>img/genex/pic5.jpg" alt="" class="img-responsive wow fadeIn" style="">
+            </div>
+         </div>
+         <div class="col-lg-4">
+            <div class="img-holder auto-margin wow fadeIn">
+               <img src="<?php echo $path; ?>img/genex/pic6.jpg" alt="" class="img-responsive wow fadeIn" style="">
+            </div>
+         </div>
+         <div class="col-lg-4">
+            <div class="img-holder auto-margin wow fadeIn">
+               <img src="<?php echo $path; ?>img/genex/pic7.jpg" alt="" class="img-responsive wow fadeIn" style="">
+            </div>
+         </div>
       </div>
    </div>
 </section>
