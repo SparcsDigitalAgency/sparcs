@@ -36,47 +36,23 @@
 <!--==========================
    portfolio section5
    ============================-->
-<section id="genex-portfolio-section5" style="margin-top: 100px;">
+<section id="esmart-portfolio-section2">
    <div class="container no-padding">
-      <div class="row no-gutters">
-         <div class="col-lg-6 bg-red">
-            <div class="text-holder wow fadeIn text-center">
-               <h2>Brochure</h2>
-               <p>When Gen X diversified into Smart Homes Technological Applications it was new in the local market.We created brochures to popularise and sell the concept.</p>
-            </div>
+       <div class="row">
+         <div class="text-holder auto-margin wow fadeInDown">
+            <h2>Logo Designing</h2>
+            <p> The inspiring story of a daring entrepreneurship that was looking <br>for a website revamp to reflect its Global Aspirations.</p>
          </div>
+      </div>
+      <div class="row no-gutters">
          <div class="col-lg-6">
             <div class="img-holder auto-margin wow fadeIn">
                <img src="<?php echo $path; ?>img/esmart/1.jpg" alt="" class="img-responsive wow fadeIn" style="">
             </div>
          </div>
-      </div>
-   </div>
-</section>
-<section id="genex-portfolio-section5">
-   <div class="container no-padding">
-      <div class="row no-gutters">
          <div class="col-lg-6">
             <div class="img-holder auto-margin wow fadeIn">
                <img src="<?php echo $path; ?>img/esmart/2.jpg" alt="" class="img-responsive wow fadeIn" style="">
-            </div>
-         </div>
-         <div class="col-lg-6 bg-red">
-            <div class="text-holder wow fadeIn text-center">
-               <h2>Brochure</h2>
-               <p>When Gen X diversified into Smart Homes Technological Applications it was new in the local market.We created brochures to popularise and sell the concept.</p>
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
-<section id="genex-portfolio-section5">
-   <div class="container no-padding">
-      <div class="row no-gutters">
-         <div class="col-lg-6 bg-red">
-            <div class="text-holder wow fadeIn text-center">
-               <h2>Brochure</h2>
-               <p>When Gen X diversified into Smart Homes Technological Applications it was new in the local market.We created brochures to popularise and sell the concept.</p>
             </div>
          </div>
          <div class="col-lg-6">
@@ -84,33 +60,9 @@
                <img src="<?php echo $path; ?>img/esmart/3.jpg" alt="" class="img-responsive wow fadeIn" style="">
             </div>
          </div>
-      </div>
-   </div>
-</section>
-<section id="genex-portfolio-section5">
-   <div class="container no-padding">
-      <div class="row no-gutters">
          <div class="col-lg-6">
             <div class="img-holder auto-margin wow fadeIn">
                <img src="<?php echo $path; ?>img/esmart/4.jpg" alt="" class="img-responsive wow fadeIn" style="">
-            </div>
-         </div>
-         <div class="col-lg-6 bg-red">
-            <div class="text-holder wow fadeIn text-center">
-               <h2>Brochure</h2>
-               <p>When Gen X diversified into Smart Homes Technological Applications it was new in the local market.We created brochures to popularise and sell the concept.</p>
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
-<section id="genex-portfolio-section5">
-   <div class="container no-padding">
-      <div class="row no-gutters">
-         <div class="col-lg-6 bg-red">
-            <div class="text-holder wow fadeIn text-center">
-               <h2>Brochure</h2>
-               <p>When Gen X diversified into Smart Homes Technological Applications it was new in the local market.We created brochures to popularise and sell the concept.</p>
             </div>
          </div>
          <div class="col-lg-6">
@@ -118,26 +70,15 @@
                <img src="<?php echo $path; ?>img/esmart/5.jpg" alt="" class="img-responsive wow fadeIn" style="">
             </div>
          </div>
-      </div>
-   </div>
-</section>
-<section id="genex-portfolio-section5"  style="margin-bottom: 100px;">
-   <div class="container no-padding">
-      <div class="row no-gutters">
          <div class="col-lg-6">
             <div class="img-holder auto-margin wow fadeIn">
                <img src="<?php echo $path; ?>img/esmart/6.jpg" alt="" class="img-responsive wow fadeIn" style="">
             </div>
          </div>
-         <div class="col-lg-6 bg-red">
-            <div class="text-holder wow fadeIn text-center">
-               <h2>Brochure</h2>
-               <p>When Gen X diversified into Smart Homes Technological Applications it was new in the local market.We created brochures to popularise and sell the concept.</p>
-            </div>
-         </div>
       </div>
    </div>
 </section>
+
 <!--==========================
    end of portfolio section5
    ============================-->
