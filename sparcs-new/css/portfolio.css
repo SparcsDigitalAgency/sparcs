@@ -862,15 +862,14 @@ font-weight: 700;
 }
 #lumiere-portfolio-section2 p{
 color: #444;
-margin-bottom: 0px;
+margin-bottom: 30px;
 font-size: 16px;
 }
 #lumiere-portfolio-section2 .paddingtop300{
 padding-top: 300px;
 }
 #lumiere-portfolio-section2 .img-holder img{
-height:600px;
-width: auto;
+
 }
 /* section3 */
 #lumiere-portfolio-section3{
@@ -908,7 +907,7 @@ font-size: 16px;
 font-size: 64px!important;
 }
 #lumiere-portfolio-section4 .paddingtop300{
-padding-top: 300px;
+padding-top: 10%;
 }
 @media (min-width: 320px) and (max-width: 480px) {
 	#lumiere-portfolio-section1 {
