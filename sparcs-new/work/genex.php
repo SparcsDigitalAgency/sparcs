@@ -12,7 +12,6 @@
    
    include_once('../partials/header.php')
    ?>
-
 <!--==========================#
    portfolio  Section1
    ============================-->
