@@ -20,7 +20,7 @@
    <div class="container">
       <div class="row">
          <div class="text-holder auto-margin wow fadeInDown">
-            <h2>Logo Designing</h2>
+            <h2>Branding Identity</h2>
             <p> The inspiring story of a daring entrepreneurship that was looking <br>for a website revamp to reflect its Global Aspirations.</p>
          </div>
          <div class="img-holder auto-margin">
@@ -40,7 +40,7 @@
    <div class="container no-padding">
        <div class="row">
          <div class="text-holder auto-margin wow fadeInDown">
-            <h2>Logo Designing</h2>
+            <h2>Print Meterials</h2>
             <p> The inspiring story of a daring entrepreneurship that was looking <br>for a website revamp to reflect its Global Aspirations.</p>
          </div>
       </div>

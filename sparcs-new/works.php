@@ -170,7 +170,7 @@ include_once('partials/header.php')
                   <a href="<?php echo $path ?>work/esmart" class="portfolio-popup">
                      <div class="texts">
                         <div class="texts-head">
-                           <h2 >E-smart</h2>
+                           <h2 >eSmart</h2>
                            <p>Branding and Print Materials</p>
                         </div>
                         <div class="texts-icon"><i class="fa fa-angle-right"></i></div>

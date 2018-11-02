@@ -27,11 +27,11 @@
          <div class="col-lg-6 paddingsidestop80">
             <div class="portfolio-section-textholder">
                <img src="<?php echo $path; ?>img/lumiere/lumiere-white-logo.png" alt="" class="img-responsive wow fadeInLeft">
-               <p class="wow fadeInRight ">"Creating Awareness is creating Value" Soft Image augmentation strategies for a Bangalore based Organic Store Chain Brand ,Lumiere Organic Home Stores.</p>
+               <p class="wow fadeInRight ">"Creating Awareness is creating Value" Soft Image augmentation strategies for a Bangalore based Organic Store Chain Brand, Lumiere Organic Home Stores.</p>
             </div>
             <div class="portfolio-section-textholder wow fadeInRight">
                <div class="icon"><i class="fa fa-check-circle"></i></div>
-               <p class="description">Creating powerful content in Blog format with various approaches to the Organic Life,Values.Products,Events etc. supported by on-site photography.</p>
+               <p class="description">Creating powerful content in Blog format with various approaches to the Organic Life, Values. Products, Events etc. supported by on-site photography.</p>
             </div>
             <div class="portfolio-section-textholder wow fadeInRight">
                <div class="icon"><i class="fa fa-check-circle"></i></div>
@@ -54,7 +54,7 @@
          <div class="col-lg-8 auto-margin">
             <div class="text-holder auto-margin wow fadeIn text-center">
                <h2>Print Designs.</h2>
-               <p class="text-muted">Designed attractive invites, fliers.. etc to encourage public to switch over to safe organic options in food & other home products. Generic label for certain sets of products were re-designed to reflect a distinct earthy aesthetic.</p>
+               <p class="text-muted">Designed attractive invites, fliers... etc to encourage public to switch over to safe organic options in food & other home products. Generic label for certain sets of products were re-designed to reflect a distinct earthy aesthetic.</p>
             </div>
          </div>
       </div>
