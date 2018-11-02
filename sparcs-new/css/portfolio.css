@@ -1176,3 +1176,23 @@ position: absolute;
 }
 
 }
+
+/* esmart */
+/* section 1 */
+#esmart-portfolio-section1{
+padding: 150px 0px;
+background-image: linear-gradient(#eeeeee,#ffffff );
+}
+#esmart-portfolio-section1 h2{
+color: #444;
+margin-bottom: 30px;
+font-weight: 700;
+text-align: center;
+}
+#esmart-portfolio-section1 p{
+color: #444;
+margin-bottom: 0px;
+font-size: 16px;
+text-align: center;
+margin-bottom: 30px;
+}
