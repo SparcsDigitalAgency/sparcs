@@ -40,7 +40,7 @@
    <div class="container no-padding">
        <div class="row">
          <div class="text-holder auto-margin wow fadeInDown">
-            <h2>Print Meterials</h2>
+            <h2>Print Materials</h2>
             <p> The inspiring story of a daring entrepreneurship that was looking <br>for a website revamp to reflect its Global Aspirations.</p>
          </div>
       </div>
