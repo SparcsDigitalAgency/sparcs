@@ -20,8 +20,8 @@
    <div class="container">
       <div class="row">
          <div class="text-holder auto-margin wow fadeInDown">
-            <h2>Branding Identity</h2>
-            <p> The inspiring story of a daring entrepreneurship that was looking <br>for a website revamp to reflect its Global Aspirations.</p>
+            <h2>Identity and Branding</h2>
+            <p>For eSmart, a high end retail store specialising in State-of-the-Art Security products & systems, we created an identity based on ‘hidden eye’ of the Security Camera, a quintessential symbol of the concept of Security.The letter E stands for Electronic and is connected with all Smart Technologies.The Red color was selected to evoke the fiery martial nature of Security : the act of guarding.</p>
          </div>
          <div class="img-holder auto-margin">
             <img src="<?php echo $path; ?>img/esmart/esmart-logo.png" alt="" class="style2-pic img-responsive wow fadeInDown" data-wow-duration="2s">
@@ -40,8 +40,9 @@
    <div class="container no-padding">
        <div class="row">
          <div class="text-holder auto-margin wow fadeInDown">
-            <h2>Print Materials</h2>
-            <p> The inspiring story of a daring entrepreneurship that was looking <br>for a website revamp to reflect its Global Aspirations.</p>
+
+            <h2>Branding Accessories</h2>
+            <p>Created Identity, Stationery and  Branded Accessories for eSmart - a High end single retail outlet of security products & systems.</p>
          </div>
       </div>
       <div class="row no-gutters">

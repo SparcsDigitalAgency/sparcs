@@ -1182,6 +1182,9 @@ position: absolute;
 padding: 150px 0px 100px  0px;
 background-image: linear-gradient(#eeeeee,#ffffff );
 }
+#esmart-portfolio-section1 .text-holder{
+    width: 75%;
+}
 #esmart-portfolio-section1 h2{
 color: #444;
 margin-bottom: 30px;
