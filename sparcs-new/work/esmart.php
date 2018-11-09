@@ -23,15 +23,16 @@
             <h2>Identity and Branding</h2>
             <p>For eSmart, a high end retail store specialising in State-of-the-Art Security products & systems, we created an identity based on ‘hidden eye’ of the Security Camera, a quintessential symbol of the concept of Security.The letter E stands for Electronic and is connected with all Smart Technologies.The Red color was selected to evoke the fiery martial nature of Security : the act of guarding.</p>
          </div>
-         <div class="img-holder auto-margin">
-            <img src="<?php echo $path; ?>img/esmart/logo1.jpg" alt="" class="style2-pic img-responsive wow fadeInUp" data-wow-duration="2s">
+         <div class="col-lg-6 auto-margin">
+            <div class="img-holder auto-margin">
+               <img src="<?php echo $path; ?>img/esmart/logo1.jpg" alt="" class="style2-pic img-responsive wow fadeInUp" >
+            </div>
          </div>
-         <div class="img-holder auto-margin">
-            <img src="<?php echo $path;  ?>img/esmart/logo2.jpg"alt="" class="style2-pic img-responsive wow fadeInUp" data-wow-duration="2s">
-         </div>
-         <div class="img-holder auto-margin">
-            <img src="<?php echo $path;  ?>img/esmart/logo3.jpg" alt="" class="style2-pic img-responsive wow fadeInUp" data-wow-duration="2s">
-         </div>
+            <div class="col-lg-6">
+               <div class="img-holder auto-margin">
+                  <img src="<?php echo $path; ?>img/esmart/logo2.jpg" alt="" class="style2-pic img-responsive wow fadeInRight" >
+               </div>
+            </div>
       </div>
    </div>
 </section>

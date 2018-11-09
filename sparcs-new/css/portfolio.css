@@ -1201,7 +1201,7 @@ margin-bottom: 30px;
 
 /* section 5 */
 #esmart-portfolio-section2{
-    padding: 100px;
+    padding: 10%;
 }
 #esmart-portfolio-section2 h2{
 color: #444;
@@ -1216,3 +1216,70 @@ font-size: 16px;
 text-align: center;
 margin-bottom: 30px;
 }
+
+/* one more game */
+/* section1 */
+#marian-portfolio-section1{
+padding: 120px 0px 100px 0px;
+background:#e0f2f3;
+}
+#marian-portfolio-section1 .paddingtop50only{
+padding:50px 0px 0px 0px;
+}
+#omg-portfolio-section1 h2{
+color: #fff;
+}
+#marian-portfolio-section1 p{
+color: #222;
+}
+#marian-portfolio-section1  ul {
+list-style: none;
+padding: 0;
+}
+#marian-portfolio-section1 ul li {
+padding-bottom: 10px;
+color: #fff;
+}
+#marian-portfolio-section1 i {
+font-size: 20px;
+padding-right: 4px;
+color: #222;
+}
+#marian-portfolio-section1 .portfolio-section-textholder{
+margin-bottom: 20px;
+}
+#marian-portfolio-section1 .icon {
+float: left;
+}
+#marian-portfolio-section1 .description {
+font-size: 16px;
+margin-left: 30px;
+line-height: 24px;
+margin-bottom: 0;
+}
+#marian-portfolio-section1 .paddingsidestop80{
+padding: 80px 80px 0px 80px;
+}
+#marian-portfolio-section1 .portfolio-section-textholder img{
+height:100px;
+width: auto;
+margin-bottom: 20px;
+}
+#marian-portfolio-section1 .portfolio-section-textholder h2{
+display: inline-block;
+margin-left: 20px
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    #marian-portfolio-section1 {
+    padding: 75px 0px 50px 0px;
+    }
+    #marian-portfolio-section1 .paddingsidestop80 {
+    padding: 15px 15px 0px 15px;
+    }
+    #marian-portfolio-section1 .portfolio-section-textholder img {
+    height: 75px;
+    width: auto;
+    margin-bottom: 20px;
+    }
+} 
