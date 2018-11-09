@@ -179,6 +179,20 @@ include_once('partials/header.php')
                   </a>
                </div>
             </div>
+            <div class="col-lg-6 items">
+               <div class="portfolio-item black wow fadeInRight">
+                  <a href="<?php echo $path ?>work/marian" class="portfolio-popup">
+                     <div class="texts">
+                        <div class="texts-head">
+                           <h2 >Marian Times</h2>
+                           <p >Web Development, Content, Social Media, Photography, Illustrations, Print Materials</p>
+                        </div>
+                        <div class="texts-icon"><i class="fa fa-angle-right"></i></div>
+                     </div>
+                     <img src="<?php echo $path ?>img/marian/cover.jpg" alt="" class="img-responsive">
+                  </a>
+               </div>
+            </div>
 
           
          </div>
