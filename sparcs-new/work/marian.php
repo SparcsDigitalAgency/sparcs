@@ -27,15 +27,19 @@
          <div class="col-lg-6 paddingsidestop80">
             <div class="portfolio-section-textholder">
                <img src="<?php echo $path; ?>img/marian/logo.png" alt="" class="img-responsive wow fadeInRight">
-               <p class="wow fadeInRight ">Built a responsive site with a trendy understated Gothic appeal using the the Brand colors of Black & Acid Green customised for the client.</p>
+               <p class="wow fadeInRight ">A fresh website created for Marian TV, A Christian Devotional channel.</p>
             </div>
             <div class="portfolio-section-textholder wow fadeInRight">
                <div class="icon"><i class="fa fa-check-circle"></i></div>
-               <p class="description">Creating a  website with content that highlights the Restaurant's  backward integration with Organic farms , attractive visuals of food and selecting customer testimonials relevant to the objective of public education.</p>
+               <p class="description">The Website was designed with CMS enabling easy upload of fresh news content.</p>
             </div>
             <div class="portfolio-section-textholder wow fadeInRight">
                <div class="icon"><i class="fa fa-check-circle"></i></div>
-               <p class="description">Suggested and executed changes in  design & color of uniform for personnel in accordance with Client budget. Supporting the change of official color from Orange to Brilliant Green.</p>
+               <p class="description">Provision was made for the inclusion of ad banners as also videos related to devotion and spirituality.</p>
+            </div>
+            <div class="portfolio-section-textholder wow fadeInRight">
+               <div class="icon"><i class="fa fa-check-circle"></i></div>
+               <p class="description">Highly responsive, the site was given a smooth, clean, cool look with an approachable and easy to read layout style.</p>
             </div>
          </div>
       </div>
