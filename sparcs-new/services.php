@@ -175,6 +175,9 @@ include_once('partials/header.php')
    end of services Section2
    ============================-->
 
+   <section id="services-logos" class="bgwhite">
+   </section>
+
 <!--==========================
 Footer
 ============================-->
