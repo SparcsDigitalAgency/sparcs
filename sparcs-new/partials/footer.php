@@ -410,6 +410,16 @@ $(document).ready(function() {
 </script>
 
 
+<!-- <script type="text/javascript">
+
+   $(document).ready(function(){
+    $nav = $(".nav-icon3");
+  if ( $('section').hasClass('dark-section') ) {
+     $('.header-logo img').attr('src', '<?php echo $path; ?>img/logo-white.png');
+      $nav.addClass("white-color");
+  }
+});
+</script> -->
 
 <!-- scrollify-->
 <!-- <script type="text/javascript">

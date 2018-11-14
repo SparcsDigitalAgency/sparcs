@@ -249,9 +249,9 @@ Services Section
             <div class="col-lg-6 col-md-12 items">
                <div class="portfolio-item black wow fadeInRight">
                   <a href="<?php echo $path ?>works" class="portfolio-popup">
-                     <div class="texts see-all">
+                     <div class="texts see-all text-center">
                         <div class="texts-head">
-                           <h2 >See All Works <i class="fa fa-angle-right"></i></h2>
+                           <h2 >All works</h2>
                         </div>
                         <div class="texts-icon"><i class="fa fa-angle-right"></i></div>
                      </div>

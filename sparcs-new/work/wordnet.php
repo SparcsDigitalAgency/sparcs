@@ -151,6 +151,41 @@
 <!--==========================
    end of portfolio section1
    ============================-->
+
+<section class="section-company1 nopadding notopmargin nobg clearfix " >
+   <div class="row common-height clearfix">
+      <div class="col-lg-6 center col-padding height750 wow fadeInLeft" style="background: url('<?php echo $path; ?>img/wordnet/family.jpg') center center / cover no-repeat;">
+         <div>&nbsp;</div>
+      </div>
+
+      <div class="col-lg-6 col-padding wow fadeInRight " style="background: #f6f6f6;">
+         <div>
+            
+
+            <!-- About Us Featured Boxes
+            ============================================= -->
+            <div class="row clearfix">
+               <div class="text-holder" style="padding: 50px;">
+                  <h2 style="font-weight:700">Webcasting & Channel Broadcasting</h2>
+                  <p>Configured Internet based Broadcasting Channel for WordNet using one of the world's most popular and powerful Streaming Engines with support of AWS Ec2, S3 and Cloudfront services.</p>
+                  <p>Developed a customised  Program Scheduler to ensure smooth functioning and uninterrupted viewing of 24x7 Live Broadcasting.</p>
+               </div>
+               <div class="img-holder"  style="padding: 0px 50px;">
+                  <div class="row">
+                     <div class="col-lg-6">
+                        <img src="<?php echo $path; ?>img/wordnet/amazon.png" alt="" class="img-responsive">
+                     </div>
+                     <div class="col-lg-6">
+                        <img src="<?php echo $path; ?>img/wordnet/wowza.png" alt="" class="img-responsive" style="margin-left: 20px;">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+   </div>
+</section>
 <!--==========================
    portfolio section2
    ============================-->

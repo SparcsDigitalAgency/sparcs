@@ -27,11 +27,11 @@
          <div class="col-lg-6 paddingsidestop80">
             <div class="portfolio-section-textholder">
                <img src="<?php echo $path; ?>img/lumiere/lumiere-white-logo.png" alt="" class="img-responsive wow fadeInLeft">
-               <p class="wow fadeInRight ">"Creating Awareness is creating Value" Soft Image augmentation strategies for a Bangalore based Organic Store Chain Brand ,Lumiere Organic Home Stores.</p>
+               <p class="wow fadeInRight ">"Creating Awareness is creating Value" Soft Image augmentation strategies for a Bangalore based Organic Store Chain Brand, Lumiere Organic Home Stores.</p>
             </div>
             <div class="portfolio-section-textholder wow fadeInRight">
                <div class="icon"><i class="fa fa-check-circle"></i></div>
-               <p class="description">Creating powerful content in Blog format with various approaches to the Organic Life,Values.Products,Events etc. supported by on-site photography.</p>
+               <p class="description">Creating powerful content in Blog format with various approaches to the Organic Life, Values. Products, Events etc. supported by on-site photography.</p>
             </div>
             <div class="portfolio-section-textholder wow fadeInRight">
                <div class="icon"><i class="fa fa-check-circle"></i></div>
@@ -48,19 +48,30 @@
    portfolio  Section2
    ============================-->
 <section id="lumiere-portfolio-section2">
-   <div class="container">
-      <div class="row">
-         <div class="col-lg-5">
-            <div class="text-holder wow fadeInLeft paddingtop300">
+
+  <div class="container no-padding">
+      <div class="row ">
+         <div class="col-lg-8 auto-margin">
+            <div class="text-holder auto-margin wow fadeIn text-center">
                <h2>Print Designs.</h2>
-               <p class="text-muted">Designed attractive invites, fliers.. etc to encourage public to switch over to safe organic options in food & other home products. Generic label for certain sets of products were re-designed to reflect a distinct earthy aesthetic.</p>
+               <p class="text-muted">Designed attractive invites, fliers... etc to encourage public to switch over to safe organic options in food & other home products. Generic label for certain sets of products were re-designed to reflect a distinct earthy aesthetic.</p>
             </div>
          </div>
-         <div class="col-lg-7">
-            <div class="img-holder">
-               <img src="<?php echo $path; ?>img/lumiere/lumiere-poster.jpg" class="img-responsive wow fadeInRight auto-margin">
+      </div>
+      <div class="row no-gutters new">
+         <div class="col-lg-6">
+            <div class="img-holder auto-margin wow fadeIn">
+               <img src="<?php echo $path; ?>img/lumiere/lumiere-package.jpg" alt="" class="img-responsive wow fadeIn" style="">
             </div>
          </div>
+         <div class="col-lg-6">
+            <div class="img-holder auto-margin wow fadeIn">
+               <img src="<?php echo $path; ?>img/lumiere/lumiere-poster.jpg" alt="" class="img-responsive wow fadeIn" style="">
+            </div>
+         </div>
+      </div>
+
+   
       </div>
    </div>
 </section>
