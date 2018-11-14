@@ -26,7 +26,7 @@ include_once('partials/header.php')
         
          <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
-               <div class="carousel-background"><img src="img/intro-bg.png" alt=""></div>
+               <div class="carousel-background"><img src="img/bg1.jpg" alt=""></div>
                <div class="carousel-container">
                   <div class="carousel-content ">
                      <h2 class="wow fadeInUp">Driven by Design</h2>

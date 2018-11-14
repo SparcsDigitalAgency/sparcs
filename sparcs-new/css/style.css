@@ -651,7 +651,7 @@ color: #c9252c;
 # about Section
 --------------------------------------------------------------*/
 #about {
-background: url(../img/about-bg.png);
+/*background: url(../img/about-bg.png);*/
 background-size: cover;
 position: relative;
 padding:15% 0%;
@@ -1008,7 +1008,7 @@ font-size: 50px;
 font-weight: 700;
 }
 #about-section2{
-padding: 10% 0% 0% 0%;
+
 background: #f9f9f9;
 }
 .about-section1-list{
@@ -1026,7 +1026,7 @@ margin-right: 10px;
 }
 
 #about-section2{
-padding: 5% 0% 5% 0%;
+
 }
 #about-section2 .about-content {
 margin-top: 50%;
@@ -1495,9 +1495,9 @@ background: #f9f9f9;
 	color: #000;
 }
 #services-section2 .services-icon{
-	height: 100px;
-	width: 100px;
-	margin-bottom: 30px;
+	margin-top:10%;
+	margin-bottom:10%;
+	width: 150px;
 }
 .bgwhite{
 	background-color: #fff !important;
@@ -1530,11 +1530,7 @@ font-size: 36px;
 #services-section2 {
 margin-bottom: 10%;
 }
-#services-section2 .services-icon {
-    height: 60px;
-    width: 60px;
-    margin-bottom: 15px;
-}
+
 }
 /*--------------------------------------------------------------
 # contact page

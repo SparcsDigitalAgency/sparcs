@@ -25,7 +25,7 @@ include_once('partials/header.php')
          
          <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
-               <div class="carousel-background"><img src="img/intro-bg.png" alt=""></div>
+               <div class="carousel-background"><img src="img/bg3.jpg" alt=""></div>
                <div class="carousel-container">
                   <div class="carousel-content ">
                      <h2 class="wow fadeInUp">Our Services</h2>
@@ -51,15 +51,15 @@ include_once('partials/header.php')
       <div class="row">
          <div class="col-lg-6">
             <div class="img-holder wow fadeInLeft">
-               
+               <div class="services-icon auto-margin" >
+                     <img src="img/services/service-icon1.png" alt="" class="img-responsive">
+                  </div>
             </div>
          </div>
          <div class="col-lg-6 bottommargin">
             <div class="text-holder wow fadeInRight">
                <div class="heading-block">
-                  <div class="services-icon" >
-                     <img src="img/services/service-icon1.png" alt="" class="img-responsive">
-                  </div>
+                  
                   <h2>Strategy & Consulting</h2>
                   <span>Good strategy builds great brands.We analyze every aspect of your industry , apply our expertise and help you hit target.</span>
                </div>
@@ -80,12 +80,10 @@ include_once('partials/header.php')
 <section id="services-section2" class="bgwhite">
    <div class="container">
       <div class="row">
-         <div class="col-lg-7 bottommargin paddingleft200">
+         <div class="col-lg-6 bottommargin paddingleft200">
             <div class="text-holder  wow fadeInLeft">
                <div class="heading-block">
-                  <div class="services-icon" >
-                     <img src="img/services/service-icon2.png" alt="" class="img-responsive">
-                  </div>
+                  
                   <h2>Creative Design</h2>
                   <span>Our perfectly executed inspired creatives bring Ideas to Life building winning brand stories.</span>
                </div>
@@ -99,9 +97,11 @@ include_once('partials/header.php')
                </ul>
             </div>
          </div>
-         <div class="col-lg-5">
+         <div class="col-lg-6">
             <div class="img-holder wow fadeInRight">
-               
+               <div class="services-icon auto-margin" >
+                     <img src="img/services/service-icon2.png" alt="" class="img-responsive">
+                  </div>
             </div>
          </div>
       </div>
@@ -113,15 +113,15 @@ include_once('partials/header.php')
       <div class="row">
          <div class="col-lg-6">
             <div class="img-holder wow fadeInLeft">
-               
+               <div class="services-icon auto-margin" >
+                     <img src="img/services/service-icon3.png" alt="" class="img-responsive">
+                  </div>
             </div>
          </div>
          <div class="col-lg-6 bottommargin">
             <div class="text-holder wow fadeInRight">
                <div class="heading-block">
-                  <div class="services-icon" >
-                     <img src="img/services/service-icon3.png" alt="" class="img-responsive">
-                  </div>
+                  
                   <h2>Web & Mobile Development</h2>
                   <span>Our developers use cutting edge technologies to provide avant garde, high performance solutions.</span>
                </div>
@@ -143,12 +143,10 @@ include_once('partials/header.php')
 <section id="services-section2" class="bgwhite">
    <div class="container">
       <div class="row">
-         <div class="col-lg-7 bottommargin paddingleft200">
+         <div class="col-lg-6 bottommargin paddingleft200">
             <div class="text-holder wow fadeInLeft">
                <div class="heading-block">
-                  <div class="services-icon" >
-                     <img src="img/services/service-icon4.png" alt="" class="img-responsive">
-                  </div>
+                  
                   <h2>Digital Marketing</h2>
                   <span>Our go-getter approach generates the right content and sets strategies to increase qualified & organic traffic to your business.</span>
                </div>
@@ -163,9 +161,11 @@ include_once('partials/header.php')
                </ul>
             </div>
          </div>
-         <div class="col-lg-5">
+         <div class="col-lg-6">
             <div class="img-holder wow fadeInRight">
-               
+               <div class="services-icon auto-margin" >
+                     <img src="img/services/service-icon4.png" alt="" class="img-responsive">
+                  </div>
             </div>
          </div>
       </div>

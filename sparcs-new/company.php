@@ -24,7 +24,7 @@ include_once('partials/header.php')
          
          <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
-               <div class="carousel-background"><img src="img/intro-bg.png" alt=""></div>
+               <div class="carousel-background"><img src="img/bg2.jpg" alt=""></div>
                <div class="carousel-container">
                   <div class="carousel-content intro-width70">
                      <h2 class="wow fadeInUp">Company</h2>
@@ -45,25 +45,43 @@ include_once('partials/header.php')
 <!--==========================
    About Us section2
    ============================-->
+
+   <section class="section-company1 nopadding notopmargin nobg clearfix" id="about-section2">
+   <div class="row common-height clearfix">
+
+      <div class="col-lg-6 col-padding">
+         <div class="text-holder wow fadeInLeft">
+            <h2> Sparcs is a Full Stack Service Provider.</h2>
+               <p>We offer Integrated UI/UX Development, Live Streaming/Webcasting, Branding & Digital Marketing Solutions, Mobile App/ OTT Development, Content Development and whatever it takes to provide apt solutions to grow your business.</p>
+         
+         </div>
+      </div>
+      <div class="col-lg-6 center col-padding height750 wow fadeInRight" style="background: url('img/company/2.jpg') center center / cover no-repeat;">
+         <div>&nbsp;</div>
+      </div>
+   </section>
+
+<!--
 <section id="about-section2">
    <div class="container">
       <div class="row">
          
          <div class="col-lg-6">
             <div class="text-holder wow fadeInLeft">
-               <h2> Sparcs is a Full Service Provider.</h2>
+               <h2> Sparcs is a Full Stack Service Provider.</h2>
                <p>We offer Integrated UI/UX Development, Live Streaming/Webcasting, Branding & Digital Marketing Solutions, Mobile App/ OTT Development, Content Development and whatever it takes to provide apt solutions to grow your business.</p>
                
             </div>
          </div>
          <div class="col-lg-6">
             <div class="img-holder">
-               <img src="img/company/about1.png" class="img-responsive wow fadeInRight">
+               <img src="img/company/about11.png" class="img-responsive wow fadeInRight">
             </div>
          </div>
       </div>
    </div>
 </section>
+->>
 <!--==========================
    end of About Us section 2
    ============================-->
@@ -104,7 +122,7 @@ include_once('partials/header.php')
                      <div class="fbox-icon">
                         <i class="fa fa-question-circle"></i>
                      </div>
-                     <h3>Develope</h3>
+                     <h3>Develop</h3>
                      <p>With Your feedback we finetune solutions and get down to deployment using the best & latest in technology.</p>
                   </div>
                </div>
@@ -138,7 +156,22 @@ include_once('partials/header.php')
 <!--==========================
    About Us section3
    ============================-->
-<section id="about-section3" style="background-color: #eaeaea">
+   <section class="section-company1 nopadding notopmargin nobg clearfix" id="about-section2">
+   <div class="row common-height clearfix">
+
+      <div class="col-lg-6 col-padding">
+         <div class="text-holder wow fadeInLeft">
+            <p class="text-muted" style="margin-bottom:2%">Our Team</p>
+            <h2>Sparcs is a<br> 'What if team of problem solvers'</h2>
+               <p class="text-muted"> who are game to search out solutions anywhere! even in unusual places.By disposition we are Art Lovers who are also highly motivated innovative Designers, Developers, SEO Specialists and Content Writers.</p>
+         
+         </div>
+      </div>
+      <div class="col-lg-6 center col-padding height750 wow fadeInRight" style="background: url('img/company/3.jpg') center center / cover no-repeat;">
+         <div>&nbsp;</div>
+      </div>
+   </section>
+<!--<section id="about-section3" style="background-color: #eaeaea">
    <div class="container">
       <div class="row">
          <div class="col-lg-6">
@@ -150,12 +183,12 @@ include_once('partials/header.php')
          </div>
          <div class="col-lg-6">
             <div class="img-holder">
-               <img src="img/company/ourteam.png" class="img-responsive wow fadeInRight">
+               <img src="img/company/ourteam1.png" class="img-responsive wow fadeInRight">
             </div>
          </div>
       </div>
    </div>
-</section>
+</section>-->
 <!--==========================
    end of About Us section 3
    ============================-->
