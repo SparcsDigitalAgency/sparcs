@@ -27,15 +27,15 @@
          <div class="col-lg-6 paddingsidestop80">
             <div class="portfolio-section-textholder">
                <img src="<?php echo $path; ?>img/marian/logo.png" alt="" class="img-responsive wow fadeInRight">
-               <p class="wow fadeInRight ">A fresh website created for Marian TV, A Christian Devotional channel.</p>
+               <p class="wow fadeInRight ">A website developed from the scratch for Marian Times, A Christian Devotional Newsportal.</p>
             </div>
             <div class="portfolio-section-textholder wow fadeInRight">
                <div class="icon"><i class="fa fa-check-circle"></i></div>
-               <p class="description">The Website was designed with CMS enabling easy upload of fresh news content.</p>
+               <p class="description">The Website was designed with CMS technology to enable easy update of latest news & articles.</p>
             </div>
             <div class="portfolio-section-textholder wow fadeInRight">
                <div class="icon"><i class="fa fa-check-circle"></i></div>
-               <p class="description">Provision was made for the inclusion of ad banners as also videos related to devotion and spirituality.</p>
+               <p class="description">Provision was made for the inclusion of ad banners as also videos related to devotion & spirituality.</p>
             </div>
             <div class="portfolio-section-textholder wow fadeInRight">
                <div class="icon"><i class="fa fa-check-circle"></i></div>
