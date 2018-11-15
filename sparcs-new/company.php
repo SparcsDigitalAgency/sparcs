@@ -26,7 +26,8 @@ include_once('partials/header.php')
             <div class="carousel-item active">
                <div class="carousel-background"><img src="img/bg2.jpg" alt=""></div>
                <div class="carousel-container">
-                  <div class="carousel-content intro-width70">
+
+                  <div class="carousel-content col-md-8" >
                      <h2 class="wow fadeInUp">Company</h2>
                      <p class="wow fadeInUp">SPARCS has over 15 years of rich experience with loyal, long term client relationships.We deliver high quality, reliable and affordable services to our customers globally:<br>Creative Campaigns, Website Design & Development, Mobile App/OTT Development, Branding and Digital Marketing, Content Development and more...
                      </p>

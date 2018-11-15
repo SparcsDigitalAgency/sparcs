@@ -567,8 +567,7 @@ left: 0;
 right: 0;
 }
 #intro .carousel-content {
-padding-left: 15%;
-padding-top: 10%;
+padding: 10% 10% 10% 15%;
 
 }
 #intro h2 {
@@ -583,12 +582,11 @@ font-size: 28px;
 }
 }
 #intro p {
-width: 80%;
 color: #444;
 }
 @media (min-width: 1024px) {
 #intro p {
-width: 85%;
+
 }
 
 }
