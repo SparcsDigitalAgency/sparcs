@@ -12,21 +12,21 @@
       <div class="row text-center contactpadding">
          <div class="col-md-4 wow fadeInUp">
             <div class="contact-address">
-               <i class="ion-ios-location-outline"></i>
+               <i class="fa fa-map-marker" aria-hidden="true"></i>
                <h4>Kochi</h4>
                <p>1st floor, Thachil Tower<br>Pottakuzhi Jn, Kaloor, Kochi 682017.</p>
             </div>
          </div>
          <div class="col-md-4 wow fadeInUp" >
             <div class="contact-address middle" >
-               <i class="ion-ios-location-outline"></i>
+               <i class="fa fa-map-marker" aria-hidden="true"></i>
                <h4>Bangalore</h4>
                <p>#725, 21st Main Road,<br>2nd Phase JP Nagar, Banglore 560078.</p>
             </div>
          </div>
          <div class="col-md-4 wow fadeInUp">
             <div class="contact-address">
-               <i class="ion-ios-location-outline"></i>
+               <i class="fa fa-map-marker" aria-hidden="true"></i>
                <h4>Dublin</h4>
                <p>#12, Alderwood rise, Tallaght, Dublin 24<br>Ireland. Call +353 892 022 577</p>
             </div>

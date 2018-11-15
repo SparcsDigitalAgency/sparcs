@@ -14,8 +14,8 @@ include_once('config.php')
 <meta name="description" content="<?php echo $meta_tags['description']; ?>">
 <meta property="og:title" content="Sparcs, an interactive digital agency."/>
 <meta property="og:type" content="company"/>
-<meta property="og:url" content="http://www.sparcsdigital.com"/>
-<meta property="og:image" content="http://www.sparcsdigital.com/images/logo.png"/>
+<meta property="og:url" content="<?php echo $path; ?>"/>
+<meta property="og:image" content="<?php echo $path; ?>/images/logo.png"/>
 <meta property="og:site_name" content="Sparcs"/>
 <meta property="fb:admins" content="1301551246"/>
 <?php if ($meta_tags['no-index'] ): ?> 
@@ -41,12 +41,11 @@ include_once('config.php')
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="<?php echo $path; ?>/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
-	<link href="http://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,600,700" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,600,700" rel="stylesheet" type="text/css">
 	<!-- Bootstrap CSS File -->
 	<link href="<?php echo $path; ?>css/bootstrap.css" rel="stylesheet">
 	<!-- Libraries CSS Files -->
-	<link href="<?php echo $path; ?>css/font-awesome/css/font-awesome.css" rel="stylesheet">
-	<link href="<?php echo $path; ?>lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href="<?php echo $path; ?>css/animate.css" rel="stylesheet">
    <link rel="stylesheet" href="https://rawgit.com/lykmapipo/themify-icons/master/css/themify-icons.css">
    <link href="<?php echo $path; ?>lib/owl-carousel/owl.carousel.min.css" rel="stylesheet">
