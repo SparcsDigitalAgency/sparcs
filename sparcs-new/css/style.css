@@ -673,7 +673,7 @@ font-weight: 700;
 --------------------------------------------------------------*/
 @media (min-width: 320px) and (max-width: 480px) {
 #about {
-padding:0% 5% 30% 5%;
+padding:15% 5% ;
 }
 .about-content {
 margin-top:0px;
