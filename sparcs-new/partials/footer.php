@@ -375,10 +375,10 @@ $(document).ready(function() {
     $(window).scroll(function() {
     if ($(this).scrollTop() > 50) {
       $('#change-logo').addClass('logo-changed');
-      $('.logo-changed img').attr('src', '<?php echo $path; ?>img/toggle-icon.png');
+      $('.logo-changed img').attr('src', '<?php echo $path; ?>img/toggle-icon.svg');
     } else {
       $('#change-logo').removeClass('logo-changed');
-      $('.header-logo img').attr('src', '<?php echo $path; ?>img/logo-red.png');
+      $('.header-logo img').attr('src', '<?php echo $path; ?>img/logo-red.svg');
     }
   });
 </script>
@@ -397,8 +397,8 @@ $(document).ready(function() {
             var rect = this.getBoundingClientRect();
             if(rect.top - offset < 0 && rect.bottom - offset > 0){
                 $nav.addClass("white-color");
-                $('.header-logo img').attr('src', '<?php echo $path; ?>img/logo-white.png');
-                $('.logo-changed img').attr('src', '<?php echo $path; ?>img/toggle-icon-white.png');
+                $('.header-logo img').attr('src', '<?php echo $path; ?>img/logo-white.svg');
+                $('.logo-changed img').attr('src', '<?php echo $path; ?>img/toggle-icon-white.svg');
                 return false;
             }else{
                 $nav.removeClass("white-color");

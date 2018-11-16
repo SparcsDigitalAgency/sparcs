@@ -108,7 +108,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       
       <!--<img src="img/logo-white.png" alt="Homepage">-->
      
-           <img src="<?php echo $path; ?>img/logo-red.png" alt="Homepage">
+           <img src="<?php echo $path; ?>img/logo-red.svg" alt="Homepage">
       
       </a>
    </div>
@@ -118,7 +118,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="header-nav__content">
          <div class="toggle-logo">
             <a href="<?php echo $path; ?>/">
-            <img src="<?php echo $path; ?>img/toggle-icon.png" alt="Homepage">
+            <img src="<?php echo $path; ?>img/toggle-icon.svg" alt="Homepage">
             </a>
          </div>
          <ul class="header-nav__list">

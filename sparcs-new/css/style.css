@@ -918,6 +918,11 @@ font-size: 36px;
     padding: 6% 0;
     
 }
+@media (min-width: 1025px){
+	#contact {
+    	height: 100vh;
+    }
+}
 .margintop65 {
 margin-top: 65px;
 }
