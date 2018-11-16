@@ -4,28 +4,35 @@
          <div class="col-lg-12">
             <div class="contact-content text-center">
                <h2 class="wow fadeInUp">Get In Touch</h2>
-               <p class="wow fadeInUp">Call: +91 88 48 78 47 32 &nbsp; | &nbsp; info@sparcsdigital.com</p>
+               <p class="wow fadeInUp footerphone">Call: +91 88 48 78 47 32 &nbsp; | &nbsp; info@sparcsdigital.com</p>
                <a href="<?php echo $path; ?>contact" class="btn btn-readmore wow fadeInUp">Talk to Us</a>
             </div>
          </div>
       </div>
       <div class="row text-center contactpadding">
-         <div class="col-md-4 wow fadeInUp">
+         <div class="col-md-3 wow fadeInUp">
             <div class="contact-address">
                <i class="fa fa-map-marker" aria-hidden="true"></i>
                <h4>Kochi</h4>
                <p>1st floor, Thachil Tower<br>Pottakuzhi Jn, Kaloor, Kochi 682017.</p>
             </div>
          </div>
-         <div class="col-md-4 wow fadeInUp" >
+         <div class="col-md-3 wow fadeInUp" >
             <div class="contact-address middle" >
                <i class="fa fa-map-marker" aria-hidden="true"></i>
                <h4>Bangalore</h4>
                <p>#725, 21st Main Road,<br>2nd Phase JP Nagar, Banglore 560078.</p>
             </div>
          </div>
-         <div class="col-md-4 wow fadeInUp">
-            <div class="contact-address">
+         <div class="col-md-3 wow fadeInUp">
+            <div class="contact-address middle">
+               <i class="fa fa-map-marker" aria-hidden="true"></i>
+               <h4>Canada</h4>
+               <p>350, Lynnwood Drive<br>Oakville, Ontario L6H1M8</p>
+            </div>
+         </div>
+         <div class="col-md-3 wow fadeInUp">
+            <div class="contact-address middle">
                <i class="fa fa-map-marker" aria-hidden="true"></i>
                <h4>Dublin</h4>
                <p>#12, Alderwood rise, Tallaght, Dublin 24<br>Ireland. Call +353 892 022 577</p>

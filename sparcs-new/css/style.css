@@ -933,7 +933,9 @@ font-weight: 700;
 }
 #contact p {
 color: #b9b9b9;
+font-size:14px;
 }
+.footerphone{font-size:20px !important;}
 #contact h3 {
 color: #b9b9b9;
 }
@@ -967,7 +969,8 @@ background: #c9252c;
 padding: 0px;
 }
 .middle{
-border-left: 1px solid #dddddd17;border-right: 1px solid #dddddd17;
+border-left: 1px solid #dddddd17;
+/*border-right: 1px solid #dddddd17;*/
 }
 /*--------------------------------------------------------------
 # MEDIA QUERY MOBILE

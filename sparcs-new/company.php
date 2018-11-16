@@ -62,27 +62,7 @@ include_once('partials/header.php')
       </div>
    </section>
 
-<!--
-<section id="about-section2">
-   <div class="container">
-      <div class="row">
-         
-         <div class="col-lg-6">
-            <div class="text-holder wow fadeInLeft">
-               <h2> Sparcs is a Full Stack Service Provider.</h2>
-               <p>We offer Integrated UI/UX Development, Live Streaming/Webcasting, Branding & Digital Marketing Solutions, Mobile App/ OTT Development, Content Development and whatever it takes to provide apt solutions to grow your business.</p>
-               
-            </div>
-         </div>
-         <div class="col-lg-6">
-            <div class="img-holder">
-               <img src="img/company/about11.png" class="img-responsive wow fadeInRight">
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
-->>
+
 <!--==========================
    end of About Us section 2
    ============================-->
@@ -141,19 +121,6 @@ include_once('partials/header.php')
       </div>
 
    </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!--==========================
    About Us section3
    ============================-->
@@ -163,7 +130,7 @@ include_once('partials/header.php')
       <div class="col-lg-6 col-padding">
          <div class="text-holder wow fadeInLeft">
             <p class="text-muted" style="margin-bottom:2%">Our Team</p>
-            <h2>Sparcs is a<br> 'What if team of problem solvers'</h2>
+            <h2>Sparcs is a 'What if' team of <br>problem solvers</h2>
                <p class="text-muted"> who are game to search out solutions anywhere! even in unusual places.By disposition we are Art Lovers who are also highly motivated innovative Designers, Developers, SEO Specialists and Content Writers.</p>
          
          </div>
@@ -172,24 +139,7 @@ include_once('partials/header.php')
          <div>&nbsp;</div>
       </div>
    </section>
-<!--<section id="about-section3" style="background-color: #eaeaea">
-   <div class="container">
-      <div class="row">
-         <div class="col-lg-6">
-            <div class="text-holder wow fadeInLeft">
-               <p class="text-muted" style="margin-bottom:2%">Our Team</p>
-               <h2>Sparcs is a<br> 'What if team of problem solvers'</h2>
-               <p class="text-muted"> who are game to search out solutions anywhere! even in unusual places.By disposition we are Art Lovers who are also highly motivated innovative Designers, Developers, SEO Specialists and Content Writers.</p>
-            </div>
-         </div>
-         <div class="col-lg-6">
-            <div class="img-holder">
-               <img src="img/company/ourteam1.png" class="img-responsive wow fadeInRight">
-            </div>
-         </div>
-      </div>
-   </div>
-</section>-->
+
 <!--==========================
    end of About Us section 3
    ============================-->
