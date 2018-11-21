@@ -20,5 +20,5 @@ $site = isset($_POST['value']) ? $_POST['value'] : '';
 	$works = (preg_match("/works.php/", $_SERVER['SCRIPT_FILENAME']));
 	$services = (preg_match("/services.php/", $_SERVER['SCRIPT_FILENAME']));
  
-	$path = (preg_match("/localhost/",$_SERVER['HTTP_HOST'])) ? 'http://localhost/Git/sparcs/sparcs-new/' : 'http://www.sparcsdigital.com/';
+	$path = (preg_match("/localhost/",$_SERVER['HTTP_HOST'])) ? 'http://localhost/Git/sparcs/sparcs-new/' : 'https://www.sparcsdigital.com/';
 ?>
